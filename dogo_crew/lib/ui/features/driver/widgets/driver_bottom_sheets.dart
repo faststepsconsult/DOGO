@@ -3,7 +3,9 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../../../../core/utils/currency_formatter.dart';
+import '../../../../data/services/trip_chat_service.dart';
 import '../../auth/view_models/auth_view_model.dart';
+import '../../rides/widgets/driver_chat_modal.dart';
 import '../view_models/driver_view_model.dart';
 
 class DriverBottomSheets extends StatelessWidget {
@@ -694,16 +696,61 @@ class DriverBottomSheets extends StatelessWidget {
                   ),
                 ),
               ),
-              OutlinedButton.icon(
-                onPressed: () => _callPassenger(context, req.passengerPhone),
-                icon: const Icon(Icons.call_rounded, size: 14),
-                label: Text('Call', style: GoogleFonts.manrope(fontSize: 12, fontWeight: FontWeight.w700)),
-                style: OutlinedButton.styleFrom(
-                  foregroundColor: const Color(0xFF10B981),
-                  side: const BorderSide(color: Color(0x3310B981)),
-                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                ),
+              Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  StreamBuilder<int>(
+                    stream: TripChatService().streamUnreadCount(req.id, 'driver'),
+                    builder: (context, snapshot) {
+                      final unread = snapshot.data ?? 0;
+                      return Stack(
+                        clipBehavior: Clip.none,
+                        children: [
+                          OutlinedButton.icon(
+                            onPressed: () => DriverChatModal.show(
+                              context,
+                              tripCode: req.id,
+                              contactName: req.passenger,
+                              contactSubtitle: '${req.pickupName} → ${req.dropoffName}',
+                              contactPhone: req.passengerPhone,
+                              isDriverMode: true,
+                            ),
+                            icon: const Icon(Icons.chat_bubble_outline_rounded, size: 14),
+                            label: Text('Chat', style: GoogleFonts.manrope(fontSize: 12, fontWeight: FontWeight.w700)),
+                            style: OutlinedButton.styleFrom(
+                              foregroundColor: const Color(0xFF60A5FA),
+                              side: const BorderSide(color: Color(0x3360A5FA)),
+                              padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 6),
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                            ),
+                          ),
+                          if (unread > 0)
+                            Positioned(
+                              top: -4,
+                              right: -4,
+                              child: Container(
+                                padding: const EdgeInsets.all(4),
+                                decoration: const BoxDecoration(color: Color(0xFFEF4444), shape: BoxShape.circle),
+                                child: Text('$unread', style: GoogleFonts.sora(fontSize: 9, fontWeight: FontWeight.w800, color: Colors.white)),
+                              ),
+                            ),
+                        ],
+                      );
+                    },
+                  ),
+                  const SizedBox(width: 6),
+                  OutlinedButton.icon(
+                    onPressed: () => _callPassenger(context, req.passengerPhone),
+                    icon: const Icon(Icons.call_rounded, size: 14),
+                    label: Text('Call', style: GoogleFonts.manrope(fontSize: 12, fontWeight: FontWeight.w700)),
+                    style: OutlinedButton.styleFrom(
+                      foregroundColor: const Color(0xFF10B981),
+                      side: const BorderSide(color: Color(0x3310B981)),
+                      padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 6),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
@@ -819,7 +866,68 @@ class DriverBottomSheets extends StatelessWidget {
               valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF10B981)),
             ),
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 16),
+          Row(
+            children: [
+              Expanded(
+                child: StreamBuilder<int>(
+                  stream: TripChatService().streamUnreadCount(req.id, 'driver'),
+                  builder: (context, snapshot) {
+                    final unread = snapshot.data ?? 0;
+                    return Stack(
+                      clipBehavior: Clip.none,
+                      children: [
+                        SizedBox(
+                          width: double.infinity,
+                          child: OutlinedButton.icon(
+                            onPressed: () => DriverChatModal.show(
+                              context,
+                              tripCode: req.id,
+                              contactName: req.passenger,
+                              contactSubtitle: '${req.pickupName} → ${req.dropoffName}',
+                              contactPhone: req.passengerPhone,
+                              isDriverMode: true,
+                            ),
+                            icon: const Icon(Icons.chat_bubble_outline_rounded, size: 15),
+                            label: Text('Chat with Passenger', style: GoogleFonts.manrope(fontSize: 12.5, fontWeight: FontWeight.w700)),
+                            style: OutlinedButton.styleFrom(
+                              foregroundColor: const Color(0xFF60A5FA),
+                              side: const BorderSide(color: Color(0x3360A5FA)),
+                              padding: const EdgeInsets.symmetric(vertical: 10),
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                            ),
+                          ),
+                        ),
+                        if (unread > 0)
+                          Positioned(
+                            top: -4,
+                            right: -4,
+                            child: Container(
+                              padding: const EdgeInsets.all(5),
+                              decoration: const BoxDecoration(color: Color(0xFFEF4444), shape: BoxShape.circle),
+                              child: Text('$unread', style: GoogleFonts.sora(fontSize: 10, fontWeight: FontWeight.w800, color: Colors.white)),
+                            ),
+                          ),
+                      ],
+                    );
+                  },
+                ),
+              ),
+              const SizedBox(width: 8),
+              OutlinedButton.icon(
+                onPressed: () => _callPassenger(context, req.passengerPhone),
+                icon: const Icon(Icons.call_rounded, size: 15),
+                label: Text('Call', style: GoogleFonts.manrope(fontSize: 12.5, fontWeight: FontWeight.w700)),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: const Color(0xFF10B981),
+                  side: const BorderSide(color: Color(0x3310B981)),
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 14),
           SizedBox(
             width: double.infinity,
             height: 48,
@@ -1142,6 +1250,39 @@ class _AtPickupSheetWidgetState extends State<_AtPickupSheetWidget> {
                       ),
                     ],
                   ),
+                ),
+                StreamBuilder<int>(
+                  stream: TripChatService().streamUnreadCount(req.id, 'driver'),
+                  builder: (context, snapshot) {
+                    final unread = snapshot.data ?? 0;
+                    return Stack(
+                      clipBehavior: Clip.none,
+                      children: [
+                        IconButton(
+                          onPressed: () => DriverChatModal.show(
+                            context,
+                            tripCode: req.id,
+                            contactName: req.passenger,
+                            contactSubtitle: '${req.pickupName} → ${req.dropoffName}',
+                            contactPhone: req.passengerPhone,
+                            isDriverMode: true,
+                          ),
+                          icon: const Icon(Icons.chat_bubble_outline_rounded, color: Color(0xFF60A5FA), size: 20),
+                          tooltip: 'Chat with passenger',
+                        ),
+                        if (unread > 0)
+                          Positioned(
+                            top: 4,
+                            right: 4,
+                            child: Container(
+                              padding: const EdgeInsets.all(4),
+                              decoration: const BoxDecoration(color: Color(0xFFEF4444), shape: BoxShape.circle),
+                              child: Text('$unread', style: GoogleFonts.sora(fontSize: 9, fontWeight: FontWeight.w800, color: Colors.white)),
+                            ),
+                          ),
+                      ],
+                    );
+                  },
                 ),
                 IconButton(
                   onPressed: () => widget.onCallPassenger(req.passengerPhone),

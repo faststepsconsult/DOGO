@@ -3,34 +3,70 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
+
 import '../../../../data/models/ride_model.dart';
-
-class ChatMessageItem {
-  final String id;
-  final String text;
-  final bool isFromPassenger;
-  final DateTime time;
-
-  ChatMessageItem({
-    required this.id,
-    required this.text,
-    required this.isFromPassenger,
-    required this.time,
-  });
-}
+import '../../../../data/models/trip_message_model.dart';
+import '../../../../data/services/trip_chat_service.dart';
 
 class DriverChatModal extends StatefulWidget {
-  final RideModel ride;
+  final String tripCode;
+  final String contactName;
+  final String contactSubtitle;
+  final String contactPhone;
+  final bool isDriverMode;
 
-  const DriverChatModal({super.key, required this.ride});
+  const DriverChatModal({
+    super.key,
+    required this.tripCode,
+    required this.contactName,
+    required this.contactSubtitle,
+    required this.contactPhone,
+    this.isDriverMode = false,
+  });
 
-  static Future<void> show(BuildContext context, RideModel ride) {
+  static Future<void> show(
+    BuildContext context, {
+    required String tripCode,
+    required String contactName,
+    required String contactSubtitle,
+    required String contactPhone,
+    bool isDriverMode = false,
+  }) {
     return showModalBottomSheet(
       context: context,
       isScrollControlled: true,
       useSafeArea: true,
       backgroundColor: Colors.transparent,
-      builder: (ctx) => DriverChatModal(ride: ride),
+      builder: (ctx) => DriverChatModal(
+        tripCode: tripCode,
+        contactName: contactName,
+        contactSubtitle: contactSubtitle,
+        contactPhone: contactPhone,
+        isDriverMode: isDriverMode,
+      ),
+    );
+  }
+
+  static Future<void> showForRide(
+    BuildContext context,
+    RideModel ride, {
+    bool isDriverMode = false,
+  }) {
+    final contactName = isDriverMode
+        ? (ride.passengerName.isNotEmpty ? ride.passengerName : 'Passenger')
+        : (ride.driverName.isNotEmpty ? ride.driverName : 'Driver');
+    final contactSubtitle = isDriverMode
+        ? '${ride.pickup} → ${ride.dropoff}'
+        : '${ride.vehicleName} • ${ride.driverPlate}';
+    final contactPhone = isDriverMode ? ride.passengerPhone : ride.driverPhone;
+
+    return show(
+      context,
+      tripCode: ride.code,
+      contactName: contactName,
+      contactSubtitle: contactSubtitle,
+      contactPhone: contactPhone,
+      isDriverMode: isDriverMode,
     );
   }
 
@@ -39,43 +75,71 @@ class DriverChatModal extends StatefulWidget {
 }
 
 class _DriverChatModalState extends State<DriverChatModal> {
+  final TripChatService _chatService = TripChatService();
   final TextEditingController _textCtrl = TextEditingController();
   final ScrollController _scrollCtrl = ScrollController();
-  final List<ChatMessageItem> _messages = [];
-  bool _isDriverTyping = false;
-  Timer? _replyTimer;
 
-  static const List<String> _quickReplies = [
+  StreamSubscription<List<TripMessageModel>>? _messagesSub;
+  StreamSubscription<bool>? _typingSub;
+  List<TripMessageModel> _messages = [];
+  bool _isOtherTyping = false;
+  Timer? _typingDebounce;
+
+  static const List<String> _passengerQuickReplies = [
     "I'm at the pickup spot",
     "Coming down in 2 mins",
     "Please call when you arrive",
     "Which vehicle color?",
-    "A bit of traffic here",
+    "Waiting by the entrance",
   ];
+
+  static const List<String> _driverQuickReplies = [
+    "I'm on my way",
+    "Arrived at the pickup point",
+    "Hazard lights are on",
+    "Waiting outside the gate",
+    "A bit of traffic, almost there",
+  ];
+
+  String get _currentRole => widget.isDriverMode ? 'driver' : 'passenger';
+  String get _otherRole => widget.isDriverMode ? 'passenger' : 'driver';
 
   @override
   void initState() {
     super.initState();
-    // Default initial greeting from driver
-    _messages.addAll([
-      ChatMessageItem(
-        id: '1',
-        text: 'Hello! I have accepted your request and I am en route to ${widget.ride.pickup}.',
-        isFromPassenger: false,
-        time: DateTime.now().subtract(const Duration(minutes: 3)),
-      ),
-      ChatMessageItem(
-        id: '2',
-        text: 'Should arrive in about 4-5 minutes.',
-        isFromPassenger: false,
-        time: DateTime.now().subtract(const Duration(minutes: 2)),
-      ),
-    ]);
+    _chatService.setModalOpen(widget.tripCode, true, _currentRole);
+    _messages = _chatService.getMessages(widget.tripCode);
+
+    _messagesSub = _chatService.streamMessages(widget.tripCode).listen((list) {
+      if (mounted) {
+        setState(() {
+          _messages = list;
+        });
+        _scrollToBottom();
+      }
+    });
+
+    _typingSub = _chatService.streamTyping(widget.tripCode, _otherRole).listen((isTyping) {
+      if (mounted) {
+        setState(() {
+          _isOtherTyping = isTyping;
+        });
+        if (isTyping) _scrollToBottom();
+      }
+    });
   }
 
   @override
   void dispose() {
-    _replyTimer?.cancel();
+    _typingDebounce?.cancel();
+    _messagesSub?.cancel();
+    _typingSub?.cancel();
+    _chatService.setModalOpen(widget.tripCode, false, _currentRole);
+    _chatService.sendTyping(
+      tripCode: widget.tripCode,
+      isTyping: false,
+      senderRole: _currentRole,
+    );
     _textCtrl.dispose();
     _scrollCtrl.dispose();
     super.dispose();
@@ -93,59 +157,57 @@ class _DriverChatModalState extends State<DriverChatModal> {
     });
   }
 
-  void _sendMessage(String text) {
-    final cleanText = text.trim();
-    if (cleanText.isEmpty) return;
+  void _onTextChanged(String val) {
+    _typingDebounce?.cancel();
+    _chatService.sendTyping(
+      tripCode: widget.tripCode,
+      isTyping: val.trim().isNotEmpty,
+      senderRole: _currentRole,
+    );
 
-    _textCtrl.clear();
-    setState(() {
-      _messages.add(
-        ChatMessageItem(
-          id: DateTime.now().millisecondsSinceEpoch.toString(),
-          text: cleanText,
-          isFromPassenger: true,
-          time: DateTime.now(),
-        ),
+    _typingDebounce = Timer(const Duration(seconds: 3), () {
+      _chatService.sendTyping(
+        tripCode: widget.tripCode,
+        isTyping: false,
+        senderRole: _currentRole,
       );
-      _isDriverTyping = true;
-    });
-    _scrollToBottom();
-
-    // Simulate smart driver response
-    _replyTimer?.cancel();
-    _replyTimer = Timer(const Duration(seconds: 2), () {
-      if (!mounted) return;
-      setState(() {
-        _isDriverTyping = false;
-        String responseText = "Noted! See you soon.";
-        final lower = cleanText.toLowerCase();
-        if (lower.contains('color')) {
-          responseText = "Vehicle is silver/grey metallic, plate ${widget.ride.driverPlate}. Hazard lights are on.";
-        } else if (lower.contains('pickup') || lower.contains('here') || lower.contains('spot')) {
-          responseText = "Great! I just pulled up close to the entrance.";
-        } else if (lower.contains('coming') || lower.contains('min') || lower.contains('traffic')) {
-          responseText = "No problem at all, take your time. I am waiting safe by the curb.";
-        } else if (lower.contains('call')) {
-          responseText = "Will give you a quick buzz as soon as I halt at the gate.";
-        }
-
-        _messages.add(
-          ChatMessageItem(
-            id: DateTime.now().millisecondsSinceEpoch.toString(),
-            text: responseText,
-            isFromPassenger: false,
-            time: DateTime.now(),
-          ),
-        );
-      });
-      _scrollToBottom();
     });
   }
 
-  Future<void> _callDriver() async {
-    final uri = Uri.parse('tel:${widget.ride.driverPhone}');
+  void _sendMessage(String text) {
+    final clean = text.trim();
+    if (clean.isEmpty) return;
+
+    _textCtrl.clear();
+    _typingDebounce?.cancel();
+    _chatService.sendTyping(
+      tripCode: widget.tripCode,
+      isTyping: false,
+      senderRole: _currentRole,
+    );
+
+    _chatService.sendMessage(
+      tripCode: widget.tripCode,
+      body: clean,
+      senderRole: _currentRole,
+    );
+    _scrollToBottom();
+  }
+
+  Future<void> _callContact() async {
+    final cleanPhone = widget.contactPhone.replaceAll(' ', '');
+    final uri = Uri.parse('tel:$cleanPhone');
     if (await canLaunchUrl(uri)) {
       await launchUrl(uri);
+    } else {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Dialing $cleanPhone...'),
+            behavior: SnackBarBehavior.floating,
+          ),
+        );
+      }
     }
   }
 
@@ -153,7 +215,7 @@ class _DriverChatModalState extends State<DriverChatModal> {
   Widget build(BuildContext context) {
     final keyboardHeight = MediaQuery.of(context).viewInsets.bottom;
     final screenHeight = MediaQuery.of(context).size.height;
-    final ride = widget.ride;
+    final quickReplies = widget.isDriverMode ? _driverQuickReplies : _passengerQuickReplies;
 
     return Center(
       child: ConstrainedBox(
@@ -179,7 +241,7 @@ class _DriverChatModalState extends State<DriverChatModal> {
                 ),
               ),
 
-              // 2. Chat Header with Driver Info & Call Action
+              // 2. Chat Header
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                 decoration: const BoxDecoration(
@@ -193,15 +255,22 @@ class _DriverChatModalState extends State<DriverChatModal> {
                           width: 40,
                           height: 40,
                           decoration: BoxDecoration(
-                            gradient: const LinearGradient(
-                              colors: [Color(0xFF2563EB), Color(0xFF1D4ED8)],
+                            gradient: LinearGradient(
+                              colors: widget.isDriverMode
+                                  ? [const Color(0xFF10B981), const Color(0xFF059669)]
+                                  : [const Color(0xFF2563EB), const Color(0xFF1D4ED8)],
                             ),
                             shape: BoxShape.circle,
-                            border: Border.all(color: const Color(0x4D2563EB), width: 2),
+                            border: Border.all(
+                              color: widget.isDriverMode
+                                  ? const Color(0x4D10B981)
+                                  : const Color(0x4D2563EB),
+                              width: 2,
+                            ),
                           ),
                           alignment: Alignment.center,
                           child: Text(
-                            _getInitials(ride.driverName),
+                            _getInitials(widget.contactName),
                             style: GoogleFonts.sora(
                               fontSize: 14,
                               fontWeight: FontWeight.w800,
@@ -234,7 +303,7 @@ class _DriverChatModalState extends State<DriverChatModal> {
                             children: [
                               Flexible(
                                 child: Text(
-                                  ride.driverName,
+                                  widget.contactName,
                                   maxLines: 1,
                                   overflow: TextOverflow.ellipsis,
                                   style: GoogleFonts.sora(
@@ -246,32 +315,29 @@ class _DriverChatModalState extends State<DriverChatModal> {
                               ),
                               const SizedBox(width: 6),
                               Container(
-                                padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1),
+                                padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1.5),
                                 decoration: BoxDecoration(
-                                  color: const Color(0x26F5A623),
+                                  color: widget.isDriverMode
+                                      ? const Color(0x2610B981)
+                                      : const Color(0x262563EB),
                                   borderRadius: BorderRadius.circular(6),
                                 ),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.min,
-                                  children: [
-                                    const Icon(Icons.star_rounded, size: 12, color: Color(0xFFF5A623)),
-                                    const SizedBox(width: 2),
-                                    Text(
-                                      '${ride.driverRating}',
-                                      style: GoogleFonts.manrope(
-                                        fontSize: 10.5,
-                                        fontWeight: FontWeight.w700,
-                                        color: const Color(0xFFF5A623),
-                                      ),
-                                    ),
-                                  ],
+                                child: Text(
+                                  widget.isDriverMode ? 'Passenger' : 'Driver',
+                                  style: GoogleFonts.manrope(
+                                    fontSize: 10,
+                                    fontWeight: FontWeight.w700,
+                                    color: widget.isDriverMode
+                                        ? const Color(0xFF10B981)
+                                        : const Color(0xFF60A5FA),
+                                  ),
                                 ),
                               ),
                             ],
                           ),
                           const SizedBox(height: 2),
                           Text(
-                            '${ride.vehicleName} • ${ride.driverPlate}',
+                            widget.contactSubtitle,
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: GoogleFonts.manrope(
@@ -282,23 +348,25 @@ class _DriverChatModalState extends State<DriverChatModal> {
                         ],
                       ),
                     ),
-                    const SizedBox(width: 4),
-                    IconButton(
-                      tooltip: 'Call Driver',
-                      padding: EdgeInsets.zero,
-                      constraints: const BoxConstraints(minWidth: 34, minHeight: 34),
-                      visualDensity: VisualDensity.compact,
-                      onPressed: _callDriver,
-                      icon: Container(
-                        padding: const EdgeInsets.all(7),
-                        decoration: BoxDecoration(
-                          color: const Color(0x1A2563EB),
-                          borderRadius: BorderRadius.circular(9),
-                          border: Border.all(color: const Color(0x332563EB)),
+                    if (widget.contactPhone.isNotEmpty) ...[
+                      const SizedBox(width: 4),
+                      IconButton(
+                        tooltip: 'Call',
+                        padding: EdgeInsets.zero,
+                        constraints: const BoxConstraints(minWidth: 34, minHeight: 34),
+                        visualDensity: VisualDensity.compact,
+                        onPressed: _callContact,
+                        icon: Container(
+                          padding: const EdgeInsets.all(7),
+                          decoration: BoxDecoration(
+                            color: const Color(0x1A10B981),
+                            borderRadius: BorderRadius.circular(9),
+                            border: Border.all(color: const Color(0x3310B981)),
+                          ),
+                          child: const Icon(Icons.call_rounded, size: 15, color: Color(0xFF10B981)),
                         ),
-                        child: const Icon(Icons.call_rounded, size: 15, color: Color(0xFF60A5FA)),
                       ),
-                    ),
+                    ],
                     const SizedBox(width: 4),
                     IconButton(
                       tooltip: 'Close',
@@ -312,17 +380,17 @@ class _DriverChatModalState extends State<DriverChatModal> {
                 ),
               ),
 
-              // 3. Quick Replies Pill Bar
+              // 3. Quick Replies Bar
               Container(
                 height: 44,
                 padding: const EdgeInsets.symmetric(vertical: 6),
                 child: ListView.separated(
                   scrollDirection: Axis.horizontal,
                   padding: const EdgeInsets.symmetric(horizontal: 16),
-                  itemCount: _quickReplies.length,
-                  separatorBuilder: (_, index) => const SizedBox(width: 8),
+                  itemCount: quickReplies.length,
+                  separatorBuilder: (_, _) => const SizedBox(width: 8),
                   itemBuilder: (context, idx) {
-                    final item = _quickReplies[idx];
+                    final item = quickReplies[idx];
                     return InkWell(
                       onTap: () => _sendMessage(item),
                       borderRadius: BorderRadius.circular(14),
@@ -350,21 +418,51 @@ class _DriverChatModalState extends State<DriverChatModal> {
 
               const Divider(color: Color(0x14FFFFFF), height: 1),
 
-              // 4. Messages List
+              // 4. Messages Stream
               Expanded(
-                child: ListView.builder(
-                  controller: _scrollCtrl,
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-                  itemCount: _messages.length,
-                  itemBuilder: (context, index) {
-                    final msg = _messages[index];
-                    return _buildMessageBubble(msg);
-                  },
-                ),
+                child: _messages.isEmpty
+                    ? Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Icon(
+                              Icons.chat_bubble_outline_rounded,
+                              size: 40,
+                              color: Colors.white.withAlpha(40),
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              'Chatting live for trip ${widget.tripCode}',
+                              style: GoogleFonts.manrope(
+                                fontSize: 13,
+                                color: const Color(0xFF9CA3AF),
+                              ),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              'Messages are delivered in real time.',
+                              style: GoogleFonts.manrope(
+                                fontSize: 11,
+                                color: const Color(0xFF6B7280),
+                              ),
+                            ),
+                          ],
+                        ),
+                      )
+                    : ListView.builder(
+                        controller: _scrollCtrl,
+                        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                        itemCount: _messages.length,
+                        itemBuilder: (context, index) {
+                          final msg = _messages[index];
+                          final isMe = msg.senderKind == _currentRole;
+                          return _buildMessageBubble(msg, isMe);
+                        },
+                      ),
               ),
 
               // Typing Indicator
-              if (_isDriverTyping)
+              if (_isOtherTyping)
                 Padding(
                   padding: const EdgeInsets.only(left: 20, bottom: 8),
                   child: Row(
@@ -372,11 +470,14 @@ class _DriverChatModalState extends State<DriverChatModal> {
                       const SizedBox(
                         width: 14,
                         height: 14,
-                        child: CircularProgressIndicator(strokeWidth: 2, color: Color(0xFF60A5FA)),
+                        child: CircularProgressIndicator(
+                          strokeWidth: 2,
+                          color: Color(0xFF10B981),
+                        ),
                       ),
                       const SizedBox(width: 8),
                       Text(
-                        '${ride.driverName.split(' ').first} is typing...',
+                        '${widget.contactName.split(' ').first} is typing...',
                         style: GoogleFonts.manrope(
                           fontSize: 12,
                           color: const Color(0xFF9CA3AF),
@@ -387,7 +488,7 @@ class _DriverChatModalState extends State<DriverChatModal> {
                   ),
                 ),
 
-              // 5. Chat Input Field
+              // 5. Input Field
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
                 decoration: const BoxDecoration(
@@ -408,11 +509,17 @@ class _DriverChatModalState extends State<DriverChatModal> {
                           child: TextField(
                             controller: _textCtrl,
                             textInputAction: TextInputAction.send,
+                            onChanged: _onTextChanged,
                             onSubmitted: _sendMessage,
                             style: GoogleFonts.manrope(fontSize: 14, color: Colors.white),
                             decoration: InputDecoration(
-                              hintText: 'Message driver...',
-                              hintStyle: GoogleFonts.manrope(fontSize: 13, color: const Color(0xFF6B7280)),
+                              hintText: widget.isDriverMode
+                                  ? 'Message passenger...'
+                                  : 'Message driver...',
+                              hintStyle: GoogleFonts.manrope(
+                                fontSize: 13,
+                                color: const Color(0xFF6B7280),
+                              ),
                               contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
                               border: InputBorder.none,
                             ),
@@ -426,13 +533,18 @@ class _DriverChatModalState extends State<DriverChatModal> {
                           width: 42,
                           height: 42,
                           decoration: BoxDecoration(
-                            gradient: const LinearGradient(
-                              colors: [Color(0xFF2563EB), Color(0xFF1D4ED8)],
+                            gradient: LinearGradient(
+                              colors: widget.isDriverMode
+                                  ? [const Color(0xFF10B981), const Color(0xFF059669)]
+                                  : [const Color(0xFF2563EB), const Color(0xFF1D4ED8)],
                             ),
                             shape: BoxShape.circle,
                             boxShadow: [
                               BoxShadow(
-                                color: const Color(0xFF2563EB).withAlpha(100),
+                                color: (widget.isDriverMode
+                                        ? const Color(0xFF10B981)
+                                        : const Color(0xFF2563EB))
+                                    .withAlpha(100),
                                 blurRadius: 10,
                                 offset: const Offset(0, 2),
                               ),
@@ -452,31 +564,33 @@ class _DriverChatModalState extends State<DriverChatModal> {
     );
   }
 
-  Widget _buildMessageBubble(ChatMessageItem msg) {
-    final timeStr = DateFormat('hh:mm a').format(msg.time);
+  Widget _buildMessageBubble(TripMessageModel msg, bool isMe) {
+    final timeStr = DateFormat('hh:mm a').format(msg.createdAt);
 
     return Align(
-      alignment: msg.isFromPassenger ? Alignment.centerRight : Alignment.centerLeft,
+      alignment: isMe ? Alignment.centerRight : Alignment.centerLeft,
       child: Container(
         margin: const EdgeInsets.only(bottom: 10),
         constraints: BoxConstraints(maxWidth: MediaQuery.of(context).size.width * 0.72),
         padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
         decoration: BoxDecoration(
-          gradient: msg.isFromPassenger
-              ? const LinearGradient(
-                  colors: [Color(0xFF2563EB), Color(0xFF1D4ED8)],
+          gradient: isMe
+              ? LinearGradient(
+                  colors: widget.isDriverMode
+                      ? [const Color(0xFF10B981), const Color(0xFF059669)]
+                      : [const Color(0xFF2563EB), const Color(0xFF1D4ED8)],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 )
               : null,
-          color: msg.isFromPassenger ? null : const Color(0xFF1F2937),
+          color: isMe ? null : const Color(0xFF1F2937),
           borderRadius: BorderRadius.only(
             topLeft: const Radius.circular(16),
             topRight: const Radius.circular(16),
-            bottomLeft: Radius.circular(msg.isFromPassenger ? 16 : 4),
-            bottomRight: Radius.circular(msg.isFromPassenger ? 4 : 16),
+            bottomLeft: Radius.circular(isMe ? 16 : 4),
+            bottomRight: Radius.circular(isMe ? 4 : 16),
           ),
-          border: msg.isFromPassenger ? null : Border.all(color: const Color(0x1FFFFFFF)),
+          border: isMe ? null : Border.all(color: const Color(0x1FFFFFFF)),
           boxShadow: [
             BoxShadow(
               color: Colors.black.withAlpha(20),
@@ -486,11 +600,11 @@ class _DriverChatModalState extends State<DriverChatModal> {
           ],
         ),
         child: Column(
-          crossAxisAlignment: msg.isFromPassenger ? CrossAxisAlignment.end : CrossAxisAlignment.start,
+          crossAxisAlignment: isMe ? CrossAxisAlignment.end : CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              msg.text,
+              msg.body,
               style: GoogleFonts.manrope(
                 fontSize: 13.5,
                 color: Colors.white,
@@ -505,12 +619,12 @@ class _DriverChatModalState extends State<DriverChatModal> {
                   timeStr,
                   style: GoogleFonts.manrope(
                     fontSize: 10,
-                    color: msg.isFromPassenger ? const Color(0xFF93C5FD) : const Color(0xFF9CA3AF),
+                    color: isMe ? const Color(0xFFD1FAE5) : const Color(0xFF9CA3AF),
                   ),
                 ),
-                if (msg.isFromPassenger) ...[
+                if (isMe) ...[
                   const SizedBox(width: 4),
-                  const Icon(Icons.done_all_rounded, size: 12, color: Color(0xFF93C5FD)),
+                  const Icon(Icons.done_all_rounded, size: 12, color: Color(0xFFD1FAE5)),
                 ],
               ],
             ),
@@ -521,11 +635,11 @@ class _DriverChatModalState extends State<DriverChatModal> {
   }
 
   String _getInitials(String name) {
-    if (name.trim().isEmpty) return 'DR';
+    if (name.trim().isEmpty) return widget.isDriverMode ? 'PA' : 'DR';
     final parts = name.trim().split(' ');
     if (parts.length > 1 && parts[1].isNotEmpty) {
       return '${parts[0][0]}${parts[1][0]}'.toUpperCase();
     }
-    return parts[0].isNotEmpty ? parts[0].substring(0, 1).toUpperCase() : 'DR';
+    return parts[0].isNotEmpty ? parts[0].substring(0, 1).toUpperCase() : (widget.isDriverMode ? 'PA' : 'DR');
   }
 }

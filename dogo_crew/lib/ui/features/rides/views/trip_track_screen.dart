@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../data/services/driver_tracking_service.dart';
+import '../../../../data/services/trip_chat_service.dart';
 import '../../../core/widgets/osm_map_widget.dart';
 import '../view_models/rides_view_model.dart';
 import '../widgets/cancel_ride_modal.dart';
@@ -852,17 +853,51 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
                                   ),
                                   const SizedBox(width: 8),
                                   Expanded(
-                                    child: ElevatedButton.icon(
-                                      onPressed: () => DriverChatModal.show(context, ride),
-                                      icon: const Icon(Icons.chat_bubble_outline_rounded, size: 15),
-                                      label: Text('Chat', style: GoogleFonts.manrope(fontWeight: FontWeight.w700, fontSize: 13)),
-                                      style: ElevatedButton.styleFrom(
-                                        backgroundColor: const Color(0xFF1E2230),
-                                        foregroundColor: const Color(0xFF60A5FA),
-                                        side: const BorderSide(color: Color(0x3360A5FA)),
-                                        padding: const EdgeInsets.symmetric(vertical: 11),
-                                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                                      ),
+                                    child: StreamBuilder<int>(
+                                      stream: TripChatService().streamUnreadCount(ride.code, 'passenger'),
+                                      builder: (context, snapshot) {
+                                        final unread = snapshot.data ?? 0;
+                                        return Stack(
+                                          clipBehavior: Clip.none,
+                                          children: [
+                                            SizedBox(
+                                              width: double.infinity,
+                                              child: ElevatedButton.icon(
+                                                onPressed: () => DriverChatModal.showForRide(context, ride, isDriverMode: false),
+                                                icon: const Icon(Icons.chat_bubble_outline_rounded, size: 15),
+                                                label: Text('Chat', style: GoogleFonts.manrope(fontWeight: FontWeight.w700, fontSize: 13)),
+                                                style: ElevatedButton.styleFrom(
+                                                  backgroundColor: const Color(0xFF1E2230),
+                                                  foregroundColor: const Color(0xFF60A5FA),
+                                                  side: const BorderSide(color: Color(0x3360A5FA)),
+                                                  padding: const EdgeInsets.symmetric(vertical: 11),
+                                                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                                                ),
+                                              ),
+                                            ),
+                                            if (unread > 0)
+                                              Positioned(
+                                                top: -4,
+                                                right: -4,
+                                                child: Container(
+                                                  padding: const EdgeInsets.all(5),
+                                                  decoration: const BoxDecoration(
+                                                    color: Color(0xFFEF4444),
+                                                    shape: BoxShape.circle,
+                                                  ),
+                                                  child: Text(
+                                                    '$unread',
+                                                    style: GoogleFonts.sora(
+                                                      fontSize: 10,
+                                                      fontWeight: FontWeight.w800,
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                          ],
+                                        );
+                                      },
                                     ),
                                   ),
                                   const SizedBox(width: 8),
