@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
@@ -33,6 +34,7 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
   bool _hasRated = false;
   bool _isLoadingTimedOut = false;
   Timer? _loadingTimeoutTimer;
+  String? _previousStatus;
 
   @override
   void initState() {
@@ -213,6 +215,22 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
     }
 
     final isCancelled = ride.status == 'cancelled';
+    if (_previousStatus != null && _previousStatus != ride.status) {
+      if (ride.status == 'at_pickup') {
+        try {
+          HapticFeedback.vibrate();
+        } catch (_) {}
+      } else if (ride.status == 'completed') {
+        try {
+          HapticFeedback.heavyImpact();
+        } catch (_) {}
+      } else if (ride.status == 'accepted' || ride.status == 'confirmed' || ride.status == 'to_pickup') {
+        try {
+          HapticFeedback.mediumImpact();
+        } catch (_) {}
+      }
+    }
+    _previousStatus = ride.status;
     final validStageIdx = _getStageIndex(ride.status);
     final progress = isCancelled ? 0.0 : (validStageIdx / (_stages.length - 1));
     final formattedPrice = '₦${NumberFormat('#,###').format(ride.price)}';

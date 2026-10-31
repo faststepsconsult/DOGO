@@ -48,7 +48,7 @@ class _OsmMapWidgetState extends State<OsmMapWidget> with TickerProviderStateMix
     )..repeat();
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (widget.pickup == widget.dropoff && widget.driverPosition != null) {
+      if (widget.driverPosition != null) {
         _mapController.move(widget.driverPosition!, 15.5);
       }
       _fetchRoadRoute();
@@ -117,9 +117,7 @@ class _OsmMapWidgetState extends State<OsmMapWidget> with TickerProviderStateMix
         });
 
         // Frame the route on load
-        WidgetsBinding.instance.addPostFrameCallback((_) {
-          _fitRouteBounds();
-        });
+        _fitRouteBounds();
       }
     } catch (_) {
       if (mounted) setState(() => _isLoadingRoute = false);
@@ -162,7 +160,7 @@ class _OsmMapWidgetState extends State<OsmMapWidget> with TickerProviderStateMix
       _mapController.fitCamera(
         CameraFit.bounds(
           bounds: bounds,
-          padding: const EdgeInsets.only(left: 36, right: 36, top: 56, bottom: 36),
+          padding: const EdgeInsets.symmetric(horizontal: 48, vertical: 48),
         ),
       );
     } catch (_) {}
@@ -224,13 +222,7 @@ class _OsmMapWidgetState extends State<OsmMapWidget> with TickerProviderStateMix
               mapController: _mapController,
               options: MapOptions(
                 initialCenter: initialCenter,
-                initialZoom: 12.0,
-                initialCameraFit: hasActiveTrip
-                    ? CameraFit.bounds(
-                        bounds: LatLngBounds.fromPoints([widget.pickup, widget.dropoff]),
-                        padding: const EdgeInsets.only(left: 36, right: 36, top: 56, bottom: 36),
-                      )
-                    : null,
+                initialZoom: 13.5,
                 minZoom: 4,
                 maxZoom: 18,
                 interactionOptions: InteractionOptions(
@@ -381,6 +373,18 @@ class _OsmMapWidgetState extends State<OsmMapWidget> with TickerProviderStateMix
               ],
             ),
 
+            if (_isLoadingRoute)
+              const Positioned(
+                top: 0,
+                left: 0,
+                right: 0,
+                child: LinearProgressIndicator(
+                  minHeight: 2.5,
+                  backgroundColor: Colors.transparent,
+                  valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF2563EB)),
+                ),
+              ),
+
             // Top gradient overlay for contrast
             Positioned(
               top: 0,
@@ -397,21 +401,6 @@ class _OsmMapWidgetState extends State<OsmMapWidget> with TickerProviderStateMix
                 ),
               ),
             ),
-
-            // Route loading indicator
-            if (_isLoadingRoute)
-              const Positioned(
-                top: 0,
-                left: 0,
-                right: 0,
-                child: SizedBox(
-                  height: 2.5,
-                  child: LinearProgressIndicator(
-                    backgroundColor: Colors.transparent,
-                    valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF2563EB)),
-                  ),
-                ),
-              ),
 
             // Floating Controls: Recenter, Fit Bounds, Zoom
             if (widget.showControls)

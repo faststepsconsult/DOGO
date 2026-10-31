@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:latlong2/latlong.dart';
 import '../../../../data/models/ride_model.dart';
 import '../../../../data/services/driver_tracking_service.dart';
@@ -86,7 +87,7 @@ class CompletedDriverTrip {
 }
 
 class DriverViewModel extends ChangeNotifier {
-  static const int requestDurationSeconds = 15;
+  static const int requestDurationSeconds = 30;
   static const double commissionRate = 0.15;
   static const int driverSharePercent = 85;
 
@@ -344,6 +345,9 @@ class DriverViewModel extends ChangeNotifier {
         });
       }
     } else if (_session == DriverSession.request) {
+      try {
+        HapticFeedback.vibrate();
+      } catch (_) {}
       _secondsLeft = requestDurationSeconds;
       _requestCountdownTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
         if (_secondsLeft > 1) {
@@ -412,6 +416,9 @@ class DriverViewModel extends ChangeNotifier {
   }
 
   Future<void> arrivedAtPickup() async {
+    try {
+      HapticFeedback.mediumImpact();
+    } catch (_) {}
     setSession(DriverSession.atPickup);
     await _dispatchService.updateStatus(
       rideCode: currentRequest.id,
@@ -420,6 +427,9 @@ class DriverViewModel extends ChangeNotifier {
   }
 
   Future<void> startTrip() async {
+    try {
+      HapticFeedback.lightImpact();
+    } catch (_) {}
     _cleanTimers();
     _session = DriverSession.onTrip;
     notifyListeners();
@@ -496,6 +506,9 @@ class DriverViewModel extends ChangeNotifier {
   }
 
   Future<void> completeTrip() async {
+    try {
+      HapticFeedback.heavyImpact();
+    } catch (_) {}
     _cleanTimers();
     final req = currentRequest;
     final payout = req.driverPayout;
