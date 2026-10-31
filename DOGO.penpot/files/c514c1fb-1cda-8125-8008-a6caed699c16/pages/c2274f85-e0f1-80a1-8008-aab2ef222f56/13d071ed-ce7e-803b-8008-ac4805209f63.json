@@ -1,0 +1,106 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-ac4805209f63",
+  "name": "Rectangle",
+  "type": "rect",
+  "x": 395.2068341005323,
+  "y": 770,
+  "width": 309.68635169343605,
+  "height": 126,
+  "rotation": 0,
+  "selrect": {
+    "x": 395.2068341005323,
+    "y": 770,
+    "width": 309.68635169343605,
+    "height": 126,
+    "x1": 395.2068341005323,
+    "y1": 770,
+    "x2": 704.8931857939683,
+    "y2": 896
+  },
+  "points": [
+    {
+      "x": 395.2068341005324,
+      "y": 770
+    },
+    {
+      "x": 704.8931857939684,
+      "y": 770
+    },
+    {
+      "x": 704.8931857939684,
+      "y": 896
+    },
+    {
+      "x": 395.2068341005324,
+      "y": 896
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aaa4e19f3007",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": "",
+  "hideInViewer": false,
+  "r2": 30,
+  "proportionLock": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "r3": 30,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 30,
+  "opacity": 0.4,
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 1,
+      "strokeColor": "#64748b",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6d166b3b15a",
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "shadow": [
+    {
+      "id": "7cedfe4d-4ab6-8005-8008-a853286c348d",
+      "style": "drop-shadow",
+      "color": {
+        "color": "#000000",
+        "opacity": 0.2
+      },
+      "offsetX": 4,
+      "offsetY": 4,
+      "blur": 4,
+      "spread": 0,
+      "hidden": false
+    }
+  ],
+  "r4": 30,
+  "fills": [
+    {
+      "fillColor": "#000000",
+      "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbc41f753e",
+      "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "fillOpacity": 1
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e1d14553",
+  "name": "Blazer + Sweater-1",
+  "type": "frame",
+  "x": -2174.999960939169,
+  "y": -1953.999962737509,
+  "width": 200,
+  "height": 88.79390877721562,
+  "rotation": 0,
+  "selrect": {
+    "x": -2174.999960939169,
+    "y": -1953.999962737509,
+    "width": 200,
+    "height": 88.79390877721562,
+    "x1": -2174.999960939169,
+    "y1": -1953.999962737509,
+    "x2": -1974.999960939169,
+    "y2": -1865.2060539602933
+  },
+  "points": [
+    {
+      "x": -2174.999960939169,
+      "y": -1953.999962737509
+    },
+    {
+      "x": -1974.999960939169,
+      "y": -1953.999962737509
+    },
+    {
+      "x": -1974.999960939169,
+      "y": -1865.2060539602933
+    },
+    {
+      "x": -2174.999960939169,
+      "y": -1865.2060539602933
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e1d10040",
+  "frameId": "b67e0975-9540-809b-8004-fc65e1d10040",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-16f6bcd0-f38d-11ec-89fd-fd405a016ff5"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65daeec900",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "r3": 0,
+  "constraintsV": "scale",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 424.0,
+    "f": 166.0
+  },
+  "constraintsH": "scale",
+  "r1": 0,
+  "hidden": false,
+  "svgViewbox": {
+    "x": 4994.0965724104935,
+    "y": 3191.51086739493,
+    "width": 0.01,
+    "height": 0.01,
+    "x1": 4994.0965724104935,
+    "y1": 3191.51086739493,
+    "x2": 4994.106572410494,
+    "y2": 3191.52086739493
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65daeec900",
+  "svgDefs": {
+    "clip_2": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_2"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_2",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_2": {
+      "tag": "rect",
+      "attrs": {
+        "width": "264",
+        "height": "110",
+        "id": "artboard_2"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "blocked": false,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65e1d18783",
+    "b67e0975-9540-809b-8004-fc65e1d200ab",
+    "b67e0975-9540-809b-8004-fc65e1d3d1af"
+  ]
+}

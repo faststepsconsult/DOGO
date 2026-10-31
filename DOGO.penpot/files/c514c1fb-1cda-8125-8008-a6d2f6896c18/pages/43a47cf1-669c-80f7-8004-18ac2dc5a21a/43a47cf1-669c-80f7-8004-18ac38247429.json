@@ -1,0 +1,120 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac38247429",
+  "name": "Text-53",
+  "type": "text",
+  "x": 983.9000000000003,
+  "y": 441,
+  "width": 99.00000000000023,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 983.9000000000003,
+    "y": 441,
+    "width": 99.00000000000023,
+    "height": 22,
+    "x1": 983.9000000000003,
+    "y1": 441,
+    "x2": 1082.9000000000005,
+    "y2": 463
+  },
+  "points": [
+    {
+      "x": 983.9000000000002,
+      "y": 441
+    },
+    {
+      "x": 1082.9000000000005,
+      "y": 441
+    },
+    {
+      "x": 1082.9000000000005,
+      "y": 463
+    },
+    {
+      "x": 983.9000000000002,
+      "y": 463
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac38242bb8",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3812bb62",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "key": "ae99r",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fontFamily": "Work Sans",
+                "text": "Credit card",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ]
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 462.1111125946045,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 98.09029388427734,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 983.9000000000003,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 21.111112594604492,
+      "text": "Credit card"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

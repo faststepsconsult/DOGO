@@ -1,0 +1,139 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac38157f07",
+  "name": "Text-45",
+  "type": "text",
+  "x": 983.9,
+  "y": 168,
+  "width": 212.0000000000001,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 983.9,
+    "y": 168,
+    "width": 212.0000000000001,
+    "height": 18,
+    "x1": 983.9,
+    "y1": 168,
+    "x2": 1195.9,
+    "y2": 186
+  },
+  "points": [
+    {
+      "x": 983.9,
+      "y": 168
+    },
+    {
+      "x": 1195.9,
+      "y": 168
+    },
+    {
+      "x": 1195.9,
+      "y": 186
+    },
+    {
+      "x": 983.9,
+      "y": 186
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3814e684",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3814e684",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "43a47cf1-669c-80f7-8004-18ac38152852",
+                "textTransform": "none",
+                "fontId": "gfont-work-sans",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+                "fontVariantId": "regular",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b1b2b5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Street, Number, Country"
+              }
+            ],
+            "typographyRefId": "43a47cf1-669c-80f7-8004-18ac38152852",
+            "textTransform": "none",
+            "fontId": "gfont-work-sans",
+            "key": "ae99r",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "letterSpacing": "0",
+            "fills": [],
+            "fontFamily": "Work Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "shapeRef": "43a47cf1-669c-80f7-8004-18ac38152851",
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 184.66666793823242,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 166.6666717529297,
+      "textDecoration": "none solid rgb(177, 178, 181)",
+      "letterSpacing": "normal",
+      "x": 983.9,
+      "fills": [
+        {
+          "fillColor": "#b1b2b5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 16.666667938232422,
+      "text": "Street, Number, Country"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

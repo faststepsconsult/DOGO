@@ -1,0 +1,109 @@
+{
+  "id": "3ff63a00-431c-11ed-ab49-db2543beb80b",
+  "name": "settings-1",
+  "type": "frame",
+  "x": -250.99999686688233,
+  "y": 30.000003345136292,
+  "width": 353.99999373376477,
+  "height": 628.9999933097271,
+  "rotation": 0,
+  "selrect": {
+    "x": -250.99999686688233,
+    "y": 30.000003345136292,
+    "width": 353.99999373376477,
+    "height": 628.9999933097271,
+    "x1": -250.99999686688233,
+    "y1": 30.000003345136292,
+    "x2": 102.99999686688244,
+    "y2": 658.9999966548634
+  },
+  "points": [
+    {
+      "x": -250.9999937337647,
+      "y": 30.000006690268492
+    },
+    {
+      "x": 103.00000000000011,
+      "y": 30
+    },
+    {
+      "x": 102.99999373376505,
+      "y": 658.9999933097304
+    },
+    {
+      "x": -251,
+      "y": 658.9999999999998
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000002,
+    "b": -3.032797843828929E-8,
+    "c": 1.4666936606459733E-9,
+    "d": 1.0000000000000064,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999998,
+    "b": 3.032797843828909E-8,
+    "c": -1.4666936606459584E-9,
+    "d": 0.9999999999999932,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "52858980-4319-11ed-ab49-db2543beb80b",
+  "frameId": "52858980-4319-11ed-ab49-db2543beb80b",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "rx": 0,
+  "growType": "fixed",
+  "index": null,
+  "strokeStyle": "none",
+  "strokeColor": "#000000",
+  "strokeOpacity": 0,
+  "strokeAlignment": "center",
+  "r2": 0,
+  "proportionLock": true,
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "r3": 0,
+  "interactions": [],
+  "strokeWidth": 0,
+  "r1": 0,
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeAlignment": "outer",
+      "strokeWidth": 1
+    }
+  ],
+  "proportion": 0.5625000000000008,
+  "r4": 0,
+  "fills": [
+    {
+      "fillColor": "#FFFFFF",
+      "fillOpacity": 1
+    }
+  ],
+  "ry": 0,
+  "shapes": [
+    "3ff63a01-431c-11ed-ab49-db2543beb80b",
+    "3ff63a02-431c-11ed-ab49-db2543beb80b",
+    "3ff63a03-431c-11ed-ab49-db2543beb80b",
+    "3ff63a04-431c-11ed-ab49-db2543beb80b",
+    "3ff63a05-431c-11ed-ab49-db2543beb80b",
+    "3ff63a06-431c-11ed-ab49-db2543beb80b",
+    "3ff63a07-431c-11ed-ab49-db2543beb80b",
+    "3ff63a08-431c-11ed-ab49-db2543beb80b",
+    "3ff63a09-431c-11ed-ab49-db2543beb80b",
+    "3ff63a0a-431c-11ed-ab49-db2543beb80b",
+    "3ff63a0b-431c-11ed-ab49-db2543beb80b",
+    "3ff63a0c-431c-11ed-ab49-db2543beb80b",
+    "3ff63a0d-431c-11ed-ab49-db2543beb80b",
+    "3ff63a0e-431c-11ed-ab49-db2543beb80b",
+    "3ff63a0f-431c-11ed-ab49-db2543beb80b",
+    "3ff63a10-431c-11ed-ab49-db2543beb80b"
+  ]
+}

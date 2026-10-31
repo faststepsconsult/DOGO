@@ -1,0 +1,106 @@
+{
+  "id": "8c8e33dd-5361-8067-8008-c21075c92ddb",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 229.99999999999994,
+    "y": 288.618556701031,
+    "width": 6,
+    "height": 0.01,
+    "x1": 229.99999999999994,
+    "y1": 288.618556701031,
+    "x2": 235.99999999999994,
+    "y2": 288.628556701031
+  },
+  "points": [
+    {
+      "x": 229.99999999999994,
+      "y": 288.618556701031
+    },
+    {
+      "x": 235.99999999999994,
+      "y": 288.618556701031
+    },
+    {
+      "x": 235.99999999999994,
+      "y": 288.62855670103306
+    },
+    {
+      "x": 229.99999999999994,
+      "y": 288.62855670103306
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8c8e33dd-5361-8067-8008-c21075c92dd7",
+  "frameId": "8c8e33dd-5361-8067-8008-c21075c92dd7",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M230.0,288.6185607910156L236.0,288.6185607910156",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "touched": [
+    "stroke-group",
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "5c8da088-8494-805d-8003-b5422162070c",
+  "proportionLock": false,
+  "pageId": "d57a77c6-c39f-80fa-8008-c81bf4c56329",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 9,
+    "y": 17,
+    "width": 6,
+    "height": 0.01,
+    "x1": 9,
+    "y1": 17,
+    "x2": 15,
+    "y2": 17.01
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round",
+      "strokeColor": "#568df1",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "fills": []
+}

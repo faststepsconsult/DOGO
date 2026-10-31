@@ -1,0 +1,81 @@
+{
+  "id": "c2274f85-e0f1-80a1-8008-aaa4e19f3007",
+  "name": "Dispatch Rider Profile",
+  "type": "group",
+  "x": 266,
+  "y": 770,
+  "width": 735,
+  "height": 171,
+  "rotation": 0,
+  "selrect": {
+    "x": 266,
+    "y": 770,
+    "width": 735,
+    "height": 171,
+    "x1": 266,
+    "y1": 770,
+    "x2": 1001,
+    "y2": 941
+  },
+  "points": [
+    {
+      "x": 266,
+      "y": 770
+    },
+    {
+      "x": 1001,
+      "y": 770
+    },
+    {
+      "x": 1001,
+      "y": 941
+    },
+    {
+      "x": 266,
+      "y": 941
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "00000000-0000-0000-0000-000000000000",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": false,
+  "flipY": false,
+  "index": 5,
+  "proportionLock": false,
+  "strokes": [],
+  "blocked": false,
+  "proportion": 1,
+  "fills": [],
+  "shapes": [
+    "13d071ed-ce7e-803b-8008-ac4805209f63",
+    "ed9d0cd1-ebed-80d5-8008-c360e8078b8b",
+    "ed9d0cd1-ebed-80d5-8008-c3609c49fc6c",
+    "13d071ed-ce7e-803b-8008-acd9cfa6b587",
+    "13d071ed-ce7e-803b-8008-acdfedc9551f",
+    "13d071ed-ce7e-803b-8008-acde55023fad",
+    "8c8e33dd-5361-8067-8008-c21e2dde7f79",
+    "13d071ed-ce7e-803b-8008-acde6c5768a6",
+    "13d071ed-ce7e-803b-8008-acdfe124ec58",
+    "13d071ed-ce7e-803b-8008-acdd7c590ceb",
+    "13d071ed-ce7e-803b-8008-acdd3c95fdb9",
+    "13d071ed-ce7e-803b-8008-acdd2173f5ce",
+    "ed9d0cd1-ebed-80d5-8008-c3640cfd3fa1",
+    "ed9d0cd1-ebed-80d5-8008-c363b0d8fb74"
+  ],
+  "pageId": "d703399e-1cf8-8063-8008-cf899ce357b9"
+}

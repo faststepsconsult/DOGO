@@ -1,0 +1,156 @@
+{
+  "id": "d57a77c6-c39f-80fa-8008-c81522eac49a",
+  "name": "Report a problem",
+  "type": "text",
+  "x": 20.854118892569403,
+  "y": 155.51235871131314,
+  "width": 211,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 20.854118892569403,
+    "y": 155.51235871131314,
+    "width": 211,
+    "height": 32,
+    "x1": 20.854118892569403,
+    "y1": 155.51235871131314,
+    "x2": 231.8541188925694,
+    "y2": 187.51235871131314
+  },
+  "points": [
+    {
+      "x": 20.854118892569403,
+      "y": 155.51235871131314
+    },
+    {
+      "x": 231.8541188925694,
+      "y": 155.51235871131314
+    },
+    {
+      "x": 231.8541188925694,
+      "y": 187.51235871131314
+    },
+    {
+      "x": 20.854118892569403,
+      "y": 187.51235871131314
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d57a77c6-c39f-80fa-8008-c80e12aba087",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbddc96e7d",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-sora",
+                "fontSize": "24",
+                "fontWeight": "600",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T09:56:44.057Z",
+                "fontVariantId": "600",
+                "textDecoration": "none",
+                "letterSpacing": "-0.3",
+                "fills": [
+                  {
+                    "fillColor": "#e9e9e9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Sora",
+                "text": "Report a problem"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbddc96e7d",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-sora",
+            "key": "27p4j",
+            "fontSize": "24",
+            "fontWeight": "600",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-09-24T09:56:44.057Z",
+            "fontVariantId": "600",
+            "textDecoration": "none",
+            "letterSpacing": "-0.3",
+            "fills": [
+              {
+                "fillColor": "#e9e9e9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Sora"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "pageId": "ed9d0cd1-ebed-80d5-8008-c36475d481ed",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 20.854118892569403,
+      "y": 185.5123625260104,
+      "width": 210.65972900390625,
+      "height": 30.000003814697266,
+      "x1": 0,
+      "y1": 0,
+      "x2": 210.65972900390625,
+      "y2": 30.000003814697266,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "textDecoration": "none",
+      "letterSpacing": "-0.3px",
+      "fills": [
+        {
+          "fillColor": "#e9e9e9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Sora",
+      "text": "Report a problem"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": []
+}

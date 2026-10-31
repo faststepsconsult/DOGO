@@ -1,0 +1,154 @@
+{
+  "id": "c2274f85-e0f1-80a1-8008-aab992c2440e",
+  "name": "4",
+  "type": "text",
+  "x": 324.0801135283123,
+  "y": 279.48557703632497,
+  "width": 10.017066796564185,
+  "height": 14.999916391028432,
+  "rotation": 0,
+  "selrect": {
+    "x": 324.0801135283123,
+    "y": 279.48557703632497,
+    "width": 10.017066796564185,
+    "height": 14.999916391028432,
+    "x1": 324.0801135283123,
+    "y1": 279.48557703632497,
+    "x2": 334.0971803248765,
+    "y2": 294.4854934273534
+  },
+  "points": [
+    {
+      "x": 324.0776550656232,
+      "y": 279.4839594071187
+    },
+    {
+      "x": 334.09472133947384,
+      "y": 279.48719547157884
+    },
+    {
+      "x": 334.09963878756565,
+      "y": 294.4871110565597
+    },
+    {
+      "x": 324.0825725137152,
+      "y": 294.4838749920994
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aab992c2440c",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbe51b4c50",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-sora",
+                "fontSize": "14",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T10:07:26.099Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.4",
+                "fills": [
+                  {
+                    "fillColor": "#f2e8e8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Sora",
+                "text": "4"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbe51b4c50",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-sora",
+            "key": "6s2ge",
+            "fontSize": "14",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-09-24T10:07:26.099Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.4",
+            "fills": [
+              {
+                "fillColor": "#f2e8e8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Sora"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 324.0801135283123,
+      "y": 294.48557703632497,
+      "width": 9.23828125,
+      "height": 17.5,
+      "x1": 0,
+      "y1": -2.5,
+      "x2": 9.23828125,
+      "y2": 15,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.4px",
+      "fills": [
+        {
+          "fillColor": "#f2e8e8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Sora",
+      "text": "4"
+    }
+  ],
+  "blocked": true,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56"
+}

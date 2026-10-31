@@ -1,0 +1,130 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65db125eac",
+  "name": "Eyebrow \/ Outline \/ Outline-Default Eyebrows",
+  "type": "frame",
+  "x": 196.27406243559352,
+  "y": 6567.512496646236,
+  "width": 88.00061600000012,
+  "height": 11.921900000000315,
+  "rotation": 0,
+  "selrect": {
+    "x": 196.27406243559352,
+    "y": 6567.512496646236,
+    "width": 88.00061600000012,
+    "height": 11.921900000000315,
+    "x1": 196.27406243559352,
+    "y1": 6567.512496646236,
+    "x2": 284.2746784355936,
+    "y2": 6579.434396646237
+  },
+  "points": [
+    {
+      "x": 196.27406125761314,
+      "y": 6567.512496542066
+    },
+    {
+      "x": 284.27467961357405,
+      "y": 6567.512496542066
+    },
+    {
+      "x": 284.27467961357405,
+      "y": 6579.434396750406
+    },
+    {
+      "x": 196.27406125761314,
+      "y": 6579.434396750406
+    }
+  ],
+  "transform": {
+    "a": 1.0000000267720943,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.000000017475364,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999732279065,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.9999999825246363,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc660b6071cc",
+  "frameId": "3849bc3d-4437-8019-8004-fc660b6071cc",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-1433f350-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_6)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc660b5ca083",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2022.0,
+    "f": 80.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2035.4993621610702,
+    "y": 86.31294424114412,
+    "width": 88.00248313268594,
+    "height": 11.687600208340427,
+    "x1": 2035.4993621610702,
+    "y1": 86.31294424114412,
+    "x2": 2123.501845293756,
+    "y2": 98.00054444948455
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65db125eac",
+  "svgDefs": {
+    "clip_6": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_6"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_6",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_6": {
+      "tag": "rect",
+      "attrs": {
+        "width": "112",
+        "height": "24",
+        "id": "artboard_6"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "mainInstance": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65f6bbc567",
+    "b67e0975-9540-809b-8004-fc65f6be72ac"
+  ]
+}

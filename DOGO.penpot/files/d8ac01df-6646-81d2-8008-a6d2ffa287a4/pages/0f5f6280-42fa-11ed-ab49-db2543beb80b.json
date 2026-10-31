@@ -1,0 +1,13 @@
+{
+  "name": "Cover",
+  "id": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "guides": {
+    "21dd37f0-431a-11ed-ab49-db2543beb80b": {
+      "position": 694,
+      "frameId": "52858980-4319-11ed-ab49-db2543beb80b",
+      "id": "21dd37f0-431a-11ed-ab49-db2543beb80b",
+      "axis": "x"
+    }
+  },
+  "index": 0
+}

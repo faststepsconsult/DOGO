@@ -1,0 +1,130 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65db927abe",
+  "name": "Happy Eyes-\ud83d\ude01-3",
+  "type": "frame",
+  "x": 1178.7705795242582,
+  "y": 1075.8136064955318,
+  "width": 80.00002117316467,
+  "height": 7.999997443223037,
+  "rotation": 0,
+  "selrect": {
+    "x": 1178.7705795242582,
+    "y": 1075.8136064955318,
+    "width": 80.00002117316467,
+    "height": 7.999997443223037,
+    "x1": 1178.7705795242582,
+    "y1": 1075.8136064955318,
+    "x2": 1258.7706006974229,
+    "y2": 1083.8136039387548
+  },
+  "points": [
+    {
+      "x": 1178.7705795242582,
+      "y": 1075.8136064955318
+    },
+    {
+      "x": 1258.7706006974229,
+      "y": 1075.8136064955318
+    },
+    {
+      "x": 1258.7706006974229,
+      "y": 1083.8136039387548
+    },
+    {
+      "x": 1178.7705795242582,
+      "y": 1083.8136039387548
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65db7983e8",
+  "frameId": "b67e0975-9540-809b-8004-fc65dac750b7",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-147ae761-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_7)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65db927abd",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65daa35873",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2294.0,
+    "f": 400.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2308.5000628256107,
+    "y": 416.000001410046,
+    "width": 80.00009000000065,
+    "height": 7.999987999999693,
+    "x1": 2308.5000628256107,
+    "y1": 416.000001410046,
+    "x2": 2388.500152825611,
+    "y2": 423.9999894100457
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65db927abd",
+  "svgDefs": {
+    "clip_7": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_7"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_7",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_7": {
+      "tag": "rect",
+      "attrs": {
+        "width": "112",
+        "height": "44",
+        "id": "artboard_7"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65db92c334",
+    "b67e0975-9540-809b-8004-fc65db934961"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "52858980-4319-11ed-ab49-db2543beb80b",
+  "name": "cover_thumb",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 1390,
+  "height": 724,
+  "rotation": 0,
+  "selrect": {
+    "x": 0,
+    "y": 0,
+    "width": 1390,
+    "height": 724,
+    "x1": 0,
+    "y1": 0,
+    "x2": 1390,
+    "y2": 724
+  },
+  "points": [
+    {
+      "x": 0,
+      "y": 0
+    },
+    {
+      "x": 1390,
+      "y": 0
+    },
+    {
+      "x": 1390,
+      "y": 724
+    },
+    {
+      "x": 0,
+      "y": 724
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "00000000-0000-0000-0000-000000000000",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "rx": 0,
+  "growType": "fixed",
+  "index": null,
+  "strokeStyle": "none",
+  "strokeColor": "#000000",
+  "strokeOpacity": 0,
+  "strokeAlignment": "center",
+  "r2": 0,
+  "proportionLock": false,
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "exports": [
+    {
+      "type": "png",
+      "suffix": "",
+      "scale": 2
+    }
+  ],
+  "r3": 0,
+  "strokeWidth": 0,
+  "r1": 0,
+  "strokes": [],
+  "useForThumbnail": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [
+    {
+      "fillColor": "#ffffff",
+      "fillOpacity": 1
+    }
+  ],
+  "ry": 0,
+  "shapes": [
+    "d3d7c4d0-4319-11ed-ab49-db2543beb80b",
+    "bb02a6f0-4319-11ed-ab49-db2543beb80b",
+    "74e7b8e0-4319-11ed-ab49-db2543beb80b",
+    "df7b6f60-431b-11ed-ab49-db2543beb80b",
+    "3ff63a00-431c-11ed-ab49-db2543beb80b"
+  ]
+}

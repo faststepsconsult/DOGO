@@ -1,0 +1,7 @@
+- [x] Make the home screen and booking strictly passenger rides for Bike and Tricycle.
+- [x] Remove shopping, selling, parcel and hub navigation/pages while preserving historical trips.
+- [x] Align account, verification, tracking and receipt language to rides; verify booking on phone and desktop.
+- [x] Build a dedicated Bike/Tricycle rider dashboard with online status and an interactive sample trip.
+- [x] Link rider accounts to the dashboard and verify the rider flow on phone and desktop.
+- [x] Expand the rider workspace with vehicle-matched sample requests, accept/decline decisions, trip progression, and clear demo states.
+- [x] Verify rider request decisions and trip completion in mobile and desktop views.

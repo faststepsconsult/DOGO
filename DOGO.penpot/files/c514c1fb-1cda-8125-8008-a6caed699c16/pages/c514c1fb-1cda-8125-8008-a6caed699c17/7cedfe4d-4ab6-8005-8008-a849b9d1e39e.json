@@ -1,0 +1,163 @@
+{
+  "id": "7cedfe4d-4ab6-8005-8008-a849b9d1e39e",
+  "name": "Full name ",
+  "type": "text",
+  "x": 184.95634430393974,
+  "y": 313.12002613448254,
+  "width": 54,
+  "height": 15,
+  "rotation": 0,
+  "selrect": {
+    "x": 184.95634430393974,
+    "y": 313.12002613448254,
+    "width": 54,
+    "height": 15,
+    "x1": 184.95634430393974,
+    "y1": 313.12002613448254,
+    "x2": 238.95634430393974,
+    "y2": 328.12002613448254
+  },
+  "points": [
+    {
+      "x": 184.95634430393974,
+      "y": 313.12002613448254
+    },
+    {
+      "x": 238.95634430393974,
+      "y": 313.12002613448254
+    },
+    {
+      "x": 238.95634430393974,
+      "y": 328.12002613448254
+    },
+    {
+      "x": 184.95634430393974,
+      "y": 328.12002613448254
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7cedfe4d-4ab6-8005-8008-a84d11cbd034",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "11",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-10-12T08:12:46.575Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.5",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Full name "
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "e8h7m",
+            "fontSize": "11",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-10-12T08:12:46.575Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.5",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "pageId": "c514c1fb-1cda-8125-8008-a6caed699c17",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 184.95634430393974,
+      "y": 327.56447031401746,
+      "width": 53.9756965637207,
+      "height": 15.55555534362793,
+      "x1": 0,
+      "y1": -1.1111111640930176,
+      "x2": 53.9756965637207,
+      "y2": 14.444444179534912,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "11px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.5px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Full name "
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "shadow": [],
+  "fills": []
+}

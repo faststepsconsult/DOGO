@@ -1,0 +1,83 @@
+{
+  "id": "bb02a6ff-4319-11ed-ab49-db2543beb80b",
+  "name": "Button Rounded Outlined",
+  "type": "frame",
+  "x": 227.00000071443856,
+  "y": 578.000003003878,
+  "width": 166.99999857112266,
+  "height": 39.999993992244185,
+  "rotation": 0,
+  "selrect": {
+    "x": 227.00000071443856,
+    "y": 578.000003003878,
+    "width": 166.99999857112266,
+    "height": 39.999993992244185,
+    "x1": 227.00000071443856,
+    "y1": 578.000003003878,
+    "x2": 393.9999992855612,
+    "y2": 617.9999969961221
+  },
+  "points": [
+    {
+      "x": 227.00000142887734,
+      "y": 578
+    },
+    {
+      "x": 394,
+      "y": 578.0000060077558
+    },
+    {
+      "x": 393.99999857112266,
+      "y": 618.0000000000002
+    },
+    {
+      "x": 227,
+      "y": 617.9999939922443
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999999,
+    "b": 3.597458544929476E-8,
+    "c": -3.572194174114636E-8,
+    "d": 1.0000000000000018,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999987,
+    "b": -3.597458544929463E-8,
+    "c": 3.5721941741146244E-8,
+    "d": 0.9999999999999969,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "bb02a6f0-4319-11ed-ab49-db2543beb80b",
+  "frameId": "bb02a6f0-4319-11ed-ab49-db2543beb80b",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "index": 4,
+  "hideInViewer": true,
+  "touched": [
+    "geometry-group",
+    "constraints-group"
+  ],
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "08597781-3fcd-11ed-af5c-6f8b44ab315b",
+  "showContent": true,
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "r3": 0,
+  "constraintsV": "bottom",
+  "constraintsH": "center",
+  "r1": 0,
+  "componentId": "08597781-3fcd-11ed-af5c-6f8b44ab315b",
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+  "shapes": [
+    "bb02a74d-4319-11ed-ab49-db2543beb80b",
+    "bb02a74e-4319-11ed-ab49-db2543beb80b"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ed9d0cd1-ebed-80d5-8008-c361b52cda7e",
+  "name": "Ellipse",
+  "type": "circle",
+  "x": 946.1993676352504,
+  "y": 785.6861037483133,
+  "width": 38,
+  "height": 50,
+  "rotation": 0,
+  "selrect": {
+    "x": 946.1993676352504,
+    "y": 785.6861037483133,
+    "width": 38,
+    "height": 50,
+    "x1": 946.1993676352504,
+    "y1": 785.6861037483133,
+    "x2": 984.1993676352504,
+    "y2": 835.6861037483133
+  },
+  "points": [
+    {
+      "x": 946.1993676352504,
+      "y": 785.6861037483133
+    },
+    {
+      "x": 984.1993676352504,
+      "y": 785.6861037483133
+    },
+    {
+      "x": 984.1993676352504,
+      "y": 835.6861037483133
+    },
+    {
+      "x": 946.1993676352504,
+      "y": 835.6861037483133
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ed9d0cd1-ebed-80d5-8008-c363b0d8fb74",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "hideInViewer": false,
+  "proportionLock": false,
+  "pageId": "d703399e-1cf8-8063-8008-cf899ce357b9",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 1,
+      "strokeColor": "#d97706",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6d199258c01",
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "strokeOpacity": 1
+    }
+  ],
+  "proportion": 1,
+  "shadow": [
+    {
+      "id": "ed9d0cd1-ebed-80d5-8008-c362c90e2707",
+      "style": "inner-shadow",
+      "color": {
+        "color": "#000000",
+        "opacity": 0.2
+      },
+      "offsetX": 4,
+      "offsetY": 4,
+      "blur": 4,
+      "spread": 0,
+      "hidden": false
+    }
+  ],
+  "fills": [
+    {
+      "fillColor": "#141313",
+      "fillOpacity": 0.6020800916758808
+    }
+  ]
+}

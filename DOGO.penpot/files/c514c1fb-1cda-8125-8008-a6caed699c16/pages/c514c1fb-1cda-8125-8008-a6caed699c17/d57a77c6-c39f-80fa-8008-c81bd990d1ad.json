@@ -1,0 +1,154 @@
+{
+  "id": "d57a77c6-c39f-80fa-8008-c81bd990d1ad",
+  "name": "My trips",
+  "type": "text",
+  "x": 350,
+  "y": -73,
+  "width": 53,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 350,
+    "y": -73,
+    "width": 53,
+    "height": 19,
+    "x1": 350,
+    "y1": -73,
+    "x2": 403,
+    "y2": -54
+  },
+  "points": [
+    {
+      "x": 350,
+      "y": -73
+    },
+    {
+      "x": 403,
+      "y": -73
+    },
+    {
+      "x": 403,
+      "y": -54
+    },
+    {
+      "x": 350,
+      "y": -54
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d57a77c6-c39f-80fa-8008-c81bd990d1a7",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "14",
+                "fontWeight": "300",
+                "textDirection": "ltr",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.2",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "My trips"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "dceen",
+            "fontSize": "14",
+            "fontWeight": "300",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.2",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "pageId": "c514c1fb-1cda-8125-8008-a6caed699c17",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 350,
+      "y": -55.66666543483734,
+      "width": 52.145835876464844,
+      "height": 18.666667938232422,
+      "x1": 0,
+      "y1": -1.3333333730697632,
+      "x2": 52.145835876464844,
+      "y2": 17.33333456516266,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.2px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "My trips"
+    }
+  ],
+  "strokes": [],
+  "blocked": false,
+  "fills": []
+}

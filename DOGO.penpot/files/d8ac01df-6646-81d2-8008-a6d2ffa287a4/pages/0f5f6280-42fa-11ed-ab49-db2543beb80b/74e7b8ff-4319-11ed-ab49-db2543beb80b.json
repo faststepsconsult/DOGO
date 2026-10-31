@@ -1,0 +1,103 @@
+{
+  "id": "74e7b8ff-4319-11ed-ab49-db2543beb80b",
+  "name": "Rect-18",
+  "type": "rect",
+  "x": 745.0000001621394,
+  "y": 268.0000009659518,
+  "width": 69.99999970079693,
+  "height": 39.99999808299765,
+  "rotation": 0,
+  "selrect": {
+    "x": 745.0000001621394,
+    "y": 268.0000009659518,
+    "width": 69.99999970079693,
+    "height": 39.99999808299765,
+    "x1": 745.0000001621394,
+    "y1": 268.0000009659518,
+    "x2": 814.9999998629363,
+    "y2": 307.99999904894946
+  },
+  "points": [
+    {
+      "x": 745.0000000126553,
+      "y": 268.0000000074506
+    },
+    {
+      "x": 814.9999997134524,
+      "y": 268.00000192444827
+    },
+    {
+      "x": 815.0000000124204,
+      "y": 308.0000000074506
+    },
+    {
+      "x": 745.0000003116216,
+      "y": 307.999998090453
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000022,
+    "b": 3.853122051994558E-8,
+    "c": -3.671382307042674E-9,
+    "d": 1.0000000000001177,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999979,
+    "b": -3.853122051994092E-8,
+    "c": 3.6713823070422184E-9,
+    "d": 0.9999999999998811,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "74e7b8eb-4319-11ed-ab49-db2543beb80b",
+  "frameId": "74e7b8eb-4319-11ed-ab49-db2543beb80b",
+  "flipX": null,
+  "flipY": null,
+  "rx": 4,
+  "growType": "fixed",
+  "index": null,
+  "touched": [
+    "geometry-group"
+  ],
+  "r2": 4,
+  "shapeRef": "ff725812-3fce-11ed-af5c-6f8b44ab315b",
+  "proportionLock": false,
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "r3": 4,
+  "constraintsH": "leftright",
+  "r1": 4,
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeWidth": 1
+    }
+  ],
+  "proportion": 1,
+  "shadow": [
+    {
+      "color": {
+        "color": "#000000",
+        "opacity": 0.2
+      },
+      "spread": 0,
+      "offsetY": 2,
+      "style": "drop-shadow",
+      "blur": 4,
+      "hidden": false,
+      "id": "9d21f0d1-3fd3-11ed-af5c-6f8b44ab315b",
+      "offsetX": 0
+    }
+  ],
+  "r4": 4,
+  "fills": [
+    {
+      "fillColor": "#ffffff",
+      "fillOpacity": 1
+    }
+  ],
+  "ry": 4
+}

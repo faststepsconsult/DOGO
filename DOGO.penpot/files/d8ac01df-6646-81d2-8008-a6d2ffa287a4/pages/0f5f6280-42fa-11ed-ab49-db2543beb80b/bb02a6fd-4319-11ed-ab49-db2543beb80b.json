@@ -1,0 +1,146 @@
+{
+  "id": "bb02a6fd-4319-11ed-ab49-db2543beb80b",
+  "name": "Text-108",
+  "type": "text",
+  "x": 169,
+  "y": 481,
+  "width": 279,
+  "height": 26,
+  "rotation": 0,
+  "selrect": {
+    "x": 169,
+    "y": 481,
+    "width": 279,
+    "height": 26,
+    "x1": 169,
+    "y1": 481,
+    "x2": 448,
+    "y2": 507
+  },
+  "points": [
+    {
+      "x": 169,
+      "y": 481
+    },
+    {
+      "x": 448,
+      "y": 481
+    },
+    {
+      "x": 448,
+      "y": 507
+    },
+    {
+      "x": 169,
+      "y": 507
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "bb02a6f0-4319-11ed-ab49-db2543beb80b",
+  "frameId": "bb02a6f0-4319-11ed-ab49-db2543beb80b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "7609c030-3fe3-11ed-af5c-6f8b44ab315b",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "18",
+                "fontWeight": "700",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Pick topics that interest you"
+              }
+            ],
+            "typographyRefId": "7609c030-3fe3-11ed-af5c-6f8b44ab315b",
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "gfont-inter",
+            "key": "61qf1",
+            "fontSize": "18",
+            "fontWeight": "700",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "constraintsV": "bottom",
+  "constraintsH": "center",
+  "positionData": [
+    {
+      "y": 502.3000030517578,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "900",
+      "width": 254,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 181.5,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 21,
+      "text": "Pick topics that interest you"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "91d021c3-417c-11ed-83ad-33109eb2c9d7",
+  "name": "Text-44",
+  "type": "text",
+  "x": 2365.000000056603,
+  "y": 283.00000016085824,
+  "width": 200.9999998867911,
+  "height": 50.9999996782837,
+  "rotation": 0,
+  "selrect": {
+    "x": 2365.000000056603,
+    "y": 283.00000016085824,
+    "width": 200.9999998867911,
+    "height": 50.9999996782837,
+    "x1": 2365.000000056603,
+    "y1": 283.00000016085824,
+    "x2": 2565.999999943394,
+    "y2": 333.99999983914194
+  },
+  "points": [
+    {
+      "x": 2365.000000113207,
+      "y": 283
+    },
+    {
+      "x": 2565.9999999999986,
+      "y": 283.00000032171647
+    },
+    {
+      "x": 2565.99999988679,
+      "y": 334
+    },
+    {
+      "x": 2364.9999999999986,
+      "y": 333.99999967828353
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000009,
+    "b": 0.0,
+    "c": -6.191917144393327E-10,
+    "d": 1.0000000000000007,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999991,
+    "b": 0.0,
+    "c": 6.191917144393305E-10,
+    "d": 0.9999999999999993,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "91d021c0-417c-11ed-83ad-33109eb2c9d7",
+  "frameId": "91d021c0-417c-11ed-83ad-33109eb2c9d7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "7609c030-3fe3-11ed-af5c-6f8b44ab315b",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "18",
+                "fontWeight": "700",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Apple's latest gadget has arrived"
+              }
+            ],
+            "typographyRefId": "7609c030-3fe3-11ed-af5c-6f8b44ab315b",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "3mhoa",
+            "fontSize": "18",
+            "fontWeight": "700",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "geometry-group"
+  ],
+  "shapeRef": "62278263-417c-11ed-83ad-33109eb2c9d7",
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 304.30000321261605,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "width": 190.8000030517578,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 2365.000000056603,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 21,
+      "text": "Apple's latest gadget "
+    },
+    {
+      "y": 326.8999940573426,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "width": 98.41667175292969,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 2365.000000056603,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 21,
+      "text": "has arrived"
+    }
+  ]
+}

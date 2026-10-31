@@ -1,0 +1,138 @@
+{
+  "id": "a21d8d11-4325-11ed-9816-f3fc5d16fe8f",
+  "name": "Text-3",
+  "type": "text",
+  "x": 238.0000003203749,
+  "y": 898.000001498528,
+  "width": 289.99999999999994,
+  "height": 19.00000000000002,
+  "rotation": 0,
+  "selrect": {
+    "x": 238.0000003203749,
+    "y": 898.000001498528,
+    "width": 289.99999999999994,
+    "height": 19.00000000000002,
+    "x1": 238.0000003203749,
+    "y1": 898.000001498528,
+    "x2": 528.0000003203749,
+    "y2": 917.000001498528
+  },
+  "points": [
+    {
+      "x": 238,
+      "y": 898
+    },
+    {
+      "x": 528,
+      "y": 898.0000029970561
+    },
+    {
+      "x": 528.0000006407499,
+      "y": 917.0000029970561
+    },
+    {
+      "x": 238.00000064074993,
+      "y": 917
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999998,
+    "b": -6.172263061599361E-9,
+    "c": 5.023061984638652E-8,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 6.172263061599361E-9,
+    "c": -5.023061984638652E-8,
+    "d": 0.9999999999999998,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fe2836e0-4326-11ed-ad86-ef2035d54397",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "12",
+                "fontWeight": "700",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Do what you want with these templates :)"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "3h10h",
+            "fontSize": "12",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "positionData": [
+    {
+      "y": 912.6999984467702,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "width": 242.46665954589844,
+      "textDecoration": "rgb(255, 255, 255)",
+      "letterSpacing": "normal",
+      "x": 238.0000003203749,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 15,
+      "text": "Do what you want with these templates :)"
+    }
+  ]
+}

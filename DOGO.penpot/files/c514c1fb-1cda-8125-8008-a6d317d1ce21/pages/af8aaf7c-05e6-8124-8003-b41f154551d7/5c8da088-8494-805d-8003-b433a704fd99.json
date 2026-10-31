@@ -1,0 +1,98 @@
+{
+  "id": "5c8da088-8494-805d-8003-b433a704fd99",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 266,
+    "y": 935.0000000000033,
+    "width": 18,
+    "height": 18,
+    "x1": 266,
+    "y1": 935.0000000000033,
+    "x2": 284,
+    "y2": 953.0000000000033
+  },
+  "points": [
+    {
+      "x": 266,
+      "y": 935.0000000000033
+    },
+    {
+      "x": 284,
+      "y": 935.0000000000033
+    },
+    {
+      "x": 284,
+      "y": 953.0000000000033
+    },
+    {
+      "x": 266,
+      "y": 953.0000000000033
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b433a702edbc",
+  "frameId": "5c8da088-8494-805d-8003-b433a702edbc",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M284.0,938.5L284.0,937.0C284.0,935.8954467773438,283.1045837402344,935.0,282.0,935.0L268.0,935.0C266.8954162597656,935.0,266.0,935.8954467773438,266.0,937.0L266.0,951.0C266.0,952.1045532226562,266.8954162597656,953.0,268.0,953.0L271.5,953.0",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "shapeRef": "5c8da088-8494-805d-8003-b542568dd61c",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 3,
+    "y": 4,
+    "width": 18,
+    "height": 18,
+    "x1": 3,
+    "y1": 4,
+    "x2": 21,
+    "y2": 22
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round"
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

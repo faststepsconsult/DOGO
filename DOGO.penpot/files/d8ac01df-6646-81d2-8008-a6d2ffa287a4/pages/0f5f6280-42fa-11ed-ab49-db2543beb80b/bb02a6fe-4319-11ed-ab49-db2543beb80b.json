@@ -1,0 +1,167 @@
+{
+  "id": "bb02a6fe-4319-11ed-ab49-db2543beb80b",
+  "name": "Text-109",
+  "type": "text",
+  "x": 192,
+  "y": 508,
+  "width": 234,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 192,
+    "y": 508,
+    "width": 234,
+    "height": 42,
+    "x1": 192,
+    "y1": 508,
+    "x2": 426,
+    "y2": 550
+  },
+  "points": [
+    {
+      "x": 192,
+      "y": 508
+    },
+    {
+      "x": 426,
+      "y": 508
+    },
+    {
+      "x": 426,
+      "y": 550
+    },
+    {
+      "x": 192,
+      "y": 550
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "bb02a6f0-4319-11ed-ab49-db2543beb80b",
+  "frameId": "bb02a6f0-4319-11ed-ab49-db2543beb80b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "8fc6bf60-3f1a-11ed-9fca-371df098cda5",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "12",
+                "fontWeight": "700",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "We'll add these to your daily feed. You can change topics any time."
+              }
+            ],
+            "typographyRefId": "8fc6bf60-3f1a-11ed-9fca-371df098cda5",
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "gfont-inter",
+            "key": "8rmiv",
+            "fontSize": "12",
+            "fontWeight": "700",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "constraintsV": "bottom",
+  "constraintsH": "center",
+  "positionData": [
+    {
+      "y": 523.8999938964844,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "width": 221,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 198.5,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 15,
+      "text": "We'll add these to your daily feed. You "
+    },
+    {
+      "y": 541.6999969482422,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "width": 158,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 230,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 15,
+      "text": "can change topics any time."
+    }
+  ]
+}

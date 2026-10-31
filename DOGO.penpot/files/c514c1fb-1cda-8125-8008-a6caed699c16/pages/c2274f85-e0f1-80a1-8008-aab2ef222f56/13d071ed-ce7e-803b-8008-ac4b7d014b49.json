@@ -1,0 +1,98 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-ac4b7d014b49",
+  "name": "base-background",
+  "type": "rect",
+  "x": 566.5038293952605,
+  "y": 244.16575627447483,
+  "width": 24.007816171993113,
+  "height": 24.007806879614947,
+  "rotation": null,
+  "selrect": {
+    "x": 566.5038293952605,
+    "y": 244.16575627447483,
+    "width": 24.007816171993113,
+    "height": 24.007806879614947,
+    "x1": 566.5038293952605,
+    "y1": 244.16575627447483,
+    "x2": 590.5116455672536,
+    "y2": 268.1735631540898
+  },
+  "points": [
+    {
+      "x": 566.5038293952605,
+      "y": 244.16575627447483
+    },
+    {
+      "x": 590.5038305038357,
+      "y": 244.1735620319755
+    },
+    {
+      "x": 590.5116455672536,
+      "y": 268.1735631540898
+    },
+    {
+      "x": 566.5116444586788,
+      "y": 268.16575739658913
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "13d071ed-ce7e-803b-8008-ac4b7d014b48",
+  "frameId": "13d071ed-ce7e-803b-8008-ac4b7d014b48",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinejoin": "round",
+    "strokeLinecap": "round",
+    "id": "base-background"
+  },
+  "touched": [
+    "stroke-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "5c8da088-8494-805d-8003-b54223e9e137",
+  "proportionLock": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "hidden": true,
+  "svgViewbox": {
+    "x": 0,
+    "y": 0,
+    "width": 24,
+    "height": 24,
+    "x1": 0,
+    "y1": 0,
+    "x2": 24,
+    "y2": 24
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 2,
+      "strokeColor": "#d97706",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6d199258c01",
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "fills": []
+}

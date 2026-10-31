@@ -1,0 +1,162 @@
+{
+  "id": "7cedfe4d-4ab6-8005-8008-a847e168ad9c",
+  "name": "Rider \/  Driver",
+  "type": "text",
+  "x": 420.5134662762432,
+  "y": 132,
+  "width": 101,
+  "height": 15.005752051173289,
+  "rotation": 0,
+  "selrect": {
+    "x": 420.5134662762432,
+    "y": 132,
+    "width": 101,
+    "height": 15.005752051173289,
+    "x1": 420.5134662762432,
+    "y1": 132,
+    "x2": 521.5134662762432,
+    "y2": 147.0057520511733
+  },
+  "points": [
+    {
+      "x": 420.5134662762432,
+      "y": 132
+    },
+    {
+      "x": 521.5134662762432,
+      "y": 132
+    },
+    {
+      "x": 521.5134662762432,
+      "y": 147.0057520511733
+    },
+    {
+      "x": 420.5134662762432,
+      "y": 147.0057520511733
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7cedfe4d-4ab6-8005-8008-a84d11cbd034",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbe51b4c50",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-sora",
+                "fontSize": "14",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T10:07:26.099Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.4",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Sora",
+                "text": "Rider \/  Driver"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbe51b4c50",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-sora",
+            "key": "e6igq",
+            "fontSize": "14",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-09-24T10:07:26.099Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.4",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Sora"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "pageId": "d57a77c6-c39f-80fa-8008-c923d6ccc9ff",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 420.5134662762432,
+      "y": 147,
+      "width": 100.52734375,
+      "height": 17.5,
+      "x1": 0,
+      "y1": -2.5,
+      "x2": 100.52734375,
+      "y2": 15,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.4px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Sora",
+      "text": "Rider \/  Driver"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": []
+}

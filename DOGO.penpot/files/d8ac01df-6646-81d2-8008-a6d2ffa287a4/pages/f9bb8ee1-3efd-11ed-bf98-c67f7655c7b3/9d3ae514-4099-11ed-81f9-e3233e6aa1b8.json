@@ -1,0 +1,166 @@
+{
+  "id": "9d3ae514-4099-11ed-81f9-e3233e6aa1b8",
+  "name": "h2-1",
+  "type": "text",
+  "x": 1016.0000000714681,
+  "y": 1029.0000010440212,
+  "width": 236.99999999698682,
+  "height": 41.99999985900433,
+  "rotation": 0,
+  "selrect": {
+    "x": 1016.0000000714681,
+    "y": 1029.0000010440212,
+    "width": 236.99999999698682,
+    "height": 41.99999985900433,
+    "x1": 1016.0000000714681,
+    "y1": 1029.0000010440212,
+    "x2": 1253.000000068455,
+    "y2": 1071.0000009030255
+  },
+  "points": [
+    {
+      "x": 1016,
+      "y": 1029
+    },
+    {
+      "x": 1252.9999999969868,
+      "y": 1029.0000020880425
+    },
+    {
+      "x": 1253.000000139923,
+      "y": 1071.0000019470472
+    },
+    {
+      "x": 1016.0000001429362,
+      "y": 1070.9999998590042
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999998,
+    "b": 8.728898132248298E-9,
+    "c": 3.4846490534763333E-9,
+    "d": 1.0000000000000002,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0000000000000002,
+    "b": -8.728898132248295E-9,
+    "c": -3.4846490534763358E-9,
+    "d": 0.9999999999999996,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "9d3ae510-4099-11ed-81f9-e3233e6aa1b8",
+  "frameId": "9d3ae510-4099-11ed-81f9-e3233e6aa1b8",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "8fc6bf60-3f1a-11ed-9fca-371df098cda5",
+                "textTransform": "none",
+                "textAlign": "center",
+                "fontId": "gfont-inter",
+                "fontSize": "12",
+                "fontWeight": "700",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Handpicked wonderfulness delivered every Thursday morning."
+              }
+            ],
+            "typographyRefId": "8fc6bf60-3f1a-11ed-9fca-371df098cda5",
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "gfont-inter",
+            "key": "577p2",
+            "fontSize": "12",
+            "fontWeight": "700",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsH": "center",
+  "positionData": [
+    {
+      "y": 1044.8999949405056,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "width": 221.76666259765625,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1023.61666877264,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 15,
+      "text": "Handpicked wonderfulness delivered "
+    },
+    {
+      "y": 1062.6999979922634,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "width": 147.23333740234375,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1060.8833313702962,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 15,
+      "text": "every Thursday morning."
+    }
+  ]
+}

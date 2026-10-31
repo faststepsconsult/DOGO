@@ -1,0 +1,144 @@
+{
+  "id": "de15f790-3fdc-11ed-af5c-6f8b44ab315b",
+  "name": "Text-12",
+  "type": "text",
+  "x": 1561.9999999999986,
+  "y": 500,
+  "width": 123,
+  "height": 17,
+  "rotation": 0,
+  "selrect": {
+    "x": 1561.9999999999986,
+    "y": 500,
+    "width": 123,
+    "height": 17,
+    "x1": 1561.9999999999986,
+    "y1": 500,
+    "x2": 1684.9999999999986,
+    "y2": 517
+  },
+  "points": [
+    {
+      "x": 1561.9999999999986,
+      "y": 500
+    },
+    {
+      "x": 1684.9999999999986,
+      "y": 500
+    },
+    {
+      "x": 1684.9999999999986,
+      "y": 517
+    },
+    {
+      "x": 1561.9999999999986,
+      "y": 517
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "760e4a80-3fd7-11ed-af5c-6f8b44ab315b",
+  "frameId": "760e4a80-3fd7-11ed-af5c-6f8b44ab315b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "7f85d820-409b-11ed-a06e-4923e583d58f",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "10",
+                "fontWeight": "400",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "in Music 2 days ago"
+              }
+            ],
+            "typographyRefId": "7f85d820-409b-11ed-a06e-4923e583d58f",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "ahkg4",
+            "fontSize": "10",
+            "fontWeight": "400",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "positionData": [
+    {
+      "y": 513,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "width": 93.56666564941406,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1561.9999999999986,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 12,
+      "text": "in Music 2 days ago"
+    }
+  ]
+}

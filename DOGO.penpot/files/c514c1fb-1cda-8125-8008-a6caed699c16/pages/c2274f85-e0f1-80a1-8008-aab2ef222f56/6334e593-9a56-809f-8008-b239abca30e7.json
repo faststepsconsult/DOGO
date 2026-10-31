@@ -1,0 +1,98 @@
+{
+  "id": "6334e593-9a56-809f-8008-b239abca30e7",
+  "name": "base-background",
+  "type": "rect",
+  "x": 90.47379032258061,
+  "y": 174.99999999999983,
+  "width": 24,
+  "height": 24,
+  "rotation": null,
+  "selrect": {
+    "x": 90.47379032258061,
+    "y": 174.99999999999983,
+    "width": 24,
+    "height": 24,
+    "x1": 90.47379032258061,
+    "y1": 174.99999999999983,
+    "x2": 114.47379032258061,
+    "y2": 198.99999999999983
+  },
+  "points": [
+    {
+      "x": 90.47379032258061,
+      "y": 174.99999999999983
+    },
+    {
+      "x": 114.47379032258061,
+      "y": 174.99999999999983
+    },
+    {
+      "x": 114.47379032258061,
+      "y": 198.99999999999983
+    },
+    {
+      "x": 90.47379032258061,
+      "y": 198.99999999999983
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "6334e593-9a56-809f-8008-b239abca30e6",
+  "frameId": "6334e593-9a56-809f-8008-b239abca30e6",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinejoin": "round",
+    "strokeLinecap": "round",
+    "id": "base-background"
+  },
+  "touched": [
+    "stroke-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "5c8da088-8494-805d-8003-b44c9b0211f4",
+  "proportionLock": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "hidden": true,
+  "svgViewbox": {
+    "x": 0,
+    "y": 0,
+    "width": 24,
+    "height": 24,
+    "x1": 0,
+    "y1": 0,
+    "x2": 24,
+    "y2": 24
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 2,
+      "strokeColor": "#d97706",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6d199258c01",
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "fills": []
+}

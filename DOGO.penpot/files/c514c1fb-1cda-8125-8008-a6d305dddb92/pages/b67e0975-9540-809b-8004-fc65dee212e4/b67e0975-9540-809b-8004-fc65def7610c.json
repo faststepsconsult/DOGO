@@ -1,0 +1,877 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65def7610c",
+  "name": "Video + Install Bib + Base",
+  "type": "text",
+  "x": 1723,
+  "y": 61,
+  "width": 1068,
+  "height": 691,
+  "rotation": 0,
+  "selrect": {
+    "x": 1723,
+    "y": 61,
+    "width": 1068,
+    "height": 691,
+    "x1": 1723,
+    "y1": 61,
+    "x2": 2791,
+    "y2": 752
+  },
+  "points": [
+    {
+      "x": 1723.0000000000257,
+      "y": 61.000009226578044
+    },
+    {
+      "x": 2790.9999999999745,
+      "y": 60.99999058646166
+    },
+    {
+      "x": 2790.9999999999745,
+      "y": 751.9999907734218
+    },
+    {
+      "x": 1723.0000000000257,
+      "y": 752.0000094135382
+    }
+  ],
+  "transform": {
+    "a": 0.999999999999952,
+    "b": -1.7453292495171654E-8,
+    "c": 4.61326040171432E-17,
+    "d": 1.0000000002705647,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0000000000000475,
+    "b": 1.7453292490450223E-8,
+    "c": -4.613258406357677E-17,
+    "d": 0.9999999997294351,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65deec83cc",
+  "frameId": "b67e0975-9540-809b-8004-fc65deec83cc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Video Tutorial: "
+              },
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "fills": [
+                  {
+                    "fillColor": "#008bfb",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "https:\/\/url.candide.media\/avataaars-for-penpot-tutorial"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "3d0s9",
+            "fontSize": "28",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "5vptf",
+            "fontSize": "28",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Install as a library"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "307pt",
+            "fontSize": "28",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "key": "17iuj",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "\t\u2022 \tOpen the file you would like to add avataaars to, or create a new one."
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "5fq4k",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": " \t\u2022 \tClick on the \"Assets\" icon at the bottom left."
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "7eugl",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": " \t\u2022 \tAt the top of the left panel, click on \"Libraries\"."
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "ato37",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": " \t\u2022 \tIn the \"Shared Libraries\", look for Avataaars. Hit the \"Add\" button."
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "38h3h",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": " \t\u2022 \tExit the dialog button, and return to the \"Assets\" panel."
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "3b2ha",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": " \t\u2022 \tExpand the \"Avataaars\" library to see its components."
+              }
+            ],
+            "fills": []
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "7f9vu",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Drag-and-drop in the base model"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "fg0m0",
+            "fontSize": "28",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "In the Components section of the \"Assets\" panel, click and drag in \"Body\/Skin\" component to start from scratch. If you would like a guide, select the component named \"Avataaar\"."
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "b4ush",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "8r39l",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "If you want your avataaar to be inside of a circle, select \"Avataaar + Circle\"."
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "4fnij",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "svgAttrs": {},
+  "pageId": "b67e0975-9540-809b-8004-fc65dee212e4",
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "opacity": 0.99,
+  "positionData": [
+    {
+      "y": 101.00002258938179,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "800",
+      "width": 219.0778834995931,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999964525081,
+      "text": "Video Tutorial: "
+    },
+    {
+      "y": 101.00002258938179,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "800",
+      "width": 810.9063412530968,
+      "textDecoration": "none solid rgb(0, 139, 251)",
+      "letterSpacing": "normal",
+      "x": 1942.0779282673466,
+      "fills": [
+        {
+          "fillColor": "#008bfb",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999964525081,
+      "text": "https:\/\/url.candide.media\/avataaars-for-penpot-tutorial"
+    },
+    {
+      "y": 145.00006670806602,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640597982867348,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 36.999994424899626,
+      "text": "\u00a0"
+    },
+    {
+      "y": 188.00007597844012,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "800",
+      "width": 259.5467589214636,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999964525081,
+      "text": "Install as a library"
+    },
+    {
+      "y": 233.00009019730578,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1019.3121791820936,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": "\t\u2022 \tOpen the file you would like to add avataaars to, or create a new one."
+    },
+    {
+      "y": 275.0000646193698,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 686.2498769100253,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": " \t\u2022 \tClick on the \"Assets\" icon at the bottom left."
+    },
+    {
+      "y": 317.00003904143387,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 720.3278530332486,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999964525081054,
+      "text": " \t\u2022 \tAt the top of the left panel, click on \"Libraries\"."
+    },
+    {
+      "y": 359.0000782116266,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 972.0154840888731,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": " \t\u2022 \tIn the \"Shared Libraries\", look for Avataaars. Hit the \"Add\" button."
+    },
+    {
+      "y": 401.00005263369053,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 834.624875771256,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99996452508094,
+      "text": " \t\u2022 \tExit the dialog button, and return to the \"Assets\" panel."
+    },
+    {
+      "y": 443.0000270557546,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 815.015516495127,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999964525081054,
+      "text": " \t\u2022 \tExpand the \"Avataaars\" library to see its components."
+    },
+    {
+      "y": 484.00003137763724,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640597982867348,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 36.99999442489968,
+      "text": "\u00a0"
+    },
+    {
+      "y": 527.0000406480113,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "800",
+      "width": 470.437371038789,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999964525081054,
+      "text": "Drag-and-drop in the base model"
+    },
+    {
+      "y": 572.000054866877,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1013.3278981319013,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": "In the Components section of the \"Assets\" panel, click and drag in \"Body\/Skin\""
+    },
+    {
+      "y": 572.000054866877,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2657760141128165,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2736.3279428996548,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": " "
+    },
+    {
+      "y": 617.0000043376139,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1050.3747054538762,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695225,
+      "text": "component to start from scratch. If you would like a guide, select the component"
+    },
+    {
+      "y": 617.0000043376139,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2657760141128165,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2773.3747502216297,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695225,
+      "text": " "
+    },
+    {
+      "y": 661.9999538083507,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 243.79664711044825,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695225,
+      "text": "named \"Avataaar\"."
+    },
+    {
+      "y": 706.0000626751637,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640597982867348,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 37.000059173028376,
+      "text": "\u00a0"
+    },
+    {
+      "y": 749.0000719455379,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 967.2028851762675,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1723.0000447677535,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": "If you want your avataaar to be inside of a circle, select \"Avataaar + Circle\"."
+    }
+  ],
+  "strokes": [],
+  "blocked": false,
+  "fills": []
+}

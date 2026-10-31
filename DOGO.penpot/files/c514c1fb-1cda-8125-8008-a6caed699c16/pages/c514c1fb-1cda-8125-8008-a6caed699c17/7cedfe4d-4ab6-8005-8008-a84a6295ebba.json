@@ -1,0 +1,162 @@
+{
+  "id": "7cedfe4d-4ab6-8005-8008-a84a6295ebba",
+  "name": "Amaka Nwosu",
+  "type": "text",
+  "x": 185.12155880647447,
+  "y": 342.3168266754598,
+  "width": 75,
+  "height": 15,
+  "rotation": 0,
+  "selrect": {
+    "x": 185.12155880647447,
+    "y": 342.3168266754598,
+    "width": 75,
+    "height": 15,
+    "x1": 185.12155880647447,
+    "y1": 342.3168266754598,
+    "x2": 260.12155880647447,
+    "y2": 357.3168266754598
+  },
+  "points": [
+    {
+      "x": 185.1215588064745,
+      "y": 342.3168266754598
+    },
+    {
+      "x": 260.12155880647447,
+      "y": 342.3168266754598
+    },
+    {
+      "x": 260.12155880647447,
+      "y": 357.3168266754598
+    },
+    {
+      "x": 185.1215588064745,
+      "y": 357.3168266754598
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7cedfe4d-4ab6-8005-8008-a84d11cbd034",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "11",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-10-12T08:12:46.575Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.5",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Amaka Nwosu"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "e8h7m",
+            "fontSize": "11",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-10-12T08:12:46.575Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.5",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "pageId": "c514c1fb-1cda-8125-8008-a6caed699c17",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 185.12155880647447,
+      "y": 356.76127085499473,
+      "width": 75,
+      "height": 15.55555534362793,
+      "x1": 0,
+      "y1": -1.1111111640930176,
+      "x2": 75,
+      "y2": 14.444444179534912,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "11px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.5px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Amaka Nwosu"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": []
+}

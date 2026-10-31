@@ -1,0 +1,124 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65df196738",
+  "name": "Default Eyes-\ud83d\ude00",
+  "type": "group",
+  "x": 2214.4999953705474,
+  "y": 961.973139094425,
+  "width": 64,
+  "height": 12,
+  "rotation": 0,
+  "selrect": {
+    "x": 2214.4999953705474,
+    "y": 961.973139094425,
+    "width": 64,
+    "height": 12,
+    "x1": 2214.4999953705474,
+    "y1": 961.973139094425,
+    "x2": 2278.4999953705474,
+    "y2": 973.973139094425
+  },
+  "points": [
+    {
+      "x": 2214.4999953705474,
+      "y": 961.973139094425
+    },
+    {
+      "x": 2278.4999953705474,
+      "y": 961.973139094425
+    },
+    {
+      "x": 2278.4999953705474,
+      "y": 973.973139094425
+    },
+    {
+      "x": 2214.4999953705474,
+      "y": 973.973139094425
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65df1642d6",
+  "frameId": "b67e0975-9540-809b-8004-fc65deec83cc",
+  "flipX": false,
+  "flipY": false,
+  "svgAttrs": {
+    "id": "shape-16459540-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#clip_7)"
+  },
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65dee212e4",
+  "constraintsV": "scale",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2294.0,
+    "f": 200.0
+  },
+  "constraintsH": "scale",
+  "svgViewbox": {
+    "x": 2315.9998683529952,
+    "y": 223.53266583011145,
+    "width": 64,
+    "height": 12,
+    "x1": 2315.9998683529952,
+    "y1": 223.53266583011145,
+    "x2": 2379.9998683529952,
+    "y2": 235.53266583011145
+  },
+  "svgDefs": {
+    "clip_7": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_7"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_7",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_7": {
+      "tag": "rect",
+      "attrs": {
+        "width": "112",
+        "height": "44",
+        "id": "artboard_7"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "blocked": false,
+  "proportion": 1,
+  "fills": [
+    {
+      "fillColor": "#000000",
+      "fillOpacity": 1
+    }
+  ],
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65df19d6d8",
+    "b67e0975-9540-809b-8004-fc65df1a9bf8"
+  ]
+}

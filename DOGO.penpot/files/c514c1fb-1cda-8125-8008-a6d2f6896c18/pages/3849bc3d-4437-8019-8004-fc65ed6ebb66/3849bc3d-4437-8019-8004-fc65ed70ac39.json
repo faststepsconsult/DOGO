@@ -1,0 +1,76 @@
+{
+  "id": "3849bc3d-4437-8019-8004-fc65ed70ac39",
+  "name": "Graphics \/ BG IMG \/ plants-bg-2.jpg",
+  "type": "frame",
+  "x": 1433.0,
+  "y": 4250.000041281068,
+  "width": 1321,
+  "height": 2000,
+  "rotation": 0,
+  "selrect": {
+    "x": 1433.0,
+    "y": 4250.000041281068,
+    "width": 1321,
+    "height": 2000,
+    "x1": 1433.0,
+    "y1": 4250.000041281068,
+    "x2": 2754.0,
+    "y2": 6250.000041281068
+  },
+  "points": [
+    {
+      "x": 1433.0,
+      "y": 4250.000041281068
+    },
+    {
+      "x": 2754.0,
+      "y": 4250.000041281068
+    },
+    {
+      "x": 2754.0,
+      "y": 6250.000041281068
+    },
+    {
+      "x": 1433.0,
+      "y": 6250.000041281068
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65ed7025c7",
+  "frameId": "3849bc3d-4437-8019-8004-fc65ed7025c7",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "componentRoot": true,
+  "proportionLock": true,
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "componentId": "3849bc3d-4437-8019-8004-fc65ed70ac3e",
+  "strokes": [],
+  "mainInstance": true,
+  "proportion": 0.6605,
+  "fills": [
+    {
+      "fillColor": "#FFFFFF",
+      "fillOpacity": 1
+    }
+  ],
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+  "shapes": [
+    "3849bc3d-4437-8019-8004-fc65ed70ac3b"
+  ]
+}

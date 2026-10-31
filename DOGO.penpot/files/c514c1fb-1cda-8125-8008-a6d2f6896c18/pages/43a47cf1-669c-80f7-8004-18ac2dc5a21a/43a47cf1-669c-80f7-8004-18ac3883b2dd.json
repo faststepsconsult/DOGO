@@ -1,0 +1,68 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac3883b2dd",
+  "name": "Search-input",
+  "type": "group",
+  "x": -859.1,
+  "y": 98,
+  "width": 306,
+  "height": 50,
+  "rotation": 0,
+  "selrect": {
+    "x": -859.1,
+    "y": 98,
+    "width": 306,
+    "height": 50,
+    "x1": -859.1,
+    "y1": 98,
+    "x2": -553.1,
+    "y2": 148
+  },
+  "points": [
+    {
+      "x": -859.1,
+      "y": 98
+    },
+    {
+      "x": -553.1,
+      "y": 98
+    },
+    {
+      "x": -553.1,
+      "y": 148
+    },
+    {
+      "x": -859.1,
+      "y": 148
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3882ffb4",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3882ffb4",
+  "flipX": false,
+  "flipY": false,
+  "shapeRef": "43a47cf1-669c-80f7-8004-18ac3883b2dc",
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "strokes": [],
+  "fills": [],
+  "shapes": [
+    "43a47cf1-669c-80f7-8004-18ac3883d881",
+    "43a47cf1-669c-80f7-8004-18ac38844ff1"
+  ]
+}

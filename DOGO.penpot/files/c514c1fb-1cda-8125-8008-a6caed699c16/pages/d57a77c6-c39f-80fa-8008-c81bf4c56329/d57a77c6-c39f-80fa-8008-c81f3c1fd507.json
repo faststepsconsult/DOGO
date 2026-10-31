@@ -1,0 +1,146 @@
+{
+  "id": "d57a77c6-c39f-80fa-8008-c81f3c1fd507",
+  "name": "Choose a trip to see where it is",
+  "type": "text",
+  "x": 208.00227161264047,
+  "y": 194,
+  "width": 177,
+  "height": 17,
+  "rotation": 0,
+  "selrect": {
+    "x": 208.00227161264047,
+    "y": 194,
+    "width": 177,
+    "height": 17,
+    "x1": 208.00227161264047,
+    "y1": 194,
+    "x2": 385.00227161264047,
+    "y2": 211
+  },
+  "points": [
+    {
+      "x": 208.00227161264047,
+      "y": 194
+    },
+    {
+      "x": 385.00227161264047,
+      "y": 194
+    },
+    {
+      "x": 385.00227161264047,
+      "y": 211
+    },
+    {
+      "x": 208.00227161264047,
+      "y": 211
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "00000000-0000-0000-0000-000000000000",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "sourcesanspro",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e9e9e9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "sourcesanspro",
+                "text": "Choose a trip to see where it is"
+              }
+            ],
+            "typographyRefId": null,
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "sourcesanspro",
+            "key": "12b3r",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "typographyRefFile": null,
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e9e9e9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "sourcesanspro"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "positionData": [
+    {
+      "x": 208.00227161264047,
+      "y": 211.33333456516266,
+      "width": 176.95834350585938,
+      "height": 18.666667938232422,
+      "x1": 0,
+      "y1": -1.3333333730697632,
+      "x2": 176.95834350585938,
+      "y2": 17.33333456516266,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#e9e9e9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "text": "Choose a trip to see where it is"
+    }
+  ],
+  "blocked": true,
+  "pageId": "d57a77c6-c39f-80fa-8008-c81bf4c56329"
+}

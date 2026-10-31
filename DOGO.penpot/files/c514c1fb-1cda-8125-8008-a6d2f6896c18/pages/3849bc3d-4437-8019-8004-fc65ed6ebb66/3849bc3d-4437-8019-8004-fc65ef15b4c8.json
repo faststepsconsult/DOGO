@@ -1,0 +1,82 @@
+{
+  "id": "3849bc3d-4437-8019-8004-fc65ef15b4c8",
+  "name": "Graphics \/ ICONS \/ 129__steering wheel.svg",
+  "type": "group",
+  "x": 680.0,
+  "y": 10030.0,
+  "width": 40.0,
+  "height": 40.0,
+  "rotation": 0,
+  "selrect": {
+    "x": 680.0,
+    "y": 10030.0,
+    "width": 40.0,
+    "height": 40.0,
+    "x1": 680.0,
+    "y1": 10030.0,
+    "x2": 720.0,
+    "y2": 10070.0
+  },
+  "points": [
+    {
+      "x": 680.0,
+      "y": 10030.0
+    },
+    {
+      "x": 720.0,
+      "y": 10030.0
+    },
+    {
+      "x": 720.0,
+      "y": 10070.0
+    },
+    {
+      "x": 680.0,
+      "y": 10070.0
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65ef1634ff",
+  "frameId": "3849bc3d-4437-8019-8004-fc65ef1634ff",
+  "flipX": null,
+  "flipY": null,
+  "svgAttrs": {
+    "xmlSpace": "preserve"
+  },
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "strokes": [],
+  "proportion": 1.0,
+  "fills": [],
+  "shapes": [
+    "3849bc3d-4437-8019-8004-fc65ef15c0a1",
+    "3849bc3d-4437-8019-8004-fc65ef15c0a2",
+    "3849bc3d-4437-8019-8004-fc65ef15c0a3",
+    "3849bc3d-4437-8019-8004-fc65ef15c0a4",
+    "3849bc3d-4437-8019-8004-fc65ef15c0a5",
+    "3849bc3d-4437-8019-8004-fc65ef15c0a6",
+    "3849bc3d-4437-8019-8004-fc65ef15c0a7",
+    "3849bc3d-4437-8019-8004-fc65ef15c0a8",
+    "3849bc3d-4437-8019-8004-fc65ef15c0a9",
+    "3849bc3d-4437-8019-8004-fc65ef15c0aa",
+    "3849bc3d-4437-8019-8004-fc65ef1634fc",
+    "3849bc3d-4437-8019-8004-fc65ef1634fd"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "137abc6b-957b-80d8-8008-c1e390b203b5",
+  "name": "Rectangle",
+  "type": "rect",
+  "x": -170,
+  "y": 3,
+  "width": 1440,
+  "height": 65,
+  "rotation": 0,
+  "selrect": {
+    "x": -170,
+    "y": 3,
+    "width": 1440,
+    "height": 65,
+    "x1": -170,
+    "y1": 3,
+    "x2": 1270,
+    "y2": 68
+  },
+  "points": [
+    {
+      "x": -170,
+      "y": 3
+    },
+    {
+      "x": 1270,
+      "y": 3
+    },
+    {
+      "x": 1270,
+      "y": 68
+    },
+    {
+      "x": -170,
+      "y": 68
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "137abc6b-957b-80d8-8008-c1e390b203b4",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "hideInViewer": false,
+  "r2": 0,
+  "proportionLock": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "r3": 0,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 0,
+  "hidden": false,
+  "opacity": 0.4,
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 1,
+      "strokeColor": "#64748b",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6d166b3b15a",
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "shadow": [
+    {
+      "id": "7cedfe4d-4ab6-8005-8008-a85260069348",
+      "style": "drop-shadow",
+      "color": {
+        "color": "#000000",
+        "opacity": 0.2
+      },
+      "offsetX": 4,
+      "offsetY": 4,
+      "blur": 4,
+      "spread": 0,
+      "hidden": false
+    }
+  ],
+  "r4": 0,
+  "fills": [
+    {
+      "fillColor": "#000000",
+      "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbc41f753e",
+      "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "fillOpacity": 1
+    }
+  ]
+}

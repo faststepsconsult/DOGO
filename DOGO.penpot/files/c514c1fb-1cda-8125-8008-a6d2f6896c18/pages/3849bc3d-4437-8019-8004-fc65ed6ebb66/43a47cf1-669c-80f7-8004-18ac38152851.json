@@ -1,0 +1,115 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac38152851",
+  "name": "Text-45",
+  "type": "text",
+  "x": 519.3048852636693,
+  "y": 3885.0000359355104,
+  "width": 212,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 519.3048852636693,
+    "y": 3885.0000359355104,
+    "width": 212,
+    "height": 18,
+    "x1": 519.3048852636693,
+    "y1": 3885.0000359355104,
+    "x2": 731.3048852636693,
+    "y2": 3903.0000359355104
+  },
+  "points": [
+    {
+      "x": 519.3048852636693,
+      "y": 3885.0000359355104
+    },
+    {
+      "x": 731.3048852636693,
+      "y": 3885.0000359355104
+    },
+    {
+      "x": 731.3048852636693,
+      "y": 3903.0000359355104
+    },
+    {
+      "x": 519.3048852636693,
+      "y": 3903.0000359355104
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3814e683",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3814e683",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "43a47cf1-669c-80f7-8004-18ac38152852",
+                "textTransform": "none",
+                "fontId": "gfont-work-sans",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+                "fontVariantId": "regular",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b1b2b5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Street, Number, Country"
+              }
+            ],
+            "typographyRefId": "43a47cf1-669c-80f7-8004-18ac38152852",
+            "textTransform": "none",
+            "fontId": "gfont-work-sans",
+            "key": "ae99r",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "letterSpacing": "0",
+            "fills": [],
+            "fontFamily": "Work Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "strokes": [],
+  "fills": []
+}

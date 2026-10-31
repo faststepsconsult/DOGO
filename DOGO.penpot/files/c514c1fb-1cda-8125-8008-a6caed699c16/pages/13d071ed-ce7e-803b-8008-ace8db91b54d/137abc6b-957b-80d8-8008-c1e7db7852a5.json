@@ -1,0 +1,79 @@
+{
+  "id": "137abc6b-957b-80d8-8008-c1e7db7852a5",
+  "name": "Graphics \/ ICONS \/ 012__circle_arrow_right.svg",
+  "type": "frame",
+  "x": 529,
+  "y": 654,
+  "width": 40,
+  "height": 40,
+  "rotation": 0,
+  "selrect": {
+    "x": 529,
+    "y": 654,
+    "width": 40,
+    "height": 40,
+    "x1": 529,
+    "y1": 654,
+    "x2": 569,
+    "y2": 694
+  },
+  "points": [
+    {
+      "x": 529,
+      "y": 654
+    },
+    {
+      "x": 569,
+      "y": 654
+    },
+    {
+      "x": 569,
+      "y": 694
+    },
+    {
+      "x": 529,
+      "y": 694
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "137abc6b-957b-80d8-8008-c20f1ed234e3",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "hideInViewer": true,
+  "touched": [
+    "modifiable-group"
+  ],
+  "componentRoot": true,
+  "shapeRef": "3849bc3d-4437-8019-8004-fc65ed80ba79",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "13d071ed-ce7e-803b-8008-ace8db91b54d",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "componentId": "3849bc3d-4437-8019-8004-fc65ed80fc25",
+  "strokes": [],
+  "blocked": true,
+  "proportion": 1,
+  "fills": [],
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+  "shapes": [
+    "137abc6b-957b-80d8-8008-c1e7db7852a6"
+  ]
+}

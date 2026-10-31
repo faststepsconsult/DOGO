@@ -1,0 +1,244 @@
+{
+  "id": "7cedfe4d-4ab6-8005-8008-a8482727606f",
+  "name": "Book  a Taxi or Tricycle\nride, or send a package.",
+  "type": "text",
+  "x": 171.25868933101026,
+  "y": 151.05790398181108,
+  "width": 129,
+  "height": 29,
+  "rotation": 0,
+  "selrect": {
+    "x": 171.25868933101026,
+    "y": 151.05790398181108,
+    "width": 129,
+    "height": 29,
+    "x1": 171.25868933101026,
+    "y1": 151.05790398181108,
+    "x2": 300.25868933101026,
+    "y2": 180.05790398181108
+  },
+  "points": [
+    {
+      "x": 171.2586893310103,
+      "y": 151.05790398181108
+    },
+    {
+      "x": 300.25868933101026,
+      "y": 151.05790398181108
+    },
+    {
+      "x": 300.25868933101026,
+      "y": 180.05790398181108
+    },
+    {
+      "x": 171.2586893310103,
+      "y": 180.05790398181108
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7cedfe4d-4ab6-8005-8008-a84d11cbd034",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "11",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-10-12T08:12:46.575Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.5",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Book  a Taxi or Tricycle"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "83pl1",
+            "fontSize": "11",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-10-12T08:12:46.575Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.5",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          },
+          {
+            "lineHeight": "1.3",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "11",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-10-12T08:12:46.575Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.5",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "ride, or send a package."
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "ao1b5",
+            "fontSize": "11",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-10-12T08:12:46.575Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.5",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 171.25868933101026,
+      "y": 165.502348161346,
+      "width": 121.92708587646484,
+      "height": 15.55555534362793,
+      "x1": 0,
+      "y1": -1.1111111640930176,
+      "x2": 121.92708587646484,
+      "y2": 14.444444179534912,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "11px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.5px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Book  a Taxi or Tricycle"
+    },
+    {
+      "x": 171.25868933101026,
+      "y": 179.80790779650835,
+      "width": 128.28125,
+      "height": 15.555559158325195,
+      "x1": 0,
+      "y1": 13.19444465637207,
+      "x2": 128.28125,
+      "y2": 28.750003814697266,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "11px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.5px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "ride, or send a package."
+    }
+  ],
+  "blocked": true,
+  "pageId": "c514c1fb-1cda-8125-8008-a6caed699c17"
+}

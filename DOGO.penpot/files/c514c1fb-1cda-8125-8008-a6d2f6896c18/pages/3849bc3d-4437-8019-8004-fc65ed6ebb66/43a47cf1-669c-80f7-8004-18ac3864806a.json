@@ -1,0 +1,93 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac3864806a",
+  "name": "Text-26",
+  "type": "text",
+  "x": 322.00000037401367,
+  "y": 3718.0000373104435,
+  "width": 57,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 322.00000037401367,
+    "y": 3718.0000373104435,
+    "width": 57,
+    "height": 22,
+    "x1": 322.00000037401367,
+    "y1": 3718.0000373104435,
+    "x2": 379.00000037401367,
+    "y2": 3740.0000373104435
+  },
+  "points": [
+    {
+      "x": 321.9999997980555,
+      "y": 3718.0000378078626
+    },
+    {
+      "x": 378.9999997980545,
+      "y": 3718.000036813025
+    },
+    {
+      "x": 379.00000094997176,
+      "y": 3740.0000368130245
+    },
+    {
+      "x": 322.0000009499728,
+      "y": 3740.000037807862
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999826,
+    "b": -1.745329251994291E-8,
+    "c": 5.235987722367199E-8,
+    "d": 0.9999999999999633,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0000000000000164,
+    "b": 1.7453292519943864E-8,
+    "c": -5.235987722367479E-8,
+    "d": 1.0000000000000349,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3863ffd9",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3863ffd9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "textAlign": "right",
+            "key": "ae99r",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "18",
+                "fontWeight": "700",
+                "fontVariantId": "700",
+                "fontFamily": "Work Sans",
+                "text": "11,99\u20ac",
+                "fills": []
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "top",
+  "constraintsH": "right",
+  "strokes": [],
+  "fills": []
+}

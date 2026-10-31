@@ -1,0 +1,161 @@
+{
+  "id": "ed9d0cd1-ebed-80d5-8008-c363345e0332",
+  "name": "Paid with DOGO Wallet",
+  "type": "text",
+  "x": 665.1067395536206,
+  "y": 877.6311427076308,
+  "width": 122,
+  "height": 15,
+  "rotation": 0,
+  "selrect": {
+    "x": 665.1067395536206,
+    "y": 877.6311427076308,
+    "width": 122,
+    "height": 15,
+    "x1": 665.1067395536206,
+    "y1": 877.6311427076308,
+    "x2": 787.1067395536206,
+    "y2": 892.6311427076308
+  },
+  "points": [
+    {
+      "x": 665.1067395536206,
+      "y": 877.6311427076308
+    },
+    {
+      "x": 787.1067395536206,
+      "y": 877.6311427076308
+    },
+    {
+      "x": 787.1067395536206,
+      "y": 892.6311427076308
+    },
+    {
+      "x": 665.1067395536206,
+      "y": 892.6311427076308
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ed9d0cd1-ebed-80d5-8008-c3640cfd3fa1",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "11",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-10-12T08:12:46.575Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.5",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Paid with DOGO Wallet"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "b5lij",
+            "fontSize": "11",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-10-12T08:12:46.575Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.5",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "pageId": "d703399e-1cf8-8063-8008-cf899ce357b9",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 665.1067395536206,
+      "y": 892.0755868871657,
+      "width": 121.26736450195312,
+      "height": 15.55555534362793,
+      "x1": 0,
+      "y1": -1.1111111640930176,
+      "x2": 121.26736450195312,
+      "y2": 14.444444179534912,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "11px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.5px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Paid with DOGO Wallet"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

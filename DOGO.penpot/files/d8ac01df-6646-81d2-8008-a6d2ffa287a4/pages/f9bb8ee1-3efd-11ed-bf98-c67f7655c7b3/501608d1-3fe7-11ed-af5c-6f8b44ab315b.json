@@ -1,0 +1,142 @@
+{
+  "id": "501608d1-3fe7-11ed-af5c-6f8b44ab315b",
+  "name": "Text-30",
+  "type": "text",
+  "x": 643.9999999999982,
+  "y": 465,
+  "width": 155,
+  "height": 17,
+  "rotation": 0,
+  "selrect": {
+    "x": 643.9999999999982,
+    "y": 465,
+    "width": 155,
+    "height": 17,
+    "x1": 643.9999999999982,
+    "y1": 465,
+    "x2": 798.9999999999982,
+    "y2": 482
+  },
+  "points": [
+    {
+      "x": 643.9999999999982,
+      "y": 465
+    },
+    {
+      "x": 798.9999999999982,
+      "y": 465
+    },
+    {
+      "x": 798.9999999999982,
+      "y": 482
+    },
+    {
+      "x": 643.9999999999982,
+      "y": 482
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fa15fa20-3fdd-11ed-af5c-6f8b44ab315b",
+  "frameId": "fa15fa20-3fdd-11ed-af5c-6f8b44ab315b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "10",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6a6a6a",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "DanCarlinFan \/ 2.5k views"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "ahkg4",
+            "fontSize": "10",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6a6a6a",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsH": "left",
+  "opacity": 1,
+  "positionData": [
+    {
+      "y": 478,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "width": 122.53334045410156,
+      "textDecoration": "rgb(106, 106, 106)",
+      "letterSpacing": "normal",
+      "x": 643.9999999999982,
+      "fills": [
+        {
+          "fillColor": "#6a6a6a",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 12,
+      "text": "DanCarlinFan \/ 2.5k views"
+    }
+  ]
+}

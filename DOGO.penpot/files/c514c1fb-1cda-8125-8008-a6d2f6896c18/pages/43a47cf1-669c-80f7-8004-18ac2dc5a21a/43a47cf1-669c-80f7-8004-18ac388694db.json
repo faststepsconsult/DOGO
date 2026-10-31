@@ -1,0 +1,68 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac388694db",
+  "name": "Tag-1",
+  "type": "group",
+  "x": -770.1,
+  "y": 160,
+  "width": 79,
+  "height": 30,
+  "rotation": 0,
+  "selrect": {
+    "x": -770.1,
+    "y": 160,
+    "width": 79,
+    "height": 30,
+    "x1": -770.1,
+    "y1": 160,
+    "x2": -691.1,
+    "y2": 190
+  },
+  "points": [
+    {
+      "x": -770.1,
+      "y": 160
+    },
+    {
+      "x": -691.1,
+      "y": 160
+    },
+    {
+      "x": -691.1,
+      "y": 190
+    },
+    {
+      "x": -770.1,
+      "y": 190
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3882ffb4",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3882ffb4",
+  "flipX": false,
+  "flipY": false,
+  "shapeRef": "43a47cf1-669c-80f7-8004-18ac38864b3b",
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "strokes": [],
+  "fills": [],
+  "shapes": [
+    "43a47cf1-669c-80f7-8004-18ac3886f9ff",
+    "43a47cf1-669c-80f7-8004-18ac38882c13"
+  ]
+}

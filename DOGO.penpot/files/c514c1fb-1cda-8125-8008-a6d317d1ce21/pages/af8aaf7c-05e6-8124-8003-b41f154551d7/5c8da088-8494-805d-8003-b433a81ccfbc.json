@@ -1,0 +1,98 @@
+{
+  "id": "5c8da088-8494-805d-8003-b433a81ccfbc",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 668.5000000000002,
+    "y": 935.0000000000032,
+    "width": 12.5,
+    "height": 12.5,
+    "x1": 668.5000000000002,
+    "y1": 935.0000000000032,
+    "x2": 681.0000000000002,
+    "y2": 947.5000000000032
+  },
+  "points": [
+    {
+      "x": 668.5000000000002,
+      "y": 935.0000000000032
+    },
+    {
+      "x": 681.0000000000002,
+      "y": 935.0000000000032
+    },
+    {
+      "x": 681.0000000000002,
+      "y": 947.5000000000032
+    },
+    {
+      "x": 668.5000000000002,
+      "y": 947.5000000000032
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b433a818bcdb",
+  "frameId": "5c8da088-8494-805d-8003-b433a818bcdb",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M668.5,935.0L673.5,935.0L676.0,938.0L679.0,938.0C680.1045532226562,938.0,681.0,938.8954467773438,681.0,940.0L681.0,947.5",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "shapeRef": "5c8da088-8494-805d-8003-b54228e2462d",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 9.5,
+    "y": 4,
+    "width": 12.5,
+    "height": 12.5,
+    "x1": 9.5,
+    "y1": 4,
+    "x2": 22.0,
+    "y2": 16.5
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round"
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

@@ -1,0 +1,129 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e2b40f32",
+  "name": "Facial Hair \/ Light Beard",
+  "type": "frame",
+  "x": -59.999949705491524,
+  "y": -2120,
+  "width": 113.99989935232952,
+  "height": 89,
+  "rotation": 0,
+  "selrect": {
+    "x": -59.999949705491524,
+    "y": -2120,
+    "width": 113.99989935232952,
+    "height": 89,
+    "x1": -59.999949705491524,
+    "y1": -2120,
+    "x2": 53.999949646838,
+    "y2": -2031
+  },
+  "points": [
+    {
+      "x": -59.999949705491524,
+      "y": -2120
+    },
+    {
+      "x": 53.999949646838,
+      "y": -2120
+    },
+    {
+      "x": 53.999949646838,
+      "y": -2031
+    },
+    {
+      "x": -59.999949705491524,
+      "y": -2031
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e2af834c",
+  "frameId": "b67e0975-9540-809b-8004-fc65e2af834c",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-17650f00-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#clip_8)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65dd863426",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2566.0,
+    "f": 0.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2591.999983482246,
+    "y": 26,
+    "width": 113.99979199999999,
+    "height": 89,
+    "x1": 2591.999983482246,
+    "y1": 26,
+    "x2": 2705.999775482246,
+    "y2": 115
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65dd863426",
+  "svgDefs": {
+    "clip_8": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_8"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_8",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_8": {
+      "tag": "rect",
+      "attrs": {
+        "width": "168",
+        "height": "152",
+        "id": "artboard_8"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65e2b4e70b"
+  ]
+}

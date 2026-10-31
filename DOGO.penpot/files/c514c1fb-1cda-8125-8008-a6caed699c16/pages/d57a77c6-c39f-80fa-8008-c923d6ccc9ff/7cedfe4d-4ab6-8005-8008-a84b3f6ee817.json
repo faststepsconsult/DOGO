@@ -1,0 +1,163 @@
+{
+  "id": "7cedfe4d-4ab6-8005-8008-a84b3f6ee817",
+  "name": "Continue as Rider\/ Driver",
+  "type": "text",
+  "x": 328,
+  "y": 609,
+  "width": 140.00000000000006,
+  "height": 15,
+  "rotation": 0,
+  "selrect": {
+    "x": 328,
+    "y": 609,
+    "width": 140.00000000000006,
+    "height": 15,
+    "x1": 328,
+    "y1": 609,
+    "x2": 468.00000000000006,
+    "y2": 624
+  },
+  "points": [
+    {
+      "x": 328,
+      "y": 609
+    },
+    {
+      "x": 468.00000000000006,
+      "y": 609
+    },
+    {
+      "x": 468.00000000000006,
+      "y": 624
+    },
+    {
+      "x": 328,
+      "y": 624
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7cedfe4d-4ab6-8005-8008-a84d11cbd034",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "lastResizeDirection": "horizontal",
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "11",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-10-12T08:12:46.575Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.5",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Continue as Rider\/ Driver"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "e8h7m",
+            "fontSize": "11",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-10-12T08:12:46.575Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.5",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "pageId": "d57a77c6-c39f-80fa-8008-c923d6ccc9ff",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 328,
+      "y": 622.3333336114883,
+      "width": 136.20834350585938,
+      "height": 14.666666984558105,
+      "x1": 0,
+      "y1": -1.3333333730697632,
+      "x2": 136.20834350585938,
+      "y2": 13.333333611488342,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "11px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.5px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Continue as Rider\/ Driver"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": []
+}

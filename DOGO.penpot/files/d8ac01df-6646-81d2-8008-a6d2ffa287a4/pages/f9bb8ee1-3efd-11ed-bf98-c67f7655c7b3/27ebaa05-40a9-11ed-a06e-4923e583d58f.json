@@ -1,0 +1,145 @@
+{
+  "id": "27ebaa05-40a9-11ed-a06e-4923e583d58f",
+  "name": "h1-3",
+  "type": "text",
+  "x": 1503.0000000284226,
+  "y": 1329.0000005254078,
+  "width": 192.0000000000009,
+  "height": 30.000000000000004,
+  "rotation": 0,
+  "selrect": {
+    "x": 1503.0000000284226,
+    "y": 1329.0000005254078,
+    "width": 192.0000000000009,
+    "height": 30.000000000000004,
+    "x1": 1503.0000000284226,
+    "y1": 1329.0000005254078,
+    "x2": 1695.0000000284235,
+    "y2": 1359.0000005254078
+  },
+  "points": [
+    {
+      "x": 1503.0000000568457,
+      "y": 1329
+    },
+    {
+      "x": 1695.0000000568466,
+      "y": 1329.0000010508152
+    },
+    {
+      "x": 1695.0000000000014,
+      "y": 1359.0000010508152
+    },
+    {
+      "x": 1502.9999999999995,
+      "y": 1359
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999994,
+    "b": 3.992754108177465E-9,
+    "c": -4.146311066588674E-10,
+    "d": 1.0000000000000002,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0000000000000002,
+    "b": -3.992754108177467E-9,
+    "c": 4.1463110665887236E-10,
+    "d": 0.9999999999999997,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "27ebaa00-40a9-11ed-a06e-4923e583d58f",
+  "frameId": "27ebaa00-40a9-11ed-a06e-4923e583d58f",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "index": null,
+  "content": {
+    "verticalAlign": "bottom",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "3e22dde0-3f1c-11ed-98a6-257602bef775",
+                "textTransform": "none",
+                "textAlign": "center",
+                "fontId": "gfont-inter",
+                "fontSize": "24",
+                "fontWeight": "900",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "900",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Open Your Mind"
+              }
+            ],
+            "typographyRefId": "3e22dde0-3f1c-11ed-98a6-257602bef775",
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "gfont-inter",
+            "key": "8bdms",
+            "fontSize": "24",
+            "fontWeight": "900",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "900",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsH": "center",
+  "positionData": [
+    {
+      "y": 1357.6000066289234,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "900",
+      "width": 190.73333740234375,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1503.0000000284226,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 29,
+      "text": "Open Your Mind"
+    }
+  ]
+}

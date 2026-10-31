@@ -1,0 +1,162 @@
+{
+  "id": "137abc6b-957b-80d8-8008-c20c2bb65db0",
+  "name": "Help & support",
+  "type": "text",
+  "x": 767.6803890016336,
+  "y": 567.8968408612358,
+  "width": 112,
+  "height": 14,
+  "rotation": 0,
+  "selrect": {
+    "x": 767.6803890016336,
+    "y": 567.8968408612358,
+    "width": 112,
+    "height": 14,
+    "x1": 767.6803890016336,
+    "y1": 567.8968408612358,
+    "x2": 879.6803890016336,
+    "y2": 581.8968408612358
+  },
+  "points": [
+    {
+      "x": 767.6803890016336,
+      "y": 567.8968408612358
+    },
+    {
+      "x": 879.6803890016336,
+      "y": 567.8968408612358
+    },
+    {
+      "x": 879.6803890016336,
+      "y": 581.8968408612358
+    },
+    {
+      "x": 767.6803890016336,
+      "y": 581.8968408612358
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "a828e1c1-4487-80b9-8008-affbbf568185",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbe51b4c50",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-sora",
+                "fontSize": "14",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T10:08:17.422Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.4",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Sora",
+                "text": "Help & support"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbe51b4c50",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-sora",
+            "key": "bo4dp",
+            "fontSize": "14",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-09-24T10:08:17.422Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.4",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Sora"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "pageId": "13d071ed-ce7e-803b-8008-ace8db91b54d",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 767.6803890016336,
+      "y": 583.452397158538,
+      "width": 111.0763931274414,
+      "height": 17.77777862548828,
+      "x1": 0,
+      "y1": -2.222222328186035,
+      "x2": 111.0763931274414,
+      "y2": 15.555556297302246,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.4px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Sora",
+      "text": "Help & support"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": []
+}

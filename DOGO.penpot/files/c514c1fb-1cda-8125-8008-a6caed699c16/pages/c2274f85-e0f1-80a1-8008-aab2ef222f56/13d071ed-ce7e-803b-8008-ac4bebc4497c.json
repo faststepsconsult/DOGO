@@ -1,0 +1,108 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-ac4bebc4497c",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": 0,
+  "selrect": {
+    "x": 879.5765224430519,
+    "y": 851,
+    "width": 1,
+    "height": 1,
+    "x1": 879.5765224430519,
+    "y1": 851,
+    "x2": 880.5765224430519,
+    "y2": 852
+  },
+  "points": [
+    {
+      "x": 879.5765224430519,
+      "y": 851
+    },
+    {
+      "x": 880.5765224430519,
+      "y": 851
+    },
+    {
+      "x": 880.5765224430519,
+      "y": 852
+    },
+    {
+      "x": 879.5765224430519,
+      "y": 852
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "13d071ed-ce7e-803b-8008-ac4bebc42b88",
+  "frameId": "13d071ed-ce7e-803b-8008-ac4bebc42b88",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M879.5765991210938,851.0L880.5775756835938,851.0",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "touched": [
+    "stroke-group",
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "5c8da088-8494-805d-8003-b551af77941f",
+  "proportionLock": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 12,
+    "y": 18,
+    "width": 0.01,
+    "height": 0.01,
+    "x1": 12,
+    "y1": 18,
+    "x2": 12.01,
+    "y2": 18.01
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeCapStart": "round",
+      "strokeStyle": "solid",
+      "strokeColor": "#ffffff",
+      "strokeOpacity": 1,
+      "strokeAlignment": "inner",
+      "strokeCapEnd": "round",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+      "strokeWidth": 2,
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16"
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "fills": []
+}

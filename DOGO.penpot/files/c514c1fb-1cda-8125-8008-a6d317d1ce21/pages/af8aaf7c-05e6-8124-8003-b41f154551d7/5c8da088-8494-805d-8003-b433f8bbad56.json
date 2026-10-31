@@ -1,0 +1,98 @@
+{
+  "id": "5c8da088-8494-805d-8003-b433f8bbad56",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 535.8999999999996,
+    "y": 1733.5000000000118,
+    "width": 0.1000000000003638,
+    "height": 3,
+    "x1": 535.8999999999996,
+    "y1": 1733.5000000000118,
+    "x2": 536.0,
+    "y2": 1736.5000000000118
+  },
+  "points": [
+    {
+      "x": 535.8999999999996,
+      "y": 1733.5000000000118
+    },
+    {
+      "x": 536,
+      "y": 1733.5000000000118
+    },
+    {
+      "x": 536,
+      "y": 1736.5000000000118
+    },
+    {
+      "x": 535.8999999999996,
+      "y": 1736.5000000000118
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b433f8af5fa9",
+  "frameId": "5c8da088-8494-805d-8003-b433f8af5fa9",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M535.9000244140625,1736.5C536.0,1736.0,536.0,1735.5,536.0,1735.0C536.0,1734.5,535.9000244140625,1734.0,535.9000244140625,1733.5",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "shapeRef": "5c8da088-8494-805d-8003-b54c9f1c41a8",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 20.9,
+    "y": 10.5,
+    "width": 0.10000000000000142,
+    "height": 3,
+    "x1": 20.9,
+    "y1": 10.5,
+    "x2": 21.0,
+    "y2": 13.5
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round"
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

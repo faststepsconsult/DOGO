@@ -1,0 +1,457 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-ace1c47f9513",
+  "name": "Lagos-Ikeja GRA      Lagos - Lekki Phase 1",
+  "type": "text",
+  "x": 279,
+  "y": 217,
+  "width": 265,
+  "height": 20.00000000000003,
+  "rotation": 0,
+  "selrect": {
+    "x": 279,
+    "y": 217,
+    "width": 265,
+    "height": 20.00000000000003,
+    "x1": 279,
+    "y1": 217,
+    "x2": 544,
+    "y2": 237.00000000000003
+  },
+  "points": [
+    {
+      "x": 279,
+      "y": 217
+    },
+    {
+      "x": 544,
+      "y": 217
+    },
+    {
+      "x": 544,
+      "y": 237.00000000000003
+    },
+    {
+      "x": 279,
+      "y": 237.00000000000003
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "13d071ed-ce7e-803b-8008-acde934b36bc",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.6",
+            "path": "Caption",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.6",
+                "path": "Caption",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cca243c565",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "12",
+                "fontWeight": "500",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T10:00:01.321Z",
+                "fontVariantId": "500",
+                "textDecoration": "none",
+                "letterSpacing": "1",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Lagos-Ikeja GRA      Lagos - Lekki Phase 1"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cca243c565",
+            "textTransform": "none",
+            "textAlign": "justify",
+            "fontId": "gfont-manrope",
+            "key": "5oer",
+            "fontSize": "12",
+            "fontWeight": "500",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-09-24T10:00:01.321Z",
+            "fontVariantId": "500",
+            "textDecoration": "none",
+            "letterSpacing": "1",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 279,
+      "y": 233.5,
+      "width": 75.6796875,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 0,
+      "x2": 75.6796875,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Lagos-Ikeja"
+    },
+    {
+      "x": 358.0546875,
+      "y": 233.5,
+      "width": 27.0234375,
+      "height": 16.5,
+      "x1": 79.0546875,
+      "y1": 0,
+      "x2": 106.078125,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "GRA"
+    },
+    {
+      "x": 358.0546875,
+      "y": 233.5,
+      "width": 27.0234375,
+      "height": 16.5,
+      "x1": 79.0546875,
+      "y1": 0,
+      "x2": 106.078125,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": ""
+    },
+    {
+      "x": 358.0546875,
+      "y": 233.5,
+      "width": 27.0234375,
+      "height": 16.5,
+      "x1": 79.0546875,
+      "y1": 0,
+      "x2": 106.078125,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": ""
+    },
+    {
+      "x": 358.0546875,
+      "y": 233.5,
+      "width": 27.0234375,
+      "height": 16.5,
+      "x1": 79.0546875,
+      "y1": 0,
+      "x2": 106.078125,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": ""
+    },
+    {
+      "x": 358.0546875,
+      "y": 233.5,
+      "width": 27.0234375,
+      "height": 16.5,
+      "x1": 79.0546875,
+      "y1": 0,
+      "x2": 106.078125,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": ""
+    },
+    {
+      "x": 358.0546875,
+      "y": 233.5,
+      "width": 27.0234375,
+      "height": 16.5,
+      "x1": 79.0546875,
+      "y1": 0,
+      "x2": 106.078125,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": ""
+    },
+    {
+      "x": 405.46875,
+      "y": 233.5,
+      "width": 38.671875,
+      "height": 16.5,
+      "x1": 126.46875,
+      "y1": 0,
+      "x2": 165.140625,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Lagos"
+    },
+    {
+      "x": 447.515625,
+      "y": 233.5,
+      "width": 6.046875,
+      "height": 16.5,
+      "x1": 168.515625,
+      "y1": 0,
+      "x2": 174.5625,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "-"
+    },
+    {
+      "x": 456.9609375,
+      "y": 233.5,
+      "width": 33.5390625,
+      "height": 16.5,
+      "x1": 177.9609375,
+      "y1": 0,
+      "x2": 211.5,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Lekki"
+    },
+    {
+      "x": 493.875,
+      "y": 233.5,
+      "width": 39.8671875,
+      "height": 16.5,
+      "x1": 214.875,
+      "y1": 0,
+      "x2": 254.7421875,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Phase"
+    },
+    {
+      "x": 537.1171875,
+      "y": 233.5,
+      "width": 5.90625,
+      "height": 16.5,
+      "x1": 258.1171875,
+      "y1": 0,
+      "x2": 264.0234375,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "1"
+    }
+  ],
+  "blocked": false,
+  "pageId": "13d071ed-ce7e-803b-8008-ac50abd1430b"
+}

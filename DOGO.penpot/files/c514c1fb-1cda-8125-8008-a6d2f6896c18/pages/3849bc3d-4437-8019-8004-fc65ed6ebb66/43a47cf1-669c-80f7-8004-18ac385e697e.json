@@ -1,0 +1,99 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac385e697e",
+  "name": "Text-14",
+  "type": "text",
+  "x": 81.0,
+  "y": 867.0000048385882,
+  "width": 204,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 81.0,
+    "y": 867.0000048385882,
+    "width": 204,
+    "height": 24,
+    "x1": 81.0,
+    "y1": 867.0000048385882,
+    "x2": 285.0,
+    "y2": 891.0000048385882
+  },
+  "points": [
+    {
+      "x": 80.99999980158333,
+      "y": 867.0000048385883
+    },
+    {
+      "x": 285.00000019841667,
+      "y": 867.0000048385883
+    },
+    {
+      "x": 285.00000019841667,
+      "y": 891.000004838588
+    },
+    {
+      "x": 80.99999980158333,
+      "y": 891.000004838588
+    }
+  ],
+  "transform": {
+    "a": 1.0000000019452615,
+    "b": -2.6800651846718097E-22,
+    "c": -2.4802584834823193E-16,
+    "d": 0.999999999999987,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.999999998054738,
+    "b": 2.845501307182415E-22,
+    "c": 2.4802584173078702E-16,
+    "d": 1.0000000000000124,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac385df8c8",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac385df8c8",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "key": "ae99r",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "43a47cf1-669c-80f7-8004-18ac37b74e60",
+                "textTransform": "none",
+                "fontId": "gfont-work-sans",
+                "fontSize": "20",
+                "fontWeight": "700",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+                "fontVariantId": "700",
+                "ts": 1618485609298,
+                "letterSpacing": "0",
+                "fills": [],
+                "fontFamily": "Work Sans",
+                "text": "Lorem ipsum dolor"
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "strokes": [],
+  "fills": []
+}

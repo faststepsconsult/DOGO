@@ -1,0 +1,80 @@
+{
+  "id": "3c24a671-3f28-11ed-98a6-257602bef775",
+  "name": "Form field - selected",
+  "type": "frame",
+  "x": 50.0,
+  "y": 487.99999987070714,
+  "width": 354.0,
+  "height": 59.0,
+  "rotation": 0,
+  "selrect": {
+    "x": 50.0,
+    "y": 487.99999987070714,
+    "width": 354.0,
+    "height": 59.0,
+    "x1": 50.0,
+    "y1": 487.99999987070714,
+    "x2": 404.0,
+    "y2": 546.9999998707071
+  },
+  "points": [
+    {
+      "x": 50.0,
+      "y": 487.99999987070714
+    },
+    {
+      "x": 404.0,
+      "y": 487.99999987070714
+    },
+    {
+      "x": 404.0,
+      "y": 546.9999998707071
+    },
+    {
+      "x": 50.0,
+      "y": 546.9999998707071
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65e079c922",
+  "frameId": "3849bc3d-4437-8019-8004-fc65e079c922",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "index": 6,
+  "hideInViewer": true,
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "pageId": "3849bc3d-4437-8019-8004-fc65e079c91d",
+  "r3": 0,
+  "constraintsH": "leftright",
+  "r1": 0,
+  "componentId": "3c24a671-3f28-11ed-98a6-257602bef775",
+  "mainInstance": true,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+  "shapes": [
+    "3c24a672-3f28-11ed-98a6-257602bef775",
+    "a3e7e230-4177-11ed-ae99-917d52cac79b",
+    "3c24a673-3f28-11ed-98a6-257602bef775",
+    "3c24a674-3f28-11ed-98a6-257602bef775"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "fed0a7a2-4180-11ed-83ad-33109eb2c9d7",
+  "name": "Text-41",
+  "type": "text",
+  "x": 70.00000001808439,
+  "y": 281.0000003006263,
+  "width": 353.99999992869107,
+  "height": 22.999999269454534,
+  "rotation": 0,
+  "selrect": {
+    "x": 70.00000001808439,
+    "y": 281.0000003006263,
+    "width": 353.99999992869107,
+    "height": 22.999999269454534,
+    "x1": 70.00000001808439,
+    "y1": 281.0000003006263,
+    "x2": 423.99999994677546,
+    "y2": 303.99999957008083
+  },
+  "points": [
+    {
+      "x": 70.00000003616879,
+      "y": 281.00000066589894
+    },
+    {
+      "x": 423.99999996485985,
+      "y": 280.99999993535357
+    },
+    {
+      "x": 423.99999992869107,
+      "y": 303.99999920480815
+    },
+    {
+      "x": 70.0,
+      "y": 303.99999993535357
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": -1.49011611938477E-8,
+    "c": 1.1264916971743784E-8,
+    "d": 1.0000000000000058,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999999,
+    "b": 1.490116119384761E-8,
+    "c": -1.1264916971743717E-8,
+    "d": 0.999999999999994,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fed0a7a0-4180-11ed-83ad-33109eb2c9d7",
+  "frameId": "fed0a7a0-4180-11ed-83ad-33109eb2c9d7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "44440b10-4181-11ed-83ad-33109eb2c9d7",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "16",
+                "fontWeight": "800",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "800",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "I've found the best designer!!!"
+              }
+            ],
+            "typographyRefId": "44440b10-4181-11ed-83ad-33109eb2c9d7",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "8n6ua",
+            "fontSize": "16",
+            "fontWeight": "800",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65e079c91d",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 300.10000640414194,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "900",
+      "width": 236,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 70.00000001808439,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 19,
+      "text": "I've found the best designer!!!"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-ac4805209f63",
+  "name": "Rectangle",
+  "type": "rect",
+  "x": 266,
+  "y": 770,
+  "width": 368,
+  "height": 165,
+  "rotation": 0,
+  "selrect": {
+    "x": 266,
+    "y": 770,
+    "width": 368,
+    "height": 165,
+    "x1": 266,
+    "y1": 770,
+    "x2": 634,
+    "y2": 935
+  },
+  "points": [
+    {
+      "x": 266,
+      "y": 770
+    },
+    {
+      "x": 634,
+      "y": 770
+    },
+    {
+      "x": 634,
+      "y": 935
+    },
+    {
+      "x": 266,
+      "y": 935
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aaa4e19f3007",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": "",
+  "hideInViewer": false,
+  "r2": 30,
+  "proportionLock": false,
+  "pageId": "d703399e-1cf8-8063-8008-cf899ce357b9",
+  "r3": 30,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 30,
+  "opacity": 0.4,
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 1,
+      "strokeColor": "#64748b",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6d166b3b15a",
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": false,
+  "proportion": 1,
+  "shadow": [
+    {
+      "id": "7cedfe4d-4ab6-8005-8008-a853286c348d",
+      "style": "drop-shadow",
+      "color": {
+        "color": "#000000",
+        "opacity": 0.2
+      },
+      "offsetX": 4,
+      "offsetY": 4,
+      "blur": 4,
+      "spread": 0,
+      "hidden": false
+    }
+  ],
+  "r4": 30,
+  "fills": [
+    {
+      "fillColor": "#000000",
+      "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbc41f753e",
+      "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "fillOpacity": 1
+    }
+  ]
+}

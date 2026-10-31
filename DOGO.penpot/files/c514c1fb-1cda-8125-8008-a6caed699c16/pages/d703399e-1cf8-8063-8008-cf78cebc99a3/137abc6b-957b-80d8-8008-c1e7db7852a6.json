@@ -1,0 +1,79 @@
+{
+  "id": "137abc6b-957b-80d8-8008-c1e7db7852a6",
+  "name": "Graphics \/ ICONS \/ 012__circle_arrow_right.svg",
+  "type": "group",
+  "x": 524.1338862559242,
+  "y": 656.056657223796,
+  "width": 41.647511848341196,
+  "height": 43.498583569405014,
+  "rotation": 0,
+  "selrect": {
+    "x": 524.1338862559242,
+    "y": 656.056657223796,
+    "width": 41.647511848341196,
+    "height": 43.498583569405014,
+    "x1": 524.1338862559242,
+    "y1": 656.056657223796,
+    "x2": 565.7813981042653,
+    "y2": 699.555240793201
+  },
+  "points": [
+    {
+      "x": 524.1338862559243,
+      "y": 656.0566572237962
+    },
+    {
+      "x": 565.7813981042655,
+      "y": 656.0566572237962
+    },
+    {
+      "x": 565.7813981042655,
+      "y": 699.5552407932012
+    },
+    {
+      "x": 524.1338862559243,
+      "y": 699.5552407932012
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "137abc6b-957b-80d8-8008-c1e7db7852a5",
+  "frameId": "137abc6b-957b-80d8-8008-c1e7db7852a5",
+  "flipX": false,
+  "flipY": false,
+  "svgAttrs": {
+    "xmlSpace": "preserve"
+  },
+  "touched": [
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "3849bc3d-4437-8019-8004-fc65ed804ac1",
+  "proportionLock": false,
+  "pageId": "d703399e-1cf8-8063-8008-cf78cebc99a3",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "strokes": [],
+  "blocked": true,
+  "proportion": 1,
+  "fills": [],
+  "shapes": [
+    "137abc6b-957b-80d8-8008-c1e7db7852a7",
+    "137abc6b-957b-80d8-8008-c1e7db7852a8",
+    "137abc6b-957b-80d8-8008-c1e7db7852a9"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac38523e33",
+  "name": "Text-13",
+  "type": "text",
+  "x": 260.90000000000003,
+  "y": 769,
+  "width": 90,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 260.90000000000003,
+    "y": 769,
+    "width": 90,
+    "height": 42,
+    "x1": 260.90000000000003,
+    "y1": 769,
+    "x2": 350.90000000000003,
+    "y2": 811
+  },
+  "points": [
+    {
+      "x": 260.90000000000003,
+      "y": 769
+    },
+    {
+      "x": 350.90000000000003,
+      "y": 769
+    },
+    {
+      "x": 350.90000000000003,
+      "y": 811
+    },
+    {
+      "x": 260.90000000000003,
+      "y": 811
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac38517e81",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac38517e81",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "center",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "textAlign": "center",
+            "key": "cfuk",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Cart"
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "shapeRef": "43a47cf1-669c-80f7-8004-18ac4b1f225b",
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "topbottom",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 800.3020830154419,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 36.857643127441406,
+      "textDecoration": "none solid rgb(255, 255, 255)",
+      "letterSpacing": "normal",
+      "x": 287.4625038146973,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 21.11111068725586,
+      "text": "Cart"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

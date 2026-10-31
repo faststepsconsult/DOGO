@@ -1,0 +1,79 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac3814310f",
+  "name": "Btn-text-2",
+  "type": "frame",
+  "x": 902.9000000000002,
+  "y": 764,
+  "width": 342.0000000000001,
+  "height": 54,
+  "rotation": 0,
+  "selrect": {
+    "x": 902.9000000000002,
+    "y": 764,
+    "width": 342.0000000000001,
+    "height": 54,
+    "x1": 902.9000000000002,
+    "y1": 764,
+    "x2": 1244.9000000000003,
+    "y2": 818
+  },
+  "points": [
+    {
+      "x": 902.9000000000002,
+      "y": 764
+    },
+    {
+      "x": 1244.9000000000003,
+      "y": 764
+    },
+    {
+      "x": 1244.9000000000003,
+      "y": 818
+    },
+    {
+      "x": 902.9000000000002,
+      "y": 818
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3812f4af",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3812bb62",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "43a47cf1-669c-80f7-8004-18ac3814310e",
+  "showContent": true,
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "r3": 0,
+  "constraintsV": "bottom",
+  "constraintsH": "leftright",
+  "r1": 0,
+  "componentId": "43a47cf1-669c-80f7-8004-18ac3814310e",
+  "strokes": [],
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+  "shapes": [
+    "43a47cf1-669c-80f7-8004-18ac38147f0f",
+    "43a47cf1-669c-80f7-8004-18ac381497a6"
+  ]
+}

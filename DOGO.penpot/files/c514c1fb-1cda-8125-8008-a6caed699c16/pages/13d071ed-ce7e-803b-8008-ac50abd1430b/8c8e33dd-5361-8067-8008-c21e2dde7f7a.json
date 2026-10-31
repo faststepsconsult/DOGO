@@ -1,0 +1,97 @@
+{
+  "id": "8c8e33dd-5361-8067-8008-c21e2dde7f7a",
+  "name": "base-background",
+  "type": "rect",
+  "x": 502.9999999999998,
+  "y": 884.0000000000001,
+  "width": 24.000000000000114,
+  "height": 24.000000000000114,
+  "rotation": 0,
+  "selrect": {
+    "x": 502.9999999999998,
+    "y": 884.0000000000001,
+    "width": 24.000000000000114,
+    "height": 24.000000000000114,
+    "x1": 502.9999999999998,
+    "y1": 884.0000000000001,
+    "x2": 526.9999999999999,
+    "y2": 908.0000000000002
+  },
+  "points": [
+    {
+      "x": 502.9999999999998,
+      "y": 884.0000000000001
+    },
+    {
+      "x": 526.9999999999999,
+      "y": 884.0000000000001
+    },
+    {
+      "x": 526.9999999999999,
+      "y": 908
+    },
+    {
+      "x": 502.9999999999999,
+      "y": 908.0000000000002
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8c8e33dd-5361-8067-8008-c21e2dde7f79",
+  "frameId": "8c8e33dd-5361-8067-8008-c21e2dde7f79",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinejoin": "round",
+    "strokeLinecap": "round",
+    "id": "base-background"
+  },
+  "touched": [
+    "stroke-group",
+    "geometry-group"
+  ],
+  "shapeRef": "5c8da088-8494-805d-8003-b54f642a44ab",
+  "proportionLock": false,
+  "pageId": "13d071ed-ce7e-803b-8008-ac50abd1430b",
+  "hidden": true,
+  "svgViewbox": {
+    "x": 0,
+    "y": 0,
+    "width": 24,
+    "height": 24,
+    "x1": 0,
+    "y1": 0,
+    "x2": 24,
+    "y2": 24
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 2,
+      "strokeColor": "#ffffff",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "strokeOpacity": 1
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

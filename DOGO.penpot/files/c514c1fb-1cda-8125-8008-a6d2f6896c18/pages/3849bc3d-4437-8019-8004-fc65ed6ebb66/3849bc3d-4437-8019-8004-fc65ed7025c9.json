@@ -1,0 +1,81 @@
+{
+  "id": "3849bc3d-4437-8019-8004-fc65ed7025c9",
+  "name": "plants-bg-1.jpg",
+  "type": "rect",
+  "x": 50.0,
+  "y": 4250.000041281068,
+  "width": 1125,
+  "height": 2000,
+  "rotation": 0,
+  "selrect": {
+    "x": 50.0,
+    "y": 4250.000041281068,
+    "width": 1125,
+    "height": 2000,
+    "x1": 50.0,
+    "y1": 4250.000041281068,
+    "x2": 1175.0,
+    "y2": 6250.000041281068
+  },
+  "points": [
+    {
+      "x": 50.0,
+      "y": 4250.000041281068
+    },
+    {
+      "x": 1175.0,
+      "y": 4250.000041281068
+    },
+    {
+      "x": 1175.0,
+      "y": 6250.000041281068
+    },
+    {
+      "x": 50.0,
+      "y": 6250.000041281068
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65ed7025c8",
+  "frameId": "3849bc3d-4437-8019-8004-fc65ed7025c8",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "r2": 0,
+  "proportionLock": true,
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "r3": 0,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 0,
+  "strokes": [],
+  "proportion": 0.5625,
+  "r4": 0,
+  "fills": [
+    {
+      "fillImage": {
+        "mtype": "image\/jpeg",
+        "keepAspectRatio": false,
+        "width": 1125,
+        "id": "c514c1fb-1cda-8125-8008-a6d2f6a76c12",
+        "height": 2000
+      }
+    }
+  ],
+  "ry": 0
+}

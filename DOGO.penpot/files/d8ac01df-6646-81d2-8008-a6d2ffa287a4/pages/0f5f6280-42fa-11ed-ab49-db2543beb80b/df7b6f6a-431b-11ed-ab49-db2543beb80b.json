@@ -1,0 +1,170 @@
+{
+  "id": "df7b6f6a-431b-11ed-ab49-db2543beb80b",
+  "name": "Text-91",
+  "type": "text",
+  "x": 1466.0000000952136,
+  "y": 600.0000005681715,
+  "width": 131.99999935649703,
+  "height": 61.99999682731704,
+  "rotation": 0,
+  "selrect": {
+    "x": 1466.0000000952136,
+    "y": 600.0000005681715,
+    "width": 131.99999935649703,
+    "height": 61.99999682731704,
+    "x1": 1466.0000000952136,
+    "y1": 600.0000005681715,
+    "x2": 1597.9999994517107,
+    "y2": 661.9999973954885
+  },
+  "points": [
+    {
+      "x": 1466.000000190427,
+      "y": 600
+    },
+    {
+      "x": 1597.999999546924,
+      "y": 600.0000011363433
+    },
+    {
+      "x": 1597.999999356497,
+      "y": 661.99999796366
+    },
+    {
+      "x": 1466,
+      "y": 661.9999968273166
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": -4.73614402407077E-9,
+    "c": 1.0273401706809502E-8,
+    "d": 0.9999999999999937,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 4.7361440240708E-9,
+    "c": -1.0273401706809572E-8,
+    "d": 1.0000000000000064,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "df7b6f60-431b-11ed-ab49-db2543beb80b",
+  "frameId": "df7b6f60-431b-11ed-ab49-db2543beb80b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "capitalize",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "12",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Wilderness with Ray Mears"
+              }
+            ],
+            "textTransform": "capitalize",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "ahkg4",
+            "fontSize": "12",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "x": 1466.0000000952136,
+      "y": 614.0000005681715,
+      "width": 124.640625,
+      "height": 15,
+      "x1": 0,
+      "y1": -1,
+      "x2": 124.640625,
+      "y2": 14,
+      "fontStyle": "normal",
+      "textTransform": "capitalize",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "Wilderness with Ray "
+    },
+    {
+      "x": 1466.0000000952136,
+      "y": 627.1875005681715,
+      "width": 37.03125,
+      "height": 15,
+      "x1": 0,
+      "y1": 12.1875,
+      "x2": 37.03125,
+      "y2": 27.1875,
+      "fontStyle": "normal",
+      "textTransform": "capitalize",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "Mears"
+    }
+  ]
+}

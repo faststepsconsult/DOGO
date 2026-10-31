@@ -1,0 +1,130 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65dd7ff176",
+  "name": "Clothing \/ V-Neck Shirt-4",
+  "type": "frame",
+  "x": 50.0,
+  "y": 637.7163999999993,
+  "width": 201,
+  "height": 82,
+  "rotation": 0,
+  "selrect": {
+    "x": 50.0,
+    "y": 637.7163999999993,
+    "width": 201,
+    "height": 82,
+    "x1": 50.0,
+    "y1": 637.7163999999993,
+    "x2": 251.0,
+    "y2": 719.7163999999993
+  },
+  "points": [
+    {
+      "x": 50.0,
+      "y": 637.7163999999993
+    },
+    {
+      "x": 251.0,
+      "y": 637.7163999999993
+    },
+    {
+      "x": 251.0,
+      "y": 719.7163999999993
+    },
+    {
+      "x": 50.0,
+      "y": 719.7163999999993
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc660b5d9afe",
+  "frameId": "3849bc3d-4437-8019-8004-fc660b5d9afe",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-15a5f9e0-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_2)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc660b5ca083",
+  "r3": 0,
+  "constraintsV": "scale",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 424.0,
+    "f": 1328.0
+  },
+  "constraintsH": "scale",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 453.0000701351671,
+    "y": 1356.7068067948376,
+    "width": 199.99999794679502,
+    "height": 80.79320292712043,
+    "x1": 453.0000701351671,
+    "y1": 1356.7068067948376,
+    "x2": 653.0000680819621,
+    "y2": 1437.5000097219581
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65dd7ff176",
+  "svgDefs": {
+    "clip_2": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_2"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_2",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_2": {
+      "tag": "rect",
+      "attrs": {
+        "width": "264",
+        "height": "110",
+        "id": "artboard_2"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "mainInstance": true,
+  "blocked": false,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65dd808ebf"
+  ]
+}

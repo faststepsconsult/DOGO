@@ -1,0 +1,160 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-ace0e4361103",
+  "name": "All shipments",
+  "type": "text",
+  "x": 288,
+  "y": 136,
+  "width": 89,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 288,
+    "y": 136,
+    "width": 89,
+    "height": 20,
+    "x1": 288,
+    "y1": 136,
+    "x2": 377,
+    "y2": 156
+  },
+  "points": [
+    {
+      "x": 288,
+      "y": 136
+    },
+    {
+      "x": 377,
+      "y": 136
+    },
+    {
+      "x": 377,
+      "y": 156
+    },
+    {
+      "x": 288,
+      "y": 156
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "13d071ed-ce7e-803b-8008-acde934b36bc",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.6",
+            "path": "Caption",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.6",
+                "path": "Caption",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cca243c565",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "12",
+                "fontWeight": "500",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T10:00:01.321Z",
+                "fontVariantId": "500",
+                "textDecoration": "none",
+                "letterSpacing": "1",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "All shipments"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cca243c565",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "fchr9",
+            "fontSize": "12",
+            "fontWeight": "500",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-09-24T10:00:01.321Z",
+            "fontVariantId": "500",
+            "textDecoration": "none",
+            "letterSpacing": "1",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 288,
+      "y": 152.5,
+      "width": 88.734375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 0,
+      "x2": 88.734375,
+      "y2": 16.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "All shipments"
+    }
+  ],
+  "blocked": false,
+  "pageId": "13d071ed-ce7e-803b-8008-ac50abd1430b"
+}

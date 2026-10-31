@@ -1,0 +1,129 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65dc118afa",
+  "name": "Hoodie-2",
+  "type": "frame",
+  "x": 1590.4018747017878,
+  "y": 1370.0647186281767,
+  "width": 200,
+  "height": 96.92909999999983,
+  "rotation": 0,
+  "selrect": {
+    "x": 1590.4018747017878,
+    "y": 1370.0647186281767,
+    "width": 200,
+    "height": 96.92909999999983,
+    "x1": 1590.4018747017878,
+    "y1": 1370.0647186281767,
+    "x2": 1790.4018747017878,
+    "y2": 1466.9938186281765
+  },
+  "points": [
+    {
+      "x": 1590.4018747017878,
+      "y": 1370.0647186281767
+    },
+    {
+      "x": 1790.4018747017878,
+      "y": 1370.0647186281767
+    },
+    {
+      "x": 1790.4018747017878,
+      "y": 1466.9938186281765
+    },
+    {
+      "x": 1590.4018747017878,
+      "y": 1466.9938186281765
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65dc0ce172",
+  "frameId": "b67e0975-9540-809b-8004-fc65dac750b7",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-14dbf321-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_2)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65dc118af9",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65daa35873",
+  "r3": 0,
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 424.0,
+    "f": 664.0
+  },
+  "r1": 0,
+  "svgViewbox": {
+    "x": 8848.902422650499,
+    "y": 6345.84161141143,
+    "width": 0.01,
+    "height": 0.01,
+    "x1": 8848.902422650499,
+    "y1": 6345.84161141143,
+    "x2": 8848.9124226505,
+    "y2": 6345.85161141143
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65dc118af9",
+  "svgDefs": {
+    "clip_2": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_2"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_2",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_2": {
+      "tag": "rect",
+      "attrs": {
+        "width": "264",
+        "height": "110",
+        "id": "artboard_2"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65dc126532",
+    "b67e0975-9540-809b-8004-fc65dc13ad0d",
+    "b67e0975-9540-809b-8004-fc65dc140b83"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "d57a77c6-c39f-80fa-8008-c815e0cf5350",
+  "name": "My package hasn't arrived",
+  "type": "text",
+  "x": 33,
+  "y": 746,
+  "width": 193,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 33,
+    "y": 746,
+    "width": 193,
+    "height": 21,
+    "x1": 33,
+    "y1": 746,
+    "x2": 226,
+    "y2": 767
+  },
+  "points": [
+    {
+      "x": 33,
+      "y": 746
+    },
+    {
+      "x": 226,
+      "y": 746
+    },
+    {
+      "x": 226,
+      "y": 767
+    },
+    {
+      "x": 33,
+      "y": 767
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d57a77c6-c39f-80fa-8008-c80e1761e771",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbe51b4c50",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-sora",
+                "fontSize": "14",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T10:08:17.422Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.4",
+                "fills": [
+                  {
+                    "fillColor": "#e9e9e9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Sora",
+                "text": "My package hasn't arrived"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbe51b4c50",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-sora",
+            "key": "7sb2a",
+            "fontSize": "14",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-09-24T10:08:17.422Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.4",
+            "fills": [
+              {
+                "fillColor": "#e9e9e9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Sora"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "positionData": [
+    {
+      "x": 33,
+      "y": 760.6666672229767,
+      "width": 190.77084350585938,
+      "height": 17.33333396911621,
+      "x1": 0,
+      "y1": -2.6666667461395264,
+      "x2": 190.77084350585938,
+      "y2": 14.666667222976685,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.4px",
+      "fills": [
+        {
+          "fillColor": "#e9e9e9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Sora",
+      "text": "My package hasn't arrived"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": [],
+  "pageId": "ed9d0cd1-ebed-80d5-8008-c36475d481ed"
+}

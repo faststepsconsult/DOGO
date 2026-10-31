@@ -1,0 +1,93 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac3838ec66",
+  "name": "Text-5",
+  "type": "text",
+  "x": 709.0000000000003,
+  "y": 1947.0000048385875,
+  "width": 19,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 709.0000000000003,
+    "y": 1947.0000048385875,
+    "width": 19,
+    "height": 22,
+    "x1": 709.0000000000003,
+    "y1": 1947.0000048385875,
+    "x2": 728.0000000000003,
+    "y2": 1969.0000048385875
+  },
+  "points": [
+    {
+      "x": 709.0000000000003,
+      "y": 1947.0000048385875
+    },
+    {
+      "x": 728.0000000000003,
+      "y": 1947.0000048385875
+    },
+    {
+      "x": 728.0000000000003,
+      "y": 1969.0000048385875
+    },
+    {
+      "x": 709.0000000000003,
+      "y": 1969.0000048385875
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3838acdf",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac383686d8",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "center",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "key": "cfuk",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontId": "gfont-work-sans",
+                "fontFamily": "Work Sans",
+                "fontVariantId": "500",
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": "18",
+                "text": "1",
+                "fills": []
+              }
+            ],
+            "textAlign": "center",
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "center",
+  "constraintsH": "leftright",
+  "strokes": [],
+  "fills": []
+}

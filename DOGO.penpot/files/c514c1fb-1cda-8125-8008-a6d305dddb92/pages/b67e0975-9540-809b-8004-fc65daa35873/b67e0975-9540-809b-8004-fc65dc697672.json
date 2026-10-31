@@ -1,0 +1,130 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65dc697672",
+  "name": "Unibrow Natural Eyebrow-2",
+  "type": "frame",
+  "x": 1261.2739359918526,
+  "y": 1275.0422081437796,
+  "width": 96.27406243559358,
+  "height": 11.097407443512338,
+  "rotation": 0,
+  "selrect": {
+    "x": 1261.2739359918526,
+    "y": 1275.0422081437796,
+    "width": 96.27406243559358,
+    "height": 11.097407443512338,
+    "x1": 1261.2739359918526,
+    "y1": 1275.0422081437796,
+    "x2": 1357.5479984274461,
+    "y2": 1286.139615587292
+  },
+  "points": [
+    {
+      "x": 1261.2739359918526,
+      "y": 1275.0422081437796
+    },
+    {
+      "x": 1357.5479984274461,
+      "y": 1275.0422081437796
+    },
+    {
+      "x": 1357.5479984274461,
+      "y": 1286.139615587292
+    },
+    {
+      "x": 1261.2739359918526,
+      "y": 1286.139615587292
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65dc63242f",
+  "frameId": "b67e0975-9540-809b-8004-fc65dac750b7",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-15012e61-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_6)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65dc697671",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65daa35873",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 1750.0,
+    "f": 480.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 1757.8630479191725,
+    "y": 486.63268411030685,
+    "width": 96.27406112881062,
+    "height": 11.097406112975142,
+    "x1": 1757.8630479191725,
+    "y1": 486.63268411030685,
+    "x2": 1854.1371090479831,
+    "y2": 497.730090223282
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65dc697671",
+  "svgDefs": {
+    "clip_6": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_6"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_6",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_6": {
+      "tag": "rect",
+      "attrs": {
+        "width": "112",
+        "height": "24",
+        "id": "artboard_6"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65dc69f438",
+    "b67e0975-9540-809b-8004-fc65dc6ab247"
+  ]
+}

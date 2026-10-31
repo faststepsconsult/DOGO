@@ -1,0 +1,86 @@
+{
+  "type": "penpot\/export-files",
+  "version": 1,
+  "generatedBy": "penpot\/2.18.4-RC4",
+  "referer": "penpot",
+  "files": [
+    {
+      "id": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "name": "DOGO",
+      "features": [
+        "fdata\/path-data",
+        "design-tokens\/v1",
+        "variants\/v1",
+        "layout\/grid",
+        "components\/v2",
+        "fdata\/shape-data-type"
+      ]
+    },
+    {
+      "id": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+      "name": "Lucide-icons",
+      "features": [
+        "fdata\/path-data",
+        "design-tokens\/v1",
+        "variants\/v1",
+        "layout\/grid",
+        "components\/v2",
+        "fdata\/shape-data-type"
+      ]
+    },
+    {
+      "id": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+      "name": "Plants-app",
+      "features": [
+        "fdata\/path-data",
+        "design-tokens\/v1",
+        "variants\/v1",
+        "layout\/grid",
+        "components\/v2",
+        "fdata\/shape-data-type"
+      ]
+    },
+    {
+      "id": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+      "name": "Black-&-White-Mobile-Templates",
+      "features": [
+        "fdata\/path-data",
+        "design-tokens\/v1",
+        "variants\/v1",
+        "layout\/grid",
+        "components\/v2",
+        "fdata\/shape-data-type"
+      ]
+    },
+    {
+      "id": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+      "name": "Avataaars by Pablo Stanley",
+      "features": [
+        "fdata\/path-data",
+        "design-tokens\/v1",
+        "variants\/v1",
+        "layout\/grid",
+        "components\/v2",
+        "fdata\/shape-data-type"
+      ]
+    }
+  ],
+  "relations": [
+    [
+      "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "c514c1fb-1cda-8125-8008-a6d2f6896c18"
+    ],
+    [
+      "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "c514c1fb-1cda-8125-8008-a6d305dddb92"
+    ],
+    [
+      "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "c514c1fb-1cda-8125-8008-a6d317d1ce21"
+    ],
+    [
+      "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "d8ac01df-6646-81d2-8008-a6d2ffa287a4"
+    ]
+  ]
+}

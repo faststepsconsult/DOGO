@@ -1,0 +1,92 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac4cb9acd9",
+  "name": "Text-85",
+  "type": "text",
+  "x": 87.0,
+  "y": 2385.0000048385873,
+  "width": 259,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 87.0,
+    "y": 2385.0000048385873,
+    "width": 259,
+    "height": 22,
+    "x1": 87.0,
+    "y1": 2385.0000048385873,
+    "x2": 346.0,
+    "y2": 2407.0000048385873
+  },
+  "points": [
+    {
+      "x": 87.0,
+      "y": 2385.0000048385873
+    },
+    {
+      "x": 346.0,
+      "y": 2385.0000048385873
+    },
+    {
+      "x": 346.0,
+      "y": 2407.0000048385873
+    },
+    {
+      "x": 87.0,
+      "y": 2407.0000048385873
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3883b2dc",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3882ffb3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "key": "ae99r",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fontFamily": "Work Sans",
+                "text": "Cereus Peruvianus",
+                "fills": []
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "strokes": [],
+  "fills": []
+}

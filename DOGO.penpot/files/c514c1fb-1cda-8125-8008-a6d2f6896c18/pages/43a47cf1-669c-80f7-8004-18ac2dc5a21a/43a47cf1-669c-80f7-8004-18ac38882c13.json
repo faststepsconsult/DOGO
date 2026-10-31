@@ -1,0 +1,158 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac38882c13",
+  "name": "Text-90",
+  "type": "text",
+  "x": -758.6435093876707,
+  "y": 167,
+  "width": 56,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": -758.6435093876707,
+    "y": 167,
+    "width": 56,
+    "height": 18,
+    "x1": -758.6435093876707,
+    "y1": 167,
+    "x2": -702.6435093876707,
+    "y2": 185
+  },
+  "points": [
+    {
+      "x": -758.6435093876707,
+      "y": 167
+    },
+    {
+      "x": -702.6435093876707,
+      "y": 167
+    },
+    {
+      "x": -702.6435093876707,
+      "y": 185
+    },
+    {
+      "x": -758.6435093876707,
+      "y": 185
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac388694db",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3882ffb4",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "43a47cf1-669c-80f7-8004-18ac38152852",
+                "textTransform": "none",
+                "fontId": "gfont-work-sans",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefFile": "312984a9-e817-8099-8005-931bafbbd2d1",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "43a47cf1-669c-80f7-8004-18ac388616b9"
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Crasula"
+              }
+            ],
+            "typographyRefId": "43a47cf1-669c-80f7-8004-18ac38152852",
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "gfont-work-sans",
+            "key": "ae99r",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefFile": "312984a9-e817-8099-8005-931bafbbd2d1",
+                "fillOpacity": 1,
+                "fillColorRefId": "43a47cf1-669c-80f7-8004-18ac388616b9"
+              }
+            ],
+            "fontFamily": "Work Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "text-content-text",
+    "text-content-attribute"
+  ],
+  "shapeRef": "43a47cf1-669c-80f7-8004-18ac4d120be8",
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 183.66666793823242,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 51.250003814697266,
+      "textDecoration": "none solid rgb(255, 255, 255)",
+      "letterSpacing": "normal",
+      "x": -756.2823982235777,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+          "fillOpacity": 1,
+          "fillColorRefId": "43a47cf1-669c-80f7-8004-18ac388616b9"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 16.666667938232422,
+      "text": "Crasula"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

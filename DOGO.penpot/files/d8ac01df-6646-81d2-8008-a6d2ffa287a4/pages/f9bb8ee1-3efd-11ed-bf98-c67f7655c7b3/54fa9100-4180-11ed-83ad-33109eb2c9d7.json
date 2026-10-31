@@ -1,0 +1,123 @@
+{
+  "id": "54fa9100-4180-11ed-83ad-33109eb2c9d7",
+  "name": "Text-42",
+  "type": "text",
+  "x": 1871.0000000752198,
+  "y": 936.0000008378184,
+  "width": 353.99999999489773,
+  "height": 13.999999973501676,
+  "rotation": 0,
+  "selrect": {
+    "x": 1871.0000000752198,
+    "y": 936.0000008378184,
+    "width": 353.99999999489773,
+    "height": 13.999999973501676,
+    "x1": 1871.0000000752198,
+    "y1": 936.0000008378184,
+    "x2": 2225.0000000701175,
+    "y2": 950.0000008113201
+  },
+  "points": [
+    {
+      "x": 1870.9999999999982,
+      "y": 936
+    },
+    {
+      "x": 2224.999999994896,
+      "y": 936.0000016756369
+    },
+    {
+      "x": 2225.000000145339,
+      "y": 950.0000016491385
+    },
+    {
+      "x": 1871.0000001504413,
+      "y": 949.9999999735016
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 8.728898132248298E-9,
+    "c": 6.750465643401542E-9,
+    "d": 1.0000000000000004,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999999,
+    "b": -8.72889813224829E-9,
+    "c": -6.750465643401542E-9,
+    "d": 0.9999999999999996,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fed05980-4180-11ed-83ad-33109eb2c9d7",
+  "frameId": "fed05980-4180-11ed-83ad-33109eb2c9d7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "uppercase",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "9",
+                "fontWeight": "600",
+                "fontVariantId": "600",
+                "textDecoration": "none",
+                "letterSpacing": "1",
+                "fills": [
+                  {
+                    "fillColor": "#8f8f8f",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "John Smith @ NewProduct"
+              }
+            ],
+            "textTransform": "uppercase",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "fontSize": "9",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "600",
+            "textDecoration": "none",
+            "letterSpacing": "1",
+            "fills": [
+              {
+                "fillColor": "#8f8f8f",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "modifiable-group",
+    "text-content-attribute"
+  ],
+  "shapeRef": "fed0a7a3-4180-11ed-83ad-33109eb2c9d7",
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "blocked": false
+}

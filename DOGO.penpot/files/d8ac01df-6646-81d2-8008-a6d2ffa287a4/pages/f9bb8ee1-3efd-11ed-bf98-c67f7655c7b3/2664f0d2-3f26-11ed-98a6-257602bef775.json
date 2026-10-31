@@ -1,0 +1,149 @@
+{
+  "id": "2664f0d2-3f26-11ed-98a6-257602bef775",
+  "name": "Text-18",
+  "type": "text",
+  "x": 973.0000001347601,
+  "y": 214.00000037308791,
+  "width": 323.99999882089423,
+  "height": 17.99999957120673,
+  "rotation": 0,
+  "selrect": {
+    "x": 973.0000001347601,
+    "y": 214.00000037308791,
+    "width": 323.99999882089423,
+    "height": 17.99999957120673,
+    "x1": 973.0000001347601,
+    "y1": 214.00000037308791,
+    "x2": 1296.9999989556543,
+    "y2": 231.99999994429464
+  },
+  "points": [
+    {
+      "x": 972.9999999999993,
+      "y": 214
+    },
+    {
+      "x": 1296.9999988208917,
+      "y": 214.00000074617628
+    },
+    {
+      "x": 1296.999999090415,
+      "y": 232.00000031738227
+    },
+    {
+      "x": 973.0000002695217,
+      "y": 231.999999571206
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999943,
+    "b": 1.4361190375285488E-9,
+    "c": 1.584035803756328E-8,
+    "d": 0.9999999999999637,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0000000000000058,
+    "b": -1.4361190375286112E-9,
+    "c": -1.584035803756395E-8,
+    "d": 1.0000000000000362,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e48577a0-3f27-11ed-98a6-257602bef775",
+  "frameId": "e48577a0-3f27-11ed-98a6-257602bef775",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "capitalize",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "13",
+                "fontWeight": "600",
+                "fontVariantId": "600",
+                "textDecoration": "none",
+                "letterSpacing": "1",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "benedict cumberbatch"
+              }
+            ],
+            "textTransform": "capitalize",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "1o24p",
+            "fontSize": "13",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "600",
+            "textDecoration": "none",
+            "letterSpacing": "1",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "geometry-group",
+    "constraints-group",
+    "text-content-text",
+    "text-content-attribute"
+  ],
+  "shapeRef": "e4859eb2-3f27-11ed-98a6-257602bef775",
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "y": 231.10000647660354,
+      "fontStyle": "normal",
+      "textTransform": "capitalize",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "width": 165.4166717529297,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "1px",
+      "x": 973.0000001347601,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 16,
+      "text": "benedict cumberbatch"
+    }
+  ]
+}

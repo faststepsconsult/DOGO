@@ -1,0 +1,72 @@
+{
+  "id": "baff04e0-3fe1-11ed-af5c-6f8b44ab315b",
+  "name": "Group-2",
+  "type": "group",
+  "x": 463.9999999999982,
+  "y": 676,
+  "width": 414,
+  "height": 60,
+  "rotation": null,
+  "selrect": {
+    "x": 463.9999999999982,
+    "y": 676,
+    "width": 414,
+    "height": 60,
+    "x1": 463.9999999999982,
+    "y1": 676,
+    "x2": 877.9999999999982,
+    "y2": 736
+  },
+  "points": [
+    {
+      "x": 463.9999999999982,
+      "y": 676
+    },
+    {
+      "x": 877.9999999999982,
+      "y": 676
+    },
+    {
+      "x": 877.9999999999982,
+      "y": 736
+    },
+    {
+      "x": 463.9999999999982,
+      "y": 736
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fa15fa20-3fdd-11ed-af5c-6f8b44ab315b",
+  "frameId": "fa15fa20-3fdd-11ed-af5c-6f8b44ab315b",
+  "flipX": null,
+  "flipY": null,
+  "index": 0,
+  "fixedScroll": true,
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsV": "bottom",
+  "constraintsH": "leftright",
+  "shapes": [
+    "26e8f961-3fe0-11ed-af5c-6f8b44ab315b",
+    "d7cc5f00-3fe1-11ed-af5c-6f8b44ab315b",
+    "51538b80-3fdf-11ed-af5c-6f8b44ab315b",
+    "faae3090-3fdf-11ed-af5c-6f8b44ab315b",
+    "fa955160-3fdf-11ed-af5c-6f8b44ab315b",
+    "f225abe0-3fe1-11ed-af5c-6f8b44ab315b",
+    "faa09c00-3fdf-11ed-af5c-6f8b44ab315b"
+  ]
+}

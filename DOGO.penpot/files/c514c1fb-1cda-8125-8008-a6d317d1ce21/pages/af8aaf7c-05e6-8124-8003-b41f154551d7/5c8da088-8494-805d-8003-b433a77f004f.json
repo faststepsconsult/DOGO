@@ -1,0 +1,90 @@
+{
+  "id": "5c8da088-8494-805d-8003-b433a77f004f",
+  "name": "calendar-plus",
+  "type": "frame",
+  "x": 443,
+  "y": 931.0000000000032,
+  "width": 24,
+  "height": 24,
+  "rotation": null,
+  "selrect": {
+    "x": 443,
+    "y": 931.0000000000032,
+    "width": 24,
+    "height": 24,
+    "x1": 443,
+    "y1": 931.0000000000032,
+    "x2": 467,
+    "y2": 955.0000000000032
+  },
+  "points": [
+    {
+      "x": 443,
+      "y": 931.0000000000032
+    },
+    {
+      "x": 467,
+      "y": 931.0000000000032
+    },
+    {
+      "x": 467,
+      "y": 955.0000000000032
+    },
+    {
+      "x": 443,
+      "y": 955.0000000000032
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b4448a64d838",
+  "frameId": "5c8da088-8494-805d-8003-b4448a64d838",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "5c8da088-8494-805d-8003-b54232a84948",
+  "showContent": true,
+  "layoutItemHSizing": "fix",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "layoutItemVSizing": "fix",
+  "r3": 0,
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b54232a84948",
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "5c8da088-8494-805d-8003-b433a7802410",
+    "5c8da088-8494-805d-8003-b433a7813d2b",
+    "5c8da088-8494-805d-8003-b433a7828f25",
+    "5c8da088-8494-805d-8003-b433a7834831",
+    "5c8da088-8494-805d-8003-b433a784486d",
+    "5c8da088-8494-805d-8003-b433a78563d5",
+    "5c8da088-8494-805d-8003-b433a7867929"
+  ]
+}

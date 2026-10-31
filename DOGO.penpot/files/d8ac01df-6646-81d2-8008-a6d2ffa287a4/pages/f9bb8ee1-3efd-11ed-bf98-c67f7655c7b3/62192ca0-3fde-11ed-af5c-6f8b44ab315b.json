@@ -1,0 +1,81 @@
+{
+  "id": "62192ca0-3fde-11ed-af5c-6f8b44ab315b",
+  "name": "Vid bg.png",
+  "type": "rect",
+  "x": 463.9999999999982,
+  "y": 0,
+  "width": 414,
+  "height": 240,
+  "rotation": 0,
+  "selrect": {
+    "x": 463.9999999999982,
+    "y": 0,
+    "width": 414,
+    "height": 240,
+    "x1": 463.9999999999982,
+    "y1": 0,
+    "x2": 877.9999999999982,
+    "y2": 240
+  },
+  "points": [
+    {
+      "x": 463.9999999999982,
+      "y": 0
+    },
+    {
+      "x": 877.9999999999982,
+      "y": 0
+    },
+    {
+      "x": 877.9999999999982,
+      "y": 240
+    },
+    {
+      "x": 463.9999999999982,
+      "y": 240
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fa15fa20-3fdd-11ed-af5c-6f8b44ab315b",
+  "frameId": "fa15fa20-3fdd-11ed-af5c-6f8b44ab315b",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "r2": 0,
+  "proportionLock": true,
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "r3": 0,
+  "constraintsH": "scale",
+  "r1": 0,
+  "strokes": [],
+  "proportion": 1.725,
+  "r4": 0,
+  "fills": [
+    {
+      "fillImage": {
+        "mtype": "image\/png",
+        "keepAspectRatio": false,
+        "width": 828,
+        "id": "d8ac01df-6646-81d2-8008-a6d2ffc436db",
+        "height": 480
+      }
+    }
+  ],
+  "ry": 0
+}

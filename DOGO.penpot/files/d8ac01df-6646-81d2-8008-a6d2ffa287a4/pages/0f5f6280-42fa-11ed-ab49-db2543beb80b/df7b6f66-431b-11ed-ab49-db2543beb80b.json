@@ -1,0 +1,80 @@
+{
+  "id": "df7b6f66-431b-11ed-ab49-db2543beb80b",
+  "name": "Ellipse 3.png-2",
+  "type": "rect",
+  "x": 1316,
+  "y": 348,
+  "width": 29.999999999999975,
+  "height": 30.000000000000004,
+  "rotation": 0,
+  "selrect": {
+    "x": 1316,
+    "y": 348,
+    "width": 29.999999999999975,
+    "height": 30.000000000000004,
+    "x1": 1316,
+    "y1": 348,
+    "x2": 1346.0,
+    "y2": 378.0
+  },
+  "points": [
+    {
+      "x": 1316,
+      "y": 348
+    },
+    {
+      "x": 1346,
+      "y": 348
+    },
+    {
+      "x": 1346,
+      "y": 378
+    },
+    {
+      "x": 1316,
+      "y": 378
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000002,
+    "b": -6.172263061599361E-9,
+    "c": 6.172263061599361E-9,
+    "d": 1.0000000000000002,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999991,
+    "b": 6.172263061599361E-9,
+    "c": -6.172263061599361E-9,
+    "d": 0.9999999999999991,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "df7b6f60-431b-11ed-ab49-db2543beb80b",
+  "frameId": "df7b6f60-431b-11ed-ab49-db2543beb80b",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "r2": 0,
+  "proportionLock": true,
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "r3": 0,
+  "r1": 0,
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [
+    {
+      "fillImage": {
+        "mtype": "image\/png",
+        "keepAspectRatio": false,
+        "width": 60,
+        "id": "d8ac01df-6646-81d2-8008-a6d2ffc436da",
+        "height": 60
+      }
+    }
+  ],
+  "ry": 0
+}

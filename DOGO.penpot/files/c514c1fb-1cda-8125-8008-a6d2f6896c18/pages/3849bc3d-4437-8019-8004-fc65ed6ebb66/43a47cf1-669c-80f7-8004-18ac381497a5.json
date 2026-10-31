@@ -1,0 +1,98 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac381497a5",
+  "name": "Text-6",
+  "type": "text",
+  "x": 202.00000047123893,
+  "y": 54.00000064478866,
+  "width": 90,
+  "height": 46,
+  "rotation": 0,
+  "selrect": {
+    "x": 202.00000047123893,
+    "y": 54.00000064478866,
+    "width": 90,
+    "height": 46,
+    "x1": 202.00000047123893,
+    "y1": 54.00000064478866,
+    "x2": 292.00000047123893,
+    "y2": 100.00000064478866
+  },
+  "points": [
+    {
+      "x": 202.0000012804739,
+      "y": 54.00000155323668
+    },
+    {
+      "x": 292.00000126770686,
+      "y": 53.99999998244035
+    },
+    {
+      "x": 291.999999662004,
+      "y": 99.99999973634064
+    },
+    {
+      "x": 201.999999674771,
+      "y": 100.00000130713698
+    }
+  ],
+  "transform": {
+    "a": 0.9999999998581439,
+    "b": -1.7453292563927284E-8,
+    "c": -3.4906584744447876E-8,
+    "d": 0.9999999946500064,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0000000001418559,
+    "b": 1.745329265977813E-8,
+    "c": 3.4906584936149584E-8,
+    "d": 1.0000000053499938,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3814310e",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3814310e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "center",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "textAlign": "center",
+            "key": "cfuk",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Cart"
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "topbottom",
+  "constraintsH": "leftright",
+  "strokes": [],
+  "fills": []
+}

@@ -1,0 +1,98 @@
+{
+  "id": "5c8da088-8494-805d-8003-b434cfb8a5ec",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 498.0999999999997,
+    "y": 2457.3000000000206,
+    "width": 0.40000000000009095,
+    "height": 0.8999999999996362,
+    "x1": 498.0999999999997,
+    "y1": 2457.3000000000206,
+    "x2": 498.4999999999998,
+    "y2": 2458.2000000000203
+  },
+  "points": [
+    {
+      "x": 498.0999999999997,
+      "y": 2457.3000000000206
+    },
+    {
+      "x": 498.4999999999998,
+      "y": 2457.3000000000206
+    },
+    {
+      "x": 498.4999999999998,
+      "y": 2458.2000000000203
+    },
+    {
+      "x": 498.0999999999997,
+      "y": 2458.2000000000203
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b434cfa0172c",
+  "frameId": "5c8da088-8494-805d-8003-b434cfa0172c",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M498.5,2457.300048828125L498.1000061035156,2458.199951171875",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "shapeRef": "5c8da088-8494-805d-8003-b55a8fb0b0ef",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 19.1,
+    "y": 14.3,
+    "width": 0.3999999999999986,
+    "height": 0.9000000000000004,
+    "x1": 19.1,
+    "y1": 14.3,
+    "x2": 19.5,
+    "y2": 15.200000000000001
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round"
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

@@ -1,0 +1,139 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac38803119",
+  "name": "Text-85",
+  "type": "text",
+  "x": -780.1000002181648,
+  "y": 109.00003864158953,
+  "width": 81,
+  "height": 24.000006785850644,
+  "rotation": 0,
+  "selrect": {
+    "x": -780.1000002181648,
+    "y": 109.00003864158953,
+    "width": 81,
+    "height": 24.000006785850644,
+    "x1": -780.1000002181648,
+    "y1": 109.00003864158953,
+    "x2": -699.1000002181648,
+    "y2": 133.00004542744017
+  },
+  "points": [
+    {
+      "x": -780.1000002181648,
+      "y": 109.00003864158953
+    },
+    {
+      "x": -699.1000002181648,
+      "y": 109.00003864158953
+    },
+    {
+      "x": -699.1000002181648,
+      "y": 133.00004542744017
+    },
+    {
+      "x": -780.1000002181648,
+      "y": 133.00004542744017
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac387f3e47",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac386b6a48",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "43a47cf1-669c-80f7-8004-18ac379e74f9",
+                "textTransform": "none",
+                "fontId": "gfont-work-sans",
+                "fontSize": "20",
+                "fontWeight": "400",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+                "fontVariantId": "regular",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#8d8e92",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Outdoor"
+              }
+            ],
+            "typographyRefId": "43a47cf1-669c-80f7-8004-18ac379e74f9",
+            "textTransform": "none",
+            "fontId": "gfont-work-sans",
+            "key": "ae99r",
+            "fontSize": "20",
+            "fontWeight": "400",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "letterSpacing": "0",
+            "fills": [],
+            "fontFamily": "Work Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "y": 132.33337261070574,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "width": 80.38195037841797,
+      "textDecoration": "none solid rgb(141, 142, 146)",
+      "letterSpacing": "normal",
+      "x": -780.1000002181648,
+      "fills": [
+        {
+          "fillColor": "#8d8e92",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 23.33333396911621,
+      "text": "Outdoor"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": []
+}

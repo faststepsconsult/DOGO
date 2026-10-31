@@ -1,0 +1,76 @@
+{
+  "id": "3849bc3d-4437-8019-8004-fc65f05025e5",
+  "name": "Graphics \/ PLANTS \/ plant-04.png",
+  "type": "frame",
+  "x": 50.0,
+  "y": 13077.000041281068,
+  "width": 474,
+  "height": 527,
+  "rotation": 0,
+  "selrect": {
+    "x": 50.0,
+    "y": 13077.000041281068,
+    "width": 474,
+    "height": 527,
+    "x1": 50.0,
+    "y1": 13077.000041281068,
+    "x2": 524.0,
+    "y2": 13604.000041281068
+  },
+  "points": [
+    {
+      "x": 50.0,
+      "y": 13077.000041281068
+    },
+    {
+      "x": 524.0,
+      "y": 13077.000041281068
+    },
+    {
+      "x": 524.0,
+      "y": 13604.000041281068
+    },
+    {
+      "x": 50.0,
+      "y": 13604.000041281068
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65f04fe244",
+  "frameId": "3849bc3d-4437-8019-8004-fc65f04fe244",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "componentRoot": true,
+  "proportionLock": true,
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "componentId": "3849bc3d-4437-8019-8004-fc65f05025ea",
+  "strokes": [],
+  "mainInstance": true,
+  "proportion": 0.89943075,
+  "fills": [
+    {
+      "fillColor": "#FFFFFF",
+      "fillOpacity": 1
+    }
+  ],
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+  "shapes": [
+    "3849bc3d-4437-8019-8004-fc65f05025e7"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e291c22f",
+  "name": "yes \/ Wink-Wacky Eyes-\ud83d\ude1c",
+  "type": "frame",
+  "x": -343.49998370406877,
+  "y": -1245.9999998254668,
+  "width": 77.99998399999959,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": -343.49998370406877,
+    "y": -1245.9999998254668,
+    "width": 77.99998399999959,
+    "height": 24,
+    "x1": -343.49998370406877,
+    "y1": -1245.9999998254668,
+    "x2": -265.4999997040692,
+    "y2": -1221.9999998254668
+  },
+  "points": [
+    {
+      "x": -343.4999835826708,
+      "y": -1245.9999998254668
+    },
+    {
+      "x": -265.4999998254671,
+      "y": -1245.9999998254668
+    },
+    {
+      "x": -265.4999998254671,
+      "y": -1221.9999998254668
+    },
+    {
+      "x": -343.4999835826708,
+      "y": -1221.9999998254668
+    }
+  ],
+  "transform": {
+    "a": 0.9999999968872312,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.000000003112769,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e28f6030",
+  "frameId": "b67e0975-9540-809b-8004-fc65e28f6030",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-17553080-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#clip_7)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65dc9a4e04",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2294.0,
+    "f": 900.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2307.5000977146697,
+    "y": 910.0000008726649,
+    "width": 77.99990375720398,
+    "height": 24,
+    "x1": 2307.5000977146697,
+    "y1": 910.0000008726649,
+    "x2": 2385.5000014718735,
+    "y2": 934.0000008726649
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65dc9a4e04",
+  "svgDefs": {
+    "clip_7": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_7"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_7",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_7": {
+      "tag": "rect",
+      "attrs": {
+        "width": "112",
+        "height": "44",
+        "id": "artboard_7"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65e2922dce",
+    "b67e0975-9540-809b-8004-fc65e2925b4c",
+    "b67e0975-9540-809b-8004-fc65e292e1fd"
+  ]
+}

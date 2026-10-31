@@ -1,0 +1,138 @@
+{
+  "id": "923e7b60-4326-11ed-ad86-ef2035d54397",
+  "name": "Text-4",
+  "type": "text",
+  "x": 238.00000034263968,
+  "y": 871.0000026057222,
+  "width": 258.99999876363404,
+  "height": 18.999996219067384,
+  "rotation": 0,
+  "selrect": {
+    "x": 238.00000034263968,
+    "y": 871.0000026057222,
+    "width": 258.99999876363404,
+    "height": 18.999996219067384,
+    "x1": 238.00000034263968,
+    "y1": 871.0000026057222,
+    "x2": 496.9999991062737,
+    "y2": 889.9999988247896
+  },
+  "points": [
+    {
+      "x": 238,
+      "y": 871
+    },
+    {
+      "x": 496.9999987636342,
+      "y": 871.0000052114442
+    },
+    {
+      "x": 496.99999944891346,
+      "y": 890.0000014305116
+    },
+    {
+      "x": 238.00000068527908,
+      "y": 889.9999962190674
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000016,
+    "b": 3.597458544929467E-8,
+    "c": 2.021414814215441E-8,
+    "d": 0.9999999999999991,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999993,
+    "b": -3.597458544929468E-8,
+    "c": -2.0214148142154415E-8,
+    "d": 1.0000000000000018,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fe2836e0-4326-11ed-ad86-ef2035d54397",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "17",
+                "fontWeight": "900",
+                "fontVariantId": "900",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#00e009",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Designed by ApeWTF"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "3h10h",
+            "fontSize": "17",
+            "fontWeight": "900",
+            "type": "paragraph",
+            "fontVariantId": "900",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#00e009",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "positionData": [
+    {
+      "y": 891.1999995539644,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "17px",
+      "fontWeight": "900",
+      "width": 183.03334045410156,
+      "textDecoration": "rgb(0, 224, 9)",
+      "letterSpacing": "normal",
+      "x": 238.00000034263968,
+      "fills": [
+        {
+          "fillColor": "#00e009",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 20,
+      "text": "Designed by ApeWTF"
+    }
+  ]
+}

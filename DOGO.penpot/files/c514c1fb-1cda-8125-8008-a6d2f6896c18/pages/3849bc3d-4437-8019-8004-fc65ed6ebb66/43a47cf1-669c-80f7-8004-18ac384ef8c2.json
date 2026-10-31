@@ -1,0 +1,93 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac384ef8c2",
+  "name": "Text-5",
+  "type": "text",
+  "x": 77.00000066838746,
+  "y": 3564.0000321633206,
+  "width": 42,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 77.00000066838746,
+    "y": 3564.0000321633206,
+    "width": 42,
+    "height": 22,
+    "x1": 77.00000066838746,
+    "y1": 3564.0000321633206,
+    "x2": 119.00000066838746,
+    "y2": 3586.0000321633206
+  },
+  "points": [
+    {
+      "x": 77.00000066838749,
+      "y": 3564.0000325298397
+    },
+    {
+      "x": 119.00000066838744,
+      "y": 3564.0000317968015
+    },
+    {
+      "x": 119.00000066838744,
+      "y": 3586.0000317968015
+    },
+    {
+      "x": 77.00000066838749,
+      "y": 3586.0000325298397
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999989,
+    "b": -1.745329251994329E-8,
+    "c": 4.406533067263088E-17,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.000000000000001,
+    "b": 1.745329251994331E-8,
+    "c": -4.4065330672630925E-17,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac384e51c1",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac384e51c1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "center",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "key": "cfuk",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontId": "gfont-work-sans",
+                "fontFamily": "Work Sans",
+                "fontVariantId": "500",
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": "18",
+                "text": "1",
+                "fills": []
+              }
+            ],
+            "textAlign": "center",
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "center",
+  "constraintsH": "leftright",
+  "strokes": [],
+  "fills": []
+}

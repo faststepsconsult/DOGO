@@ -1,0 +1,121 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac38a12dfb",
+  "name": "Text-100",
+  "type": "text",
+  "x": -177.1,
+  "y": -243,
+  "width": 90,
+  "height": 46,
+  "rotation": 0,
+  "selrect": {
+    "x": -177.1,
+    "y": -243,
+    "width": 90,
+    "height": 46,
+    "x1": -177.1,
+    "y1": -243,
+    "x2": -87.1,
+    "y2": -197
+  },
+  "points": [
+    {
+      "x": -177.1,
+      "y": -243
+    },
+    {
+      "x": -87.1,
+      "y": -243
+    },
+    {
+      "x": -87.1,
+      "y": -197
+    },
+    {
+      "x": -177.1,
+      "y": -197
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac38a0398c",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac38981632",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "center",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "textAlign": "center",
+            "key": "cfuk",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Start"
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "topbottom",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": -209.70138549804688,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 43.59375762939453,
+      "textDecoration": "none solid rgb(255, 255, 255)",
+      "letterSpacing": "normal",
+      "x": -153.90555534362792,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 21.111112594604492,
+      "text": "Start"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

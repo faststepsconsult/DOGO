@@ -1,0 +1,126 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac38342bbd",
+  "name": "Text-7",
+  "type": "text",
+  "x": 461.90000000000015,
+  "y": 768,
+  "width": 334.00000000000006,
+  "height": 46,
+  "rotation": 0,
+  "selrect": {
+    "x": 461.90000000000015,
+    "y": 768,
+    "width": 334.00000000000006,
+    "height": 46,
+    "x1": 461.90000000000015,
+    "y1": 768,
+    "x2": 795.9000000000002,
+    "y2": 814
+  },
+  "points": [
+    {
+      "x": 461.90000000000015,
+      "y": 768
+    },
+    {
+      "x": 795.9000000000002,
+      "y": 768
+    },
+    {
+      "x": 795.9000000000002,
+      "y": 814
+    },
+    {
+      "x": 461.90000000000015,
+      "y": 814
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3833924c",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3833924c",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "center",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "textAlign": "center",
+            "key": "cfuk",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Checkout"
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "text-content-text"
+  ],
+  "shapeRef": "43a47cf1-669c-80f7-8004-18ac381497a5",
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "topbottom",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 801.2986145019531,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 83.22916412353516,
+      "textDecoration": "none solid rgb(255, 255, 255)",
+      "letterSpacing": "normal",
+      "x": 587.2819503784181,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 21.111112594604492,
+      "text": "Checkout"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

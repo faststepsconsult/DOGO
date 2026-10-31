@@ -1,0 +1,291 @@
+{
+  "id": "13bbba2d-825d-8018-8003-b9880380ca79",
+  "name": "Text",
+  "type": "text",
+  "x": 290,
+  "y": 1436,
+  "width": 947.0000000000002,
+  "height": 163,
+  "rotation": 0,
+  "selrect": {
+    "x": 290,
+    "y": 1436,
+    "width": 947.0000000000002,
+    "height": 163,
+    "x1": 290,
+    "y1": 1436,
+    "x2": 1237.0000000000002,
+    "y2": 1599
+  },
+  "points": [
+    {
+      "x": 290,
+      "y": 1436
+    },
+    {
+      "x": 1237.0000000000002,
+      "y": 1436
+    },
+    {
+      "x": 1237.0000000000002,
+      "y": 1599
+    },
+    {
+      "x": 290,
+      "y": 1599
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "13bbba2d-825d-8018-8003-b9880380ca75",
+  "frameId": "13bbba2d-825d-8018-8003-b9880380ca75",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-figtree",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#868e96",
+                    "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+                  }
+                ],
+                "fontFamily": "Figtree",
+                "text": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-figtree",
+            "key": "3app7",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#868e96",
+                "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                "fillOpacity": 1,
+                "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+              }
+            ],
+            "fontFamily": "Figtree"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-figtree",
+            "key": "6lt5a",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#868e96",
+                "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                "fillOpacity": 1,
+                "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+              }
+            ],
+            "fontFamily": "Figtree"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-figtree",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#868e96",
+                    "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+                  }
+                ],
+                "fontFamily": "Figtree",
+                "text": "https:\/\/lucide.dev\/"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-figtree",
+            "key": "d6uhq",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#868e96",
+                "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                "fillOpacity": 1,
+                "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+              }
+            ],
+            "fontFamily": "Figtree"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fix",
+  "layoutItemVSizing": "fix",
+  "positionData": [
+    {
+      "y": 1472.3636364936829,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 919.2684326171875,
+      "textDecoration": "none solid rgb(134, 142, 150)",
+      "letterSpacing": "normal",
+      "x": 290,
+      "fills": [
+        {
+          "fillColor": "#868e96",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 33.6363639831543,
+      "text": "Beautiful & consistent icon toolkit made by the community. Open-source "
+    },
+    {
+      "y": 1512.917610168457,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 438.03265380859375,
+      "textDecoration": "none solid rgb(134, 142, 150)",
+      "letterSpacing": "normal",
+      "x": 290,
+      "fills": [
+        {
+          "fillColor": "#868e96",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 33.63636016845703,
+      "text": "project and a fork of Feather Icons."
+    },
+    {
+      "y": 1553.4715881347656,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 6.917613506317139,
+      "textDecoration": "none solid rgb(134, 142, 150)",
+      "letterSpacing": "normal",
+      "x": 290,
+      "fills": [
+        {
+          "fillColor": "#868e96",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 33.63636016845703,
+      "text": "\u00a0"
+    },
+    {
+      "y": 1594.0255584716797,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 232.99005126953125,
+      "textDecoration": "none solid rgb(134, 142, 150)",
+      "letterSpacing": "normal",
+      "x": 290,
+      "fills": [
+        {
+          "fillColor": "#868e96",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 33.63636016845703,
+      "text": "https:\/\/lucide.dev\/"
+    }
+  ],
+  "pageId": "5c8da088-8494-805d-8003-b55f524df49d"
+}

@@ -1,0 +1,154 @@
+{
+  "id": "864162e4-1e38-807b-8008-c70e70493103",
+  "name": "RIDERS & DRIVERS ",
+  "type": "text",
+  "x": 127.00000000000001,
+  "y": 487.96751667565354,
+  "width": 100.99999999999999,
+  "height": 15,
+  "rotation": 0,
+  "selrect": {
+    "x": 127.00000000000001,
+    "y": 487.96751667565354,
+    "width": 100.99999999999999,
+    "height": 15,
+    "x1": 127.00000000000001,
+    "y1": 487.96751667565354,
+    "x2": 228,
+    "y2": 502.96751667565354
+  },
+  "points": [
+    {
+      "x": 127,
+      "y": 487.96751667565354
+    },
+    {
+      "x": 227.99999999999997,
+      "y": 487.96751667565354
+    },
+    {
+      "x": 227.99999999999997,
+      "y": 502.96751667565354
+    },
+    {
+      "x": 127,
+      "y": 502.96751667565354
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "864162e4-1e38-807b-8008-c70e704930ff",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "11",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-10-12T08:12:46.575Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.5",
+                "fills": [
+                  {
+                    "fillColor": "#f2e8e8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "RIDERS & DRIVERS "
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "fd1jg",
+            "fontSize": "11",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-10-12T08:12:46.575Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.5",
+            "fills": [
+              {
+                "fillColor": "#f2e8e8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 127.00000000000001,
+      "y": 502.41196085518845,
+      "width": 100.97222900390625,
+      "height": 15.55555534362793,
+      "x1": 0,
+      "y1": -1.1111111640930176,
+      "x2": 100.97222900390625,
+      "y2": 14.444444179534912,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "11px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.5px",
+      "fills": [
+        {
+          "fillColor": "#f2e8e8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "RIDERS & DRIVERS "
+    }
+  ],
+  "blocked": true,
+  "pageId": "7cedfe4d-4ab6-8005-8008-a85cd96138bf"
+}

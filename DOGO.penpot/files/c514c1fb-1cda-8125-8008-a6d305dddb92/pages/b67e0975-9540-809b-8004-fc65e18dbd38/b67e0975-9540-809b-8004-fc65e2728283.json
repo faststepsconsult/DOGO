@@ -1,0 +1,100 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e2728283",
+  "name": "Auburn",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": 0,
+  "selrect": {
+    "x": -1520.5,
+    "y": -2146,
+    "width": 96,
+    "height": 69,
+    "x1": -1520.5,
+    "y1": -2146,
+    "x2": -1424.5,
+    "y2": -2077
+  },
+  "points": [
+    {
+      "x": -1520.5,
+      "y": -2146
+    },
+    {
+      "x": -1424.5,
+      "y": -2146
+    },
+    {
+      "x": -1424.5,
+      "y": -2077
+    },
+    {
+      "x": -1520.5,
+      "y": -2077
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000002,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0000000000000002,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999997,
+    "b": 3.308722450212111E-24,
+    "c": -3.308722450212111E-24,
+    "d": 0.9999999999999997,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e26f767a",
+  "frameId": "b67e0975-9540-809b-8004-fc65e26f767a",
+  "flipX": null,
+  "flipY": null,
+  "content": "M-1520.5,-2146.0L-1424.5,-2146.0L-1424.5,-2077.0L-1520.5,-2077.0L-1520.5,-2146.0ZZZZZZ",
+  "svgAttrs": {
+    "id": "shape-17468a80-f38d-11ec-89fd-fd405a016ff5",
+    "fillRule": "evenodd",
+    "stroke": "none"
+  },
+  "proportionLock": false,
+  "center": {
+    "x": -1472.5,
+    "y": -2111.5
+  },
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 1118.0,
+    "f": 0.0
+  },
+  "constraintsH": "left",
+  "svgViewbox": {
+    "x": 1118,
+    "y": 0,
+    "width": 96,
+    "height": 69,
+    "x1": 1118,
+    "y1": 0,
+    "x2": 1214,
+    "y2": 69
+  },
+  "strokes": [],
+  "proportion": 1,
+  "fills": [
+    {
+      "fillColor": "#a55728",
+      "fillColorRefFile": "b67e0975-9540-809b-8004-fc65dae8615b",
+      "fillOpacity": 1,
+      "fillColorRefId": "b67e0975-9540-809b-8004-fc65e2728282"
+    }
+  ]
+}

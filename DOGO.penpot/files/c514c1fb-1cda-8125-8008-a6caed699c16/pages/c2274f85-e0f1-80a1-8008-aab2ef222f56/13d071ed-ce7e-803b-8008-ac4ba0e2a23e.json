@@ -1,0 +1,94 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-ac4ba0e2a23e",
+  "name": "truck",
+  "type": "frame",
+  "x": 812.8713998375879,
+  "y": 244.2505515465149,
+  "width": 23.556689914439616,
+  "height": 23.999866179656077,
+  "rotation": 0,
+  "selrect": {
+    "x": 812.8713998375879,
+    "y": 244.2505515465149,
+    "width": 23.556689914439616,
+    "height": 23.999866179656077,
+    "x1": 812.8713998375879,
+    "y1": 244.2505515465149,
+    "x2": 836.4280897520275,
+    "y2": 268.250417726171
+  },
+  "points": [
+    {
+      "x": 812.8675314587899,
+      "y": 244.24668315598254
+    },
+    {
+      "x": 836.4242201023148,
+      "y": 244.2544211844933
+    },
+    {
+      "x": 836.4319581308255,
+      "y": 268.2542861167033
+    },
+    {
+      "x": 812.8752694873007,
+      "y": 268.24654808819236
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aab9c76cee25",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "touched": [
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "5c8da088-8494-805d-8003-b55a8847df20",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "r3": 0,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b55a8847df20",
+  "blocked": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "13d071ed-ce7e-803b-8008-ac4ba0e2a23f",
+    "13d071ed-ce7e-803b-8008-ac4ba0e2d7eb",
+    "13d071ed-ce7e-803b-8008-ac4ba0e2d7ec",
+    "13d071ed-ce7e-803b-8008-ac4ba0e2d7ed",
+    "13d071ed-ce7e-803b-8008-ac4ba0e2d7ee",
+    "13d071ed-ce7e-803b-8008-ac4ba0e2d7ef"
+  ]
+}

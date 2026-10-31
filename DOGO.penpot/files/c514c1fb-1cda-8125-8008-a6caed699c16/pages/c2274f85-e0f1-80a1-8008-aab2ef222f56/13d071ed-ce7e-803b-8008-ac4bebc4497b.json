@@ -1,0 +1,103 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-ac4bebc4497b",
+  "name": "svg-rect",
+  "type": "rect",
+  "x": 862.5765224430519,
+  "y": 818.0000000000008,
+  "width": 35,
+  "height": 45,
+  "rotation": 0,
+  "selrect": {
+    "x": 862.5765224430519,
+    "y": 818.0000000000008,
+    "width": 35,
+    "height": 45,
+    "x1": 862.5765224430519,
+    "y1": 818.0000000000008,
+    "x2": 897.5765224430519,
+    "y2": 863.0000000000008
+  },
+  "points": [
+    {
+      "x": 862.5765224430519,
+      "y": 818.0000000000008
+    },
+    {
+      "x": 897.5765224430519,
+      "y": 818.0000000000008
+    },
+    {
+      "x": 897.5765224430519,
+      "y": 863.0000000000008
+    },
+    {
+      "x": 862.5765224430519,
+      "y": 863.0000000000008
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "13d071ed-ce7e-803b-8008-ac4bebc42b88",
+  "frameId": "13d071ed-ce7e-803b-8008-ac4bebc42b88",
+  "flipX": null,
+  "flipY": null,
+  "rx": 2,
+  "index": null,
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinejoin": "round",
+    "strokeLinecap": "round"
+  },
+  "touched": [
+    "stroke-group",
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "r2": 2,
+  "shapeRef": "5c8da088-8494-805d-8003-b551af77941e",
+  "proportionLock": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "r3": 2,
+  "r1": 2,
+  "svgViewbox": {
+    "x": 5,
+    "y": 2,
+    "width": 14,
+    "height": 20,
+    "x1": 5,
+    "y1": 2,
+    "x2": 19,
+    "y2": 22
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 2,
+      "strokeColor": "#ffffff",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "r4": 2,
+  "fills": [],
+  "ry": 2
+}

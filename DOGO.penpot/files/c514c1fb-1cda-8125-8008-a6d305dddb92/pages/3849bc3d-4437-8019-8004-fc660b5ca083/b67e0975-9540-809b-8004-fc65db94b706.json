@@ -1,0 +1,127 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65db94b706",
+  "name": "Mouth \/ Mouth - Twinkle",
+  "type": "frame",
+  "x": 334.0,
+  "y": 2998.645520839251,
+  "width": 28,
+  "height": 11,
+  "rotation": 0,
+  "selrect": {
+    "x": 334.0,
+    "y": 2998.645520839251,
+    "width": 28,
+    "height": 11,
+    "x1": 334.0,
+    "y1": 2998.645520839251,
+    "x2": 362.0,
+    "y2": 3009.645520839251
+  },
+  "points": [
+    {
+      "x": 334.0,
+      "y": 2998.645520839251
+    },
+    {
+      "x": 362.0,
+      "y": 2998.645520839251
+    },
+    {
+      "x": 362.0,
+      "y": 3009.645520839251
+    },
+    {
+      "x": 334.0,
+      "y": 3009.645520839251
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc660b5e74fc",
+  "frameId": "3849bc3d-4437-8019-8004-fc660b5e74fc",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-147c6e00-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_9)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc660b5ca083",
+  "r3": 0,
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2894.0,
+    "f": 1000.0
+  },
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2933.5,
+    "y": 1014,
+    "width": 28,
+    "height": 11,
+    "x1": 2933.5,
+    "y1": 1014,
+    "x2": 2961.5,
+    "y2": 1025
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65db94b706",
+  "svgDefs": {
+    "clip_9": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_9"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_9",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_9": {
+      "tag": "rect",
+      "attrs": {
+        "width": "108",
+        "height": "44",
+        "id": "artboard_9"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "mainInstance": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65db94c6d6"
+  ]
+}

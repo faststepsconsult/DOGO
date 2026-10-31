@@ -1,0 +1,66 @@
+{
+  "id": "6552adc1-3fd3-11ed-af5c-6f8b44ab315b",
+  "name": "Drag",
+  "type": "group",
+  "x": 126.99999999999909,
+  "y": 479,
+  "width": 158,
+  "height": 17,
+  "rotation": null,
+  "selrect": {
+    "x": 126.99999999999909,
+    "y": 479,
+    "width": 158,
+    "height": 17,
+    "x1": 126.99999999999909,
+    "y1": 479,
+    "x2": 284.9999999999991,
+    "y2": 496
+  },
+  "points": [
+    {
+      "x": 126.99999999999909,
+      "y": 479
+    },
+    {
+      "x": 284.9999999999991,
+      "y": 479
+    },
+    {
+      "x": 284.9999999999991,
+      "y": 496
+    },
+    {
+      "x": 126.99999999999909,
+      "y": 496
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c7e11620-3fd3-11ed-af5c-6f8b44ab315b",
+  "frameId": "5144e020-3fcc-11ed-af5c-6f8b44ab315b",
+  "flipX": null,
+  "flipY": null,
+  "index": 8,
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsH": "center",
+  "shapes": [
+    "ceebb7f0-3fd2-11ed-af5c-6f8b44ab315b",
+    "44af1e50-3fd3-11ed-af5c-6f8b44ab315b",
+    "50d1a7c0-3fd3-11ed-af5c-6f8b44ab315b"
+  ]
+}

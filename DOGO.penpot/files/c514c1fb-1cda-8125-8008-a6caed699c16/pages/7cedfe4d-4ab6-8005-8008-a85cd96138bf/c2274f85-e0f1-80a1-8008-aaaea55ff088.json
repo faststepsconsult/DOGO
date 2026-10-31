@@ -1,0 +1,81 @@
+{
+  "id": "c2274f85-e0f1-80a1-8008-aaaea55ff088",
+  "name": "Rectangle",
+  "type": "rect",
+  "x": 119,
+  "y": 711.6,
+  "width": 118,
+  "height": 34.13333333333344,
+  "rotation": 0,
+  "selrect": {
+    "x": 119,
+    "y": 711.6,
+    "width": 118,
+    "height": 34.13333333333344,
+    "x1": 119,
+    "y1": 711.6,
+    "x2": 237,
+    "y2": 745.7333333333335
+  },
+  "points": [
+    {
+      "x": 119,
+      "y": 711.6
+    },
+    {
+      "x": 237,
+      "y": 711.6
+    },
+    {
+      "x": 237,
+      "y": 745.7333333333335
+    },
+    {
+      "x": 119,
+      "y": 745.7333333333335
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aaaea55ff081",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "hideInViewer": false,
+  "blendMode": "lighten",
+  "r2": 56,
+  "proportionLock": false,
+  "pageId": "7cedfe4d-4ab6-8005-8008-a85cd96138bf",
+  "r3": 56,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 56,
+  "hidden": false,
+  "opacity": 1,
+  "strokes": [],
+  "blocked": true,
+  "proportion": 1,
+  "shadow": [],
+  "r4": 56,
+  "fills": [
+    {
+      "fillColor": "#084386",
+      "fillOpacity": 0.8479890705058535
+    }
+  ]
+}

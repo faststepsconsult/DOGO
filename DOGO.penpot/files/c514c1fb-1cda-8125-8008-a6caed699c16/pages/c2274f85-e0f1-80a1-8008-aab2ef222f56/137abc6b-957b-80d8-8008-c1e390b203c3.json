@@ -1,0 +1,154 @@
+{
+  "id": "137abc6b-957b-80d8-8008-c1e390b203c3",
+  "name": "Help",
+  "type": "text",
+  "x": 794,
+  "y": 27,
+  "width": 30,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 794,
+    "y": 27,
+    "width": 30,
+    "height": 19,
+    "x1": 794,
+    "y1": 27,
+    "x2": 824,
+    "y2": 46
+  },
+  "points": [
+    {
+      "x": 794,
+      "y": 27
+    },
+    {
+      "x": 824,
+      "y": 27
+    },
+    {
+      "x": 824,
+      "y": 46
+    },
+    {
+      "x": 794,
+      "y": 46
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "137abc6b-957b-80d8-8008-c1e390b203ba",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "14",
+                "fontWeight": "300",
+                "textDirection": "ltr",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.2",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Help"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "dceen",
+            "fontSize": "14",
+            "fontWeight": "300",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.2",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 794,
+      "y": 44.5,
+      "width": 29.55078125,
+      "height": 18.75,
+      "x1": 0,
+      "y1": -1.25,
+      "x2": 29.55078125,
+      "y2": 17.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.2px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Help"
+    }
+  ],
+  "strokes": [],
+  "blocked": false,
+  "fills": []
+}

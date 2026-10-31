@@ -1,0 +1,66 @@
+{
+  "id": "bb02a6f1-4319-11ed-ab49-db2543beb80b",
+  "name": "icon-menu-9",
+  "type": "group",
+  "x": 432,
+  "y": 80,
+  "width": 24,
+  "height": 11.000000000048203,
+  "rotation": 0,
+  "selrect": {
+    "x": 432,
+    "y": 80,
+    "width": 24,
+    "height": 11.000000000048203,
+    "x1": 432,
+    "y1": 80,
+    "x2": 456,
+    "y2": 91.0000000000482
+  },
+  "points": [
+    {
+      "x": 432,
+      "y": 80
+    },
+    {
+      "x": 456,
+      "y": 80
+    },
+    {
+      "x": 456,
+      "y": 91.0000000000482
+    },
+    {
+      "x": 432,
+      "y": 91.0000000000482
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "bb02a6f0-4319-11ed-ab49-db2543beb80b",
+  "frameId": "bb02a6f0-4319-11ed-ab49-db2543beb80b",
+  "flipX": null,
+  "flipY": null,
+  "index": 19,
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "constraintsH": "right",
+  "shapes": [
+    "bb02a700-4319-11ed-ab49-db2543beb80b",
+    "bb02a701-4319-11ed-ab49-db2543beb80b",
+    "bb02a702-4319-11ed-ab49-db2543beb80b"
+  ]
+}

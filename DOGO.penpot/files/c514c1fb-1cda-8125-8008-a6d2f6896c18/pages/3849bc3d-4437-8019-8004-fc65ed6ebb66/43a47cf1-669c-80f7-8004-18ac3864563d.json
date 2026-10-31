@@ -1,0 +1,92 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac3864563d",
+  "name": "Text-25",
+  "type": "text",
+  "x": 128.0000003740137,
+  "y": 3717.0000373104435,
+  "width": 169,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 128.0000003740137,
+    "y": 3717.0000373104435,
+    "width": 169,
+    "height": 22,
+    "x1": 128.0000003740137,
+    "y1": 3717.0000373104435,
+    "x2": 297.00000037401367,
+    "y2": 3739.0000373104435
+  },
+  "points": [
+    {
+      "x": 128.0000001820295,
+      "y": 3717.000038785247
+    },
+    {
+      "x": 297.0000001820255,
+      "y": 3717.0000358356406
+    },
+    {
+      "x": 297.0000005659979,
+      "y": 3739.00003583564
+    },
+    {
+      "x": 128.00000056600194,
+      "y": 3739.0000387852465
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999759,
+    "b": -1.7453292519942934E-8,
+    "c": 1.745329227191707E-8,
+    "d": 0.9999999999999655,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0000000000000215,
+    "b": 1.745329251994395E-8,
+    "c": -1.7453292271918052E-8,
+    "d": 1.000000000000031,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3863ffd9",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3863ffd9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "key": "ae99r",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fontFamily": "Work Sans",
+                "text": "Lorem ipsum dolor",
+                "fills": []
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "strokes": [],
+  "fills": []
+}

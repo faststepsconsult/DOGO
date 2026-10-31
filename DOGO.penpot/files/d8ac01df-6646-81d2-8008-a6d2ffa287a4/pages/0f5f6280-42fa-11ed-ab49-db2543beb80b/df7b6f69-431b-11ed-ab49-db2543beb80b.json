@@ -1,0 +1,195 @@
+{
+  "id": "df7b6f69-431b-11ed-ab49-db2543beb80b",
+  "name": "Text-90",
+  "type": "text",
+  "x": 1466.0000000952136,
+  "y": 510.0000005681718,
+  "width": 131.99999935649697,
+  "height": 61.99999682731652,
+  "rotation": 0,
+  "selrect": {
+    "x": 1466.0000000952136,
+    "y": 510.0000005681718,
+    "width": 131.99999935649697,
+    "height": 61.99999682731652,
+    "x1": 1466.0000000952136,
+    "y1": 510.0000005681718,
+    "x2": 1597.9999994517107,
+    "y2": 571.9999973954883
+  },
+  "points": [
+    {
+      "x": 1466.000000190427,
+      "y": 510
+    },
+    {
+      "x": 1597.999999546924,
+      "y": 510.00000113634326
+    },
+    {
+      "x": 1597.999999356497,
+      "y": 571.99999796366
+    },
+    {
+      "x": 1466,
+      "y": 571.9999968273169
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999999,
+    "b": 0.0,
+    "c": 5.537255698529068E-9,
+    "d": 1.000000000000005,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": -5.537255698529035E-9,
+    "d": 0.9999999999999946,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "df7b6f60-431b-11ed-ab49-db2543beb80b",
+  "frameId": "df7b6f60-431b-11ed-ab49-db2543beb80b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "capitalize",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "12",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Dan Carlin debates the need for future wars"
+              }
+            ],
+            "textTransform": "capitalize",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "ahkg4",
+            "fontSize": "12",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "x": 1466.0000000952136,
+      "y": 524.0000005681718,
+      "width": 115.140625,
+      "height": 15,
+      "x1": 0,
+      "y1": -1,
+      "x2": 115.140625,
+      "y2": 14,
+      "fontStyle": "normal",
+      "textTransform": "capitalize",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "Dan Carlin debates "
+    },
+    {
+      "x": 1466.0000000952136,
+      "y": 537.1875005681718,
+      "width": 121.671875,
+      "height": 15,
+      "x1": 0,
+      "y1": 12.1875,
+      "x2": 121.671875,
+      "y2": 27.1875,
+      "fontStyle": "normal",
+      "textTransform": "capitalize",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "the need for future "
+    },
+    {
+      "x": 1466.0000000952136,
+      "y": 550.3750005681718,
+      "width": 30.34375,
+      "height": 15,
+      "x1": 0,
+      "y1": 25.375,
+      "x2": 30.34375,
+      "y2": 40.375,
+      "fontStyle": "normal",
+      "textTransform": "capitalize",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "wars"
+    }
+  ]
+}

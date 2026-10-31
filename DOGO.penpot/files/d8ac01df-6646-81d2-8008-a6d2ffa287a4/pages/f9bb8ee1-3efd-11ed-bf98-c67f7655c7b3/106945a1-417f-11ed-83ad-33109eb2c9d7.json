@@ -1,0 +1,152 @@
+{
+  "id": "106945a1-417f-11ed-83ad-33109eb2c9d7",
+  "name": "Text-41",
+  "type": "text",
+  "x": 1871.0000000180826,
+  "y": 915.0000003652727,
+  "width": 353.99999992869107,
+  "height": 22.999999269454534,
+  "rotation": 0,
+  "selrect": {
+    "x": 1871.0000000180826,
+    "y": 915.0000003652727,
+    "width": 353.99999992869107,
+    "height": 22.999999269454534,
+    "x1": 1871.0000000180826,
+    "y1": 915.0000003652727,
+    "x2": 2224.9999999467736,
+    "y2": 937.9999996347273
+  },
+  "points": [
+    {
+      "x": 1871.000000036167,
+      "y": 915.0000007305454
+    },
+    {
+      "x": 2224.999999964858,
+      "y": 915
+    },
+    {
+      "x": 2224.9999999286892,
+      "y": 937.9999992694545
+    },
+    {
+      "x": 1870.9999999999982,
+      "y": 938
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": -1.49011611938477E-8,
+    "c": 1.1264916971743784E-8,
+    "d": 1.0000000000000058,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999999,
+    "b": 1.490116119384761E-8,
+    "c": -1.1264916971743717E-8,
+    "d": 0.999999999999994,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fed05980-4180-11ed-83ad-33109eb2c9d7",
+  "frameId": "fed05980-4180-11ed-83ad-33109eb2c9d7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "44440b10-4181-11ed-83ad-33109eb2c9d7",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "16",
+                "fontWeight": "800",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "800",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "I've found the best designer!!!"
+              }
+            ],
+            "typographyRefId": "44440b10-4181-11ed-83ad-33109eb2c9d7",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "8n6ua",
+            "fontSize": "16",
+            "fontWeight": "800",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "fed0a7a2-4180-11ed-83ad-33109eb2c9d7",
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 934.1000064687887,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "800",
+      "width": 235.51666259765625,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1871.0000000180826,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 19,
+      "text": "I've found the best designer!!!"
+    }
+  ],
+  "blocked": false
+}

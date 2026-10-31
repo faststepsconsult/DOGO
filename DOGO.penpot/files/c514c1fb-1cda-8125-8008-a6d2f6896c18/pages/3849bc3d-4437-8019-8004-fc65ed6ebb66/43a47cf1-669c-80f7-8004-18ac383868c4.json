@@ -1,0 +1,111 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac383868c4",
+  "name": "Text-31",
+  "type": "text",
+  "x": 770.1565395308445,
+  "y": 1945.0000048385875,
+  "width": 67,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 770.1565395308445,
+    "y": 1945.0000048385875,
+    "width": 67,
+    "height": 25,
+    "x1": 770.1565395308445,
+    "y1": 1945.0000048385875,
+    "x2": 837.1565395308445,
+    "y2": 1970.0000048385875
+  },
+  "points": [
+    {
+      "x": 770.1565395308445,
+      "y": 1945.0000048385875
+    },
+    {
+      "x": 837.1565395308445,
+      "y": 1945.0000048385875
+    },
+    {
+      "x": 837.1565395308445,
+      "y": 1970.0000048385875
+    },
+    {
+      "x": 770.1565395308445,
+      "y": 1970.0000048385875
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3837f214",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac383686d8",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "43a47cf1-669c-80f7-8004-18ac37b74e60",
+                "textTransform": "none",
+                "fontId": "gfont-work-sans",
+                "fontSize": "20",
+                "fontWeight": "700",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+                "fontVariantId": "700",
+                "letterSpacing": "0",
+                "fills": [],
+                "fontFamily": "Work Sans",
+                "text": "12,99\u20ac"
+              }
+            ],
+            "typographyRefId": "43a47cf1-669c-80f7-8004-18ac37b74e60",
+            "textTransform": "none",
+            "textAlign": "right",
+            "fontId": "gfont-work-sans",
+            "key": "278u9",
+            "fontSize": "20",
+            "fontWeight": "700",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "letterSpacing": "0",
+            "fills": [],
+            "fontFamily": "Work Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "top",
+  "constraintsH": "right",
+  "strokes": [],
+  "fills": []
+}

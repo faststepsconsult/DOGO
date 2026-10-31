@@ -1,0 +1,94 @@
+{
+  "id": "5c8da088-8494-805d-8003-b433cd18039b",
+  "name": "folder-cog",
+  "type": "frame",
+  "x": 227,
+  "y": 1399.0000000000086,
+  "width": 24,
+  "height": 24,
+  "rotation": null,
+  "selrect": {
+    "x": 227,
+    "y": 1399.0000000000086,
+    "width": 24,
+    "height": 24,
+    "x1": 227,
+    "y1": 1399.0000000000086,
+    "x2": 251,
+    "y2": 1423.0000000000086
+  },
+  "points": [
+    {
+      "x": 227,
+      "y": 1399.0000000000086
+    },
+    {
+      "x": 251,
+      "y": 1399.0000000000086
+    },
+    {
+      "x": 251,
+      "y": 1423.0000000000086
+    },
+    {
+      "x": 227,
+      "y": 1423.0000000000086
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b4448a64d838",
+  "frameId": "5c8da088-8494-805d-8003-b4448a64d838",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "5c8da088-8494-805d-8003-b5468dd03fb8",
+  "showContent": true,
+  "layoutItemHSizing": "fix",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "layoutItemVSizing": "fix",
+  "r3": 0,
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b5468dd03fb8",
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "5c8da088-8494-805d-8003-b433cd1a854a",
+    "5c8da088-8494-805d-8003-b433cd1c84e7",
+    "5c8da088-8494-805d-8003-b433cd1ee6d6",
+    "5c8da088-8494-805d-8003-b433cd210ce2",
+    "5c8da088-8494-805d-8003-b433cd2304bd",
+    "5c8da088-8494-805d-8003-b433cd24e3c0",
+    "5c8da088-8494-805d-8003-b433cd26f7c5",
+    "5c8da088-8494-805d-8003-b433cd28d084",
+    "5c8da088-8494-805d-8003-b433cd2afcad",
+    "5c8da088-8494-805d-8003-b433cd2cc38b",
+    "5c8da088-8494-805d-8003-b433cd2f2b64"
+  ]
+}

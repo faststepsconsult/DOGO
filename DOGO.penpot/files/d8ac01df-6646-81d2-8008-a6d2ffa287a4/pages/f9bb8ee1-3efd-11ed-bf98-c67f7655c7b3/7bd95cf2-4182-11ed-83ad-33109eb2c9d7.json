@@ -1,0 +1,130 @@
+{
+  "id": "7bd95cf2-4182-11ed-83ad-33109eb2c9d7",
+  "name": "Text-41",
+  "type": "text",
+  "x": 2022.0000000068176,
+  "y": 1203.00000033351,
+  "width": 353.99999996383167,
+  "height": 20.999999332980142,
+  "rotation": 0,
+  "selrect": {
+    "x": 2022.0000000068176,
+    "y": 1203.00000033351,
+    "width": 353.99999996383167,
+    "height": 20.999999332980142,
+    "x1": 2022.0000000068176,
+    "y1": 1203.00000033351,
+    "x2": 2375.9999999706492,
+    "y2": 1223.99999966649
+  },
+  "points": [
+    {
+      "x": 2022.000000036167,
+      "y": 1203.000000896368
+    },
+    {
+      "x": 2375.999999999998,
+      "y": 1202.9999997706518
+    },
+    {
+      "x": 2375.9999999412994,
+      "y": 1223.999999103632
+    },
+    {
+      "x": 2021.9999999774682,
+      "y": 1224.0000002293482
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 4.632211430296955E-23,
+    "c": -5.97516853261028E-9,
+    "d": 1.0000000000000087,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": -4.632211430296955E-23,
+    "c": 5.9751685326102255E-9,
+    "d": 0.9999999999999912,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7bd95cf0-4182-11ed-83ad-33109eb2c9d7",
+  "frameId": "7bd95cf0-4182-11ed-83ad-33109eb2c9d7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "44440b10-4181-11ed-83ad-33109eb2c9d7",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "16",
+                "fontWeight": "800",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "800",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Top job picks for you"
+              }
+            ],
+            "typographyRefId": "44440b10-4181-11ed-83ad-33109eb2c9d7",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "fontSize": "16",
+            "fontWeight": "800",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "geometry-group",
+    "modifiable-group",
+    "text-content-text"
+  ],
+  "shapeRef": "fed0a7a2-4180-11ed-83ad-33109eb2c9d7",
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "blocked": false
+}

@@ -1,0 +1,139 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65def7fab6",
+  "name": "Title",
+  "type": "text",
+  "x": 1724,
+  "y": -166,
+  "width": 607,
+  "height": 164,
+  "rotation": 0,
+  "selrect": {
+    "x": 1724,
+    "y": -166,
+    "width": 607,
+    "height": 164,
+    "x1": 1724,
+    "y1": -166,
+    "x2": 2331,
+    "y2": -2
+  },
+  "points": [
+    {
+      "x": 1724.000001431171,
+      "y": -165.99999989291018
+    },
+    {
+      "x": 2331.000001431169,
+      "y": -165.9999998929102
+    },
+    {
+      "x": 2330.9999985688287,
+      "y": -2.000000107089822
+    },
+    {
+      "x": 1723.9999985688312,
+      "y": -2.000000107089801
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999963,
+    "b": -3.463390004636257E-17,
+    "c": -1.745329248193022E-8,
+    "d": 0.9999999986940267,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0000000000000038,
+    "b": 3.463390335508501E-17,
+    "c": 1.745329250472382E-8,
+    "d": 1.0000000013059733,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65deec83cc",
+  "frameId": "b67e0975-9540-809b-8004-fc65deec83cc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "gfont-open-sans",
+                "fontSize": "104",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#211513",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "How to Use"
+              }
+            ],
+            "textTransform": "none",
+            "fontId": "gfont-open-sans",
+            "key": "fvhq2",
+            "fontSize": "104",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#211513",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "svgAttrs": {},
+  "positionData": [
+    {
+      "y": -17.999915731154374,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "104px",
+      "fontWeight": "800",
+      "width": 605.5154351905112,
+      "textDecoration": "none solid rgb(33, 21, 19)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#211513",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 140.99999275394262,
+      "text": "How to Use"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": [],
+  "pageId": "b67e0975-9540-809b-8004-fc65dee212e4"
+}

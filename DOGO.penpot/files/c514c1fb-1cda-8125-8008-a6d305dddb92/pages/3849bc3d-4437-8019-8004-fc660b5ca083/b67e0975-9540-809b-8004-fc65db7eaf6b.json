@@ -1,0 +1,131 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65db7eaf6b",
+  "name": "Clothing \/ Crew Neck-1",
+  "type": "frame",
+  "x": 803.0,
+  "y": 50.0,
+  "width": 200,
+  "height": 80.94830137983848,
+  "rotation": 0,
+  "selrect": {
+    "x": 803.0,
+    "y": 50.0,
+    "width": 200,
+    "height": 80.94830137983848,
+    "x1": 803.0,
+    "y1": 50.0,
+    "x2": 1003.0,
+    "y2": 130.94830137983848
+  },
+  "points": [
+    {
+      "x": 803.0,
+      "y": 50.0
+    },
+    {
+      "x": 1003.0,
+      "y": 50.0
+    },
+    {
+      "x": 1003.0,
+      "y": 130.94830137983848
+    },
+    {
+      "x": 803.0,
+      "y": 130.94830137983848
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc660b5d9afe",
+  "frameId": "3849bc3d-4437-8019-8004-fc660b5d9afe",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-1470fc50-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_2)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc660b5ca083",
+  "r3": 0,
+  "constraintsV": "scale",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 424.0,
+    "f": 996.0
+  },
+  "constraintsH": "scale",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 8779.675087283198,
+    "y": 6605.736443039481,
+    "width": 0.01,
+    "height": 0.01,
+    "x1": 8779.675087283198,
+    "y1": 6605.736443039481,
+    "x2": 8779.685087283198,
+    "y2": 6605.746443039481
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65db7eaf6b",
+  "svgDefs": {
+    "clip_2": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_2"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_2",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_2": {
+      "tag": "rect",
+      "attrs": {
+        "width": "264",
+        "height": "110",
+        "id": "artboard_2"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "mainInstance": true,
+  "blocked": false,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65db7f032e",
+    "b67e0975-9540-809b-8004-fc65db7fe11a"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "5c8da088-8494-805d-8003-b54576bfc29d",
+  "name": "svg-ellipse",
+  "type": "circle",
+  "x": 127.00000000000011,
+  "y": 1984.0,
+  "width": 18,
+  "height": 6,
+  "rotation": null,
+  "selrect": {
+    "x": 127.00000000000011,
+    "y": 1984.0,
+    "width": 18,
+    "height": 6,
+    "x1": 127.00000000000011,
+    "y1": 1984.0,
+    "x2": 145.0000000000001,
+    "y2": 1990.0
+  },
+  "points": [
+    {
+      "x": 127.00000000000011,
+      "y": 1984.0
+    },
+    {
+      "x": 145.0000000000001,
+      "y": 1984.0
+    },
+    {
+      "x": 145.0000000000001,
+      "y": 1990.0
+    },
+    {
+      "x": 127.00000000000011,
+      "y": 1990.0
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b54576bfc29b",
+  "frameId": "5c8da088-8494-805d-8003-b54576bfc29b",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinejoin": "round",
+    "strokeLinecap": "round"
+  },
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc65dbd8458e",
+  "svgViewbox": {
+    "x": 3,
+    "y": 2,
+    "width": 18,
+    "height": 6,
+    "x1": 3,
+    "y1": 2,
+    "x2": 21,
+    "y2": 8
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeWidth": 2
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

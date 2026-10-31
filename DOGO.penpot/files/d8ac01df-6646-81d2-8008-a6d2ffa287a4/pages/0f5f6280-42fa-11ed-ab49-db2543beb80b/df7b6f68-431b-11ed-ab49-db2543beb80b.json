@@ -1,0 +1,195 @@
+{
+  "id": "df7b6f68-431b-11ed-ab49-db2543beb80b",
+  "name": "Text-89",
+  "type": "text",
+  "x": 1466.0000001821413,
+  "y": 420.0000000826393,
+  "width": 131.99999953035257,
+  "height": 61.9999977983814,
+  "rotation": 0,
+  "selrect": {
+    "x": 1466.0000001821413,
+    "y": 420.0000000826393,
+    "width": 131.99999953035257,
+    "height": 61.9999977983814,
+    "x1": 1466.0000001821413,
+    "y1": 420.0000000826393,
+    "x2": 1597.999999712494,
+    "y2": 481.9999978810207
+  },
+  "points": [
+    {
+      "x": 1466.0000003642829,
+      "y": 420
+    },
+    {
+      "x": 1597.9999998946355,
+      "y": 420.00000016527963
+    },
+    {
+      "x": 1597.9999995303529,
+      "y": 481.99999796366
+    },
+    {
+      "x": 1466,
+      "y": 481.99999779838015
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000002,
+    "b": -4.736144024070833E-9,
+    "c": 1.1273368253569842E-10,
+    "d": 0.9999999999999797,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999998,
+    "b": 4.73614402407093E-9,
+    "c": -1.127336825356977E-10,
+    "d": 1.000000000000021,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "df7b6f60-431b-11ed-ab49-db2543beb80b",
+  "frameId": "df7b6f60-431b-11ed-ab49-db2543beb80b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "capitalize",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "12",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Ricky Gervais Show (XFM Karl gets real with Steve)"
+              }
+            ],
+            "textTransform": "capitalize",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "ahkg4",
+            "fontSize": "12",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "x": 1466.0000001821413,
+      "y": 434.0000000826393,
+      "width": 118.96875,
+      "height": 15,
+      "x1": 0,
+      "y1": -1,
+      "x2": 118.96875,
+      "y2": 14,
+      "fontStyle": "normal",
+      "textTransform": "capitalize",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "Ricky Gervais Show "
+    },
+    {
+      "x": 1466.0000001821413,
+      "y": 447.1875000826393,
+      "width": 119.3125,
+      "height": 15,
+      "x1": 0,
+      "y1": 12.1875,
+      "x2": 119.3125,
+      "y2": 27.1875,
+      "fontStyle": "normal",
+      "textTransform": "capitalize",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "(XFM Karl gets real "
+    },
+    {
+      "x": 1466.0000001821413,
+      "y": 460.3750000826393,
+      "width": 68.015625,
+      "height": 15,
+      "x1": 0,
+      "y1": 25.375,
+      "x2": 68.015625,
+      "y2": 40.375,
+      "fontStyle": "normal",
+      "textTransform": "capitalize",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "with Steve)"
+    }
+  ]
+}

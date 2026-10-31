@@ -1,0 +1,136 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65df0dae7c",
+  "name": "Video + Install Bib + Base-2",
+  "type": "text",
+  "x": 2178.499983977924,
+  "y": 1160,
+  "width": 137,
+  "height": 45,
+  "rotation": 0,
+  "selrect": {
+    "x": 2178.499983977924,
+    "y": 1160,
+    "width": 137,
+    "height": 45,
+    "x1": 2178.499983977924,
+    "y1": 1160,
+    "x2": 2315.499983977924,
+    "y2": 1205
+  },
+  "points": [
+    {
+      "x": 2178.499986726822,
+      "y": 1160.000009442902
+    },
+    {
+      "x": 2315.4999867268125,
+      "y": 1159.9999903140933
+    },
+    {
+      "x": 2315.4999812290253,
+      "y": 1204.999990557098
+    },
+    {
+      "x": 2178.499981229035,
+      "y": 1205.0000096859067
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999285,
+    "b": -1.3962634079452E-7,
+    "c": -1.2217304807873746E-7,
+    "d": 1.0000000054001048,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0000000000000877,
+    "b": 1.3962634004053532E-7,
+    "c": 1.221730474190009E-7,
+    "d": 0.9999999945999115,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65df0d274d",
+  "frameId": "b67e0975-9540-809b-8004-fc65deec83cc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "\"avataaar\""
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "3d0s9",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "svgAttrs": {},
+  "pageId": "b67e0975-9540-809b-8004-fc65dee212e4",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "opacity": 0.99,
+  "positionData": [
+    {
+      "y": 1200.000054738118,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 135.51550250945547,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2178.5000225074073,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": "\"avataaar\""
+    }
+  ],
+  "strokes": [],
+  "blocked": false,
+  "fills": []
+}

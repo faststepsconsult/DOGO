@@ -1,0 +1,98 @@
+{
+  "id": "5c8da088-8494-805d-8003-b433cb2061e5",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 670.9999999999998,
+    "y": 1380.000000000008,
+    "width": 7,
+    "height": 5,
+    "x1": 670.9999999999998,
+    "y1": 1380.000000000008,
+    "x2": 677.9999999999998,
+    "y2": 1385.000000000008
+  },
+  "points": [
+    {
+      "x": 670.9999999999998,
+      "y": 1380.000000000008
+    },
+    {
+      "x": 677.9999999999998,
+      "y": 1380.000000000008
+    },
+    {
+      "x": 677.9999999999998,
+      "y": 1385.000000000008
+    },
+    {
+      "x": 670.9999999999998,
+      "y": 1385.000000000008
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b433cb16375b",
+  "frameId": "5c8da088-8494-805d-8003-b433cb16375b",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M671.0,1385.0C675.2000122070312,1385.0,678.0,1383.3330078125,678.0,1380.0C673.7999877929688,1380.0,671.0,1381.6669921875,671.0,1385.0Z",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "shapeRef": "5c8da088-8494-805d-8003-b546f1b915c9",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 12,
+    "y": 17,
+    "width": 7,
+    "height": 5,
+    "x1": 12,
+    "y1": 17,
+    "x2": 19,
+    "y2": 22
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round"
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

@@ -1,0 +1,149 @@
+{
+  "id": "8ad8e0e2-417d-11ed-83ad-33109eb2c9d7",
+  "name": "Text-43",
+  "type": "text",
+  "x": 2365.0000000073755,
+  "y": 549.0000000504651,
+  "width": 54,
+  "height": 15.999999899069394,
+  "rotation": 0,
+  "selrect": {
+    "x": 2365.0000000073755,
+    "y": 549.0000000504651,
+    "width": 54,
+    "height": 15.999999899069394,
+    "x1": 2365.0000000073755,
+    "y1": 549.0000000504651,
+    "x2": 2419.0000000073755,
+    "y2": 564.9999999495345
+  },
+  "points": [
+    {
+      "x": 2364.999999996351,
+      "y": 549
+    },
+    {
+      "x": 2418.999999996351,
+      "y": 549.0000001009307
+    },
+    {
+      "x": 2419.0000000184004,
+      "y": 565
+    },
+    {
+      "x": 2365.0000000184004,
+      "y": 564.9999998990693
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000007,
+    "b": -3.308722450212111E-24,
+    "c": 3.2471583226541196E-9,
+    "d": 1.0000000000000004,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999993,
+    "b": 0.0,
+    "c": -3.2471583226541113E-9,
+    "d": 0.9999999999999996,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8ad8e0e0-417d-11ed-83ad-33109eb2c9d7",
+  "frameId": "8ad8e0e0-417d-11ed-83ad-33109eb2c9d7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "uppercase",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "10",
+                "fontWeight": "700",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "1",
+                "fills": [
+                  {
+                    "fillColor": "#757575",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "us news"
+              }
+            ],
+            "textTransform": "uppercase",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "3mhoa",
+            "fontSize": "10",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "1",
+            "fills": [
+              {
+                "fillColor": "#757575",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "geometry-group",
+    "text-content-text",
+    "text-content-attribute"
+  ],
+  "shapeRef": "62278262-417c-11ed-83ad-33109eb2c9d7",
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "y": 562.0000000504651,
+      "fontStyle": "normal",
+      "textTransform": "uppercase",
+      "fontSize": "10px",
+      "fontWeight": "700",
+      "width": 53.48333740234375,
+      "textDecoration": "rgb(117, 117, 117)",
+      "letterSpacing": "1px",
+      "x": 2365.0000000073755,
+      "fills": [
+        {
+          "fillColor": "#757575",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 12,
+      "text": "us news"
+    }
+  ]
+}

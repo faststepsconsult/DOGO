@@ -1,0 +1,149 @@
+{
+  "id": "5b49e402-417d-11ed-83ad-33109eb2c9d7",
+  "name": "Text-43",
+  "type": "text",
+  "x": 2365.000000007376,
+  "y": 409.00000005046536,
+  "width": 54.999999999999545,
+  "height": 15.99999989906928,
+  "rotation": 0,
+  "selrect": {
+    "x": 2365.000000007376,
+    "y": 409.00000005046536,
+    "width": 54.999999999999545,
+    "height": 15.99999989906928,
+    "x1": 2365.000000007376,
+    "y1": 409.00000005046536,
+    "x2": 2420.0000000073755,
+    "y2": 424.99999994953464
+  },
+  "points": [
+    {
+      "x": 2364.9999999966,
+      "y": 409
+    },
+    {
+      "x": 2419.9999999966,
+      "y": 409.0000001009307
+    },
+    {
+      "x": 2420.0000000181517,
+      "y": 425
+    },
+    {
+      "x": 2365.0000000181517,
+      "y": 424.9999998990693
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000007,
+    "b": -3.308722450212111E-24,
+    "c": 3.182083191378776E-9,
+    "d": 1.0000000000000004,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999993,
+    "b": 0.0,
+    "c": -3.1820831913787676E-9,
+    "d": 0.9999999999999996,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5b49e400-417d-11ed-83ad-33109eb2c9d7",
+  "frameId": "5b49e400-417d-11ed-83ad-33109eb2c9d7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "uppercase",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "10",
+                "fontWeight": "700",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "1",
+                "fills": [
+                  {
+                    "fillColor": "#757575",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "politics"
+              }
+            ],
+            "textTransform": "uppercase",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "3mhoa",
+            "fontSize": "10",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "1",
+            "fills": [
+              {
+                "fillColor": "#757575",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "geometry-group",
+    "text-content-text",
+    "text-content-attribute"
+  ],
+  "shapeRef": "62278262-417c-11ed-83ad-33109eb2c9d7",
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "y": 422.00000005046536,
+      "fontStyle": "normal",
+      "textTransform": "uppercase",
+      "fontSize": "10px",
+      "fontWeight": "700",
+      "width": 54.31666564941406,
+      "textDecoration": "rgb(117, 117, 117)",
+      "letterSpacing": "1px",
+      "x": 2365.000000007376,
+      "fills": [
+        {
+          "fillColor": "#757575",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 12,
+      "text": "politics"
+    }
+  ]
+}

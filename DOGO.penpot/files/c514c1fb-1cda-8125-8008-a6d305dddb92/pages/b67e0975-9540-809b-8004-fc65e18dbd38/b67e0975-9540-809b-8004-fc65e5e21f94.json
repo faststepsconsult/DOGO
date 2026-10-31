@@ -1,0 +1,97 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e5e21f94",
+  "name": "Long-Hair",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": 0,
+  "selrect": {
+    "x": 2931.5,
+    "y": -2170,
+    "width": 264,
+    "height": 280,
+    "x1": 2931.5,
+    "y1": -2170,
+    "x2": 3195.5,
+    "y2": -1890
+  },
+  "points": [
+    {
+      "x": 2931.5,
+      "y": -2170
+    },
+    {
+      "x": 3195.5,
+      "y": -2170
+    },
+    {
+      "x": 3195.5,
+      "y": -1890
+    },
+    {
+      "x": 2931.5,
+      "y": -1890
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e5e195c6",
+  "frameId": "b67e0975-9540-809b-8004-fc65e5e174b5",
+  "flipX": null,
+  "flipY": null,
+  "content": "M2931.5,-2170.0L3195.5,-2170.0L3195.5,-1890.0L2931.5,-1890.0L2931.5,-2170.0ZZZZZZ",
+  "svgAttrs": {
+    "id": "shape-18a5cc60-f38d-11ec-89fd-fd405a016ff5",
+    "fillRule": "evenodd",
+    "stroke": "none"
+  },
+  "proportionLock": false,
+  "center": {
+    "x": 3063.5,
+    "y": -2030
+  },
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 6039.0,
+    "f": 5.0
+  },
+  "hidden": false,
+  "svgViewbox": {
+    "x": 6039,
+    "y": 5,
+    "width": 264,
+    "height": 280,
+    "x1": 6039,
+    "y1": 5,
+    "x2": 6303,
+    "y2": 285
+  },
+  "strokes": [],
+  "proportion": 1,
+  "fills": [
+    {
+      "fillColor": "#944f23",
+      "fillOpacity": 1
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-ac48770ae495",
+  "name": "View storefront",
+  "type": "text",
+  "x": 946.9581505670021,
+  "y": 754,
+  "width": 89.04184943299799,
+  "height": 17,
+  "rotation": 0,
+  "selrect": {
+    "x": 946.9581505670021,
+    "y": 754,
+    "width": 89.04184943299799,
+    "height": 17,
+    "x1": 946.9581505670021,
+    "y1": 754,
+    "x2": 1036,
+    "y2": 771
+  },
+  "points": [
+    {
+      "x": 946.958150567002,
+      "y": 754
+    },
+    {
+      "x": 1036,
+      "y": 754
+    },
+    {
+      "x": 1036,
+      "y": 771
+    },
+    {
+      "x": 946.958150567002,
+      "y": 771
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aaa4e19f3007",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "sourcesanspro",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#0049eb",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "sourcesanspro",
+                "text": "View storefront"
+              }
+            ],
+            "typographyRefId": null,
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "sourcesanspro",
+            "key": "82hqt",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "typographyRefFile": null,
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#0049eb",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "sourcesanspro"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 946.9581505670021,
+      "y": 771.5,
+      "width": 88.96484375,
+      "height": 18.75,
+      "x1": 0,
+      "y1": -1.25,
+      "x2": 88.96484375,
+      "y2": 17.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#0049eb",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "text": "View storefront"
+    }
+  ],
+  "blocked": true,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56"
+}

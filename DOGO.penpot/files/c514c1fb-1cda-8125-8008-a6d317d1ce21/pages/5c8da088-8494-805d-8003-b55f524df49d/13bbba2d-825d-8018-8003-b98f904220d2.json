@@ -1,0 +1,146 @@
+{
+  "id": "13bbba2d-825d-8018-8003-b98f904220d2",
+  "name": "Text",
+  "type": "text",
+  "x": 287,
+  "y": 2394,
+  "width": 196,
+  "height": 70,
+  "rotation": 0,
+  "selrect": {
+    "x": 287,
+    "y": 2394,
+    "width": 196,
+    "height": 70,
+    "x1": 287,
+    "y1": 2394,
+    "x2": 483,
+    "y2": 2464
+  },
+  "points": [
+    {
+      "x": 287,
+      "y": 2394
+    },
+    {
+      "x": 483,
+      "y": 2394
+    },
+    {
+      "x": 483,
+      "y": 2464
+    },
+    {
+      "x": 287,
+      "y": 2464
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "13bbba2d-825d-8018-8003-b9880380ca75",
+  "frameId": "13bbba2d-825d-8018-8003-b9880380ca75",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-figtree",
+                "fontSize": "56",
+                "fontWeight": "700",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#495057",
+                    "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "e17d7d2b-786e-80de-8002-893547eb2950"
+                  }
+                ],
+                "fontFamily": "Figtree",
+                "text": "License"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-figtree",
+            "key": "3app7",
+            "fontSize": "56",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#495057",
+                "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                "fillOpacity": 1,
+                "fillColorRefId": "e17d7d2b-786e-80de-8002-893547eb2950"
+              }
+            ],
+            "fontFamily": "Figtree"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fix",
+  "layoutItemVSizing": "fix",
+  "positionData": [
+    {
+      "y": 2460.8181748986244,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "56px",
+      "fontWeight": "700",
+      "width": 195.2769775390625,
+      "textDecoration": "none solid rgb(73, 80, 87)",
+      "letterSpacing": "normal",
+      "x": 287,
+      "fills": [
+        {
+          "fillColor": "#495057",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-893547eb2950"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 67.27272033691406,
+      "text": "License"
+    }
+  ],
+  "pageId": "5c8da088-8494-805d-8003-b55f524df49d"
+}

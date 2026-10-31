@@ -1,0 +1,78 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e5d9d076",
+  "name": "\ud83c\udfa8 Round-Glasses",
+  "type": "frame",
+  "x": 2668.999813740243,
+  "y": -1786,
+  "width": 126,
+  "height": 48,
+  "rotation": 0,
+  "selrect": {
+    "x": 2668.999813740243,
+    "y": -1786,
+    "width": 126,
+    "height": 48,
+    "x1": 2668.999813740243,
+    "y1": -1786,
+    "x2": 2794.999813740243,
+    "y2": -1738
+  },
+  "points": [
+    {
+      "x": 2668.999813740243,
+      "y": -1786
+    },
+    {
+      "x": 2794.999813740243,
+      "y": -1786
+    },
+    {
+      "x": 2794.999813740243,
+      "y": -1738
+    },
+    {
+      "x": 2668.999813740243,
+      "y": -1738
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e5ccc088",
+  "frameId": "b67e0975-9540-809b-8004-fc65e5ccc088",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "hideInViewer": true,
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65dc613ca5",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "r3": 0,
+  "r1": 0,
+  "componentId": "b67e0975-9540-809b-8004-fc65dc613ca5",
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65e5da77be"
+  ]
+}

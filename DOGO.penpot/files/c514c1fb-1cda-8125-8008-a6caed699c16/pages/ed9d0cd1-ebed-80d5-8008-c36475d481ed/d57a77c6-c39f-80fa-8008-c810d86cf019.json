@@ -1,0 +1,154 @@
+{
+  "id": "d57a77c6-c39f-80fa-8008-c810d86cf019",
+  "name": "WhatsApp",
+  "type": "text",
+  "x": 432.63208853919815,
+  "y": 80.93416159660643,
+  "width": 67,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 432.63208853919815,
+    "y": 80.93416159660643,
+    "width": 67,
+    "height": 20,
+    "x1": 432.63208853919815,
+    "y1": 80.93416159660643,
+    "x2": 499.63208853919815,
+    "y2": 100.93416159660643
+  },
+  "points": [
+    {
+      "x": 432.63208853919815,
+      "y": 80.93416159660643
+    },
+    {
+      "x": 499.63208853919815,
+      "y": 80.93416159660643
+    },
+    {
+      "x": 499.63208853919815,
+      "y": 100.93416159660643
+    },
+    {
+      "x": 432.63208853919815,
+      "y": 100.93416159660643
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d57a77c6-c39f-80fa-8008-c80dfb1ff70b",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.6",
+            "path": "Caption",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.6",
+                "path": "Caption",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cca243c565",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "12",
+                "fontWeight": "500",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T10:07:45.575Z",
+                "fontVariantId": "500",
+                "textDecoration": "none",
+                "letterSpacing": "1",
+                "fills": [
+                  {
+                    "fillColor": "#e9e9e9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "WhatsApp"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cca243c565",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "7sb2a",
+            "fontSize": "12",
+            "fontWeight": "500",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-09-24T10:07:45.575Z",
+            "fontVariantId": "500",
+            "textDecoration": "none",
+            "letterSpacing": "1",
+            "fills": [
+              {
+                "fillColor": "#e9e9e9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "positionData": [
+    {
+      "x": 432.63208853919815,
+      "y": 98.26749556572264,
+      "width": 66.85417175292969,
+      "height": 17.33333396911621,
+      "x1": 0,
+      "y1": 0,
+      "x2": 66.85417175292969,
+      "y2": 17.33333396911621,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#e9e9e9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "WhatsApp"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": [],
+  "pageId": "ed9d0cd1-ebed-80d5-8008-c36475d481ed"
+}

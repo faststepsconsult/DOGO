@@ -1,0 +1,154 @@
+{
+  "id": "c2274f85-e0f1-80a1-8008-aaaea55ff08b",
+  "name": "Incoming orders",
+  "type": "text",
+  "x": 61.99576104728209,
+  "y": 367,
+  "width": 123,
+  "height": 15,
+  "rotation": 0,
+  "selrect": {
+    "x": 61.99576104728209,
+    "y": 367,
+    "width": 123,
+    "height": 15,
+    "x1": 61.99576104728209,
+    "y1": 367,
+    "x2": 184.9957610472821,
+    "y2": 382
+  },
+  "points": [
+    {
+      "x": 61.99576104728209,
+      "y": 367
+    },
+    {
+      "x": 184.9957610472821,
+      "y": 367
+    },
+    {
+      "x": 184.9957610472821,
+      "y": 382
+    },
+    {
+      "x": 61.99576104728209,
+      "y": 382
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aaaea55ff081",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbe51b4c50",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-sora",
+                "fontSize": "14",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T10:07:26.099Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.4",
+                "fills": [
+                  {
+                    "fillColor": "#f2e8e8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Sora",
+                "text": "Incoming orders"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbe51b4c50",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-sora",
+            "key": "97q4c",
+            "fontSize": "14",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-09-24T10:07:26.099Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.4",
+            "fills": [
+              {
+                "fillColor": "#f2e8e8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Sora"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 61.99576104728209,
+      "y": 382,
+      "width": 122.3046875,
+      "height": 17.5,
+      "x1": 0,
+      "y1": -2.5,
+      "x2": 122.3046875,
+      "y2": 15,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.4px",
+      "fills": [
+        {
+          "fillColor": "#f2e8e8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Sora",
+      "text": "Incoming orders"
+    }
+  ],
+  "blocked": true,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65dcfb609c",
+  "name": "Happy Eyes-\ud83d\ude01-4",
+  "type": "frame",
+  "x": 813,
+  "y": 1502.0000000000002,
+  "width": 80.00002117316478,
+  "height": 7.999997443223265,
+  "rotation": 0,
+  "selrect": {
+    "x": 813,
+    "y": 1502.0000000000002,
+    "width": 80.00002117316478,
+    "height": 7.999997443223265,
+    "x1": 813,
+    "y1": 1502.0000000000002,
+    "x2": 893.0000211731648,
+    "y2": 1509.9999974432235
+  },
+  "points": [
+    {
+      "x": 813,
+      "y": 1502.0000000000002
+    },
+    {
+      "x": 893.0000211731648,
+      "y": 1502.0000000000002
+    },
+    {
+      "x": 893.0000211731648,
+      "y": 1509.9999974432235
+    },
+    {
+      "x": 813,
+      "y": 1509.9999974432235
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65dce340bb",
+  "frameId": "b67e0975-9540-809b-8004-fc65dac750b7",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-154ed930-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_7)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65db927abd",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65daa35873",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2294.0,
+    "f": 400.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2308.5000557585236,
+    "y": 416.000002518105,
+    "width": 80.00010413417385,
+    "height": 7.999985783882437,
+    "x1": 2308.5000557585236,
+    "y1": 416.000002518105,
+    "x2": 2388.5001598926974,
+    "y2": 423.99998830198746
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65db927abd",
+  "svgDefs": {
+    "clip_7": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_7"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_7",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_7": {
+      "tag": "rect",
+      "attrs": {
+        "width": "112",
+        "height": "44",
+        "id": "artboard_7"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65dcfbd7c8",
+    "b67e0975-9540-809b-8004-fc65dcfc7d7e"
+  ]
+}

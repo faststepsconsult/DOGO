@@ -1,0 +1,14 @@
+{
+  "id": "a828e1c1-4487-80b9-8008-b03a698501a5",
+  "name": "Page 8 (still in dev)",
+  "background": "#3d3d3d",
+  "guides": {
+    "4f9dc4ea-0597-801a-8008-a6d3def64dd4": {
+      "position": -113604,
+      "frameId": null,
+      "id": "4f9dc4ea-0597-801a-8008-a6d3def64dd4",
+      "axis": "x"
+    }
+  },
+  "index": 12
+}

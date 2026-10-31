@@ -1,0 +1,66 @@
+{
+  "id": "5e2b2560-3fe5-11ed-af5c-6f8b44ab315b",
+  "name": "Group-5",
+  "type": "group",
+  "x": 843.9999999999982,
+  "y": 262,
+  "width": 4,
+  "height": 18,
+  "rotation": null,
+  "selrect": {
+    "x": 843.9999999999982,
+    "y": 262,
+    "width": 4,
+    "height": 18,
+    "x1": 843.9999999999982,
+    "y1": 262,
+    "x2": 847.9999999999982,
+    "y2": 280
+  },
+  "points": [
+    {
+      "x": 843.9999999999982,
+      "y": 262
+    },
+    {
+      "x": 847.9999999999982,
+      "y": 262
+    },
+    {
+      "x": 847.9999999999982,
+      "y": 280
+    },
+    {
+      "x": 843.9999999999982,
+      "y": 280
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fa15fa20-3fdd-11ed-af5c-6f8b44ab315b",
+  "frameId": "fa15fa20-3fdd-11ed-af5c-6f8b44ab315b",
+  "flipX": null,
+  "flipY": null,
+  "index": 13,
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsH": "right",
+  "shapes": [
+    "46086790-3fe5-11ed-af5c-6f8b44ab315b",
+    "53ce40c0-3fe5-11ed-af5c-6f8b44ab315b",
+    "580f93f0-3fe5-11ed-af5c-6f8b44ab315b"
+  ]
+}

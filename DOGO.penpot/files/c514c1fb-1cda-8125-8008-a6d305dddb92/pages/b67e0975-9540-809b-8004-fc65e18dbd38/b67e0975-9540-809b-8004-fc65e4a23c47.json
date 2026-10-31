@@ -1,0 +1,130 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e4a23c47",
+  "name": "TopAccessoriesWinter-Hat-5",
+  "type": "frame",
+  "x": 1446.393366857149,
+  "y": -2116.000001510717,
+  "width": 139.99999999999955,
+  "height": 164.99999999999955,
+  "rotation": 0,
+  "selrect": {
+    "x": 1446.393366857149,
+    "y": -2116.000001510717,
+    "width": 139.99999999999955,
+    "height": 164.99999999999955,
+    "x1": 1446.393366857149,
+    "y1": -2116.000001510717,
+    "x2": 1586.3933668571485,
+    "y2": -1951.0000015107175
+  },
+  "points": [
+    {
+      "x": 1446.393366857149,
+      "y": -2116.000001510717
+    },
+    {
+      "x": 1586.3933668571485,
+      "y": -2116.000001510717
+    },
+    {
+      "x": 1586.3933668571485,
+      "y": -1951.0000015107175
+    },
+    {
+      "x": 1446.393366857149,
+      "y": -1951.0000015107175
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e4a1b9b2",
+  "frameId": "b67e0975-9540-809b-8004-fc65e4a1b9b2",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-17fce231-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_12)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65e4a23c46",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 4033.0,
+    "f": 0.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 4086.500015445822,
+    "y": 20.0000087409976,
+    "width": 139.99999160127257,
+    "height": 164.99999279088078,
+    "x1": 4086.500015445822,
+    "y1": 20.0000087409976,
+    "x2": 4226.500007047095,
+    "y2": 185.00000153187838
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65e4a23c46",
+  "svgDefs": {
+    "clip_12": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_12"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_12",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_12": {
+      "tag": "rect",
+      "attrs": {
+        "width": "266",
+        "height": "280",
+        "id": "artboard_12"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65e4a23c4a",
+    "b67e0975-9540-809b-8004-fc65e4a73cff"
+  ]
+}

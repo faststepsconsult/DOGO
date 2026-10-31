@@ -1,0 +1,130 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65dc98f0b4",
+  "name": "Eyebrow \/ Natural \/ Up-Down Eyebrows",
+  "type": "frame",
+  "x": 488.82218730678056,
+  "y": 6493.512504498073,
+  "width": 89.0313520000002,
+  "height": 23.85966400000015,
+  "rotation": 0,
+  "selrect": {
+    "x": 488.82218730678056,
+    "y": 6493.512504498073,
+    "width": 89.0313520000002,
+    "height": 23.85966400000015,
+    "x1": 488.82218730678056,
+    "y1": 6493.512504498073,
+    "x2": 577.8535393067807,
+    "y2": 6517.372168498074
+  },
+  "points": [
+    {
+      "x": 488.8221858154099,
+      "y": 6493.512503875796
+    },
+    {
+      "x": 577.8535407981515,
+      "y": 6493.512503875796
+    },
+    {
+      "x": 577.8535407981515,
+      "y": 6517.372169120351
+    },
+    {
+      "x": 488.8221858154099,
+      "y": 6517.372169120351
+    }
+  ],
+  "transform": {
+    "a": 1.0000000335021455,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0000000521614563,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999664978556,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.9999999478385465,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc660b6071cc",
+  "frameId": "3849bc3d-4437-8019-8004-fc660b6071cc",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-151be250-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_6)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc660b5ca083",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 1750.0,
+    "f": 560.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 1761.9999443559107,
+    "y": 560.000000056719,
+    "width": 89.09406198274144,
+    "height": 23.578994244554906,
+    "x1": 1761.9999443559107,
+    "y1": 560.000000056719,
+    "x2": 1851.094006338652,
+    "y2": 583.578994301274
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65dc98f0b4",
+  "svgDefs": {
+    "clip_6": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_6"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_6",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_6": {
+      "tag": "rect",
+      "attrs": {
+        "width": "112",
+        "height": "24",
+        "id": "artboard_6"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "mainInstance": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65dc99764f",
+    "b67e0975-9540-809b-8004-fc65dc99a2de"
+  ]
+}

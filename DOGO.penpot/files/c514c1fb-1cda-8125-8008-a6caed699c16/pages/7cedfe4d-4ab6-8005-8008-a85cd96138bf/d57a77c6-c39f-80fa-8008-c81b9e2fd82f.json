@@ -1,0 +1,86 @@
+{
+  "id": "d57a77c6-c39f-80fa-8008-c81b9e2fd82f",
+  "name": "moon",
+  "type": "frame",
+  "x": 873,
+  "y": -26,
+  "width": 24,
+  "height": 24,
+  "rotation": null,
+  "selrect": {
+    "x": 873,
+    "y": -26,
+    "width": 24,
+    "height": 24,
+    "x1": 873,
+    "y1": -26,
+    "x2": 897,
+    "y2": -2
+  },
+  "points": [
+    {
+      "x": 873,
+      "y": -26
+    },
+    {
+      "x": 897,
+      "y": -26
+    },
+    {
+      "x": 897,
+      "y": -2
+    },
+    {
+      "x": 873,
+      "y": -2
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d57a77c6-c39f-80fa-8008-c81b9e2fd823",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "5c8da088-8494-805d-8003-b54e63da831f",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "7cedfe4d-4ab6-8005-8008-a85cd96138bf",
+  "r3": 0,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b54e63da831f",
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "d57a77c6-c39f-80fa-8008-c81b9e2fd837",
+    "d57a77c6-c39f-80fa-8008-c81b9e2fd838"
+  ]
+}

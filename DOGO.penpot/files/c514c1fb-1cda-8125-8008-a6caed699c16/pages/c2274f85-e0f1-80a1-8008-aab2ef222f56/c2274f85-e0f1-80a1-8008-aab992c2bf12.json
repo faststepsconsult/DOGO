@@ -1,0 +1,106 @@
+{
+  "id": "c2274f85-e0f1-80a1-8008-aab992c2bf12",
+  "name": "Rectangle",
+  "type": "rect",
+  "x": 309.9301516629462,
+  "y": 233.5178962137743,
+  "width": 235.0256980712362,
+  "height": 98.00000000000024,
+  "rotation": 359,
+  "selrect": {
+    "x": 309.9301516629462,
+    "y": 233.5178962137743,
+    "width": 235.0256980712362,
+    "height": 98.00000000000024,
+    "x1": 309.9301516629462,
+    "y1": 233.5178962137743,
+    "x2": 544.9558497341824,
+    "y2": 331.5178962137745
+  },
+  "points": [
+    {
+      "x": 309.09288152361387,
+      "y": 235.57624115408387
+    },
+    {
+      "x": 544.0827840426613,
+      "y": 231.4744771481383
+    },
+    {
+      "x": 545.7931198735147,
+      "y": 329.45955127346457
+    },
+    {
+      "x": 310.8032173544676,
+      "y": 333.56131527941045
+    }
+  ],
+  "transform": {
+    "a": 0.999847695156391,
+    "b": -0.01745240643728374,
+    "c": 0.017452406437283408,
+    "d": 0.999847695156391,
+    "e": 5.684341886080801E-13,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9998476951563914,
+    "b": 0.017452406437283748,
+    "c": -0.017452406437283415,
+    "d": 0.9998476951563914,
+    "e": -5.683476133278824E-13,
+    "f": -9.920544492435821E-15
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aab992c2440c",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": "",
+  "hideInViewer": false,
+  "r2": 30,
+  "proportionLock": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "r3": 30,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 30,
+  "opacity": 0.4,
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 1,
+      "strokeColor": "#64748b",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6d166b3b15a",
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "shadow": [
+    {
+      "id": "7cedfe4d-4ab6-8005-8008-a853286c348d",
+      "style": "drop-shadow",
+      "color": {
+        "color": "#000000",
+        "opacity": 0.2
+      },
+      "offsetX": 4,
+      "offsetY": 4,
+      "blur": 4,
+      "spread": 0,
+      "hidden": false
+    }
+  ],
+  "r4": 30,
+  "fills": [
+    {
+      "fillColor": "#000000",
+      "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbc41f753e",
+      "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+      "fillOpacity": 1
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e2aff867",
+  "name": "Facial Hair \/ Magnum Beard",
+  "type": "frame",
+  "x": -34.99783189401486,
+  "y": -1251.0000287016812,
+  "width": 63.9956639276339,
+  "height": 16.027197186393323,
+  "rotation": 0,
+  "selrect": {
+    "x": -34.99783189401486,
+    "y": -1251.0000287016812,
+    "width": 63.9956639276339,
+    "height": 16.027197186393323,
+    "x1": -34.99783189401486,
+    "y1": -1251.0000287016812,
+    "x2": 28.99783203361904,
+    "y2": -1234.972831515288
+  },
+  "points": [
+    {
+      "x": -34.99783189401486,
+      "y": -1251.0000287016812
+    },
+    {
+      "x": 28.99783203361904,
+      "y": -1251.0000287016812
+    },
+    {
+      "x": 28.99783203361904,
+      "y": -1234.972831515288
+    },
+    {
+      "x": -34.99783189401486,
+      "y": -1234.972831515288
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e2af834c",
+  "frameId": "b67e0975-9540-809b-8004-fc65e2af834c",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-176201c0-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#clip_8)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65db93b155",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2566.0,
+    "f": 832.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2616.9999669300228,
+    "y": 894.9999456834573,
+    "width": 63.99132604190836,
+    "height": 16.054388181454442,
+    "x1": 2616.9999669300228,
+    "y1": 894.9999456834573,
+    "x2": 2680.991292971931,
+    "y2": 911.0543338649118
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65db93b155",
+  "svgDefs": {
+    "clip_8": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_8"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_8",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_8": {
+      "tag": "rect",
+      "attrs": {
+        "width": "168",
+        "height": "152",
+        "id": "artboard_8"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65e2b0570d"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "7cedfe4d-4ab6-8005-8008-a845bdb7f577",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 1093,
+    "y": 77,
+    "width": 18,
+    "height": 14.999999999999773,
+    "x1": 1093,
+    "y1": 77,
+    "x2": 1111,
+    "y2": 91.99999999999977
+  },
+  "points": [
+    {
+      "x": 1093,
+      "y": 77
+    },
+    {
+      "x": 1111,
+      "y": 77
+    },
+    {
+      "x": 1111,
+      "y": 92
+    },
+    {
+      "x": 1093,
+      "y": 92
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7cedfe4d-4ab6-8005-8008-a845bdb796d3",
+  "frameId": "7cedfe4d-4ab6-8005-8008-a845bdb796d3",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M1096.0,83.00001525878906C1096.0,79.68556213378906,1098.686279296875,77.00001525878906,1102.0,77.00001525878906C1105.313720703125,77.00001525878906,1108.0,79.68556213378906,1108.0,83.00001525878906C1108.0,90.00001525878906,1111.0,92.00001525878906,1111.0,92.00001525878906L1093.0,92.00001525878906C1093.0,92.00001525878906,1096.0,90.00001525878906,1096.0,83.00001525878906",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "touched": [
+    "stroke-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "5c8da088-8494-805d-8003-b53f7072edb1",
+  "proportionLock": false,
+  "pageId": "a828e1c1-4487-80b9-8008-b03a698501a5",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 3,
+    "y": 2,
+    "width": 18,
+    "height": 15,
+    "x1": 3,
+    "y1": 2,
+    "x2": 21,
+    "y2": 17
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeCapStart": "round",
+      "strokeStyle": "solid",
+      "strokeColor": "#ffffff",
+      "strokeOpacity": 1,
+      "strokeAlignment": "inner",
+      "strokeCapEnd": "round",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+      "strokeWidth": 2,
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16"
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "fills": []
+}

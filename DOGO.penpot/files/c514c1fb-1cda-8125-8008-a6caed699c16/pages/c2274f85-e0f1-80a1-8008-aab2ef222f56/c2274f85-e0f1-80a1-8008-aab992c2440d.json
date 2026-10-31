@@ -1,0 +1,154 @@
+{
+  "id": "c2274f85-e0f1-80a1-8008-aab992c2440d",
+  "name": "Orders",
+  "type": "text",
+  "x": 322.75440532411125,
+  "y": 298.8392376687675,
+  "width": 37.063167204887236,
+  "height": 15,
+  "rotation": 359,
+  "selrect": {
+    "x": 322.75440532411125,
+    "y": 298.8392376687675,
+    "width": 37.063167204887236,
+    "height": 15,
+    "x1": 322.75440532411125,
+    "y1": 298.8392376687675,
+    "x2": 359.8175725289985,
+    "y2": 313.8392376687675
+  },
+  "points": [
+    {
+      "x": 322.62633472577414,
+      "y": 299.1638006840507
+    },
+    {
+      "x": 359.6838570307766,
+      "y": 298.51695922613834
+    },
+    {
+      "x": 359.94564312733553,
+      "y": 313.5146746534839
+    },
+    {
+      "x": 322.88812082233346,
+      "y": 314.1615161113966
+    }
+  ],
+  "transform": {
+    "a": 0.9998476951563919,
+    "b": -0.017452406437275414,
+    "c": 0.017452406437289625,
+    "d": 0.9998476951563937,
+    "e": 3.0127011996228248E-12,
+    "f": 2.1600499167107046E-12
+  },
+  "transformInverse": {
+    "a": 0.9998476951563906,
+    "b": 0.01745240643727536,
+    "c": -0.01745240643728957,
+    "d": 0.9998476951563888,
+    "e": -2.9745442815665054E-12,
+    "f": -2.2122998164558322E-12
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aab992c2440c",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "11",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-10-12T08:12:46.575Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.5",
+                "fills": [
+                  {
+                    "fillColor": "#f2e8e8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Orders"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "fd1jg",
+            "fontSize": "11",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-10-12T08:12:46.575Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.5",
+            "fills": [
+              {
+                "fillColor": "#f2e8e8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 322.75440532411125,
+      "y": 312.17257128025585,
+      "width": 36.708335876464844,
+      "height": 14.666666984558105,
+      "x1": 0,
+      "y1": -1.3333333730697632,
+      "x2": 36.708335876464844,
+      "y2": 13.333333611488342,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "11px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.5px",
+      "fills": [
+        {
+          "fillColor": "#f2e8e8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Orders"
+    }
+  ],
+  "blocked": true,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56"
+}

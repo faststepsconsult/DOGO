@@ -1,0 +1,1097 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65f31e94cc",
+  "name": "Body",
+  "type": "text",
+  "x": 526,
+  "y": 585,
+  "width": 1068,
+  "height": 642,
+  "rotation": 0,
+  "selrect": {
+    "x": 526,
+    "y": 585,
+    "width": 1068,
+    "height": 642,
+    "x1": 526,
+    "y1": 585,
+    "x2": 1594,
+    "y2": 1227
+  },
+  "points": [
+    {
+      "x": 525.9999999999999,
+      "y": 585.0000095941001
+    },
+    {
+      "x": 1594.0000000000002,
+      "y": 584.9999909539837
+    },
+    {
+      "x": 1594.0000000000002,
+      "y": 1226.9999904059
+    },
+    {
+      "x": 525.9999999999999,
+      "y": 1227.0000090460164
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000002,
+    "b": -1.7453292519943295E-8,
+    "c": 4.406533395291764E-17,
+    "d": 0.9999999991462869,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999999,
+    "b": 1.7453292534843405E-8,
+    "c": -4.4065333981353375E-17,
+    "d": 1.0000000008537133,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65f3193099",
+  "frameId": "b67e0975-9540-809b-8004-fc65f318fb3d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Original Design"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "3d0s9",
+            "fontSize": "28",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "9e6rj",
+            "fontSize": "14",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "avataaars -> Designed by Pablo Stanley ("
+              },
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "textDecoration": "underline",
+                "fills": [
+                  {
+                    "fillColor": "#118af1",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "twitter.com\/pablostanley"
+              },
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": ")"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "17iuj",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Download (Sketch file and web editor): "
+              },
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "textDecoration": "underline",
+                "fills": [
+                  {
+                    "fillColor": "#118af1",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "www.avataaars.com\/"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "a970g",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Promo video: "
+              },
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "textDecoration": "underline",
+                "fills": [
+                  {
+                    "fillColor": "#118af1",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "www.youtube.com\/watch?v=adNat6p5xHE"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "9sm90",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "License: Free for personal and commercial use"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "908kp",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "8a7ps",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "More works by Pablo Stanley can be found here: "
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "4oqib",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "textDecoration": "underline",
+                "fills": [
+                  {
+                    "fillColor": "#118af1",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "www.pablostanley.gumroad.com"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "88nrp",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "7f9vu",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "e64jk",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Porting to Penpot"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "7n1ci",
+            "fontSize": "28",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "key": "eedo7",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "et5ic",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Conversion, reorganization of files, and revision of instructions for Penpot"
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "44jhl",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "by candide \u2737 media"
+              }
+            ],
+            "fills": []
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "textDecoration": "underline",
+                "fills": [
+                  {
+                    "fillColor": "#118af1",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "www.candide.media"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "2h4r5",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "underline",
+            "fills": [
+              {
+                "fillColor": "#118af1",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "e1ch4",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "svgAttrs": {},
+  "pageId": "b67e0975-9540-809b-8004-fc65f316261d",
+  "opacity": 0.99,
+  "positionData": [
+    {
+      "y": 625.0000103412294,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "800",
+      "width": 220.3125046700983,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99998278962369,
+      "text": "Original Design"
+    },
+    {
+      "y": 648.9999994715181,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 2.812471239192064,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 17.9999918477165,
+      "text": "\u00a0"
+    },
+    {
+      "y": 691.0000244287451,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 524.6249712962067,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.0000267688456,
+      "text": "avataaars -> Designed by Pablo Stanley ("
+    },
+    {
+      "y": 691.0000244287451,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 326.2656627701267,
+      "textDecoration": "underline solid rgb(17, 138, 241)",
+      "letterSpacing": "normal",
+      "x": 1050.6249870082338,
+      "fills": [
+        {
+          "fillColor": "#118af1",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.0000267688456,
+      "text": "twitter.com\/pablostanley"
+    },
+    {
+      "y": 691.0000244287451,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 8.249974273925773,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1376.8906497783605,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.0000267688456,
+      "text": ")"
+    },
+    {
+      "y": 736.0000040480362,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 508.37500064551796,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99998278962369,
+      "text": "Download (Sketch file and web editor): "
+    },
+    {
+      "y": 736.0000040480362,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 272.78112370740473,
+      "textDecoration": "underline solid rgb(17, 138, 241)",
+      "letterSpacing": "normal",
+      "x": 1034.375016357545,
+      "fills": [
+        {
+          "fillColor": "#118af1",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99998278962369,
+      "text": "www.avataaars.com\/"
+    },
+    {
+      "y": 781.0000276465491,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 180.54684408045773,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002676884549,
+      "text": "Promo video: "
+    },
+    {
+      "y": 781.0000276465491,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 553.5156258163797,
+      "textDecoration": "underline solid rgb(17, 138, 241)",
+      "letterSpacing": "normal",
+      "x": 706.5468597924848,
+      "fills": [
+        {
+          "fillColor": "#118af1",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002676884549,
+      "text": "www.youtube.com\/watch?v=adNat6p5xHE"
+    },
+    {
+      "y": 826.0000072658404,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 605.8436872605594,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99998278962369,
+      "text": "License: Free for personal and commercial use"
+    },
+    {
+      "y": 870.000031317258,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640599081373125,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 37.0000272217502,
+      "text": "\u00a0"
+    },
+    {
+      "y": 913.0000118423585,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 629.0468608488356,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99998278962369,
+      "text": "More works by Pablo Stanley can be found here:"
+    },
+    {
+      "y": 913.0000118423585,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.265631329819598,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1155.0468765608628,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99998278962369,
+      "text": " "
+    },
+    {
+      "y": 957.9999914616496,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 429.203077667436,
+      "textDecoration": "underline solid rgb(17, 138, 241)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#118af1",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99998278962369,
+      "text": "www.pablostanley.gumroad.com"
+    },
+    {
+      "y": 1001.9999715338455,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640599081373125,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 36.99998324252829,
+      "text": "\u00a0"
+    },
+    {
+      "y": 1044.0000404702942,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640599081373125,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 37.00007120097189,
+      "text": "\u00a0"
+    },
+    {
+      "y": 1087.0000209953946,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "800",
+      "width": 254.12496186924648,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99998278962357,
+      "text": "Porting to Penpot"
+    },
+    {
+      "y": 1109.0000110314927,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 2.812471239192064,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 17.9999918477165,
+      "text": "\u00a0"
+    },
+    {
+      "y": 1148.7968968686678,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 960.4374223445768,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.9999827896238,
+      "text": "Conversion, reorganization of files, and revision of instructions for Penpot"
+    },
+    {
+      "y": 1190.7968778466727,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 261.03128295631063,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.9999827896238,
+      "text": "by candide \u2737 media"
+    },
+    {
+      "y": 1232.7968588246779,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 264.39059184035204,
+      "textDecoration": "underline solid rgb(17, 138, 241)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#118af1",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.9999827896238,
+      "text": "www.candide.media"
+    },
+    {
+      "y": 1276.7968388968736,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640599081373125,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 526.0000157120271,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 36.99998324252829,
+      "text": "\u00a0"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": []
+}

@@ -1,0 +1,103 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac4d938355",
+  "name": "Text-34",
+  "type": "text",
+  "x": 389.0000024153147,
+  "y": 752.0000080136672,
+  "width": 82,
+  "height": 39,
+  "rotation": 0,
+  "selrect": {
+    "x": 389.0000024153147,
+    "y": 752.0000080136672,
+    "width": 82,
+    "height": 39,
+    "x1": 389.0000024153147,
+    "y1": 752.0000080136672,
+    "x2": 471.0000024153147,
+    "y2": 791.0000080136672
+  },
+  "points": [
+    {
+      "x": 389.000001829783,
+      "y": 752.000010322265
+    },
+    {
+      "x": 471.00000232016805,
+      "y": 752.000006028755
+    },
+    {
+      "x": 471.00000300084645,
+      "y": 791.0000057050694
+    },
+    {
+      "x": 389.0000025104614,
+      "y": 791.0000099985793
+    }
+  ],
+  "transform": {
+    "a": 1.000000005980305,
+    "b": -5.2359877516297204E-8,
+    "c": 1.7453292528548617E-8,
+    "d": 0.9999999917003677,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999940196933,
+    "b": 5.235987763773685E-8,
+    "c": -1.74532925690285E-8,
+    "d": 1.0000000082996308,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac4d902414",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac4d902414",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "center",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "gfont-work-sans",
+                "fontSize": "12",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "ts": 1618485609298,
+                "letterSpacing": "0",
+                "fills": [],
+                "fontFamily": "Work Sans",
+                "text": "Lorem ipsum dolor"
+              }
+            ],
+            "fontId": "gfont-work-sans",
+            "key": "ae99r",
+            "fontSize": "12",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [],
+            "fontFamily": "Work Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "bottom",
+  "constraintsH": "leftright",
+  "strokes": [],
+  "fills": []
+}

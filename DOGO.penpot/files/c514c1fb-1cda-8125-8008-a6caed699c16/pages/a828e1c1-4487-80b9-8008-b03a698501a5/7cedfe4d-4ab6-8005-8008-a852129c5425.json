@@ -1,0 +1,122 @@
+{
+  "id": "7cedfe4d-4ab6-8005-8008-a852129c5425",
+  "name": "Board",
+  "type": "frame",
+  "x": -87,
+  "y": 54,
+  "width": 1440,
+  "height": 900,
+  "rotation": 0,
+  "selrect": {
+    "x": -87,
+    "y": 54,
+    "width": 1440,
+    "height": 900,
+    "x1": -87,
+    "y1": 54,
+    "x2": 1353,
+    "y2": 954
+  },
+  "points": [
+    {
+      "x": -87,
+      "y": 54
+    },
+    {
+      "x": 1353,
+      "y": 54
+    },
+    {
+      "x": 1353,
+      "y": 954
+    },
+    {
+      "x": -87,
+      "y": 954
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "00000000-0000-0000-0000-000000000000",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "layoutGridColumns": [
+    {
+      "type": "flex",
+      "value": 1
+    }
+  ],
+  "hideFillOnExport": false,
+  "hideInViewer": true,
+  "layoutGridCells": {
+    "7cedfe4d-4ab6-8005-8008-a852129f3ffd": {
+      "justifySelf": "auto",
+      "column": 1,
+      "id": "7cedfe4d-4ab6-8005-8008-a852129f3ffd",
+      "position": "auto",
+      "columnSpan": 1,
+      "alignSelf": "auto",
+      "row": 1,
+      "rowSpan": 1,
+      "shapes": [
+        "cd21935a-c090-8055-8008-a71b208a8179"
+      ]
+    }
+  },
+  "r2": 0,
+  "showContent": true,
+  "layoutItemHSizing": "auto",
+  "proportionLock": false,
+  "pageId": "a828e1c1-4487-80b9-8008-b03a698501a5",
+  "layoutItemVSizing": "auto",
+  "r3": 0,
+  "r1": 0,
+  "layoutJustifyItems": "start",
+  "strokes": [],
+  "blocked": true,
+  "proportion": 1,
+  "grids": [
+    {
+      "type": "column",
+      "params": {
+        "size": 12,
+        "type": "stretch",
+        "itemLength": 112.66666666666667,
+        "gutter": 8,
+        "margin": 0,
+        "color": {
+          "color": "#DE4762",
+          "opacity": 0.1
+        }
+      },
+      "display": false
+    }
+  ],
+  "r4": 0,
+  "layoutGridRows": [
+    {
+      "type": "flex",
+      "value": 1
+    }
+  ],
+  "fills": [],
+  "layoutGridDir": "column",
+  "shapes": [
+    "cd21935a-c090-8055-8008-a71b208a8179"
+  ]
+}

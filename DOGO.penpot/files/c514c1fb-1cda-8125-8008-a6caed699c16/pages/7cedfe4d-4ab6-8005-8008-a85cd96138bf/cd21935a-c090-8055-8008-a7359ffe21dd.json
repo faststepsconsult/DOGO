@@ -1,0 +1,108 @@
+{
+  "id": "cd21935a-c090-8055-8008-a7359ffe21dd",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": 0,
+  "selrect": {
+    "x": 781.2,
+    "y": 73,
+    "width": 30,
+    "height": 36,
+    "x1": 781.2,
+    "y1": 73,
+    "x2": 811.2,
+    "y2": 109
+  },
+  "points": [
+    {
+      "x": 781.2,
+      "y": 73
+    },
+    {
+      "x": 811.2,
+      "y": 73
+    },
+    {
+      "x": 811.2,
+      "y": 109
+    },
+    {
+      "x": 781.2,
+      "y": 109
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cd21935a-c090-8055-8008-a7359ffe21db",
+  "frameId": "cd21935a-c090-8055-8008-a7359ffe21db",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M796.2000122070312,109.0C796.2000122070312,109.0,811.2000122070312,101.800048828125,811.2000122070312,91.0L811.2000122070312,78.4000244140625L796.2000122070312,73.0L781.2000122070312,78.4000244140625L781.2000122070312,91.0C781.2000122070312,101.800048828125,796.2000122070312,109.0,796.2000122070312,109.0",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "touched": [
+    "stroke-group",
+    "geometry-group",
+    "constraints-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "5c8da088-8494-805d-8003-b550b8f478a1",
+  "proportionLock": false,
+  "pageId": "7cedfe4d-4ab6-8005-8008-a85cd96138bf",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "constraintsH": "left",
+  "svgViewbox": {
+    "x": 4,
+    "y": 2,
+    "width": 16,
+    "height": 20,
+    "x1": 4,
+    "y1": 2,
+    "x2": 20,
+    "y2": 22
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 2,
+      "strokeCapStart": "diamond-marker",
+      "strokeCapEnd": "diamond-marker",
+      "strokeColor": "#ff8b07",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "fills": []
+}

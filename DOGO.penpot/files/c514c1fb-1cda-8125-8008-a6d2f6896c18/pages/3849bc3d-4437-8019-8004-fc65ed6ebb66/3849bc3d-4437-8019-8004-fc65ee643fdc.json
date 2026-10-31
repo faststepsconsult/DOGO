@@ -1,0 +1,78 @@
+{
+  "id": "3849bc3d-4437-8019-8004-fc65ee643fdc",
+  "name": "Graphics \/ ICONS \/ 168__snow and rain.svg",
+  "type": "group",
+  "x": 680.0,
+  "y": 9100.0,
+  "width": 40.0,
+  "height": 40.0,
+  "rotation": 0,
+  "selrect": {
+    "x": 680.0,
+    "y": 9100.0,
+    "width": 40.0,
+    "height": 40.0,
+    "x1": 680.0,
+    "y1": 9100.0,
+    "x2": 720.0,
+    "y2": 9140.0
+  },
+  "points": [
+    {
+      "x": 680.0,
+      "y": 9100.0
+    },
+    {
+      "x": 720.0,
+      "y": 9100.0
+    },
+    {
+      "x": 720.0,
+      "y": 9140.0
+    },
+    {
+      "x": 680.0,
+      "y": 9140.0
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65ee64e756",
+  "frameId": "3849bc3d-4437-8019-8004-fc65ee64e756",
+  "flipX": null,
+  "flipY": null,
+  "svgAttrs": {
+    "xmlSpace": "preserve"
+  },
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "strokes": [],
+  "proportion": 1.0,
+  "fills": [],
+  "shapes": [
+    "3849bc3d-4437-8019-8004-fc65ee645516",
+    "3849bc3d-4437-8019-8004-fc65ee645517",
+    "3849bc3d-4437-8019-8004-fc65ee648e3d",
+    "3849bc3d-4437-8019-8004-fc65ee648e3e",
+    "3849bc3d-4437-8019-8004-fc65ee648e3f",
+    "3849bc3d-4437-8019-8004-fc65ee648e40",
+    "3849bc3d-4437-8019-8004-fc65ee648e41",
+    "3849bc3d-4437-8019-8004-fc65ee648e42"
+  ]
+}

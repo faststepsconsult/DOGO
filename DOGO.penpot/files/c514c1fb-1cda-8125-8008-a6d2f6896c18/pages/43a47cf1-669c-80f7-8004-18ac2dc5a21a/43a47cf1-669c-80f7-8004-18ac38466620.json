@@ -1,0 +1,126 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac38466620",
+  "name": "Text-10",
+  "type": "text",
+  "x": 148.90000000000006,
+  "y": 565,
+  "width": 73,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 148.90000000000006,
+    "y": 565,
+    "width": 73,
+    "height": 18,
+    "x1": 148.90000000000006,
+    "y1": 565,
+    "x2": 221.90000000000006,
+    "y2": 583
+  },
+  "points": [
+    {
+      "x": 148.90000000000006,
+      "y": 565
+    },
+    {
+      "x": 221.90000000000006,
+      "y": 565
+    },
+    {
+      "x": 221.90000000000006,
+      "y": 583
+    },
+    {
+      "x": 148.90000000000006,
+      "y": 583
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac3845c4c2",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac3845c4c2",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "center",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "textAlign": "center",
+            "key": "ae99r",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#b1b2b5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Irrigate"
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "text-content-text"
+  ],
+  "shapeRef": "43a47cf1-669c-80f7-8004-18ac38459e5e",
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "bottom",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 582.256943821907,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 48.24653625488281,
+      "textDecoration": "none solid rgb(177, 178, 181)",
+      "letterSpacing": "normal",
+      "x": 161.26111164093024,
+      "fills": [
+        {
+          "fillColor": "#b1b2b5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 16.66666603088379,
+      "text": "Irrigate"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

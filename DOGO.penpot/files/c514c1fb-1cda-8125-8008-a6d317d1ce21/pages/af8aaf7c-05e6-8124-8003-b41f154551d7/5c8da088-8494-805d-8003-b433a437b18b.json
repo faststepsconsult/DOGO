@@ -1,0 +1,87 @@
+{
+  "id": "5c8da088-8494-805d-8003-b433a437b18b",
+  "name": "bookmark-plus",
+  "type": "frame",
+  "x": 947.0000000000006,
+  "y": 859.0000000000025,
+  "width": 24,
+  "height": 24,
+  "rotation": null,
+  "selrect": {
+    "x": 947.0000000000006,
+    "y": 859.0000000000025,
+    "width": 24,
+    "height": 24,
+    "x1": 947.0000000000006,
+    "y1": 859.0000000000025,
+    "x2": 971.0000000000006,
+    "y2": 883.0000000000025
+  },
+  "points": [
+    {
+      "x": 947.0000000000006,
+      "y": 859.0000000000025
+    },
+    {
+      "x": 971.0000000000006,
+      "y": 859.0000000000025
+    },
+    {
+      "x": 971.0000000000006,
+      "y": 883.0000000000025
+    },
+    {
+      "x": 947.0000000000006,
+      "y": 883.0000000000025
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b4448a64d838",
+  "frameId": "5c8da088-8494-805d-8003-b4448a64d838",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "5c8da088-8494-805d-8003-b54210a4dfda",
+  "showContent": true,
+  "layoutItemHSizing": "fix",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "layoutItemVSizing": "fix",
+  "r3": 0,
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b54210a4dfda",
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "5c8da088-8494-805d-8003-b433a438658e",
+    "5c8da088-8494-805d-8003-b433a439c945",
+    "5c8da088-8494-805d-8003-b433a43aa282",
+    "5c8da088-8494-805d-8003-b433a43b4fb0"
+  ]
+}

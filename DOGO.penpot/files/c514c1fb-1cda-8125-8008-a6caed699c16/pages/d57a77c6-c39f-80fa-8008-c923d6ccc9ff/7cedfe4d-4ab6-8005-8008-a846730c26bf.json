@@ -1,0 +1,158 @@
+{
+  "id": "7cedfe4d-4ab6-8005-8008-a846730c26bf",
+  "name": "Welcome to DOGO",
+  "type": "text",
+  "x": 149,
+  "y": 0,
+  "width": 230,
+  "height": 32.01227104250301,
+  "rotation": 0,
+  "selrect": {
+    "x": 149,
+    "y": 0,
+    "width": 230,
+    "height": 32.01227104250301,
+    "x1": 149,
+    "y1": 0,
+    "x2": 379,
+    "y2": 32.01227104250301
+  },
+  "points": [
+    {
+      "x": 149,
+      "y": 0
+    },
+    {
+      "x": 379,
+      "y": 0
+    },
+    {
+      "x": 379,
+      "y": 32.01227104250301
+    },
+    {
+      "x": 149,
+      "y": 32.01227104250301
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7cedfe4d-4ab6-8005-8008-a84d11cbd034",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbddc96e7d",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-sora",
+                "fontSize": "24",
+                "fontWeight": "600",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T09:55:53.570Z",
+                "fontVariantId": "600",
+                "textDecoration": "none",
+                "letterSpacing": "-0.3",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Sora",
+                "text": "Welcome to DOGO"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cbddc96e7d",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-sora",
+            "key": "bs7uq",
+            "fontSize": "24",
+            "fontWeight": "600",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-09-24T09:55:53.570Z",
+            "fontVariantId": "600",
+            "textDecoration": "none",
+            "letterSpacing": "-0.3",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Sora"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "positionData": [
+    {
+      "x": 149,
+      "y": 30,
+      "width": 229.08203125,
+      "height": 31.25,
+      "x1": 0,
+      "y1": -1.25,
+      "x2": 229.08203125,
+      "y2": 30,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "textDecoration": "none",
+      "letterSpacing": "-0.3px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Sora",
+      "text": "Welcome to DOGO"
+    }
+  ],
+  "blocked": true,
+  "pageId": "d57a77c6-c39f-80fa-8008-c923d6ccc9ff"
+}

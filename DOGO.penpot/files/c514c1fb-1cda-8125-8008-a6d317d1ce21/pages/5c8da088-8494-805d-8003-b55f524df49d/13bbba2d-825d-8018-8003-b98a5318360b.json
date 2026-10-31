@@ -1,0 +1,71 @@
+{
+  "id": "13bbba2d-825d-8018-8003-b98a5318360b",
+  "name": "penpot",
+  "type": "group",
+  "x": 205,
+  "y": 191,
+  "width": 98,
+  "height": 89,
+  "rotation": 0,
+  "selrect": {
+    "x": 205,
+    "y": 191,
+    "width": 98,
+    "height": 89,
+    "x1": 205,
+    "y1": 191,
+    "x2": 303,
+    "y2": 280
+  },
+  "points": [
+    {
+      "x": 205,
+      "y": 191
+    },
+    {
+      "x": 303,
+      "y": 191
+    },
+    {
+      "x": 303,
+      "y": 280
+    },
+    {
+      "x": 205,
+      "y": 280
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b55f6ea4b602",
+  "frameId": "5c8da088-8494-805d-8003-b55f6ea4b602",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "svgAttrs": {
+    "id": "Penpot"
+  },
+  "layoutItemHSizing": "fix",
+  "proportionLock": false,
+  "layoutItemVSizing": "fix",
+  "proportion": 1,
+  "shapes": [
+    "13bbba2d-825d-8018-8003-b98a5318c6c8",
+    "13bbba2d-825d-8018-8003-b98a531dfe3e"
+  ],
+  "pageId": "5c8da088-8494-805d-8003-b55f524df49d"
+}

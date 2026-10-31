@@ -1,0 +1,157 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-ac42adc0c529",
+  "name": "Smart Fitnees Watch Series 7",
+  "type": "text",
+  "x": 76.91383502121374,
+  "y": 503.68212292640817,
+  "width": 192,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 76.91383502121374,
+    "y": 503.68212292640817,
+    "width": 192,
+    "height": 20,
+    "x1": 76.91383502121374,
+    "y1": 503.68212292640817,
+    "x2": 268.91383502121374,
+    "y2": 523.6821229264082
+  },
+  "points": [
+    {
+      "x": 76.91383502121376,
+      "y": 503.68212292640817
+    },
+    {
+      "x": 268.91383502121374,
+      "y": 503.68212292640817
+    },
+    {
+      "x": 268.91383502121374,
+      "y": 523.6821229264082
+    },
+    {
+      "x": 76.91383502121376,
+      "y": 523.6821229264082
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aaaea55ff081",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "lastResizeDirection": "horizontal",
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.6",
+            "path": "Caption",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.6",
+                "path": "Caption",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cca243c565",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "12",
+                "fontWeight": "500",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T10:00:01.321Z",
+                "fontVariantId": "500",
+                "textDecoration": "none",
+                "letterSpacing": "1",
+                "fills": [
+                  {
+                    "fillColor": "#f2e8e8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Smart Fitnees Watch Series 7"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cca243c565",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "c6dtb",
+            "fontSize": "12",
+            "fontWeight": "500",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-09-24T10:00:01.321Z",
+            "fontVariantId": "500",
+            "textDecoration": "none",
+            "letterSpacing": "1",
+            "fills": [
+              {
+                "fillColor": "#f2e8e8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 76.91383502121374,
+      "y": 521.1821229264082,
+      "width": 191.46484375,
+      "height": 16.25,
+      "x1": 0,
+      "y1": 1.25,
+      "x2": 191.46484375,
+      "y2": 17.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#f2e8e8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Smart Fitnees Watch Series 7"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": []
+}

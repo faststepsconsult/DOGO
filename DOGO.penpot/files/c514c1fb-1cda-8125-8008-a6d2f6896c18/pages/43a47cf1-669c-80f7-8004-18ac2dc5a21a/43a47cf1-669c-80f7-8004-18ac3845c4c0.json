@@ -1,0 +1,122 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac3845c4c0",
+  "name": "Text-9",
+  "type": "text",
+  "x": 25.900000000000055,
+  "y": 566,
+  "width": 73,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 25.900000000000055,
+    "y": 566,
+    "width": 73,
+    "height": 18,
+    "x1": 25.900000000000055,
+    "y1": 566,
+    "x2": 98.90000000000006,
+    "y2": 584
+  },
+  "points": [
+    {
+      "x": 25.900000000000055,
+      "y": 566
+    },
+    {
+      "x": 98.90000000000006,
+      "y": 566
+    },
+    {
+      "x": 98.90000000000006,
+      "y": 584
+    },
+    {
+      "x": 25.900000000000055,
+      "y": 584
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac384548f0",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac384548f0",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "center",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "key": "ae99r",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#b1b2b5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Type"
+              }
+            ],
+            "textAlign": "center",
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "shapeRef": "43a47cf1-669c-80f7-8004-18ac38459e5e",
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "bottom",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 583.256943821907,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 31.37153434753418,
+      "textDecoration": "none solid rgb(177, 178, 181)",
+      "letterSpacing": "normal",
+      "x": 46.69861259460455,
+      "fills": [
+        {
+          "fillColor": "#b1b2b5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 16.66666603088379,
+      "text": "Type"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

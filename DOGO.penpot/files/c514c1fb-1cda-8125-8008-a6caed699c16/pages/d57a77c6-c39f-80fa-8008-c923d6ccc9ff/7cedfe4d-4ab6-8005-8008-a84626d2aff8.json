@@ -1,0 +1,92 @@
+{
+  "id": "7cedfe4d-4ab6-8005-8008-a84626d2aff8",
+  "name": "bike",
+  "type": "frame",
+  "x": 420,
+  "y": 101,
+  "width": 24,
+  "height": 23.999999999999773,
+  "rotation": null,
+  "selrect": {
+    "x": 420,
+    "y": 101,
+    "width": 24,
+    "height": 23.999999999999773,
+    "x1": 420,
+    "y1": 101,
+    "x2": 444,
+    "y2": 124.99999999999977
+  },
+  "points": [
+    {
+      "x": 420,
+      "y": 101
+    },
+    {
+      "x": 444,
+      "y": 101
+    },
+    {
+      "x": 444,
+      "y": 125
+    },
+    {
+      "x": 420,
+      "y": 125
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cd21935a-c090-8055-8008-a7363d851951",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "touched": [
+    "modifiable-group"
+  ],
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "5c8da088-8494-805d-8003-b53f73572c47",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "d57a77c6-c39f-80fa-8008-c923d6ccc9ff",
+  "r3": 0,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b53f73572c47",
+  "blocked": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "7cedfe4d-4ab6-8005-8008-a84626d2d8e1",
+    "7cedfe4d-4ab6-8005-8008-a84626d2d8e2",
+    "7cedfe4d-4ab6-8005-8008-a84626d2d8e3",
+    "7cedfe4d-4ab6-8005-8008-a84626d2d8e4",
+    "7cedfe4d-4ab6-8005-8008-a84626d2d8e5"
+  ]
+}

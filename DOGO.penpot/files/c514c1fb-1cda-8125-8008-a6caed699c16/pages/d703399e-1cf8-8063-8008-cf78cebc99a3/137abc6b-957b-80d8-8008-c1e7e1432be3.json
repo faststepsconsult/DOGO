@@ -1,0 +1,79 @@
+{
+  "id": "137abc6b-957b-80d8-8008-c1e7e1432be3",
+  "name": "Graphics \/ ICONS \/ 012__circle_arrow_right.svg",
+  "type": "group",
+  "x": 1007.8471563981043,
+  "y": 658.1529745042493,
+  "width": 41.647511848341196,
+  "height": 43.49858356940513,
+  "rotation": 0,
+  "selrect": {
+    "x": 1007.8471563981043,
+    "y": 658.1529745042493,
+    "width": 41.647511848341196,
+    "height": 43.49858356940513,
+    "x1": 1007.8471563981043,
+    "y1": 658.1529745042493,
+    "x2": 1049.4946682464456,
+    "y2": 701.6515580736544
+  },
+  "points": [
+    {
+      "x": 1007.8471563981044,
+      "y": 658.1529745042493
+    },
+    {
+      "x": 1049.4946682464456,
+      "y": 658.1529745042493
+    },
+    {
+      "x": 1049.4946682464456,
+      "y": 701.6515580736544
+    },
+    {
+      "x": 1007.8471563981044,
+      "y": 701.6515580736544
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "137abc6b-957b-80d8-8008-c1e7e1432be2",
+  "frameId": "137abc6b-957b-80d8-8008-c1e7e1432be2",
+  "flipX": false,
+  "flipY": false,
+  "svgAttrs": {
+    "xmlSpace": "preserve"
+  },
+  "touched": [
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "3849bc3d-4437-8019-8004-fc65ed804ac1",
+  "proportionLock": false,
+  "pageId": "d703399e-1cf8-8063-8008-cf78cebc99a3",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "strokes": [],
+  "blocked": true,
+  "proportion": 1,
+  "fills": [],
+  "shapes": [
+    "137abc6b-957b-80d8-8008-c1e7e1432be4",
+    "137abc6b-957b-80d8-8008-c1e7e1432be5",
+    "137abc6b-957b-80d8-8008-c1e7e1432be6"
+  ]
+}

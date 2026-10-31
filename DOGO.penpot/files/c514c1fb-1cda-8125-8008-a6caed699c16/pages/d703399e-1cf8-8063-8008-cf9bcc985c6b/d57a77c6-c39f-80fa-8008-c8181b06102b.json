@@ -1,0 +1,105 @@
+{
+  "id": "d57a77c6-c39f-80fa-8008-c8181b06102b",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 776,
+    "y": 85,
+    "width": 20,
+    "height": 5.996010948941603,
+    "x1": 776,
+    "y1": 85,
+    "x2": 796,
+    "y2": 90.9960109489416
+  },
+  "points": [
+    {
+      "x": 776,
+      "y": 85
+    },
+    {
+      "x": 796,
+      "y": 85
+    },
+    {
+      "x": 796,
+      "y": 90.99601094894206
+    },
+    {
+      "x": 776,
+      "y": 90.99601094894206
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d57a77c6-c39f-80fa-8008-c8181b05dab6",
+  "frameId": "d57a77c6-c39f-80fa-8008-c8181b05dab6",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M796.0,85.0L787.0299682617188,90.699951171875C786.4000244140625,91.0947265625,785.5999145507812,91.0947265625,784.969970703125,90.699951171875L776.0,85.0",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "touched": [
+    "stroke-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "5c8da088-8494-805d-8003-b54cbfa04bf7",
+  "proportionLock": false,
+  "pageId": "d703399e-1cf8-8063-8008-cf9bcc985c6b",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 2,
+    "y": 7,
+    "width": 20,
+    "height": 5.996010948941571,
+    "x1": 2,
+    "y1": 7,
+    "x2": 22,
+    "y2": 12.99601094894157
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round",
+      "strokeColor": "#ff8b07",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "fills": []
+}

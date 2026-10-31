@@ -1,0 +1,83 @@
+{
+  "id": "d3d7c4d1-4319-11ed-ab49-db2543beb80b",
+  "name": "graphic-social-1",
+  "type": "group",
+  "x": 966,
+  "y": 148,
+  "width": 230.0000006335515,
+  "height": 230.30653267585683,
+  "rotation": 0,
+  "selrect": {
+    "x": 966,
+    "y": 148,
+    "width": 230.0000006335515,
+    "height": 230.30653267585683,
+    "x1": 966,
+    "y1": 148,
+    "x2": 1196.0000006335515,
+    "y2": 378.30653267585683
+  },
+  "points": [
+    {
+      "x": 966,
+      "y": 148
+    },
+    {
+      "x": 1196.0000006335515,
+      "y": 148
+    },
+    {
+      "x": 1196.0000006335515,
+      "y": 378.30653267585683
+    },
+    {
+      "x": 966,
+      "y": 378.30653267585683
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d3d7c4d0-4319-11ed-ab49-db2543beb80b",
+  "frameId": "d3d7c4d0-4319-11ed-ab49-db2543beb80b",
+  "flipX": null,
+  "flipY": null,
+  "index": 0,
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "constraintsH": "center",
+  "hidden": false,
+  "shapes": [
+    "d3d7c4d9-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4da-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4db-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4dc-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4dd-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4de-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4df-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4e0-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4e1-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4e2-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4e3-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4e4-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4e5-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4e6-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4e7-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4e8-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4e9-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4ea-4319-11ed-ab49-db2543beb80b",
+    "d3d7c4eb-4319-11ed-ab49-db2543beb80b"
+  ]
+}

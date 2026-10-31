@@ -1,0 +1,166 @@
+{
+  "id": "4476d381-4184-11ed-83ad-33109eb2c9d7",
+  "name": "Text-65",
+  "type": "text",
+  "x": 2374.999999999998,
+  "y": 1378,
+  "width": 294,
+  "height": 43,
+  "rotation": 0,
+  "selrect": {
+    "x": 2374.999999999998,
+    "y": 1378,
+    "width": 294,
+    "height": 43,
+    "x1": 2374.999999999998,
+    "y1": 1378,
+    "x2": 2668.999999999998,
+    "y2": 1421
+  },
+  "points": [
+    {
+      "x": 2374.999999999998,
+      "y": 1378
+    },
+    {
+      "x": 2668.999999999998,
+      "y": 1378
+    },
+    {
+      "x": 2668.999999999998,
+      "y": 1421
+    },
+    {
+      "x": 2374.999999999998,
+      "y": 1421
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 1.4901161193847656E-8,
+    "c": -1.490116119384766E-8,
+    "d": 0.9999999999999999,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999997,
+    "b": -1.4901161193847653E-8,
+    "c": 1.4901161193847656E-8,
+    "d": 0.9999999999999999,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c8e27940-4183-11ed-83ad-33109eb2c9d7",
+  "frameId": "c8e27940-4183-11ed-83ad-33109eb2c9d7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "44440b10-4181-11ed-83ad-33109eb2c9d7",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "16",
+                "fontWeight": "800",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "800",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "You should definately put a great reason to sign up right here."
+              }
+            ],
+            "typographyRefId": "44440b10-4181-11ed-83ad-33109eb2c9d7",
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "gfont-inter",
+            "key": "c6ng4",
+            "fontSize": "16",
+            "fontWeight": "800",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsH": "center",
+  "positionData": [
+    {
+      "y": 1397.1000061035156,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "800",
+      "width": 263.1333312988281,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 2390.433334350584,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 19,
+      "text": "You should definately put a great "
+    },
+    {
+      "y": 1416.8000030517578,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "800",
+      "width": 221.2166748046875,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 2411.3833312988263,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 19,
+      "text": "reason to sign up right here."
+    }
+  ]
+}

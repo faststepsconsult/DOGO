@@ -1,0 +1,126 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e2764c02",
+  "name": "Heather",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": 0,
+  "selrect": {
+    "x": -1279.499999999998,
+    "y": -1151.999999999998,
+    "width": 215.99999999999977,
+    "height": 110,
+    "x1": -1279.499999999998,
+    "y1": -1151.999999999998,
+    "x2": -1063.4999999999982,
+    "y2": -1041.999999999998
+  },
+  "points": [
+    {
+      "x": -1279.499999999998,
+      "y": -1151.999999999998
+    },
+    {
+      "x": -1063.4999999999982,
+      "y": -1151.999999999998
+    },
+    {
+      "x": -1063.4999999999982,
+      "y": -1041.999999999998
+    },
+    {
+      "x": -1279.499999999998,
+      "y": -1041.999999999998
+    }
+  ],
+  "transform": {
+    "a": 0.999999999999999,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.000000000000001,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e2733eb3",
+  "frameId": "b67e0975-9540-809b-8004-fc65e2733eb3",
+  "flipX": false,
+  "flipY": false,
+  "content": "M-1279.5,-1152.0L-1063.5,-1152.0L-1063.5,-1042.0L-1279.5,-1042.0L-1279.5,-1152.0ZZZZZZ",
+  "svgAttrs": {
+    "id": "artboard_5",
+    "clipPath": "url(#clip_5)"
+  },
+  "proportionLock": false,
+  "center": {
+    "x": -1171.499999999998,
+    "y": -1096.999999999998
+  },
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 1374.0,
+    "f": 996.0
+  },
+  "constraintsH": "left",
+  "svgViewbox": {
+    "x": 1374,
+    "y": 996,
+    "width": 216,
+    "height": 110,
+    "x1": 1374,
+    "y1": 996,
+    "x2": 1590,
+    "y2": 1106
+  },
+  "svgDefs": {
+    "clip_5": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_5"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_5",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_5": {
+      "tag": "rect",
+      "attrs": {
+        "width": "216",
+        "height": "110",
+        "id": "artboard_5"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "fills": [
+    {
+      "fillColor": "#3c4f5c",
+      "fillColorRefFile": "b67e0975-9540-809b-8004-fc65dae8615b",
+      "fillOpacity": 1,
+      "fillColorRefId": "b67e0975-9540-809b-8004-fc65dcbd3307"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+# General / OS
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# Temporary and Scratch files
+scratch/
+current_device_screen.png
+carto_sample.png
+esri_sample.png
+
+# Flutter & Dart
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/coverage/
+**/.widget_preview/
+
+# Android
+**/.gradle/
+**/local.properties
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/*.keystore
+**/*.jks
+
+# iOS / macOS
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/macos/Pods/
+**/*.xcworkspace/
+**/*.xcuserdatad/
+
+# JavaScript / Node / Web
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.output/
+**/.wrangler/
+**/.nitro/
+**/.vinxi/
+**/.tanstack/
+.lovable/
+
+# IDE / Editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws

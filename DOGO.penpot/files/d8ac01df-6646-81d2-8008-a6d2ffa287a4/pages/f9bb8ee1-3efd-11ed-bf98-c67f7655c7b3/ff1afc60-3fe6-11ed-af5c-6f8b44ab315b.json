@@ -1,0 +1,162 @@
+{
+  "id": "ff1afc60-3fe6-11ed-af5c-6f8b44ab315b",
+  "name": "Text-25",
+  "type": "text",
+  "x": 643.9999998735575,
+  "y": 390,
+  "width": 191.9999999999996,
+  "height": 62.00000000000001,
+  "rotation": 0,
+  "selrect": {
+    "x": 643.9999998735575,
+    "y": 390,
+    "width": 191.9999999999996,
+    "height": 62.00000000000001,
+    "x1": 643.9999998735575,
+    "y1": 390,
+    "x2": 835.999999873557,
+    "y2": 452.0
+  },
+  "points": [
+    {
+      "x": 643.9999999999982,
+      "y": 390.0000004855317
+    },
+    {
+      "x": 835.9999999999982,
+      "y": 389.9999995144683
+    },
+    {
+      "x": 835.9999997471173,
+      "y": 451.9999995144683
+    },
+    {
+      "x": 643.9999997471173,
+      "y": 452.0000004855317
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000002,
+    "b": -4.736144024070833E-9,
+    "c": -4.400208763917465E-9,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999998,
+    "b": 4.73614402407083E-9,
+    "c": 4.4002087639174686E-9,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fa15fa20-3fdd-11ed-af5c-6f8b44ab315b",
+  "frameId": "fa15fa20-3fdd-11ed-af5c-6f8b44ab315b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "capitalize",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "12",
+                "fontWeight": "700",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Ricky Gervais Show (XFM Karl gets real with Steve)"
+              }
+            ],
+            "textTransform": "capitalize",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "ahkg4",
+            "fontSize": "12",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 404.1000061035156,
+      "fontStyle": "normal",
+      "textTransform": "capitalize",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "width": 179.10000610351562,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 643.9999998735575,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 15,
+      "text": "Ricky Gervais Show (XFM Karl "
+    },
+    {
+      "y": 418.3000030517578,
+      "fontStyle": "normal",
+      "textTransform": "capitalize",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "width": 127.43333435058594,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 643.9999998735575,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 15,
+      "text": "gets real with Steve)"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "3849bc3d-4437-8019-8004-fc65f038ab1c",
+  "name": "Graphics \/ ICONS \/ 144__headphone .svg",
+  "type": "frame",
+  "x": 50.0,
+  "y": 11980.0,
+  "width": 40.0,
+  "height": 40.0,
+  "rotation": 0,
+  "selrect": {
+    "x": 50.0,
+    "y": 11980.0,
+    "width": 40.0,
+    "height": 40.0,
+    "x1": 50.0,
+    "y1": 11980.0,
+    "x2": 90.0,
+    "y2": 12020.0
+  },
+  "points": [
+    {
+      "x": 50.0,
+      "y": 11980.0
+    },
+    {
+      "x": 90.0,
+      "y": 11980.0
+    },
+    {
+      "x": 90.0,
+      "y": 12020.0
+    },
+    {
+      "x": 50.0,
+      "y": 12020.0
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65eff99c0b",
+  "frameId": "3849bc3d-4437-8019-8004-fc65eff99c0b",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "hideInViewer": true,
+  "componentRoot": true,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "componentId": "3849bc3d-4437-8019-8004-fc65f038ab23",
+  "strokes": [],
+  "mainInstance": true,
+  "proportion": 1.0,
+  "fills": [],
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+  "shapes": [
+    "3849bc3d-4437-8019-8004-fc65f038131c"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "5c8da088-8494-805d-8003-b434ac0ad760",
+  "name": "thermometer-sun",
+  "type": "frame",
+  "x": 947.0000000000002,
+  "y": 2335.000000000019,
+  "width": 24,
+  "height": 24,
+  "rotation": null,
+  "selrect": {
+    "x": 947.0000000000002,
+    "y": 2335.000000000019,
+    "width": 24,
+    "height": 24,
+    "x1": 947.0000000000002,
+    "y1": 2335.000000000019,
+    "x2": 971.0000000000002,
+    "y2": 2359.000000000019
+  },
+  "points": [
+    {
+      "x": 947.0000000000002,
+      "y": 2335.000000000019
+    },
+    {
+      "x": 971.0000000000002,
+      "y": 2335.000000000019
+    },
+    {
+      "x": 971.0000000000002,
+      "y": 2359.000000000019
+    },
+    {
+      "x": 947.0000000000002,
+      "y": 2359.000000000019
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b4448a64d838",
+  "frameId": "5c8da088-8494-805d-8003-b4448a64d838",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "5c8da088-8494-805d-8003-b55717b88ade",
+  "showContent": true,
+  "layoutItemHSizing": "fix",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "layoutItemVSizing": "fix",
+  "r3": 0,
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b55717b88ade",
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "5c8da088-8494-805d-8003-b434ac0f3de1",
+    "5c8da088-8494-805d-8003-b434ac13ebbf",
+    "5c8da088-8494-805d-8003-b434ac181e11",
+    "5c8da088-8494-805d-8003-b434ac1cfc65",
+    "5c8da088-8494-805d-8003-b434ac21b57e",
+    "5c8da088-8494-805d-8003-b434ac25d5ae",
+    "5c8da088-8494-805d-8003-b434ac2aaa7c"
+  ]
+}

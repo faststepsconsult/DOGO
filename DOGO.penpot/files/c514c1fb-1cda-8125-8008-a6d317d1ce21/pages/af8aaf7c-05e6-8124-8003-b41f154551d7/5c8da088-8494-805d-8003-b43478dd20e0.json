@@ -1,0 +1,98 @@
+{
+  "id": "5c8da088-8494-805d-8003-b43478dd20e0",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 415.0000000000003,
+    "y": 2241.000000000018,
+    "width": 8,
+    "height": 2,
+    "x1": 415.0000000000003,
+    "y1": 2241.000000000018,
+    "x2": 423.0000000000003,
+    "y2": 2243.000000000018
+  },
+  "points": [
+    {
+      "x": 415.0000000000003,
+      "y": 2241.000000000018
+    },
+    {
+      "x": 423.0000000000003,
+      "y": 2241.000000000018
+    },
+    {
+      "x": 423.0000000000003,
+      "y": 2243.000000000018
+    },
+    {
+      "x": 415.0000000000003,
+      "y": 2243.000000000018
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b43478d02ad8",
+  "frameId": "5c8da088-8494-805d-8003-b43478d02ad8",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M415.0,2241.0C415.0,2241.0,416.5,2243.0,419.0,2243.0C421.5,2243.0,423.0,2241.0,423.0,2241.0",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "shapeRef": "5c8da088-8494-805d-8003-b552ab978bea",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 8,
+    "y": 14,
+    "width": 8,
+    "height": 2,
+    "x1": 8,
+    "y1": 14,
+    "x2": 16,
+    "y2": 16
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round"
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

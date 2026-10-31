@@ -1,0 +1,131 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65ddd3ad8c",
+  "name": "Top \/ Accessories \/ Winter-Hat-2",
+  "type": "frame",
+  "x": 50.0,
+  "y": 4150.7693844886935,
+  "width": 145.00004443952827,
+  "height": 250.0000152203391,
+  "rotation": 0,
+  "selrect": {
+    "x": 50.0,
+    "y": 4150.7693844886935,
+    "width": 145.00004443952827,
+    "height": 250.0000152203391,
+    "x1": 50.0,
+    "y1": 4150.7693844886935,
+    "x2": 195.00004443952827,
+    "y2": 4400.769399709033
+  },
+  "points": [
+    {
+      "x": 50.00000532091438,
+      "y": 4150.769385082638
+    },
+    {
+      "x": 195.00005220858264,
+      "y": 4150.769392674823
+    },
+    {
+      "x": 195.00003911861387,
+      "y": 4400.769399115087
+    },
+    {
+      "x": 49.9999922309456,
+      "y": 4400.769391522902
+    }
+  ],
+  "transform": {
+    "a": 1.0000000168837189,
+    "b": 5.235988220248571E-8,
+    "c": -5.23598719623093E-8,
+    "d": 0.9999999648797018,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999831162785,
+    "b": -5.235988315735082E-8,
+    "c": 5.235987291717422E-8,
+    "d": 1.0000000351202953,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc660b5eee13",
+  "frameId": "3849bc3d-4437-8019-8004-fc660b5eee13",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-15c9d590-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_12)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc660b5ca083",
+  "r3": 0,
+  "constraintsV": "scale",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 4033.0,
+    "f": 336.0
+  },
+  "constraintsH": "scale",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 4067.4985437834152,
+    "y": 338.1166010095601,
+    "width": 140.5020898541884,
+    "height": 250.82932923334738,
+    "x1": 4067.4985437834152,
+    "y1": 338.1166010095601,
+    "x2": 4208.000633637604,
+    "y2": 588.9459302429075
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65ddd3ad8c",
+  "svgDefs": {
+    "clip_12": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_12"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_12",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_12": {
+      "tag": "rect",
+      "attrs": {
+        "width": "266",
+        "height": "280",
+        "id": "artboard_12"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "mainInstance": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65ddd3f7ba",
+    "b67e0975-9540-809b-8004-fc65ddd60479",
+    "b67e0975-9540-809b-8004-fc65ddd6b798"
+  ]
+}

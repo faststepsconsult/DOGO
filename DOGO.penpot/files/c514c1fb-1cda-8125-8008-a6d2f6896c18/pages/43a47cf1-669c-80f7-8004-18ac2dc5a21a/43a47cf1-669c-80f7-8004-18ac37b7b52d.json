@@ -1,0 +1,127 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac37b7b52d",
+  "name": "Text-55",
+  "type": "text",
+  "x": 1457.9000000000015,
+  "y": 243,
+  "width": 121,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 1457.9000000000015,
+    "y": 243,
+    "width": 121,
+    "height": 24,
+    "x1": 1457.9000000000015,
+    "y1": 243,
+    "x2": 1578.9000000000015,
+    "y2": 267
+  },
+  "points": [
+    {
+      "x": 1457.9000000000015,
+      "y": 243
+    },
+    {
+      "x": 1578.9000000000015,
+      "y": 243
+    },
+    {
+      "x": 1578.9000000000015,
+      "y": 267
+    },
+    {
+      "x": 1457.9000000000015,
+      "y": 267
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac37b58892",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac379c0e77",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "textAlign": "center",
+            "key": "ae99r",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "43a47cf1-669c-80f7-8004-18ac37b74e60",
+                "textTransform": "none",
+                "fontId": "gfont-work-sans",
+                "fontSize": "20",
+                "fontWeight": "700",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+                "fontVariantId": "700",
+                "ts": 1618485609298,
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Clara Garc\u00eda"
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "bottom",
+  "positionData": [
+    {
+      "y": 266.3333339691162,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "width": 120.7638931274414,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1457.9000000000015,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 23.33333396911621,
+      "text": "Clara Garc\u00eda"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

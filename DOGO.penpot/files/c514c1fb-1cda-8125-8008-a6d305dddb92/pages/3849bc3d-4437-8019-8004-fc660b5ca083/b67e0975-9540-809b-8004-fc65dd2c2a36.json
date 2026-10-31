@@ -1,0 +1,129 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65dd2c2a36",
+  "name": "Top \/ Short Hair \/ Drop-Fade-Fro",
+  "type": "frame",
+  "x": 670.0000000000011,
+  "y": 5135.140948419302,
+  "width": 39.88283600000083,
+  "height": 35.01424799999982,
+  "rotation": 0,
+  "selrect": {
+    "x": 670.0000000000011,
+    "y": 5135.140948419302,
+    "width": 39.88283600000083,
+    "height": 35.01424799999982,
+    "x1": 670.0000000000011,
+    "y1": 5135.140948419302,
+    "x2": 709.8828360000019,
+    "y2": 5170.155196419301
+  },
+  "points": [
+    {
+      "x": 631.4120991715058,
+      "y": 5112.016559864
+    },
+    {
+      "x": 748.4707386221551,
+      "y": 5112.016561479517
+    },
+    {
+      "x": 748.4707368284971,
+      "y": 5193.279584974603
+    },
+    {
+      "x": 631.4120973778479,
+      "y": 5193.279583359086
+    }
+  ],
+  "transform": {
+    "a": 2.9350630795324313,
+    "b": 4.050657586530852E-8,
+    "c": -5.1226515471666684E-8,
+    "d": 2.3208558840128948,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.34070817999567665,
+    "b": -5.946479415629828E-9,
+    "c": 7.52019674039137E-9,
+    "d": 0.4308755260886522,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc660b5eee13",
+  "frameId": "3849bc3d-4437-8019-8004-fc660b5eee13",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-15667fe0-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_12)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc660b5ca083",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 4885.0,
+    "f": 0.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 7896.955954642624,
+    "y": 4255.684815906339,
+    "width": 0.01,
+    "height": 0.01,
+    "x1": 7896.955954642624,
+    "y1": 4255.684815906339,
+    "x2": 7896.965954642625,
+    "y2": 4255.6948159063395
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65dd2c2a36",
+  "svgDefs": {
+    "clip_12": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_12"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_12",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_12": {
+      "tag": "rect",
+      "attrs": {
+        "width": "266",
+        "height": "280",
+        "id": "artboard_12"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "mainInstance": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65dd2ccf66"
+  ]
+}

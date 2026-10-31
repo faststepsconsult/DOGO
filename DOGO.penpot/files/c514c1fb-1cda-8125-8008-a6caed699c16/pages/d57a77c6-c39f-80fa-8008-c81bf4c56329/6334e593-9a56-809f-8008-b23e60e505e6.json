@@ -1,0 +1,73 @@
+{
+  "id": "6334e593-9a56-809f-8008-b23e60e505e6",
+  "name": "Ellipse",
+  "type": "circle",
+  "x": 214,
+  "y": 356.6082474226804,
+  "width": 37,
+  "height": 37.39175257731961,
+  "rotation": 0,
+  "selrect": {
+    "x": 214,
+    "y": 356.6082474226804,
+    "width": 37,
+    "height": 37.39175257731961,
+    "x1": 214,
+    "y1": 356.6082474226804,
+    "x2": 251,
+    "y2": 394
+  },
+  "points": [
+    {
+      "x": 214,
+      "y": 356.6082474226804
+    },
+    {
+      "x": 251,
+      "y": 356.6082474226804
+    },
+    {
+      "x": 251,
+      "y": 394
+    },
+    {
+      "x": 214,
+      "y": 394
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8c8e33dd-5361-8067-8008-c20fd20d147a",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "hideInViewer": false,
+  "proportionLock": false,
+  "pageId": "d57a77c6-c39f-80fa-8008-c81bf4c56329",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "strokes": [],
+  "blocked": true,
+  "proportion": 1,
+  "fills": [
+    {
+      "fillColor": "#233149",
+      "fillOpacity": 1
+    }
+  ]
+}

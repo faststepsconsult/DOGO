@@ -1,0 +1,78 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65dd2f91b7",
+  "name": "Round Glasses-4",
+  "type": "frame",
+  "x": 790,
+  "y": 1482.0000000000002,
+  "width": 126,
+  "height": 48,
+  "rotation": 0,
+  "selrect": {
+    "x": 790,
+    "y": 1482.0000000000002,
+    "width": 126,
+    "height": 48,
+    "x1": 790,
+    "y1": 1482.0000000000002,
+    "x2": 916,
+    "y2": 1530.0000000000002
+  },
+  "points": [
+    {
+      "x": 790,
+      "y": 1482.0000000000002
+    },
+    {
+      "x": 916,
+      "y": 1482.0000000000002
+    },
+    {
+      "x": 916,
+      "y": 1530.0000000000002
+    },
+    {
+      "x": 790,
+      "y": 1530.0000000000002
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65dce340bb",
+  "frameId": "b67e0975-9540-809b-8004-fc65dac750b7",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "hideInViewer": true,
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65dc613ca5",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65daa35873",
+  "r3": 0,
+  "r1": 0,
+  "componentId": "b67e0975-9540-809b-8004-fc65dc613ca5",
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65dd304899"
+  ]
+}

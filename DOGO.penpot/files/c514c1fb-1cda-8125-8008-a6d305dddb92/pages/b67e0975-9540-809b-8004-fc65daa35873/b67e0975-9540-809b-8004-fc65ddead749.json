@@ -1,0 +1,124 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65ddead749",
+  "name": "Crew Neck-13",
+  "type": "group",
+  "x": 1554.878032627545,
+  "y": 1594.5902663027646,
+  "width": 200.12253286351302,
+  "height": 82.40973369723542,
+  "rotation": 0,
+  "selrect": {
+    "x": 1554.878032627545,
+    "y": 1594.5902663027646,
+    "width": 200.12253286351302,
+    "height": 82.40973369723542,
+    "x1": 1554.878032627545,
+    "y1": 1594.5902663027646,
+    "x2": 1755.000565491058,
+    "y2": 1677
+  },
+  "points": [
+    {
+      "x": 1554.878032627545,
+      "y": 1594.5902663027646
+    },
+    {
+      "x": 1755.000565491058,
+      "y": 1594.5902663027646
+    },
+    {
+      "x": 1755.000565491058,
+      "y": 1677
+    },
+    {
+      "x": 1554.878032627545,
+      "y": 1677
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65dde61c67",
+  "frameId": "b67e0975-9540-809b-8004-fc65dac750b7",
+  "flipX": false,
+  "flipY": false,
+  "svgAttrs": {
+    "id": "shape-15d8c9b0-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_2)"
+  },
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65daa35873",
+  "constraintsV": "scale",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 424.0,
+    "f": 996.0
+  },
+  "constraintsH": "scale",
+  "svgViewbox": {
+    "x": 8779.675087283198,
+    "y": 6605.736443039481,
+    "width": 0.01,
+    "height": 0.01,
+    "x1": 8779.675087283198,
+    "y1": 6605.736443039481,
+    "x2": 8779.685087283198,
+    "y2": 6605.746443039481
+  },
+  "svgDefs": {
+    "clip_2": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_2"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_2",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_2": {
+      "tag": "rect",
+      "attrs": {
+        "width": "264",
+        "height": "110",
+        "id": "artboard_2"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "blocked": false,
+  "proportion": 1,
+  "fills": [
+    {
+      "fillColor": "#000000",
+      "fillOpacity": 1
+    }
+  ],
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65ddeb8466",
+    "b67e0975-9540-809b-8004-fc65ddec7c4c"
+  ]
+}

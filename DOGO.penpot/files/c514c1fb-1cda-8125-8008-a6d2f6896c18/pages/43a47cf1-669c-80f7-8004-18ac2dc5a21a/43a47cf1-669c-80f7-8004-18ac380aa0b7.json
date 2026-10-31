@@ -1,0 +1,120 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac380aa0b7",
+  "name": "Text-65",
+  "type": "text",
+  "x": 1421.9000000000003,
+  "y": 761,
+  "width": 122,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 1421.9000000000003,
+    "y": 761,
+    "width": 122,
+    "height": 22,
+    "x1": 1421.9000000000003,
+    "y1": 761,
+    "x2": 1543.9000000000003,
+    "y2": 783
+  },
+  "points": [
+    {
+      "x": 1421.9000000000003,
+      "y": 761
+    },
+    {
+      "x": 1543.9000000000003,
+      "y": 761
+    },
+    {
+      "x": 1543.9000000000003,
+      "y": 783
+    },
+    {
+      "x": 1421.9000000000003,
+      "y": 783
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac380a680d",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac379c0e77",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "key": "ae99r",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fontFamily": "Work Sans",
+                "text": "Log out",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ]
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "positionData": [
+    {
+      "y": 782.1111125946045,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 66.40625,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1421.9000000000003,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 21.111112594604492,
+      "text": "Log out"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

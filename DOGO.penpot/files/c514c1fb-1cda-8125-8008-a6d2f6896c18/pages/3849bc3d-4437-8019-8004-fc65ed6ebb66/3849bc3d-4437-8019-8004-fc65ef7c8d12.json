@@ -1,0 +1,73 @@
+{
+  "id": "3849bc3d-4437-8019-8004-fc65ef7c8d12",
+  "name": "Graphics \/ ICONS \/ 053__desktop.svg",
+  "type": "frame",
+  "x": 320.0,
+  "y": 10870.0,
+  "width": 40.0,
+  "height": 40.0,
+  "rotation": 0,
+  "selrect": {
+    "x": 320.0,
+    "y": 10870.0,
+    "width": 40.0,
+    "height": 40.0,
+    "x1": 320.0,
+    "y1": 10870.0,
+    "x2": 360.0,
+    "y2": 10910.0
+  },
+  "points": [
+    {
+      "x": 320.0,
+      "y": 10870.0
+    },
+    {
+      "x": 360.0,
+      "y": 10870.0
+    },
+    {
+      "x": 360.0,
+      "y": 10910.0
+    },
+    {
+      "x": 320.0,
+      "y": 10910.0
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65ef3730dc",
+  "frameId": "3849bc3d-4437-8019-8004-fc65ef3730dc",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "hideInViewer": true,
+  "componentRoot": true,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "componentId": "3849bc3d-4437-8019-8004-fc65ef7ce9f3",
+  "strokes": [],
+  "mainInstance": true,
+  "proportion": 1.0,
+  "fills": [],
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+  "shapes": [
+    "3849bc3d-4437-8019-8004-fc65ef7c19a6"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e4248afd",
+  "name": "Mouth \/ Mouth - Concerned",
+  "type": "frame",
+  "x": 276.6954427955522,
+  "y": -2133,
+  "width": 37.78716546963949,
+  "height": 19.053427106283834,
+  "rotation": 0,
+  "selrect": {
+    "x": 276.6954427955522,
+    "y": -2133,
+    "width": 37.78716546963949,
+    "height": 19.053427106283834,
+    "x1": 276.6954427955522,
+    "y1": -2133,
+    "x2": 314.4826082651917,
+    "y2": -2113.946572893716
+  },
+  "points": [
+    {
+      "x": 276.6954427955522,
+      "y": -2133
+    },
+    {
+      "x": 314.4826082651917,
+      "y": -2133
+    },
+    {
+      "x": 314.4826082651917,
+      "y": -2113.946572893716
+    },
+    {
+      "x": 276.6954427955522,
+      "y": -2113.946572893716
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e2b5f2d1",
+  "frameId": "b67e0975-9540-809b-8004-fc65e2b5f2d1",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-17ccd181-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#clip_9)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65e4248afc",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2894.0,
+    "f": 0.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2914.2921403534706,
+    "y": 12.999986061518484,
+    "width": 29.589339081273636,
+    "height": 33.37401738550352,
+    "x1": 2914.2921403534706,
+    "y1": 12.999986061518484,
+    "x2": 2943.881479434744,
+    "y2": 46.374003447022005
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65e4248afc",
+  "svgDefs": {
+    "clip_9": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_9"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_9",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_9": {
+      "tag": "rect",
+      "attrs": {
+        "width": "108",
+        "height": "44",
+        "id": "artboard_9"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65e4252fc0",
+    "b67e0975-9540-809b-8004-fc65e4252fc3",
+    "b67e0975-9540-809b-8004-fc65e47e22e8"
+  ]
+}

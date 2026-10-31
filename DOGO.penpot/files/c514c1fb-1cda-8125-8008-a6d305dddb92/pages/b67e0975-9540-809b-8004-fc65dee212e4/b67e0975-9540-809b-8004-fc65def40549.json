@@ -1,0 +1,2627 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65def40549",
+  "name": "Remaining info",
+  "type": "text",
+  "x": 1724,
+  "y": 1281,
+  "width": 1068,
+  "height": 2013,
+  "rotation": 0,
+  "selrect": {
+    "x": 1724,
+    "y": 1281,
+    "width": 1068,
+    "height": 2013,
+    "x1": 1724,
+    "y1": 1281,
+    "x2": 2792,
+    "y2": 3294
+  },
+  "points": [
+    {
+      "x": 1724.0000000000728,
+      "y": 1281.0000021463545
+    },
+    {
+      "x": 2791.9999999999272,
+      "y": 1281.0000021463545
+    },
+    {
+      "x": 2791.9999999999272,
+      "y": 3293.9999978536453
+    },
+    {
+      "x": 1724.0000000000728,
+      "y": 3293.9999978536453
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999998637,
+    "b": -1.3231005360691855E-17,
+    "c": 1.03321641409526E-17,
+    "d": 0.9999999978675066,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.000000000000136,
+    "b": 1.3231035136552149E-17,
+    "c": -1.0332124434220239E-17,
+    "d": 1.0000000021324926,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65deec83cc",
+  "frameId": "b67e0975-9540-809b-8004-fc65deec83cc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Customize your avataaar with features"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "3d0s9",
+            "fontSize": "28",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Browse the components library for cool items and facial features to add to your avataaar!"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "17pd3",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "7tud2",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "key": "bbabl",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "\t\u2022\tTOP: The customization starts with the Top (hair and accesories). Other tops allow you to change or remove facial hair. Neat!"
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "7m1jh",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "fg4af",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "\t\u2022\tACCESSORIES: Add or remove glasses from your avatar."
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "7prgh",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "dkgif",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "\t\u2022\tEYEBROWS: Select the type of expression you want your eyebrows to have. You can select a \u201cnatural\u201d look or \u201coutline\u201d look, which is a bit more cartoonish."
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "emp2t",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "c4rev",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "\t\u2022\tEYES: The window to the soul! Select from different expressions. Inspired by emojis \ud83d\ude09"
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "70o03",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "a528c",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "\t\u2022\tMOUTH: Select different type of smiles, frowns, or screams!"
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "24eov",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "96vof",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "\t\u2022\tCLOTHES: Select different types of shirts, jerseys, and overalls! \u2028Tip: Add some character to your tees by adding a Graphic."
+              }
+            ],
+            "fills": []
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "4tdm6",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "d4hqn",
+            "fontSize": "28",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Add some colour"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "77lti",
+            "fontSize": "28",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "key": "e64jk",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "To change the colour of  components, click on the \"Layers\" icon on the left and expand all of the component's folders. You are free to change the colour of any element within the folders, but I recommend changing the colour of elements that begin with the \"\ud83c\udfa8\" emoji."
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "ccuqb",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fills": []
+          },
+          {
+            "key": "3dakn",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "In the Assets, under \"Palette\", you'll find a curated list of colours. You can also find these colours in the colour picker in the right apanel, as well as by clicking on the \"Colour Palette\" icon on the left."
+              }
+            ],
+            "fills": []
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "c8408",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Wanna collaborate?"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "7n1ci",
+            "fontSize": "28",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "8",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 0.99
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": " "
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "34aft",
+            "fontSize": "8",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 0.99
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "italic",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "italic",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "600",
+                "fontVariantId": "600italic",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Illustrations themselves"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "3r43j",
+            "fontSize": "28",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "600italic",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "italic",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "italic",
+                "fontId": "gfont-open-sans",
+                "fontSize": "8",
+                "fontWeight": "600",
+                "fontVariantId": "600italic",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": " "
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "5lhe3",
+            "fontSize": "8",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "600italic",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "The original library was created by Pablo Stanley and was created for Sketch ("
+              },
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#008bfb",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "https:\/\/avataaars.com"
+              },
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "). If you wanna expand on this library, you can use it as a template, add your own stuff, and then publish it for everyone! If you want to make your additions part of the official libray, just shoot Pablo Stanley a PM on Twitter when you have something and he\u2019ll update it!"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "3cl6e",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "8",
+                "fontWeight": "800",
+                "fontVariantId": "800",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": " "
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "64s9p",
+            "fontSize": "8",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "600",
+                "fontVariantId": "600",
+                "fills": [
+                  {
+                    "fillColor": "#008bfb",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "https:\/\/twitter.com\/pablostanley \ud83d\udc48"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "ca7cg",
+            "fontSize": "28",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "600",
+            "fills": [
+              {
+                "fillColor": "#008bfb",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "edde4",
+            "fontSize": "28",
+            "fontWeight": "800",
+            "type": "paragraph",
+            "fontVariantId": "800",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "italic",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "italic",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "600",
+                "fontVariantId": "600italic",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "Penpot port"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "63cut",
+            "fontSize": "28",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "600italic",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "key": "ack4c",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fills": []
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "The conversion, reorganization of files, and revision of instructions for Penpot was done by myself, candide \u2737 media. If you notice any bugs, or want to collab on porting another Sketch, Figma, Adobe XD, or Lunacy library for Penpot, reach out to me via: "
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "b5go",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "600",
+                "fontVariantId": "600",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "- GitHub: "
+              },
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "600",
+                "fontVariantId": "600",
+                "fills": [
+                  {
+                    "fillColor": "#008bfb",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "https:\/\/url.candide.media\/github"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "72ouv",
+            "fontSize": "28",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "600",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "600",
+                "fontVariantId": "600",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "- Contact form: "
+              },
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "600",
+                "fontVariantId": "600",
+                "fills": [
+                  {
+                    "fillColor": "#008bfb",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "https:\/\/url.candide.media\/contact-form"
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "2ehf4",
+            "fontSize": "28",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "600",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          },
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "8m01v",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "svgAttrs": {},
+  "pageId": "b67e0975-9540-809b-8004-fc65dee212e4",
+  "opacity": 0.98,
+  "positionData": [
+    {
+      "y": 1321.0000627552745,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "800",
+      "width": 566.0936665065415,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": "Customize your avataaar with features"
+    },
+    {
+      "y": 1366.0000122260112,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1035.0151543553898,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": "Browse the components library for cool items and facial features to add to your"
+    },
+    {
+      "y": 1366.0000122260112,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.266293999142363,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2759.015169223325,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": " "
+    },
+    {
+      "y": 1410.9999616967482,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 120.59364876121617,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695236,
+      "text": "avataaar!"
+    },
+    {
+      "y": 1455.0000705635612,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640597982866893,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 37.000059173028376,
+      "text": "\u00a0"
+    },
+    {
+      "y": 1498.0000798339354,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1041.0937086810195,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": "\t\u2022\tTOP: The customization starts with the Top (hair and accesories). Other"
+    },
+    {
+      "y": 1498.0000798339354,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.265776014112362,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2765.0937235489546,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": " "
+    },
+    {
+      "y": 1539.9999895078706,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 684.4529868413747,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": "tops allow you to change or remove facial hair. Neat!"
+    },
+    {
+      "y": 1559.000068892604,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 2.8123997197276367,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 18.00010928455208,
+      "text": "\u00a0"
+    },
+    {
+      "y": 1598.7968587382068,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 837.7030018113114,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": "\t\u2022\tACCESSORIES: Add or remove glasses from your avatar."
+    },
+    {
+      "y": 1617.7968086266828,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 2.8123997197276367,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 17.999979788294695,
+      "text": "\u00a0"
+    },
+    {
+      "y": 1657.5935984722853,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1011.98450395691,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695236,
+      "text": "\t\u2022\tEYEBROWS: Select the type of expression you want your eyebrows to"
+    },
+    {
+      "y": 1657.5935984722853,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2652580290828155,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2735.984518824845,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695236,
+      "text": " "
+    },
+    {
+      "y": 1699.5938966349931,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 945.3281183719628,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": "have. You can select a \u201cnatural\u201d look or \u201coutline\u201d look, which is a bit more"
+    },
+    {
+      "y": 1699.5938966349931,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.265258029082361,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2669.328133239898,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": " "
+    },
+    {
+      "y": 1741.5936768126708,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 146.187289087537,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "cartoonish."
+    },
+    {
+      "y": 1760.5938856936618,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 2.8123997197276367,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 17.999979788294695,
+      "text": "\u00a0"
+    },
+    {
+      "y": 1800.3906755392645,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 949.8749909642406,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": "\t\u2022\tEYES: The window to the soul! Select from different expressions."
+    },
+    {
+      "y": 1800.3906755392645,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.265258029082361,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2673.8750058321757,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": " "
+    },
+    {
+      "y": 1842.390714709457,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 280.70308048932566,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946691,
+      "text": "Inspired by emojis \ud83d\ude09"
+    },
+    {
+      "y": 1861.3906645979332,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 2.8123997197276367,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 17.999979788294695,
+      "text": "\u00a0"
+    },
+    {
+      "y": 1901.187454443536,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 890.1248997826697,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": "\t\u2022\tMOUTH: Select different type of smiles, frowns, or screams!"
+    },
+    {
+      "y": 1920.1874043320117,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 2.8123997197276367,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 17.999979788294695,
+      "text": "\u00a0"
+    },
+    {
+      "y": 1959.9844531701292,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1039.0310922920412,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": "\t\u2022\tCLOTHES: Select different types of shirts, jerseys, and overalls! \u2028Tip: Add"
+    },
+    {
+      "y": 1959.9844531701292,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2657760141128165,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2763.0311071599763,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": " "
+    },
+    {
+      "y": 2001.984492340322,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 640.2810364408992,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": "some character to your tees by adding a Graphic."
+    },
+    {
+      "y": 2042.9843024178185,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640597982866893,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 36.99992967677099,
+      "text": "\u00a0"
+    },
+    {
+      "y": 2084.9843415880114,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640597982866893,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 36.99992967677099,
+      "text": "\u00a0"
+    },
+    {
+      "y": 2127.9843508583854,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "800",
+      "width": 240.23420506745515,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "Add some colour"
+    },
+    {
+      "y": 2172.984300329122,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1021.3434574767634,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "To change the colour of  components, click on the \"Layers\" icon on the left and"
+    },
+    {
+      "y": 2172.984300329122,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2657760141128165,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2745.3434723446985,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": " "
+    },
+    {
+      "y": 2214.984339499315,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1030.4843392990379,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "expand all of the component's folders. You are free to change the colour of any"
+    },
+    {
+      "y": 2214.984339499315,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2657760141128165,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2754.484354166973,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": " "
+    },
+    {
+      "y": 2256.984378669508,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1010.4999588612768,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": "element within the folders, but I recommend changing the colour of elements"
+    },
+    {
+      "y": 2256.984378669508,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2652580290828155,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2734.499973729212,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": " "
+    },
+    {
+      "y": 2298.9844178397,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 397.3748055968131,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946691,
+      "text": "that begin with the \"\ud83c\udfa8\" emoji."
+    },
+    {
+      "y": 2317.9843677281765,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 2.8123997197276367,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 17.999979788294695,
+      "text": "\u00a0"
+    },
+    {
+      "y": 2357.781157573779,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1010.3746064840461,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": "In the Assets, under \"Palette\", you'll find a curated list of colours. You can also"
+    },
+    {
+      "y": 2357.781157573779,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2657760141128165,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2734.374621351981,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": " "
+    },
+    {
+      "y": 2399.7811967439716,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1057.702898664089,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "find these colours in the colour picker in the right apanel, as well as by clicking on"
+    },
+    {
+      "y": 2399.7811967439716,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2657760141128165,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2781.702913532024,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": " "
+    },
+    {
+      "y": 2441.7812359141644,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 467.6405108699573,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "the \"Colour Palette\" icon on the left."
+    },
+    {
+      "y": 2482.7813049841757,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640597982866893,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 37.00018866928576,
+      "text": "\u00a0"
+    },
+    {
+      "y": 2525.78131425455,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "800",
+      "width": 287.9999356052308,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": "Wanna collaborate?"
+    },
+    {
+      "y": 2541.781353842482,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "8px",
+      "fontWeight": "800",
+      "width": 2.07815593987425,
+      "textDecoration": "none solid rgba(103, 75, 71, 0.99)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 0.99
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 11.00018908702532,
+      "text": " "
+    },
+    {
+      "y": 2583.7811340201597,
+      "fontStyle": "italic",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "600",
+      "width": 304.2185648757718,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "Illustrations themselves"
+    },
+    {
+      "y": 2599.7811736080916,
+      "fontStyle": "italic",
+      "textTransform": "none",
+      "fontSize": "8px",
+      "fontWeight": "600",
+      "width": 2.07815593987425,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 10.999930094510091,
+      "text": " "
+    },
+    {
+      "y": 2641.7812127782845,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 989.2967596482104,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "The original library was created by Pablo Stanley and was created for Sketch"
+    },
+    {
+      "y": 2641.7812127782845,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2652580290828155,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2713.2967745161454,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": " "
+    },
+    {
+      "y": 2686.7811622490212,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 8.249947570882341,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "("
+    },
+    {
+      "y": 2686.7811622490212,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 285.57809659803206,
+      "textDecoration": "none solid rgb(0, 139, 251)",
+      "letterSpacing": "normal",
+      "x": 1732.2499624388174,
+      "fills": [
+        {
+          "fillColor": "#008bfb",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "https:\/\/avataaars.com"
+    },
+    {
+      "y": 2686.7811622490212,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 734.4688443489449,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2017.8280590368495,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "). If you wanna expand on this library, you can use it as a"
+    },
+    {
+      "y": 2686.7811622490212,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.265258029082361,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2752.2969033857944,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": " "
+    },
+    {
+      "y": 2731.7811117197584,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1003.0627298022746,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": "template, add your own stuff, and then publish it for everyone! If you want to"
+    },
+    {
+      "y": 2731.7811117197584,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.265258029082361,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2727.0627446702097,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": " "
+    },
+    {
+      "y": 2776.7813201830104,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1024.8440003086857,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": "make your additions part of the official libray, just shoot Pablo Stanley a PM on"
+    },
+    {
+      "y": 2776.7813201830104,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2652580290828155,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2748.844015176621,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": " "
+    },
+    {
+      "y": 2821.781269653747,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 688.9529817884481,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": "Twitter when you have something and he\u2019ll update it!"
+    },
+    {
+      "y": 2837.781309241679,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "8px",
+      "fontWeight": "800",
+      "width": 2.07815593987425,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 11.00018908702532,
+      "text": " "
+    },
+    {
+      "y": 2879.7810894193567,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "600",
+      "width": 484.76561394278633,
+      "textDecoration": "none solid rgb(0, 139, 251)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#008bfb",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "https:\/\/twitter.com\/pablostanley \ud83d\udc48"
+    },
+    {
+      "y": 2923.7813277824275,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640597982866893,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 37.00018866928622,
+      "text": "\u00a0"
+    },
+    {
+      "y": 2966.7813370528015,
+      "fontStyle": "italic",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "600",
+      "width": 152.18736868114001,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": "Penpot port"
+    },
+    {
+      "y": 2988.7811972418217,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 2.8123997197276367,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 17.999979788294695,
+      "text": "\u00a0"
+    },
+    {
+      "y": 3028.5779870874244,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1011.8125329269901,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": "The conversion, reorganization of files, and revision of instructions for Penpot"
+    },
+    {
+      "y": 3028.5779870874244,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2652580290828155,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2735.812547794925,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": " "
+    },
+    {
+      "y": 3073.578195550676,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1024.8279427727593,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946691,
+      "text": "was done by myself, candide \u2737 media. If you notice any bugs, or want to collab"
+    },
+    {
+      "y": 3073.578195550676,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.2657760141128165,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2748.8279576406944,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946691,
+      "text": " "
+    },
+    {
+      "y": 3118.578145021413,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 1043.2811594621985,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": "on porting another Sketch, Figma, Adobe XD, or Lunacy library for Penpot, reach"
+    },
+    {
+      "y": 3118.578145021413,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.265258029082361,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 2767.2811743301336,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00015876946736,
+      "text": " "
+    },
+    {
+      "y": 3163.57809449215,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 178.24978545950125,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "out to me via:"
+    },
+    {
+      "y": 3163.57809449215,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 7.265776014112362,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1902.2498003274363,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": " "
+    },
+    {
+      "y": 3208.5780439628866,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "600",
+      "width": 126.67168510181637,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "- GitHub: "
+    },
+    {
+      "y": 3208.5780439628866,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "600",
+      "width": 442.9220062516174,
+      "textDecoration": "none solid rgb(0, 139, 251)",
+      "letterSpacing": "normal",
+      "x": 1850.6716999697514,
+      "fills": [
+        {
+          "fillColor": "#008bfb",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.999899776952134,
+      "text": "https:\/\/url.candide.media\/github"
+    },
+    {
+      "y": 3253.5779934336238,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "600",
+      "width": 209.43740511600026,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": "- Contact form: "
+    },
+    {
+      "y": 3253.5779934336238,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "600",
+      "width": 531.624870678274,
+      "textDecoration": "none solid rgb(0, 139, 251)",
+      "letterSpacing": "normal",
+      "x": 1933.4374199839353,
+      "fills": [
+        {
+          "fillColor": "#008bfb",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 37.99989977695259,
+      "text": "https:\/\/url.candide.media\/contact-form"
+    },
+    {
+      "y": 3297.577972804179,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 5.640597982866893,
+      "textDecoration": "none solid rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1724.000014867935,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "height": 36.999929676770535,
+      "text": "\u00a0"
+    }
+  ],
+  "strokes": [],
+  "blocked": true,
+  "fills": []
+}

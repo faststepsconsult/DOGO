@@ -1,0 +1,98 @@
+{
+  "id": "5c8da088-8494-805d-8003-b433d1522dd8",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 339.9999999999999,
+    "y": 1437.0000000000089,
+    "width": 14,
+    "height": 21,
+    "x1": 339.9999999999999,
+    "y1": 1437.0000000000089,
+    "x2": 353.9999999999999,
+    "y2": 1458.0000000000089
+  },
+  "points": [
+    {
+      "x": 339.9999999999999,
+      "y": 1437.0000000000089
+    },
+    {
+      "x": 353.9999999999999,
+      "y": 1437.0000000000089
+    },
+    {
+      "x": 353.9999999999999,
+      "y": 1458.0000000000089
+    },
+    {
+      "x": 339.9999999999999,
+      "y": 1458.0000000000089
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b433d14d66e0",
+  "frameId": "5c8da088-8494-805d-8003-b433d14d66e0",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M340.0,1451.0L340.0,1444.0L354.0,1444.0L354.0,1437.0L340.0,1437.0L354.0,1451.0L347.0,1451.0M340.0,1451.0L347.0,1458.0L347.0,1451.0M340.0,1451.0L347.0,1451.0",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "shapeRef": "5c8da088-8494-805d-8003-b546c6cd4a3e",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 5,
+    "y": 2,
+    "width": 14,
+    "height": 21,
+    "x1": 5,
+    "y1": 2,
+    "x2": 19,
+    "y2": 23
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round"
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

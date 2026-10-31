@@ -1,0 +1,84 @@
+{
+  "id": "8ad8e0e0-417d-11ed-83ad-33109eb2c9d7",
+  "name": "Component-1",
+  "type": "frame",
+  "x": 2344.9999999999986,
+  "y": 530,
+  "width": 354,
+  "height": 120,
+  "rotation": 0,
+  "selrect": {
+    "x": 2344.9999999999986,
+    "y": 530,
+    "width": 354,
+    "height": 120,
+    "x1": 2344.9999999999986,
+    "y1": 530,
+    "x2": 2698.9999999999986,
+    "y2": 650
+  },
+  "points": [
+    {
+      "x": 2344.9999999999986,
+      "y": 530
+    },
+    {
+      "x": 2698.9999999999986,
+      "y": 530
+    },
+    {
+      "x": 2698.9999999999986,
+      "y": 650
+    },
+    {
+      "x": 2344.9999999999986,
+      "y": 650
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0000000000000002,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.9999999999999998,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "aaa93410-4178-11ed-81f9-8bd178e107fa",
+  "frameId": "aaa93410-4178-11ed-81f9-8bd178e107fa",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "index": 2,
+  "hideInViewer": true,
+  "touched": [
+    "shapes-group",
+    "geometry-group"
+  ],
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "62278260-417c-11ed-83ad-33109eb2c9d7",
+  "showContent": true,
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "r3": 0,
+  "constraintsH": "leftright",
+  "r1": 0,
+  "componentId": "62278260-417c-11ed-83ad-33109eb2c9d7",
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+  "shapes": [
+    "8ad8e0e1-417d-11ed-83ad-33109eb2c9d7",
+    "8ad8e0e2-417d-11ed-83ad-33109eb2c9d7",
+    "8ad8e0e3-417d-11ed-83ad-33109eb2c9d7",
+    "8ee122b0-417d-11ed-83ad-33109eb2c9d7"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65dce9dd41",
+  "name": "Clothing \/ Blazer + Shirt-2",
+  "type": "frame",
+  "x": 50.0,
+  "y": 50.0,
+  "width": 201,
+  "height": 83,
+  "rotation": 0,
+  "selrect": {
+    "x": 50.0,
+    "y": 50.0,
+    "width": 201,
+    "height": 83,
+    "x1": 50.0,
+    "y1": 50.0,
+    "x2": 251.0,
+    "y2": 133.0
+  },
+  "points": [
+    {
+      "x": 50.0,
+      "y": 50.0
+    },
+    {
+      "x": 251.0,
+      "y": 50.0
+    },
+    {
+      "x": 251.0,
+      "y": 133.0
+    },
+    {
+      "x": 50.0,
+      "y": 133.0
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc660b5d9afe",
+  "frameId": "3849bc3d-4437-8019-8004-fc660b5d9afe",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-15438e90-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_2)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc660b5ca083",
+  "r3": 0,
+  "constraintsV": "scale",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 424.0,
+    "f": 0.0
+  },
+  "constraintsH": "scale",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 12906.948227767914,
+    "y": 8522.489449411896,
+    "width": 0.01,
+    "height": 0.01,
+    "x1": 12906.948227767914,
+    "y1": 8522.489449411896,
+    "x2": 12906.958227767915,
+    "y2": 8522.499449411896
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65dce9dd41",
+  "svgDefs": {
+    "clip_2": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_2"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_2",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_2": {
+      "tag": "rect",
+      "attrs": {
+        "width": "264",
+        "height": "110",
+        "id": "artboard_2"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "mainInstance": true,
+  "blocked": false,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65dcea071b",
+    "b67e0975-9540-809b-8004-fc65dcf7fb6e"
+  ]
+}

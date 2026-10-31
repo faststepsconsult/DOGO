@@ -1,0 +1,106 @@
+{
+  "id": "8c8e33dd-5361-8067-8008-c214150b1dc6",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 210.3106635071083,
+    "y": 895.7478753541079,
+    "width": 17.400000000001455,
+    "height": 5,
+    "x1": 210.3106635071083,
+    "y1": 895.7478753541079,
+    "x2": 227.71066350710976,
+    "y2": 900.7478753541079
+  },
+  "points": [
+    {
+      "x": 210.3106635071083,
+      "y": 895.7478753541079
+    },
+    {
+      "x": 227.71066350710976,
+      "y": 895.7478753541079
+    },
+    {
+      "x": 227.71066350710976,
+      "y": 900.7478753541079
+    },
+    {
+      "x": 210.3106635071083,
+      "y": 900.7478753541079
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8c8e33dd-5361-8067-8008-c214150ae62e",
+  "frameId": "8c8e33dd-5361-8067-8008-c214150ae62e",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M210.31065368652344,895.7478637695312L219.0106658935547,900.7478637695312L227.71067810058594,895.7478637695312",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "touched": [
+    "stroke-group",
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "5c8da088-8494-805d-8003-b54dcfe3c271",
+  "proportionLock": false,
+  "pageId": "d703399e-1cf8-8063-8008-cf78cebc99a3",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 3.3,
+    "y": 7,
+    "width": 17.4,
+    "height": 5,
+    "x1": 3.3,
+    "y1": 7,
+    "x2": 20.7,
+    "y2": 12
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round",
+      "strokeColor": "#397bf1",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "fills": []
+}

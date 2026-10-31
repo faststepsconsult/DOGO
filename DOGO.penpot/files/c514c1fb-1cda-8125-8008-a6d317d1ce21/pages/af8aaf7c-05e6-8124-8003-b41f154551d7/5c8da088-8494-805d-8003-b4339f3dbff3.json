@@ -1,0 +1,98 @@
+{
+  "id": "5c8da088-8494-805d-8003-b4339f3dbff3",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 915.9000000000016,
+    "y": 755.9000000000021,
+    "width": 14.19999999999709,
+    "height": 14.199999999999818,
+    "x1": 915.9000000000016,
+    "y1": 755.9000000000021,
+    "x2": 930.0999999999987,
+    "y2": 770.100000000002
+  },
+  "points": [
+    {
+      "x": 915.9000000000016,
+      "y": 755.9000000000021
+    },
+    {
+      "x": 930.0999999999987,
+      "y": 755.9000000000021
+    },
+    {
+      "x": 930.0999999999987,
+      "y": 770.100000000002
+    },
+    {
+      "x": 915.9000000000016,
+      "y": 770.100000000002
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b4339f3c290b",
+  "frameId": "5c8da088-8494-805d-8003-b4339f3c290b",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M915.9000244140625,755.9000244140625L930.0999755859375,770.0999755859375",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "shapeRef": "5c8da088-8494-805d-8003-b4b485a8b6bc",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 4.9,
+    "y": 4.9,
+    "width": 14.200000000000001,
+    "height": 14.200000000000001,
+    "x1": 4.9,
+    "y1": 4.9,
+    "x2": 19.1,
+    "y2": 19.1
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round"
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

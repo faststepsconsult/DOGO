@@ -1,0 +1,92 @@
+{
+  "id": "5c8da088-8494-805d-8003-b5425e9700fc",
+  "name": "brick-wall",
+  "type": "frame",
+  "x": 50.0,
+  "y": 1908.0,
+  "width": 24,
+  "height": 24,
+  "rotation": null,
+  "selrect": {
+    "x": 50.0,
+    "y": 1908.0,
+    "width": 24,
+    "height": 24,
+    "x1": 50.0,
+    "y1": 1908.0,
+    "x2": 74.0,
+    "y2": 1932.0
+  },
+  "points": [
+    {
+      "x": 50.0,
+      "y": 1908.0
+    },
+    {
+      "x": 74.0,
+      "y": 1908.0
+    },
+    {
+      "x": 74.0,
+      "y": 1932.0
+    },
+    {
+      "x": 50.0,
+      "y": 1932.0
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65dbdd4a0b",
+  "frameId": "3849bc3d-4437-8019-8004-fc65dbdd4a0b",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "layoutItemHSizing": "fix",
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc65dbd8458e",
+  "layoutItemVSizing": "fix",
+  "r3": 0,
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b5425e9700fc",
+  "mainInstance": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "5c8da088-8494-805d-8003-b5425e9700fd",
+    "5c8da088-8494-805d-8003-b5425e9700fe",
+    "5c8da088-8494-805d-8003-b5425e9700ff",
+    "5c8da088-8494-805d-8003-b5425e970100",
+    "5c8da088-8494-805d-8003-b5425e970101",
+    "5c8da088-8494-805d-8003-b5425e970102",
+    "5c8da088-8494-805d-8003-b5425e970103",
+    "5c8da088-8494-805d-8003-b5425e970104",
+    "5c8da088-8494-805d-8003-b5425e970105"
+  ]
+}

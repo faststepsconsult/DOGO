@@ -1,0 +1,107 @@
+{
+  "id": "7cedfe4d-4ab6-8005-8008-a8458f53fe28",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 177,
+    "y": 115,
+    "width": 16,
+    "height": 8,
+    "x1": 177,
+    "y1": 115,
+    "x2": 193,
+    "y2": 123
+  },
+  "points": [
+    {
+      "x": 177,
+      "y": 115
+    },
+    {
+      "x": 193,
+      "y": 115
+    },
+    {
+      "x": 193,
+      "y": 123
+    },
+    {
+      "x": 177,
+      "y": 123
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7cedfe4d-4ab6-8005-8008-a8458f53fe25",
+  "frameId": "7cedfe4d-4ab6-8005-8008-a8458f53fe25",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M193.0,123.0C193.0,118.58203125,189.41827392578125,115.0,185.0,115.0C180.58172607421875,115.0,177.0,118.58203125,177.0,123.0",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "touched": [
+    "stroke-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "5c8da088-8494-805d-8003-b55afe5c2658",
+  "proportionLock": false,
+  "pageId": "d57a77c6-c39f-80fa-8008-c923d6ccc9ff",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 4,
+    "y": 13,
+    "width": 16,
+    "height": 8,
+    "x1": 4,
+    "y1": 13,
+    "x2": 20,
+    "y2": 21
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeCapStart": "round",
+      "strokeStyle": "solid",
+      "strokeColor": "#ffffff",
+      "strokeOpacity": 1,
+      "strokeAlignment": "inner",
+      "strokeCapEnd": "round",
+      "strokeColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+      "strokeWidth": 2,
+      "strokeColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16"
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "fills": []
+}

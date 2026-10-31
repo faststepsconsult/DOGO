@@ -1,0 +1,129 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65db1a8eab",
+  "name": "Mouth - Default-8",
+  "type": "frame",
+  "x": 806.0025789138954,
+  "y": 1115.6629361666076,
+  "width": 28,
+  "height": 14,
+  "rotation": 0,
+  "selrect": {
+    "x": 806.0025789138954,
+    "y": 1115.6629361666076,
+    "width": 28,
+    "height": 14,
+    "x1": 806.0025789138954,
+    "y1": 1115.6629361666076,
+    "x2": 834.0025789138954,
+    "y2": 1129.6629361666076
+  },
+  "points": [
+    {
+      "x": 806.0025789138954,
+      "y": 1115.6629361666076
+    },
+    {
+      "x": 834.0025789138954,
+      "y": 1115.6629361666076
+    },
+    {
+      "x": 834.0025789138954,
+      "y": 1129.6629361666076
+    },
+    {
+      "x": 806.0025789138954,
+      "y": 1129.6629361666076
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65dae665a5",
+  "frameId": "b67e0975-9540-809b-8004-fc65dac750b7",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-143775c1-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_9)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65db1a8eaa",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65daa35873",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2894.0,
+    "f": 100.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2933.500000122174,
+    "y": 115.00000025307304,
+    "width": 27.999999755653686,
+    "height": 13.999999511307811,
+    "x1": 2933.500000122174,
+    "y1": 115.00000025307304,
+    "x2": 2961.4999998778276,
+    "y2": 128.99999976438085
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65db1a8eaa",
+  "svgDefs": {
+    "clip_9": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_9"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_9",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_9": {
+      "tag": "rect",
+      "attrs": {
+        "width": "108",
+        "height": "44",
+        "id": "artboard_9"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65db1ad9fc"
+  ]
+}

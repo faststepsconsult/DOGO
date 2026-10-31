@@ -1,0 +1,124 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e48b2364",
+  "name": "Skin\ud83d\udc76\ud83c\udffc-04-Light-Beige",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": 0,
+  "selrect": {
+    "x": 722,
+    "y": -1521,
+    "width": 69,
+    "height": 69,
+    "x1": 722,
+    "y1": -1521,
+    "x2": 791,
+    "y2": -1452
+  },
+  "points": [
+    {
+      "x": 722,
+      "y": -1521
+    },
+    {
+      "x": 791,
+      "y": -1521
+    },
+    {
+      "x": 791,
+      "y": -1452
+    },
+    {
+      "x": 722,
+      "y": -1452
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000002,
+    "b": 1.74532925199433E-8,
+    "c": -1.74532925199433E-8,
+    "d": 1.0000000000000002,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999994,
+    "b": -1.7453292519943288E-8,
+    "c": 1.7453292519943288E-8,
+    "d": 0.9999999999999994,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e4899f35",
+  "frameId": "b67e0975-9540-809b-8004-fc65e4899f35",
+  "flipX": false,
+  "flipY": false,
+  "content": "M722.0,-1521.0L791.0,-1521.0L791.0,-1452.0L722.0,-1452.0L722.0,-1521.0ZZZZZZ",
+  "svgAttrs": {
+    "id": "artboard_11",
+    "clipPath": "url(#clip_11)"
+  },
+  "proportionLock": false,
+  "center": {
+    "x": 756.5,
+    "y": -1486.5
+  },
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 3378.0,
+    "f": 375.0
+  },
+  "svgViewbox": {
+    "x": 3378,
+    "y": 375,
+    "width": 69,
+    "height": 69,
+    "x1": 3378,
+    "y1": 375,
+    "x2": 3447,
+    "y2": 444
+  },
+  "svgDefs": {
+    "clip_11": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_11"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_11",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_11": {
+      "tag": "rect",
+      "attrs": {
+        "width": "69",
+        "height": "69",
+        "id": "artboard_11"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "fills": [
+    {
+      "fillColor": "#edb98a",
+      "fillColorRefFile": "b67e0975-9540-809b-8004-fc65dae8615b",
+      "fillOpacity": 1,
+      "fillColorRefId": "b67e0975-9540-809b-8004-fc65e48b2363"
+    }
+  ]
+}

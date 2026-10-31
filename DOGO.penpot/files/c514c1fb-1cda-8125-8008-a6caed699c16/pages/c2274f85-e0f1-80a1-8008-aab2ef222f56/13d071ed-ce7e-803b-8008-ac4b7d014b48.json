@@ -1,0 +1,101 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-ac4b7d014b48",
+  "name": "boxes",
+  "type": "frame",
+  "x": 566.5076977740586,
+  "y": 244.16962466500718,
+  "width": 23.55668991443939,
+  "height": 23.99986617965622,
+  "rotation": 0,
+  "selrect": {
+    "x": 566.5076977740586,
+    "y": 244.16962466500718,
+    "width": 23.55668991443939,
+    "height": 23.99986617965622,
+    "x1": 566.5076977740586,
+    "y1": 244.16962466500718,
+    "x2": 590.064387688498,
+    "y2": 268.1694908446634
+  },
+  "points": [
+    {
+      "x": 566.5038293952607,
+      "y": 244.16575627447492
+    },
+    {
+      "x": 590.0605180387854,
+      "y": 244.17349430298563
+    },
+    {
+      "x": 590.0682560672957,
+      "y": 268.1733592351956
+    },
+    {
+      "x": 566.5115674237711,
+      "y": 268.1656212066849
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aab958a080fc",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "touched": [
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "5c8da088-8494-805d-8003-b54223e9e136",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "r3": 0,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b54223e9e136",
+  "blocked": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "13d071ed-ce7e-803b-8008-ac4b7d014b49",
+    "13d071ed-ce7e-803b-8008-ac4b7d019689",
+    "13d071ed-ce7e-803b-8008-ac4b7d01968a",
+    "13d071ed-ce7e-803b-8008-ac4b7d01968b",
+    "13d071ed-ce7e-803b-8008-ac4b7d01cbe8",
+    "13d071ed-ce7e-803b-8008-ac4b7d01cbe9",
+    "13d071ed-ce7e-803b-8008-ac4b7d01cbea",
+    "13d071ed-ce7e-803b-8008-ac4b7d022b7b",
+    "13d071ed-ce7e-803b-8008-ac4b7d022b7c",
+    "13d071ed-ce7e-803b-8008-ac4b7d022b7d",
+    "13d071ed-ce7e-803b-8008-ac4b7d0244ff",
+    "13d071ed-ce7e-803b-8008-ac4b7d024500",
+    "13d071ed-ce7e-803b-8008-ac4b7d024501"
+  ]
+}

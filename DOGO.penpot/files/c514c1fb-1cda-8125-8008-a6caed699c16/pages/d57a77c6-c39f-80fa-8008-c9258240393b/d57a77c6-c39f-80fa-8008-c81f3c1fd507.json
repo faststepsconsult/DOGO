@@ -1,0 +1,192 @@
+{
+  "id": "d57a77c6-c39f-80fa-8008-c81f3c1fd507",
+  "name": "View available ride and delivery requests and choose one to get started.\n",
+  "type": "text",
+  "x": 208.00227161264047,
+  "y": 194,
+  "width": 417,
+  "height": 34,
+  "rotation": 0,
+  "selrect": {
+    "x": 208.00227161264047,
+    "y": 194,
+    "width": 417,
+    "height": 34,
+    "x1": 208.00227161264047,
+    "y1": 194,
+    "x2": 625.0022716126405,
+    "y2": 228
+  },
+  "points": [
+    {
+      "x": 208.00227161264047,
+      "y": 194
+    },
+    {
+      "x": 625.0022716126405,
+      "y": 194
+    },
+    {
+      "x": 625.0022716126405,
+      "y": 228
+    },
+    {
+      "x": 208.00227161264047,
+      "y": 228
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "00000000-0000-0000-0000-000000000000",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "key": "12b3r",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "sourcesanspro",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e9e9e9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "sourcesanspro",
+                "text": "View available ride and delivery requests and choose one to get started."
+              }
+            ]
+          },
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "sourcesanspro",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e9e9e9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "sourcesanspro",
+                "text": ""
+              }
+            ],
+            "textTransform": "none",
+            "fontId": "sourcesanspro",
+            "key": "eka00",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e9e9e9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "sourcesanspro"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "positionData": [
+    {
+      "x": 208.00227161264047,
+      "y": 211,
+      "width": 416.875,
+      "height": 18,
+      "x1": 0,
+      "y1": -1,
+      "x2": 416.875,
+      "y2": 17,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#e9e9e9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "text": "View available ride and delivery requests and choose one to get started."
+    },
+    {
+      "x": 208.00227161264047,
+      "y": 227.796875,
+      "width": 2.828125,
+      "height": 18,
+      "x1": 0,
+      "y1": 15.796875,
+      "x2": 2.828125,
+      "y2": 33.796875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#e9e9e9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "sourcesanspro",
+      "text": "\u00a0"
+    }
+  ],
+  "blocked": true,
+  "pageId": "d57a77c6-c39f-80fa-8008-c9258240393b"
+}

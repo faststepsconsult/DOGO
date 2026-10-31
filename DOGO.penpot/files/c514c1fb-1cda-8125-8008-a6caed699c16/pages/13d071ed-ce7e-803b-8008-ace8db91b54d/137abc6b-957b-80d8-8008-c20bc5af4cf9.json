@@ -1,0 +1,79 @@
+{
+  "id": "137abc6b-957b-80d8-8008-c20bc5af4cf9",
+  "name": "Graphics \/ ICONS \/ 012__circle_arrow_right.svg",
+  "type": "group",
+  "x": 1008,
+  "y": 546,
+  "width": 41.5,
+  "height": 41.5,
+  "rotation": 0,
+  "selrect": {
+    "x": 1008,
+    "y": 546,
+    "width": 41.5,
+    "height": 41.5,
+    "x1": 1008,
+    "y1": 546,
+    "x2": 1049.5,
+    "y2": 587.5
+  },
+  "points": [
+    {
+      "x": 1008,
+      "y": 546
+    },
+    {
+      "x": 1049.5,
+      "y": 546
+    },
+    {
+      "x": 1049.5,
+      "y": 587.5
+    },
+    {
+      "x": 1008,
+      "y": 587.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "137abc6b-957b-80d8-8008-c20bc5af1d14",
+  "frameId": "137abc6b-957b-80d8-8008-c20bc5af1d14",
+  "flipX": false,
+  "flipY": false,
+  "svgAttrs": {
+    "xmlSpace": "preserve"
+  },
+  "touched": [
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "3849bc3d-4437-8019-8004-fc65ed804ac1",
+  "proportionLock": false,
+  "pageId": "13d071ed-ce7e-803b-8008-ace8db91b54d",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "strokes": [],
+  "blocked": true,
+  "proportion": 1,
+  "fills": [],
+  "shapes": [
+    "137abc6b-957b-80d8-8008-c20bc5af4cfa",
+    "137abc6b-957b-80d8-8008-c20bc5af4cfb",
+    "137abc6b-957b-80d8-8008-c20bc5af4cfc"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "7cedfe4d-4ab6-8005-8008-a845bdb796d3",
+  "name": "bell",
+  "type": "frame",
+  "x": 1009,
+  "y": 24,
+  "width": 24,
+  "height": 23.999999999999773,
+  "rotation": null,
+  "selrect": {
+    "x": 1009,
+    "y": 24,
+    "width": 24,
+    "height": 23.999999999999773,
+    "x1": 1009,
+    "y1": 24,
+    "x2": 1033,
+    "y2": 47.99999999999977
+  },
+  "points": [
+    {
+      "x": 1009,
+      "y": 24
+    },
+    {
+      "x": 1033,
+      "y": 24
+    },
+    {
+      "x": 1033,
+      "y": 48
+    },
+    {
+      "x": 1009,
+      "y": 48
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cd21935a-c090-8055-8008-a7363d851951",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "touched": [
+    "modifiable-group"
+  ],
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "5c8da088-8494-805d-8003-b53f7072edaf",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56",
+  "r3": 0,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b53f7072edaf",
+  "blocked": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "7cedfe4d-4ab6-8005-8008-a845bdb796d4",
+    "7cedfe4d-4ab6-8005-8008-a845bdb7f577",
+    "7cedfe4d-4ab6-8005-8008-a845bdb7f578"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65dbdedceb",
+  "name": "V-Neck Shirt-4",
+  "type": "group",
+  "x": 811.4108864252128,
+  "y": 1384.9938187503496,
+  "width": 201,
+  "height": 82,
+  "rotation": 0,
+  "selrect": {
+    "x": 811.4108864252128,
+    "y": 1384.9938187503496,
+    "width": 201,
+    "height": 82,
+    "x1": 811.4108864252128,
+    "y1": 1384.9938187503496,
+    "x2": 1012.4108864252128,
+    "y2": 1466.9938187503496
+  },
+  "points": [
+    {
+      "x": 811.4108864252128,
+      "y": 1384.9938187503496
+    },
+    {
+      "x": 1012.4108864252128,
+      "y": 1384.9938187503496
+    },
+    {
+      "x": 1012.4108864252128,
+      "y": 1466.9938187503496
+    },
+    {
+      "x": 811.4108864252128,
+      "y": 1466.9938187503496
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65dbde6640",
+  "frameId": "b67e0975-9540-809b-8004-fc65dac750b7",
+  "flipX": false,
+  "flipY": false,
+  "svgAttrs": {
+    "id": "shape-14b8dac0-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#clip_2)"
+  },
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65daa35873",
+  "constraintsV": "scale",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 424.0,
+    "f": 1328.0
+  },
+  "constraintsH": "scale",
+  "svgViewbox": {
+    "x": 454.3333980150462,
+    "y": 1350.0438997061974,
+    "width": 201.00000139447138,
+    "height": 78.64043149065876,
+    "x1": 454.3333980150462,
+    "y1": 1350.0438997061974,
+    "x2": 655.3333994095176,
+    "y2": 1428.6843311968562
+  },
+  "svgDefs": {
+    "clip_2": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_2"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_2",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_2": {
+      "tag": "rect",
+      "attrs": {
+        "width": "264",
+        "height": "110",
+        "id": "artboard_2"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "blocked": false,
+  "proportion": 1,
+  "fills": [
+    {
+      "fillColor": "#ffffb1",
+      "fillColorRefFile": "b67e0975-9540-809b-8004-fc65dbdedcea",
+      "fillOpacity": 1,
+      "fillColorRefId": "b67e0975-9540-809b-8004-fc65dbdedce9"
+    }
+  ],
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65dbdf91c0"
+  ]
+}

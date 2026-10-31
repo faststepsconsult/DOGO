@@ -1,0 +1,166 @@
+{
+  "id": "298d1fb0-3fd2-11ed-af5c-6f8b44ab315b",
+  "name": "h2",
+  "type": "text",
+  "x": 91.99999999999909,
+  "y": 160,
+  "width": 230,
+  "height": 39,
+  "rotation": 0,
+  "selrect": {
+    "x": 91.99999999999909,
+    "y": 160,
+    "width": 230,
+    "height": 39,
+    "x1": 91.99999999999909,
+    "y1": 160,
+    "x2": 321.9999999999991,
+    "y2": 199
+  },
+  "points": [
+    {
+      "x": 91.99999999999909,
+      "y": 160
+    },
+    {
+      "x": 321.9999999999991,
+      "y": 160
+    },
+    {
+      "x": 321.9999999999991,
+      "y": 199
+    },
+    {
+      "x": 91.99999999999909,
+      "y": 199
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999999,
+    "b": 1.4901161193847656E-8,
+    "c": -1.4901161193847656E-8,
+    "d": 0.9999999999999999,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999999,
+    "b": -1.4901161193847656E-8,
+    "c": 1.4901161193847656E-8,
+    "d": 0.9999999999999999,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5144e020-3fcc-11ed-af5c-6f8b44ab315b",
+  "frameId": "5144e020-3fcc-11ed-af5c-6f8b44ab315b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "8fc6bf60-3f1a-11ed-9fca-371df098cda5",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "12",
+                "fontWeight": "700",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Select up to 10 tags so we can personlize your experience"
+              }
+            ],
+            "typographyRefId": "8fc6bf60-3f1a-11ed-9fca-371df098cda5",
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "gfont-inter",
+            "key": "b5i6h",
+            "fontSize": "12",
+            "fontWeight": "700",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsH": "center",
+  "positionData": [
+    {
+      "y": 175.89999389648438,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "width": 179.33334350585938,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 117.3333282470694,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 15,
+      "text": "Select up to 10 tags so we can "
+    },
+    {
+      "y": 193.6999969482422,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "width": 159.41665649414062,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 127.28334045410065,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 15,
+      "text": "personlize your experience"
+    }
+  ]
+}

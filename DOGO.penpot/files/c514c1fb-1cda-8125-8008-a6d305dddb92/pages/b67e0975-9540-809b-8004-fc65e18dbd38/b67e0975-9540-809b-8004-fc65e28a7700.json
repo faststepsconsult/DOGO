@@ -1,0 +1,130 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e28a7700",
+  "name": "yebrow \/ Outline \/ Sad-Concerned Eyebrows",
+  "type": "frame",
+  "x": -619.4999998055819,
+  "y": -1901.9999978966403,
+  "width": 88.00084200000026,
+  "height": 17.000027000000273,
+  "rotation": 0,
+  "selrect": {
+    "x": -619.4999998055819,
+    "y": -1901.9999978966403,
+    "width": 88.00084200000026,
+    "height": 17.000027000000273,
+    "x1": -619.4999998055819,
+    "y1": -1901.9999978966403,
+    "x2": -531.4991578055816,
+    "y2": -1884.99997089664
+  },
+  "points": [
+    {
+      "x": -619.4999999767246,
+      "y": -1901.9999978694593
+    },
+    {
+      "x": -531.499157634439,
+      "y": -1901.9999978694593
+    },
+    {
+      "x": -531.499157634439,
+      "y": -1884.999970923821
+    },
+    {
+      "x": -619.4999999767246,
+      "y": -1884.999970923821
+    }
+  ],
+  "transform": {
+    "a": 1.000000003889568,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.9999999968022485,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.999999996110432,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0000000031977516,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e288db1f",
+  "frameId": "b67e0975-9540-809b-8004-fc65e288db1f",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-1750c3b1-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#clip_6)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65e28a76ff",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2022.0,
+    "f": 240.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2033.5000012309908,
+    "y": 244.000004733899,
+    "width": 88.00168234228511,
+    "height": 17.000052945637663,
+    "x1": 2033.5000012309908,
+    "y1": 244.000004733899,
+    "x2": 2121.501683573276,
+    "y2": 261.00005767953667
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65e28a76ff",
+  "svgDefs": {
+    "clip_6": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_6"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_6",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_6": {
+      "tag": "rect",
+      "attrs": {
+        "width": "112",
+        "height": "24",
+        "id": "artboard_6"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65e28acadd",
+    "b67e0975-9540-809b-8004-fc65e28b4b6c"
+  ]
+}

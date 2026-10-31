@@ -1,0 +1,93 @@
+{
+  "id": "864162e4-1e38-807b-8008-c70af29fe463",
+  "name": "shield-alert",
+  "type": "frame",
+  "x": 724.836959223561,
+  "y": 239.8877437501526,
+  "width": 24,
+  "height": 25.599999999999966,
+  "rotation": 0,
+  "selrect": {
+    "x": 724.836959223561,
+    "y": 239.8877437501526,
+    "width": 24,
+    "height": 25.599999999999966,
+    "x1": 724.836959223561,
+    "y1": 239.8877437501526,
+    "x2": 748.836959223561,
+    "y2": 265.48774375015256
+  },
+  "points": [
+    {
+      "x": 724.836959223561,
+      "y": 239.8877437501526
+    },
+    {
+      "x": 748.836959223561,
+      "y": 239.8877437501526
+    },
+    {
+      "x": 748.836959223561,
+      "y": 265.48774375015256
+    },
+    {
+      "x": 724.836959223561,
+      "y": 265.48774375015256
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "864162e4-1e38-807b-8008-c70b11003ff2",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "touched": [
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "5c8da088-8494-805d-8003-b5514c0d064e",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "7cedfe4d-4ab6-8005-8008-a85cd96138bf",
+  "r3": 0,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b5514c0d064e",
+  "strokes": [],
+  "blocked": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "864162e4-1e38-807b-8008-c70af29fe464",
+    "864162e4-1e38-807b-8008-c70af29fe465",
+    "864162e4-1e38-807b-8008-c70af29fe466",
+    "864162e4-1e38-807b-8008-c70af29fe467"
+  ]
+}

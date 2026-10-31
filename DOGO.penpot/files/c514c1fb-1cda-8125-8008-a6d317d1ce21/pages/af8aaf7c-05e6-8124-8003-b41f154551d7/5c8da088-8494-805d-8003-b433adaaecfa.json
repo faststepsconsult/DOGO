@@ -1,0 +1,98 @@
+{
+  "id": "5c8da088-8494-805d-8003-b433adaaecfa",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 196.9999999999999,
+    "y": 1053.0000000000036,
+    "width": 12,
+    "height": 6,
+    "x1": 196.9999999999999,
+    "y1": 1053.0000000000036,
+    "x2": 208.9999999999999,
+    "y2": 1059.0000000000036
+  },
+  "points": [
+    {
+      "x": 196.9999999999999,
+      "y": 1053.0000000000036
+    },
+    {
+      "x": 208.9999999999999,
+      "y": 1053.0000000000036
+    },
+    {
+      "x": 208.9999999999999,
+      "y": 1059.0000000000036
+    },
+    {
+      "x": 196.9999999999999,
+      "y": 1059.0000000000036
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c8da088-8494-805d-8003-b433ada82b3b",
+  "frameId": "5c8da088-8494-805d-8003-b433ada82b3b",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M209.0,1059.0C209.0,1055.686279296875,206.31370544433594,1053.0,203.0,1053.0C199.68629455566406,1053.0,197.0,1055.686279296875,197.0,1059.0",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "shapeRef": "5c8da088-8494-805d-8003-b544183e96db",
+  "proportionLock": false,
+  "pageId": "af8aaf7c-05e6-8124-8003-b41f154551d7",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 6,
+    "y": 14,
+    "width": 12,
+    "height": 6,
+    "x1": 6,
+    "y1": 14,
+    "x2": 18,
+    "y2": 20
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeColor": "#000000",
+      "strokeOpacity": 1,
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round"
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

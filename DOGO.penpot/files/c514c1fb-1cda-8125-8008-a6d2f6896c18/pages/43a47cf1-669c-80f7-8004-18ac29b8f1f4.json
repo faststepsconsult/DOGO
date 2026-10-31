@@ -1,0 +1,13 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac29b8f1f4",
+  "name": "Cover",
+  "background": "#272727",
+  "flows": {
+    "43a47cf1-669c-80f7-8004-18ac29b8f1f3": {
+      "id": "43a47cf1-669c-80f7-8004-18ac29b8f1f3",
+      "name": "Flow-1",
+      "startingFrame": "43a47cf1-669c-80f7-8004-18ac29b8f1f5"
+    }
+  },
+  "index": 0
+}

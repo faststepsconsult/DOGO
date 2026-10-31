@@ -1,0 +1,130 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65dd2e3c90",
+  "name": "Raised-Excited Eyebrows-9",
+  "type": "frame",
+  "x": 806.0000045973981,
+  "y": 1474.0000001496744,
+  "width": 93.99999311921283,
+  "height": 18.815107054021837,
+  "rotation": 0,
+  "selrect": {
+    "x": 806.0000045973981,
+    "y": 1474.0000001496744,
+    "width": 93.99999311921283,
+    "height": 18.815107054021837,
+    "x1": 806.0000045973981,
+    "y1": 1474.0000001496744,
+    "x2": 899.9999977166109,
+    "y2": 1492.8151072036962
+  },
+  "points": [
+    {
+      "x": 806.0000045973981,
+      "y": 1474.0000001496744
+    },
+    {
+      "x": 899.9999977166109,
+      "y": 1474.0000001496744
+    },
+    {
+      "x": 899.9999977166109,
+      "y": 1492.8151072036962
+    },
+    {
+      "x": 806.0000045973981,
+      "y": 1492.8151072036962
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65dce340bb",
+  "frameId": "b67e0975-9540-809b-8004-fc65dac750b7",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-15698d21-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_6)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65dd2e3c8f",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65daa35873",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2022.0,
+    "f": 160.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2035.4988507307576,
+    "y": 160.01152380633903,
+    "width": 88.00468990110794,
+    "height": 19.075531667792855,
+    "x1": 2035.4988507307576,
+    "y1": 160.01152380633903,
+    "x2": 2123.5035406318657,
+    "y2": 179.0870554741319
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65dd2e3c8f",
+  "svgDefs": {
+    "clip_6": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_6"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_6",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_6": {
+      "tag": "rect",
+      "attrs": {
+        "width": "112",
+        "height": "24",
+        "id": "artboard_6"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65dd2eac9c",
+    "b67e0975-9540-809b-8004-fc65dd2f38ee"
+  ]
+}

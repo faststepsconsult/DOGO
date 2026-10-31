@@ -1,0 +1,132 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65e299e03e",
+  "name": "yes \/ Eye-Roll-\ud83d\ude44",
+  "type": "frame",
+  "x": -342.9999996509341,
+  "y": -1847.9999998254666,
+  "width": 80,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": -342.9999996509341,
+    "y": -1847.9999998254666,
+    "width": 80,
+    "height": 28,
+    "x1": -342.9999996509341,
+    "y1": -1847.9999998254666,
+    "x2": -262.9999996509341,
+    "y2": -1819.9999998254666
+  },
+  "points": [
+    {
+      "x": -342.9999996509341,
+      "y": -1847.9999998254666
+    },
+    {
+      "x": -262.9999996509341,
+      "y": -1847.9999998254666
+    },
+    {
+      "x": -262.9999996509341,
+      "y": -1819.9999998254666
+    },
+    {
+      "x": -342.9999996509341,
+      "y": -1819.9999998254666
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000002,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999998,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65e28f6030",
+  "frameId": "b67e0975-9540-809b-8004-fc65e28f6030",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-17599d50-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#clip_7)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "b67e0975-9540-809b-8004-fc65dc044e29",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "b67e0975-9540-809b-8004-fc65e18dbd38",
+  "r3": 0,
+  "constraintsV": "top",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 2294.0,
+    "f": 300.0
+  },
+  "constraintsH": "left",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 2307.000002355646,
+    "y": 308.0000017453301,
+    "width": 79.50000000109765,
+    "height": 28,
+    "x1": 2307.000002355646,
+    "y1": 308.0000017453301,
+    "x2": 2386.5000023567436,
+    "y2": 336.0000017453301
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65dc044e29",
+  "svgDefs": {
+    "clip_7": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_7"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_7",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_7": {
+      "tag": "rect",
+      "attrs": {
+        "width": "112",
+        "height": "44",
+        "id": "artboard_7"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65e29a2c91",
+    "b67e0975-9540-809b-8004-fc65e29a478e",
+    "b67e0975-9540-809b-8004-fc65e29ab220",
+    "b67e0975-9540-809b-8004-fc65e29ad6af"
+  ]
+}

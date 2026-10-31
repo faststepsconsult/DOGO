@@ -1,0 +1,136 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65df1faa63",
+  "name": "Video + Install Bib + Base-1",
+  "type": "text",
+  "x": 1756.4999839779239,
+  "y": 1160,
+  "width": 154,
+  "height": 45,
+  "rotation": 0,
+  "selrect": {
+    "x": 1756.4999839779239,
+    "y": 1160,
+    "width": 154,
+    "height": 45,
+    "x1": 1756.4999839779239,
+    "y1": 1160,
+    "x2": 1910.4999839779239,
+    "y2": 1205
+  },
+  "points": [
+    {
+      "x": 1756.4999863341216,
+      "y": 1160.0000079419185
+    },
+    {
+      "x": 1910.4999863341152,
+      "y": 1159.999991815076
+    },
+    {
+      "x": 1910.4999816217262,
+      "y": 1204.9999920580815
+    },
+    {
+      "x": 1756.4999816217326,
+      "y": 1205.000008184924
+    }
+  ],
+  "transform": {
+    "a": 0.9999999999999577,
+    "b": -1.0471975556613815E-7,
+    "c": -1.0471975544296612E-7,
+    "d": 1.0000000054001184,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0000000000000526,
+    "b": 1.0471975500064452E-7,
+    "c": 1.0471975487747259E-7,
+    "d": 0.9999999945998919,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b67e0975-9540-809b-8004-fc65df1f1523",
+  "frameId": "b67e0975-9540-809b-8004-fc65deec83cc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "fontId": "gfont-open-sans",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "fills": [
+                  {
+                    "fillColor": "#674b47",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Open Sans",
+                "text": "\"Body\/Skin\""
+              }
+            ],
+            "fontId": "gfont-open-sans",
+            "key": "3d0s9",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "fills": [
+              {
+                "fillColor": "#674b47",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Open Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "svgAttrs": {},
+  "pageId": "b67e0975-9540-809b-8004-fc65dee212e4",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "opacity": 0.99,
+  "positionData": [
+    {
+      "y": 1200.000054738118,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 152.96874909871258,
+      "textDecoration": "none solid rgb(103, 75, 71)",
+      "letterSpacing": "normal",
+      "x": 1756.4999495976322,
+      "fills": [
+        {
+          "fillColor": "#674b47",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Open Sans\"",
+      "height": 38.00002927320975,
+      "text": "\"Body\/Skin\""
+    }
+  ],
+  "strokes": [],
+  "blocked": false,
+  "fills": []
+}

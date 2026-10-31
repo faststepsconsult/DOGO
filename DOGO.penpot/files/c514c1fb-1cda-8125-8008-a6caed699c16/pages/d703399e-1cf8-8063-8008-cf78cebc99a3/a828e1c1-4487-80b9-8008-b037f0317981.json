@@ -1,0 +1,80 @@
+{
+  "id": "a828e1c1-4487-80b9-8008-b037f0317981",
+  "name": "Graphics \/ ICONS \/ 012__circle_arrow_right.svg",
+  "type": "frame",
+  "x": 527.1445497630332,
+  "y": 546,
+  "width": 40.142180094786795,
+  "height": 41.92634560906515,
+  "rotation": 0,
+  "selrect": {
+    "x": 527.1445497630332,
+    "y": 546,
+    "width": 40.142180094786795,
+    "height": 41.92634560906515,
+    "x1": 527.1445497630332,
+    "y1": 546,
+    "x2": 567.28672985782,
+    "y2": 587.9263456090652
+  },
+  "points": [
+    {
+      "x": 527.1445497630332,
+      "y": 546
+    },
+    {
+      "x": 567.28672985782,
+      "y": 546
+    },
+    {
+      "x": 567.28672985782,
+      "y": 587.9263456090652
+    },
+    {
+      "x": 527.1445497630332,
+      "y": 587.9263456090652
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "137abc6b-957b-80d8-8008-c20f1ed234e3",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "hideInViewer": true,
+  "touched": [
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "componentRoot": true,
+  "shapeRef": "3849bc3d-4437-8019-8004-fc65ed80ba79",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "d703399e-1cf8-8063-8008-cf78cebc99a3",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "componentId": "3849bc3d-4437-8019-8004-fc65ed80fc25",
+  "strokes": [],
+  "blocked": true,
+  "proportion": 1,
+  "fills": [],
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d2f6896c18",
+  "shapes": [
+    "a828e1c1-4487-80b9-8008-b037f0317982"
+  ]
+}

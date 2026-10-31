@@ -1,0 +1,131 @@
+{
+  "id": "b67e0975-9540-809b-8004-fc65dcbc8a57",
+  "name": "Clothing \/ Collar + Sweater-2",
+  "type": "frame",
+  "x": 552.0,
+  "y": 50.0,
+  "width": 200.47590013361014,
+  "height": 88.62178568565454,
+  "rotation": 0,
+  "selrect": {
+    "x": 552.0,
+    "y": 50.0,
+    "width": 200.47590013361014,
+    "height": 88.62178568565454,
+    "x1": 552.0,
+    "y1": 50.0,
+    "x2": 752.4759001336101,
+    "y2": 138.62178568565454
+  },
+  "points": [
+    {
+      "x": 552.0,
+      "y": 50.0
+    },
+    {
+      "x": 752.4759001336101,
+      "y": 50.0
+    },
+    {
+      "x": 752.4759001336101,
+      "y": 138.62178568565454
+    },
+    {
+      "x": 552.0,
+      "y": 138.62178568565454
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc660b5d9afe",
+  "frameId": "3849bc3d-4437-8019-8004-fc660b5d9afe",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "id": "shape-152f4340-f38d-11ec-89fd-fd405a016ff5",
+    "clipPath": "url(#-clip_2)"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc660b5ca083",
+  "r3": 0,
+  "constraintsV": "scale",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 424.0,
+    "f": 332.0
+  },
+  "constraintsH": "scale",
+  "r1": 0,
+  "svgViewbox": {
+    "x": 454.50020896836077,
+    "y": 353.0519414656598,
+    "width": 200.000023696708,
+    "height": 90.14528845610093,
+    "x1": 454.50020896836077,
+    "y1": 353.0519414656598,
+    "x2": 654.5002326650688,
+    "y2": 443.1972299217607
+  },
+  "componentId": "b67e0975-9540-809b-8004-fc65dcbc8a57",
+  "svgDefs": {
+    "clip_2": {
+      "tag": "clipPath",
+      "attrs": {
+        "id": "clip_2"
+      },
+      "content": [
+        {
+          "tag": "use",
+          "attrs": {
+            "xlinkHref": "#artboard_2",
+            "clipRule": "evenodd"
+          },
+          "content": null
+        }
+      ]
+    },
+    "artboard_2": {
+      "tag": "rect",
+      "attrs": {
+        "width": "264",
+        "height": "110",
+        "id": "artboard_2"
+      },
+      "content": null
+    }
+  },
+  "strokes": [],
+  "mainInstance": true,
+  "blocked": false,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d305dddb92",
+  "shapes": [
+    "b67e0975-9540-809b-8004-fc65dcbd3306",
+    "b67e0975-9540-809b-8004-fc65dcbe37ce"
+  ]
+}

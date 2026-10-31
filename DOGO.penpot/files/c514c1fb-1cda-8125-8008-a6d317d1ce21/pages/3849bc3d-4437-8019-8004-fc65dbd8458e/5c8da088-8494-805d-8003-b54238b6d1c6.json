@@ -1,0 +1,93 @@
+{
+  "id": "5c8da088-8494-805d-8003-b54238b6d1c6",
+  "name": "castle",
+  "type": "frame",
+  "x": 124.0,
+  "y": 6368.000000000004,
+  "width": 24,
+  "height": 24,
+  "rotation": null,
+  "selrect": {
+    "x": 124.0,
+    "y": 6368.000000000004,
+    "width": 24,
+    "height": 24,
+    "x1": 124.0,
+    "y1": 6368.000000000004,
+    "x2": 148.0,
+    "y2": 6392.000000000004
+  },
+  "points": [
+    {
+      "x": 124.0,
+      "y": 6368.000000000004
+    },
+    {
+      "x": 148.0,
+      "y": 6368.000000000004
+    },
+    {
+      "x": 148.0,
+      "y": 6392.000000000004
+    },
+    {
+      "x": 124.0,
+      "y": 6392.000000000004
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65dbe32cdd",
+  "frameId": "3849bc3d-4437-8019-8004-fc65dbe32cdd",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "layoutItemHSizing": "fix",
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc65dbd8458e",
+  "layoutItemVSizing": "fix",
+  "r3": 0,
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b54238b6d1c6",
+  "mainInstance": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "5c8da088-8494-805d-8003-b54238b6d1c7",
+    "5c8da088-8494-805d-8003-b54238b6d1c8",
+    "5c8da088-8494-805d-8003-b54238b6d1c9",
+    "5c8da088-8494-805d-8003-b54238b6d1ca",
+    "5c8da088-8494-805d-8003-b54238b6d1cb",
+    "5c8da088-8494-805d-8003-b54238b6d1cc",
+    "5c8da088-8494-805d-8003-b54238b6d1cd",
+    "5c8da088-8494-805d-8003-b54238b6d1ce",
+    "5c8da088-8494-805d-8003-b54238b6d1cf",
+    "5c8da088-8494-805d-8003-b54238b6d1d0"
+  ]
+}

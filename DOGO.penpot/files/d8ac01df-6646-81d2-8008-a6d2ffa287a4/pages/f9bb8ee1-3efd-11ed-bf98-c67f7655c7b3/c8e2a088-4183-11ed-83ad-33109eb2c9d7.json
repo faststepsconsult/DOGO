@@ -1,0 +1,98 @@
+{
+  "id": "c8e2a088-4183-11ed-83ad-33109eb2c9d7",
+  "name": "svg-path-123",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": null,
+  "selrect": {
+    "x": 2412.5000000037235,
+    "y": 1227.9999999997672,
+    "width": 14,
+    "height": 16,
+    "x1": 2412.5000000037235,
+    "y1": 1227.9999999997672,
+    "x2": 2426.5000000037235,
+    "y2": 1243.9999999997672
+  },
+  "points": [
+    {
+      "x": 2412.5000000037235,
+      "y": 1227.9999999997672
+    },
+    {
+      "x": 2426.5000000037235,
+      "y": 1227.9999999997672
+    },
+    {
+      "x": 2426.5000000037235,
+      "y": 1243.9999999997672
+    },
+    {
+      "x": 2412.5000000037235,
+      "y": 1243.9999999997672
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c8e2a082-4183-11ed-83ad-33109eb2c9d7",
+  "frameId": "c8e27940-4183-11ed-83ad-33109eb2c9d7",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M2412.5,1228.0L2412.5,1242.0C2412.5,1243.10400390625,2413.306884765625,1244.0,2414.300048828125,1244.0L2424.699951171875,1244.0C2425.693115234375,1244.0,2426.5,1243.10400390625,2426.5,1242.0L2426.5,1228.0",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeMiterlimit": "1.5",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "proportionLock": false,
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 4,
+    "y": 6,
+    "width": 14,
+    "height": 16,
+    "x1": 4,
+    "y1": 6,
+    "x2": 18,
+    "y2": 22
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0.8,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round"
+    }
+  ],
+  "proportion": 1,
+  "fills": []
+}

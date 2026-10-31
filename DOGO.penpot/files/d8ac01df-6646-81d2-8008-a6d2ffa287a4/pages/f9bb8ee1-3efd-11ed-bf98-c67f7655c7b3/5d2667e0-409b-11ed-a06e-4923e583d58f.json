@@ -1,0 +1,145 @@
+{
+  "id": "5d2667e0-409b-11ed-a06e-4923e583d58f",
+  "name": "Text-37",
+  "type": "text",
+  "x": 1077.0000000905466,
+  "y": 1309.000000721111,
+  "width": 115.99999999999886,
+  "height": 14.999999999999773,
+  "rotation": 0,
+  "selrect": {
+    "x": 1077.0000000905466,
+    "y": 1309.000000721111,
+    "width": 115.99999999999886,
+    "height": 14.999999999999773,
+    "x1": 1077.0000000905466,
+    "y1": 1309.000000721111,
+    "x2": 1193.0000000905454,
+    "y2": 1324.0000007211108
+  },
+  "points": [
+    {
+      "x": 1077.0000000009004,
+      "y": 1309
+    },
+    {
+      "x": 1193.0000000008997,
+      "y": 1309.0000014422217
+    },
+    {
+      "x": 1193.0000001801914,
+      "y": 1324.0000014422217
+    },
+    {
+      "x": 1077.000000180192,
+      "y": 1324
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000027,
+    "b": 1.9637305217918625E-8,
+    "c": 4.748415902391128E-9,
+    "d": 1.0000000000000058,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.999999999999997,
+    "b": -1.9637305217918456E-8,
+    "c": -4.748415902391087E-9,
+    "d": 0.9999999999999939,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "9d3ae510-4099-11ed-81f9-e3233e6aa1b8",
+  "frameId": "9d3ae510-4099-11ed-81f9-e3233e6aa1b8",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "7f85d820-409b-11ed-a06e-4923e583d58f",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "10",
+                "fontWeight": "400",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "No spam. Pinky promise."
+              }
+            ],
+            "typographyRefId": "7f85d820-409b-11ed-a06e-4923e583d58f",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "88pr",
+            "fontSize": "10",
+            "fontWeight": "400",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsH": "center",
+  "positionData": [
+    {
+      "y": 1322.000000721111,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "width": 116.41667175292969,
+      "textDecoration": "rgb(0, 0, 0)",
+      "letterSpacing": "normal",
+      "x": 1077.0000000905466,
+      "fills": [
+        {
+          "fillColor": "#000000",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "height": 12,
+      "text": "No spam. Pinky promise."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "4aaee731-3fcf-11ed-af5c-6f8b44ab315b",
+  "name": "Tag",
+  "type": "frame",
+  "x": 1442.0,
+  "y": 487.99999987070714,
+  "width": 186,
+  "height": 40,
+  "rotation": null,
+  "selrect": {
+    "x": 1442.0,
+    "y": 487.99999987070714,
+    "width": 186,
+    "height": 40,
+    "x1": 1442.0,
+    "y1": 487.99999987070714,
+    "x2": 1628.0,
+    "y2": 527.9999998707071
+  },
+  "points": [
+    {
+      "x": 1442.0,
+      "y": 487.99999987070714
+    },
+    {
+      "x": 1628.0,
+      "y": 487.99999987070714
+    },
+    {
+      "x": 1628.0,
+      "y": 527.9999998707071
+    },
+    {
+      "x": 1442.0,
+      "y": 527.9999998707071
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65e079c922",
+  "frameId": "3849bc3d-4437-8019-8004-fc65e079c922",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": 6,
+  "hideInViewer": true,
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "pageId": "3849bc3d-4437-8019-8004-fc65e079c91d",
+  "r3": 0,
+  "constraintsH": "scale",
+  "r1": 0,
+  "componentId": "4aaee731-3fcf-11ed-af5c-6f8b44ab315b",
+  "mainInstance": true,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+  "shapes": [
+    "4aaee732-3fcf-11ed-af5c-6f8b44ab315b",
+    "4aaee733-3fcf-11ed-af5c-6f8b44ab315b"
+  ]
+}

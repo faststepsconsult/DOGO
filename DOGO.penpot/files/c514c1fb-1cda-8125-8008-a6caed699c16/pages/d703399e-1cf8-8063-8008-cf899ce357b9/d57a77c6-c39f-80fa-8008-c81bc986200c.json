@@ -1,0 +1,181 @@
+{
+  "id": "d57a77c6-c39f-80fa-8008-c81bc986200c",
+  "name": "Sign in",
+  "type": "text",
+  "x": 1148,
+  "y": 78,
+  "width": 45,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 1148,
+    "y": 78,
+    "width": 45,
+    "height": 19,
+    "x1": 1148,
+    "y1": 78,
+    "x2": 1193,
+    "y2": 97
+  },
+  "points": [
+    {
+      "x": 1148,
+      "y": 78
+    },
+    {
+      "x": 1193,
+      "y": 78
+    },
+    {
+      "x": 1193,
+      "y": 97
+    },
+    {
+      "x": 1148,
+      "y": 97
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d57a77c6-c39f-80fa-8008-c81bc985fcbf",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "14",
+                "fontWeight": "300",
+                "textDirection": "ltr",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.4",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Sign in"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "justify",
+            "fontId": "gfont-manrope",
+            "key": "eoev1",
+            "fontSize": "14",
+            "fontWeight": "300",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.4",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "pageId": "d703399e-1cf8-8063-8008-cf899ce357b9",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 1148,
+      "y": 95.33333456516266,
+      "width": 29.4375,
+      "height": 18.666667938232422,
+      "x1": 0,
+      "y1": -1.3333333730697632,
+      "x2": 29.4375,
+      "y2": 17.33333456516266,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.4px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Sign"
+    },
+    {
+      "x": 1180.6041679382324,
+      "y": 95.33333456516266,
+      "width": 12.041667938232422,
+      "height": 18.666667938232422,
+      "x1": 32.60416793823242,
+      "y1": -1.3333333730697632,
+      "x2": 44.645835876464844,
+      "y2": 17.33333456516266,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.4px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "in"
+    }
+  ],
+  "strokes": [],
+  "blocked": false,
+  "fills": []
+}

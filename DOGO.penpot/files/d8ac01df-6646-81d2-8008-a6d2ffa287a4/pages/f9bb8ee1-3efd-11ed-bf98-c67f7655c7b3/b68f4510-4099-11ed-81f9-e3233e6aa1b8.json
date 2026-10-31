@@ -1,0 +1,82 @@
+{
+  "id": "b68f4510-4099-11ed-81f9-e3233e6aa1b8",
+  "name": "icon inbox",
+  "type": "group",
+  "x": 1114,
+  "y": 936,
+  "width": 40,
+  "height": 39,
+  "rotation": null,
+  "selrect": {
+    "x": 1114,
+    "y": 936,
+    "width": 40,
+    "height": 39,
+    "x1": 1114,
+    "y1": 936,
+    "x2": 1154,
+    "y2": 975
+  },
+  "points": [
+    {
+      "x": 1114,
+      "y": 936
+    },
+    {
+      "x": 1154,
+      "y": 936
+    },
+    {
+      "x": 1154,
+      "y": 975
+    },
+    {
+      "x": 1114,
+      "y": 975
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "9d3ae510-4099-11ed-81f9-e3233e6aa1b8",
+  "frameId": "9d3ae510-4099-11ed-81f9-e3233e6aa1b8",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "svgAttrs": {
+    "width": "40",
+    "height": "39"
+  },
+  "proportionLock": false,
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsH": "center",
+  "proportion": 1,
+  "shapes": [
+    "b68f9330-4099-11ed-81f9-e3233e6aa1b8",
+    "b6949c40-4099-11ed-81f9-e3233e6aa1b8",
+    "b6951170-4099-11ed-81f9-e3233e6aa1b8",
+    "b6953880-4099-11ed-81f9-e3233e6aa1b8",
+    "b6955f90-4099-11ed-81f9-e3233e6aa1b8",
+    "b69586a0-4099-11ed-81f9-e3233e6aa1b8",
+    "b695adb0-4099-11ed-81f9-e3233e6aa1b8",
+    "b695d4c0-4099-11ed-81f9-e3233e6aa1b8",
+    "b695fbd0-4099-11ed-81f9-e3233e6aa1b8",
+    "b69622e0-4099-11ed-81f9-e3233e6aa1b8",
+    "b69649f0-4099-11ed-81f9-e3233e6aa1b8",
+    "b6967100-4099-11ed-81f9-e3233e6aa1b8",
+    "b6969810-4099-11ed-81f9-e3233e6aa1b8"
+  ]
+}

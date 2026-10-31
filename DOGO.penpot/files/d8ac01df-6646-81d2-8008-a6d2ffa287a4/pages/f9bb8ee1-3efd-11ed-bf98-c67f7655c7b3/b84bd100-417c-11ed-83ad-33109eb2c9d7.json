@@ -1,0 +1,86 @@
+{
+  "id": "b84bd100-417c-11ed-83ad-33109eb2c9d7",
+  "name": "Rectangle.png-2",
+  "type": "rect",
+  "x": 2570.9999999999986,
+  "y": 250,
+  "width": 128,
+  "height": 120,
+  "rotation": 0,
+  "selrect": {
+    "x": 2570.9999999999986,
+    "y": 250,
+    "width": 128,
+    "height": 120,
+    "x1": 2570.9999999999986,
+    "y1": 250,
+    "x2": 2698.9999999999986,
+    "y2": 370
+  },
+  "points": [
+    {
+      "x": 2570.9999999999986,
+      "y": 250
+    },
+    {
+      "x": 2698.9999999999986,
+      "y": 250
+    },
+    {
+      "x": 2698.9999999999986,
+      "y": 370
+    },
+    {
+      "x": 2570.9999999999986,
+      "y": 370
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "91d021c0-417c-11ed-83ad-33109eb2c9d7",
+  "frameId": "91d021c0-417c-11ed-83ad-33109eb2c9d7",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "touched": [
+    "geometry-group"
+  ],
+  "r2": 0,
+  "shapeRef": "07609140-417d-11ed-83ad-33109eb2c9d7",
+  "proportionLock": true,
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "r3": 0,
+  "constraintsV": "top",
+  "constraintsH": "right",
+  "r1": 0,
+  "strokes": [],
+  "proportion": 1.0666666666666667,
+  "r4": 0,
+  "fills": [
+    {
+      "fillImage": {
+        "mtype": "image\/png",
+        "keepAspectRatio": false,
+        "width": 256,
+        "id": "d8ac01df-6646-81d2-8008-a6d2ffc436eb",
+        "height": 240
+      }
+    }
+  ],
+  "ry": 0
+}

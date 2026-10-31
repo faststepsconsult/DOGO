@@ -1,0 +1,360 @@
+{
+  "id": "13bbba2d-825d-8018-8003-b9880380ca7a",
+  "name": "Text",
+  "type": "text",
+  "x": 290,
+  "y": 1735,
+  "width": 945.9999999999998,
+  "height": 284,
+  "rotation": 0,
+  "selrect": {
+    "x": 290,
+    "y": 1735,
+    "width": 945.9999999999998,
+    "height": 284,
+    "x1": 290,
+    "y1": 1735,
+    "x2": 1235.9999999999998,
+    "y2": 2019
+  },
+  "points": [
+    {
+      "x": 290,
+      "y": 1735
+    },
+    {
+      "x": 1235.9999999999998,
+      "y": 1735
+    },
+    {
+      "x": 1235.9999999999998,
+      "y": 2019
+    },
+    {
+      "x": 290,
+      "y": 2019
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "13bbba2d-825d-8018-8003-b9880380ca75",
+  "frameId": "13bbba2d-825d-8018-8003-b9880380ca75",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-figtree",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#868e96",
+                    "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+                  }
+                ],
+                "fontFamily": "Figtree",
+                "text": "To use this within your files on Penpot you must make this file a \"Shared Library\" by going to the three dot menu to the left of your filename         and then choose File  >  Add as Shared Library."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-figtree",
+            "key": "3app7",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#868e96",
+                "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                "fillOpacity": 1,
+                "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+              }
+            ],
+            "fontFamily": "Figtree"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "text": "",
+                "fills": []
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-figtree",
+            "key": "a1i1p",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#868e96",
+                "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                "fillOpacity": 1,
+                "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+              }
+            ],
+            "fontFamily": "Figtree"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-figtree",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#868e96",
+                    "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+                  }
+                ],
+                "fontFamily": "Figtree",
+                "text": "This will enable you to link the library from the files you want to use it from. You can customize line width and color in the icons to match your design style."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-figtree",
+            "key": "ebsku",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#868e96",
+                "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                "fillOpacity": 1,
+                "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+              }
+            ],
+            "fontFamily": "Figtree"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fix",
+  "layoutItemVSizing": "fix",
+  "positionData": [
+    {
+      "y": 1771.3636364936829,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 900.8451538085938,
+      "textDecoration": "none solid rgb(134, 142, 150)",
+      "letterSpacing": "normal",
+      "x": 290,
+      "fills": [
+        {
+          "fillColor": "#868e96",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 33.6363639831543,
+      "text": "To use this within your files on Penpot you must make this file a \"Shared "
+    },
+    {
+      "y": 1811.917610168457,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 896.7897338867188,
+      "textDecoration": "none solid rgb(134, 142, 150)",
+      "letterSpacing": "normal",
+      "x": 290,
+      "fills": [
+        {
+          "fillColor": "#868e96",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 33.63636016845703,
+      "text": "Library\" by going to the three dot menu to the left of your filename         "
+    },
+    {
+      "y": 1852.4715881347656,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 583.1604614257812,
+      "textDecoration": "none solid rgb(134, 142, 150)",
+      "letterSpacing": "normal",
+      "x": 290,
+      "fills": [
+        {
+          "fillColor": "#868e96",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 33.63636016845703,
+      "text": "and then choose File  >  Add as Shared Library."
+    },
+    {
+      "y": 1893.0255584716797,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 6.917613506317139,
+      "textDecoration": "none solid rgb(134, 142, 150)",
+      "letterSpacing": "normal",
+      "x": 290,
+      "fills": [
+        {
+          "fillColor": "#868e96",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 33.63636016845703,
+      "text": "\u00a0"
+    },
+    {
+      "y": 1933.5795440673828,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 939.8792114257812,
+      "textDecoration": "none solid rgb(134, 142, 150)",
+      "letterSpacing": "normal",
+      "x": 290,
+      "fills": [
+        {
+          "fillColor": "#868e96",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 33.63636779785156,
+      "text": "This will enable you to link the library from the files you want to use it from. "
+    },
+    {
+      "y": 1974.1335144042969,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 918.4019775390625,
+      "textDecoration": "none solid rgb(134, 142, 150)",
+      "letterSpacing": "normal",
+      "x": 290,
+      "fills": [
+        {
+          "fillColor": "#868e96",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 33.636383056640625,
+      "text": "You can customize line width and color in the icons to match your design "
+    },
+    {
+      "y": 2014.6875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 65.6321029663086,
+      "textDecoration": "none solid rgb(134, 142, 150)",
+      "letterSpacing": "normal",
+      "x": 290,
+      "fills": [
+        {
+          "fillColor": "#868e96",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-8935291aea21"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 33.63636779785156,
+      "text": "style."
+    }
+  ],
+  "pageId": "5c8da088-8494-805d-8003-b55f524df49d"
+}

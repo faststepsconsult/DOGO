@@ -1,0 +1,98 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac4dcdc2c5",
+  "name": "Text-37",
+  "type": "text",
+  "x": 483.0000024153147,
+  "y": 758.0000080136672,
+  "width": 31,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 483.0000024153147,
+    "y": 758.0000080136672,
+    "width": 31,
+    "height": 28,
+    "x1": 483.0000024153147,
+    "y1": 758.0000080136672,
+    "x2": 514.0000024153147,
+    "y2": 786.0000080136672
+  },
+  "points": [
+    {
+      "x": 483.00000260455465,
+      "y": 758.0000078394065
+    },
+    {
+      "x": 514.000002714767,
+      "y": 758.0000078394065
+    },
+    {
+      "x": 514.0000022260748,
+      "y": 786.0000081879278
+    },
+    {
+      "x": 483.00000211586246,
+      "y": 786.0000081879278
+    }
+  ],
+  "transform": {
+    "a": 1.0000000035552379,
+    "b": 4.963083675318166E-23,
+    "c": -1.745329269312237E-8,
+    "d": 1.000000012447191,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999964447606,
+    "b": -7.940933880509066E-23,
+    "c": 1.7453292413827268E-8,
+    "d": 0.9999999875528086,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac4dcb8b62",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac4d902414",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "textAlign": "center",
+            "key": "cfuk",
+            "type": "paragraph",
+            "children": [
+              {
+                "fontStyle": "normal",
+                "fontId": "gfont-work-sans",
+                "fontSize": "24",
+                "fontWeight": "700",
+                "fontVariantId": "700",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "+"
+              }
+            ],
+            "fills": []
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "center",
+  "constraintsH": "center",
+  "strokes": [],
+  "fills": []
+}

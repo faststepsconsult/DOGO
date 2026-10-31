@@ -1,0 +1,136 @@
+{
+  "id": "a828e1c1-4487-80b9-8008-aff7af08c8f2",
+  "name": "Accept a ride or deliver a package. ",
+  "type": "text",
+  "x": 205.00000000000003,
+  "y": 193,
+  "width": 228.99999999999997,
+  "height": 15,
+  "rotation": 0,
+  "selrect": {
+    "x": 205.00000000000003,
+    "y": 193,
+    "width": 228.99999999999997,
+    "height": 15,
+    "x1": 205.00000000000003,
+    "y1": 193,
+    "x2": 434,
+    "y2": 208
+  },
+  "points": [
+    {
+      "x": 205,
+      "y": 193
+    },
+    {
+      "x": 433.99999999999994,
+      "y": 193
+    },
+    {
+      "x": 433.99999999999994,
+      "y": 208
+    },
+    {
+      "x": 205,
+      "y": 208
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "a828e1c1-4487-80b9-8008-affbbf568185",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "key": "bf5e9",
+            "type": "paragraph",
+            "children": [
+              {
+                "lineHeight": "1.6",
+                "path": "Caption",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cca243c565",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "12",
+                "fontWeight": "500",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-09-24T10:00:01.321Z",
+                "fontVariantId": "500",
+                "textDecoration": "none",
+                "letterSpacing": "1",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+                    "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Accept a ride or deliver a package. "
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 205.00000000000003,
+      "y": 208,
+      "width": 228.375,
+      "height": 17,
+      "x1": 0,
+      "y1": -2,
+      "x2": 228.375,
+      "y2": 15,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "textDecoration": "none",
+      "letterSpacing": "1px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillColorRefId": "4f9dc4ea-0597-801a-8008-a6cbd4436b15",
+          "fillColorRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Accept a ride or deliver a package. "
+    }
+  ],
+  "blocked": true,
+  "pageId": "d703399e-1cf8-8063-8008-cf78cebc99a3"
+}

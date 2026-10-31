@@ -1,0 +1,169 @@
+{
+  "id": "13bbba2d-825d-8018-8003-b9880380ca77",
+  "name": "Text",
+  "type": "text",
+  "x": 287.00000000000006,
+  "y": 1253,
+  "width": 949,
+  "height": 160,
+  "rotation": 0,
+  "selrect": {
+    "x": 287.00000000000006,
+    "y": 1253,
+    "width": 949,
+    "height": 160,
+    "x1": 287.00000000000006,
+    "y1": 1253,
+    "x2": 1236.0,
+    "y2": 1413
+  },
+  "points": [
+    {
+      "x": 287,
+      "y": 1253
+    },
+    {
+      "x": 1236,
+      "y": 1253
+    },
+    {
+      "x": 1236,
+      "y": 1413
+    },
+    {
+      "x": 287,
+      "y": 1413
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "13bbba2d-825d-8018-8003-b9880380ca75",
+  "frameId": "13bbba2d-825d-8018-8003-b9880380ca75",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-figtree",
+                "fontSize": "64",
+                "fontWeight": "700",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#495057",
+                    "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "e17d7d2b-786e-80de-8002-893547eb2950"
+                  }
+                ],
+                "fontFamily": "Figtree",
+                "text": "Lucide is an open source icon library"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-figtree",
+            "key": "3app7",
+            "fontSize": "64",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#495057",
+                "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+                "fillOpacity": 1,
+                "fillColorRefId": "e17d7d2b-786e-80de-8002-893547eb2950"
+              }
+            ],
+            "fontFamily": "Figtree"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fix",
+  "layoutItemVSizing": "fix",
+  "positionData": [
+    {
+      "y": 1329.3636308312416,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "64px",
+      "fontWeight": "700",
+      "width": 875.1420288085938,
+      "textDecoration": "none solid rgb(73, 80, 87)",
+      "letterSpacing": "normal",
+      "x": 287.00000000000006,
+      "fills": [
+        {
+          "fillColor": "#495057",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-893547eb2950"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 76.81817626953125,
+      "text": "Lucide is an open source icon "
+    },
+    {
+      "y": 1408.8877716064453,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "64px",
+      "fontWeight": "700",
+      "width": 190.14913940429688,
+      "textDecoration": "none solid rgb(73, 80, 87)",
+      "letterSpacing": "normal",
+      "x": 287.00000000000006,
+      "fills": [
+        {
+          "fillColor": "#495057",
+          "fillColorRefFile": "75aa5258-9a82-8002-8003-b7f75485583f",
+          "fillOpacity": 1,
+          "fillColorRefId": "e17d7d2b-786e-80de-8002-893547eb2950"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Figtree",
+      "height": 76.81816864013672,
+      "text": "library"
+    }
+  ],
+  "pageId": "5c8da088-8494-805d-8003-b55f524df49d"
+}

@@ -1,0 +1,154 @@
+{
+  "id": "c2274f85-e0f1-80a1-8008-aab958a080fd",
+  "name": "Products live",
+  "type": "text",
+  "x": 568.13399065591,
+  "y": 298.623282322837,
+  "width": 71.04814350586662,
+  "height": 15,
+  "rotation": 359,
+  "selrect": {
+    "x": 568.13399065591,
+    "y": 298.623282322837,
+    "width": 71.04814350586662,
+    "height": 15,
+    "x1": 568.13399065591,
+    "y1": 298.623282322837,
+    "x2": 639.1821341617766,
+    "y2": 313.623282322837
+  },
+  "points": [
+    {
+      "x": 568.0085080958231,
+      "y": 299.24440514770333
+    },
+    {
+      "x": 639.0458306253043,
+      "y": 298.0044440706248
+    },
+    {
+      "x": 639.3076167218635,
+      "y": 313.0021594979704
+    },
+    {
+      "x": 568.2702941923827,
+      "y": 314.24212057504917
+    }
+  ],
+  "transform": {
+    "a": 0.999847695156391,
+    "b": -0.017452406437278967,
+    "c": 0.01745240643730739,
+    "d": 0.9998476951563866,
+    "e": -2.091837814077735E-11,
+    "f": -1.2448708730516955E-11
+  },
+  "transformInverse": {
+    "a": 0.999847695156391,
+    "b": 0.017452406437279043,
+    "c": -0.017452406437307465,
+    "d": 0.9998476951563955,
+    "e": 2.0697932246081423E-11,
+    "f": 1.2811888769202215E-11
+  },
+  "parentId": "c2274f85-e0f1-80a1-8008-aab958a080fc",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-manrope",
+                "fontSize": "11",
+                "fontWeight": "300",
+                "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+                "textDirection": "ltr",
+                "modifiedAt": "2026-10-12T08:12:46.575Z",
+                "fontVariantId": "300",
+                "textDecoration": "none",
+                "letterSpacing": "0.5",
+                "fills": [
+                  {
+                    "fillColor": "#f2e8e8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Manrope",
+                "text": "Products live"
+              }
+            ],
+            "typographyRefId": "4f9dc4ea-0597-801a-8008-a6cc72876807",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-manrope",
+            "key": "fd1jg",
+            "fontSize": "11",
+            "fontWeight": "300",
+            "typographyRefFile": "c514c1fb-1cda-8125-8008-a6caed699c16",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "modifiedAt": "2026-10-12T08:12:46.575Z",
+            "fontVariantId": "300",
+            "textDecoration": "none",
+            "letterSpacing": "0.5",
+            "fills": [
+              {
+                "fillColor": "#f2e8e8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Manrope"
+          }
+        ]
+      }
+    ]
+  },
+  "hideInViewer": false,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 568.13399065591,
+      "y": 311.9566159343253,
+      "width": 70.58333587646484,
+      "height": 14.666666984558105,
+      "x1": 0,
+      "y1": -1.3333333730697632,
+      "x2": 70.58333587646484,
+      "y2": 13.333333611488342,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "11px",
+      "fontWeight": "300",
+      "textDecoration": "none",
+      "letterSpacing": "0.5px",
+      "fills": [
+        {
+          "fillColor": "#f2e8e8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Manrope",
+      "text": "Products live"
+    }
+  ],
+  "blocked": true,
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56"
+}

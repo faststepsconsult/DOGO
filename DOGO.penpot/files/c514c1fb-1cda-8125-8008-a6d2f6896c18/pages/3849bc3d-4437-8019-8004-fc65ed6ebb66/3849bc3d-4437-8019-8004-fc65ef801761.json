@@ -1,0 +1,73 @@
+{
+  "id": "3849bc3d-4437-8019-8004-fc65ef801761",
+  "name": "Graphics \/ ICONS \/ 057__power.svg",
+  "type": "group",
+  "x": 410.0,
+  "y": 10870.0,
+  "width": 40.0,
+  "height": 40.0,
+  "rotation": 0,
+  "selrect": {
+    "x": 410.0,
+    "y": 10870.0,
+    "width": 40.0,
+    "height": 40.0,
+    "x1": 410.0,
+    "y1": 10870.0,
+    "x2": 450.0,
+    "y2": 10910.0
+  },
+  "points": [
+    {
+      "x": 410.0,
+      "y": 10870.0
+    },
+    {
+      "x": 450.0,
+      "y": 10870.0
+    },
+    {
+      "x": 450.0,
+      "y": 10910.0
+    },
+    {
+      "x": 410.0,
+      "y": 10910.0
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65ef80733c",
+  "frameId": "3849bc3d-4437-8019-8004-fc65ef80733c",
+  "flipX": null,
+  "flipY": null,
+  "svgAttrs": {
+    "xmlSpace": "preserve"
+  },
+  "proportionLock": false,
+  "pageId": "3849bc3d-4437-8019-8004-fc65ed6ebb66",
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "strokes": [],
+  "proportion": 1.0,
+  "fills": [],
+  "shapes": [
+    "3849bc3d-4437-8019-8004-fc65ef801763",
+    "3849bc3d-4437-8019-8004-fc65ef807339",
+    "3849bc3d-4437-8019-8004-fc65ef80733a"
+  ]
+}

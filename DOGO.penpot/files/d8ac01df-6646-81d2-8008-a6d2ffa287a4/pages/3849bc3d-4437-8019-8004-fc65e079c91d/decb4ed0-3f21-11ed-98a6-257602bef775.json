@@ -1,0 +1,78 @@
+{
+  "id": "decb4ed0-3f21-11ed-98a6-257602bef775",
+  "name": "Toggle - On",
+  "type": "frame",
+  "x": 978.0,
+  "y": 706.9999998060607,
+  "width": 55.0,
+  "height": 32.0,
+  "rotation": 0,
+  "selrect": {
+    "x": 978.0,
+    "y": 706.9999998060607,
+    "width": 55.0,
+    "height": 32.0,
+    "x1": 978.0,
+    "y1": 706.9999998060607,
+    "x2": 1033.0,
+    "y2": 738.9999998060607
+  },
+  "points": [
+    {
+      "x": 978.0,
+      "y": 706.9999998060607
+    },
+    {
+      "x": 1033.0,
+      "y": 706.9999998060607
+    },
+    {
+      "x": 1033.0,
+      "y": 738.9999998060607
+    },
+    {
+      "x": 978.0,
+      "y": 738.9999998060607
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3849bc3d-4437-8019-8004-fc65e079c922",
+  "frameId": "3849bc3d-4437-8019-8004-fc65e079c922",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "index": 5,
+  "hideInViewer": true,
+  "r2": 0,
+  "componentRoot": true,
+  "showContent": true,
+  "pageId": "3849bc3d-4437-8019-8004-fc65e079c91d",
+  "r3": 0,
+  "constraintsH": "right",
+  "r1": 0,
+  "componentId": "decb4ed0-3f21-11ed-98a6-257602bef775",
+  "mainInstance": true,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+  "shapes": [
+    "decb4ed1-3f21-11ed-98a6-257602bef775",
+    "decb4ed2-3f21-11ed-98a6-257602bef775"
+  ]
+}

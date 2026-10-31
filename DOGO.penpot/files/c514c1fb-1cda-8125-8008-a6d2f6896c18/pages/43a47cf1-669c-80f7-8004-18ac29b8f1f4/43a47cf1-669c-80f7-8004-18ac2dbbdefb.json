@@ -1,0 +1,144 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac2dbbdefb",
+  "name": "Text-45",
+  "type": "text",
+  "x": 95,
+  "y": 570,
+  "width": 281,
+  "height": 34,
+  "rotation": 0,
+  "selrect": {
+    "x": 95,
+    "y": 570,
+    "width": 281,
+    "height": 34,
+    "x1": 95,
+    "y1": 570,
+    "x2": 376,
+    "y2": 604
+  },
+  "points": [
+    {
+      "x": 95,
+      "y": 570
+    },
+    {
+      "x": 376,
+      "y": 570
+    },
+    {
+      "x": 376,
+      "y": 604
+    },
+    {
+      "x": 95,
+      "y": 604
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac2dbacf38",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac29b8f1f5",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "gfont-work-sans",
+                "fontSize": "20",
+                "fontWeight": "400",
+                "fontVariantId": "regular",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Icon set by Eleonor Wang"
+              }
+            ],
+            "textTransform": "none",
+            "fontId": "gfont-work-sans",
+            "key": "2kaa5",
+            "fontSize": "20",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "regular",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Work Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "43a47cf1-669c-80f7-8004-18ac29b8f1f4",
+  "interactions": [
+    {
+      "url": "https:\/\/www.behance.net\/gallery\/24974365\/Thin-Line-UI-Icons-170",
+      "eventType": "click",
+      "actionType": "open-url"
+    }
+  ],
+  "positionData": [
+    {
+      "y": 593.3333339691162,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "width": 247.6215362548828,
+      "textDecoration": "none solid rgb(255, 255, 255)",
+      "letterSpacing": "normal",
+      "x": 95,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 23.33333396911621,
+      "text": "Icon set by Eleonor Wang"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

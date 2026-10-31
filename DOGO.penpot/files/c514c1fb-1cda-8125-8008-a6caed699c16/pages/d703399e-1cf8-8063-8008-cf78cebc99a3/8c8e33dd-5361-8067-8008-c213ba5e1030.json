@@ -1,0 +1,106 @@
+{
+  "id": "8c8e33dd-5361-8067-8008-c213ba5e1030",
+  "name": "svg-path",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": 0,
+  "selrect": {
+    "x": 734.7310426540286,
+    "y": 564.7223796033995,
+    "width": 8,
+    "height": 8,
+    "x1": 734.7310426540286,
+    "y1": 564.7223796033995,
+    "x2": 742.7310426540286,
+    "y2": 572.7223796033995
+  },
+  "points": [
+    {
+      "x": 734.7310426540286,
+      "y": 564.7223796033995
+    },
+    {
+      "x": 742.7310426540286,
+      "y": 564.7223796033995
+    },
+    {
+      "x": 742.7310426540286,
+      "y": 572.7223796033995
+    },
+    {
+      "x": 734.7310426540286,
+      "y": 572.7223796033995
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8c8e33dd-5361-8067-8008-c213ba5db6bf",
+  "frameId": "8c8e33dd-5361-8067-8008-c213ba5db6bf",
+  "flipX": null,
+  "flipY": null,
+  "index": null,
+  "content": "M734.7310180664062,572.7222290039062L742.7310180664062,564.7217407226562",
+  "svgAttrs": {
+    "fill": "none",
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "touched": [
+    "stroke-group",
+    "geometry-group",
+    "modifiable-group"
+  ],
+  "shapeRef": "5c8da088-8494-805d-8003-b548002637eb",
+  "proportionLock": false,
+  "pageId": "d703399e-1cf8-8063-8008-cf78cebc99a3",
+  "svgTransform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "svgViewbox": {
+    "x": 14.83,
+    "y": 4.93,
+    "width": 4.24,
+    "height": 4.24,
+    "x1": 14.83,
+    "y1": 4.93,
+    "x2": 19.07,
+    "y2": 9.17
+  },
+  "svgDefs": {},
+  "strokes": [
+    {
+      "strokeStyle": "solid",
+      "strokeAlignment": "inner",
+      "strokeWidth": 2,
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round",
+      "strokeColor": "#1a5beb",
+      "strokeOpacity": 1
+    }
+  ],
+  "blocked": true,
+  "proportion": 1,
+  "fills": []
+}

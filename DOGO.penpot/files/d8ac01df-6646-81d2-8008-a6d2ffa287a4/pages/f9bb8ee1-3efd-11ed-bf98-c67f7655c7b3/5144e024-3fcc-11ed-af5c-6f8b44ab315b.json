@@ -1,0 +1,83 @@
+{
+  "id": "5144e024-3fcc-11ed-af5c-6f8b44ab315b",
+  "name": "Button rounded - filled",
+  "type": "frame",
+  "x": 217.0000005236734,
+  "y": 666.0000017701675,
+  "width": 166.9999989526516,
+  "height": 49.999996459664885,
+  "rotation": 0,
+  "selrect": {
+    "x": 217.0000005236734,
+    "y": 666.0000017701675,
+    "width": 166.9999989526516,
+    "height": 49.999996459664885,
+    "x1": 217.0000005236734,
+    "y1": 666.0000017701675,
+    "x2": 383.999999476325,
+    "y2": 715.9999982298324
+  },
+  "points": [
+    {
+      "x": 217.0000010473475,
+      "y": 666
+    },
+    {
+      "x": 383.9999999999991,
+      "y": 666.000003540335
+    },
+    {
+      "x": 383.99999895265114,
+      "y": 716
+    },
+    {
+      "x": 216.9999999999991,
+      "y": 715.9999964596651
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000004,
+    "b": 2.107342425544704E-8,
+    "c": -2.0820781539403592E-8,
+    "d": 1.0000000000000044,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999991,
+    "b": -2.1073424255446915E-8,
+    "c": 2.0820781539403476E-8,
+    "d": 0.9999999999999951,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5144e020-3fcc-11ed-af5c-6f8b44ab315b",
+  "frameId": "5144e020-3fcc-11ed-af5c-6f8b44ab315b",
+  "flipX": false,
+  "flipY": false,
+  "rx": 0,
+  "index": 5,
+  "hideInViewer": true,
+  "touched": [
+    "geometry-group",
+    "constraints-group"
+  ],
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "7440de80-3fcc-11ed-af5c-6f8b44ab315b",
+  "showContent": true,
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "r3": 0,
+  "constraintsV": "bottom",
+  "constraintsH": "scale",
+  "r1": 0,
+  "componentId": "7440de80-3fcc-11ed-af5c-6f8b44ab315b",
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+  "shapes": [
+    "5144e033-3fcc-11ed-af5c-6f8b44ab315b",
+    "5144e034-3fcc-11ed-af5c-6f8b44ab315b"
+  ]
+}

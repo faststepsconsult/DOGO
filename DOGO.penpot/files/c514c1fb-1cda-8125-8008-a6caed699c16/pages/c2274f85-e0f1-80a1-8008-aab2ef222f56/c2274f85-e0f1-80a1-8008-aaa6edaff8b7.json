@@ -1,0 +1,74 @@
+{
+  "id": "c2274f85-e0f1-80a1-8008-aaa6edaff8b7",
+  "name": "Vendor",
+  "type": "group",
+  "x": 62,
+  "y": 92,
+  "width": 974,
+  "height": 128,
+  "rotation": 0,
+  "selrect": {
+    "x": 62,
+    "y": 92,
+    "width": 974,
+    "height": 128,
+    "x1": 62,
+    "y1": 92,
+    "x2": 1036,
+    "y2": 220
+  },
+  "points": [
+    {
+      "x": 62,
+      "y": 92
+    },
+    {
+      "x": 1036,
+      "y": 92
+    },
+    {
+      "x": 1036,
+      "y": 220
+    },
+    {
+      "x": 62,
+      "y": 220
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "00000000-0000-0000-0000-000000000000",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": false,
+  "flipY": false,
+  "index": 5,
+  "proportionLock": false,
+  "strokes": [],
+  "blocked": true,
+  "proportion": 1,
+  "fills": [],
+  "shapes": [
+    "c2274f85-e0f1-80a1-8008-aaa6edaff8bc",
+    "c2274f85-e0f1-80a1-8008-aaa6edaff8b9",
+    "c2274f85-e0f1-80a1-8008-aaa6edaff8ba",
+    "13d071ed-ce7e-803b-8008-ac4a6c21df70",
+    "c2274f85-e0f1-80a1-8008-aaa6edaff8bb",
+    "c2274f85-e0f1-80a1-8008-aaa6edaff8b8",
+    "6334e593-9a56-809f-8008-b239abca30e6"
+  ],
+  "pageId": "c2274f85-e0f1-80a1-8008-aab2ef222f56"
+}

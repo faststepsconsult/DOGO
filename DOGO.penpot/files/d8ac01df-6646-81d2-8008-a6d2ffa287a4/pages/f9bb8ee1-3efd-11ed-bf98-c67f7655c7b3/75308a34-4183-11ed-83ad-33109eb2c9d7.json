@@ -1,0 +1,129 @@
+{
+  "id": "75308a34-4183-11ed-83ad-33109eb2c9d7",
+  "name": "Text-52",
+  "type": "text",
+  "x": 1871.0000000156474,
+  "y": 1530.000000311095,
+  "width": 353.99999996477754,
+  "height": 41.999996268687454,
+  "rotation": 0,
+  "selrect": {
+    "x": 1871.0000000156474,
+    "y": 1530.000000311095,
+    "width": 353.99999996477754,
+    "height": 41.999996268687454,
+    "x1": 1871.0000000156474,
+    "y1": 1530.000000311095,
+    "x2": 2224.999999980425,
+    "y2": 1571.9999965797824
+  },
+  "points": [
+    {
+      "x": 1870.9999999999982,
+      "y": 1530.0000006221899
+    },
+    {
+      "x": 2224.9999999647757,
+      "y": 1530
+    },
+    {
+      "x": 2224.9999999960737,
+      "y": 1571.9999962686875
+    },
+    {
+      "x": 1871.0000000312962,
+      "y": 1571.9999968908774
+    }
+  ],
+  "transform": {
+    "a": 1.0000000000000002,
+    "b": 6.172263061599369E-9,
+    "c": -7.1846703117901215E-9,
+    "d": 0.9999999999999987,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 0.9999999999999996,
+    "b": -6.172263061599371E-9,
+    "c": 7.184670311790124E-9,
+    "d": 1.000000000000001,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "75308a30-4183-11ed-83ad-33109eb2c9d7",
+  "frameId": "75308a30-4183-11ed-83ad-33109eb2c9d7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "path": "",
+                "fontStyle": "normal",
+                "typographyRefId": "8fc6bf60-3f1a-11ed-9fca-371df098cda5",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "12",
+                "fontWeight": "700",
+                "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+                "fontVariantId": "700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#000000",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Links in this email will start \"https:\/\/\" and contain \"twitter.com\". Your browser..."
+              }
+            ],
+            "typographyRefId": "8fc6bf60-3f1a-11ed-9fca-371df098cda5",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "fontSize": "12",
+            "fontWeight": "700",
+            "typographyRefFile": "d8ac01df-6646-81d2-8008-a6d2ffa287a4",
+            "type": "paragraph",
+            "fontVariantId": "700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#000000",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "modifiable-group",
+    "text-content-text"
+  ],
+  "shapeRef": "fed0a7a4-4180-11ed-83ad-33109eb2c9d7",
+  "pageId": "f9bb8ee1-3efd-11ed-bf98-c67f7655c7b3",
+  "constraintsV": "top",
+  "constraintsH": "leftright",
+  "blocked": false
+}

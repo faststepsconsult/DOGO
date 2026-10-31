@@ -1,0 +1,78 @@
+{
+  "id": "13d071ed-ce7e-803b-8008-acda8869958f",
+  "name": "Group",
+  "type": "group",
+  "x": 266,
+  "y": 527,
+  "width": 735,
+  "height": 225.0000000000001,
+  "rotation": 0,
+  "selrect": {
+    "x": 266,
+    "y": 527,
+    "width": 735,
+    "height": 225.0000000000001,
+    "x1": 266,
+    "y1": 527,
+    "x2": 1001,
+    "y2": 752.0000000000001
+  },
+  "points": [
+    {
+      "x": 266,
+      "y": 527
+    },
+    {
+      "x": 1001,
+      "y": 527
+    },
+    {
+      "x": 1001,
+      "y": 752.0000000000001
+    },
+    {
+      "x": 266,
+      "y": 752.0000000000001
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "00000000-0000-0000-0000-000000000000",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": false,
+  "flipY": false,
+  "index": 9,
+  "proportionLock": false,
+  "strokes": [],
+  "blocked": false,
+  "proportion": 1,
+  "fills": [],
+  "shapes": [
+    "13d071ed-ce7e-803b-8008-ac469fd81a8c",
+    "13d071ed-ce7e-803b-8008-acdc744deca4",
+    "13d071ed-ce7e-803b-8008-acdc5ed64995",
+    "13d071ed-ce7e-803b-8008-acdc41cb1163",
+    "13d071ed-ce7e-803b-8008-acdc13946f72",
+    "13d071ed-ce7e-803b-8008-acdbc4899f2a",
+    "13d071ed-ce7e-803b-8008-acda20989a31",
+    "13d071ed-ce7e-803b-8008-acda1fc5811a",
+    "13d071ed-ce7e-803b-8008-acda1db75cb6",
+    "13d071ed-ce7e-803b-8008-acda4083c425",
+    "13d071ed-ce7e-803b-8008-acd9d5dc84d9"
+  ],
+  "pageId": "13d071ed-ce7e-803b-8008-ac50abd1430b"
+}

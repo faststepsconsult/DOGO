@@ -1,0 +1,90 @@
+{
+  "id": "cd21935a-c090-8055-8008-a7359ffe21db",
+  "name": "shield-check",
+  "type": "frame",
+  "x": 177,
+  "y": 647,
+  "width": 24,
+  "height": 24,
+  "rotation": null,
+  "selrect": {
+    "x": 177,
+    "y": 647,
+    "width": 24,
+    "height": 24,
+    "x1": 177,
+    "y1": 647,
+    "x2": 201,
+    "y2": 671
+  },
+  "points": [
+    {
+      "x": 177,
+      "y": 647
+    },
+    {
+      "x": 201,
+      "y": 647
+    },
+    {
+      "x": 201,
+      "y": 671
+    },
+    {
+      "x": 177,
+      "y": 671
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cd21935a-c090-8055-8008-a7363d851951",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "rx": 0,
+  "index": null,
+  "hideInViewer": true,
+  "svgAttrs": {
+    "width": "24",
+    "height": "24"
+  },
+  "touched": [
+    "modifiable-group"
+  ],
+  "r2": 0,
+  "componentRoot": true,
+  "shapeRef": "5c8da088-8494-805d-8003-b550b8f4789f",
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "d57a77c6-c39f-80fa-8008-c923d6ccc9ff",
+  "r3": 0,
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "r1": 0,
+  "componentId": "5c8da088-8494-805d-8003-b550b8f4789f",
+  "blocked": true,
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "ry": 0,
+  "componentFile": "c514c1fb-1cda-8125-8008-a6d317d1ce21",
+  "shapes": [
+    "cd21935a-c090-8055-8008-a7359ffe21dc",
+    "cd21935a-c090-8055-8008-a7359ffe21dd",
+    "cd21935a-c090-8055-8008-a7359ffe21de"
+  ]
+}

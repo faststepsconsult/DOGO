@@ -1,0 +1,201 @@
+{
+  "id": "43a47cf1-669c-80f7-8004-18ac3896c40e",
+  "name": "Text-97",
+  "type": "text",
+  "x": -765.1,
+  "y": -951,
+  "width": 230,
+  "height": 142,
+  "rotation": 0,
+  "selrect": {
+    "x": -765.1,
+    "y": -951,
+    "width": 230,
+    "height": 142,
+    "x1": -765.1,
+    "y1": -951,
+    "x2": -535.1,
+    "y2": -809
+  },
+  "points": [
+    {
+      "x": -765.1,
+      "y": -951
+    },
+    {
+      "x": -535.1,
+      "y": -951
+    },
+    {
+      "x": -535.1,
+      "y": -809
+    },
+    {
+      "x": -765.1,
+      "y": -809
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "43a47cf1-669c-80f7-8004-18ac38910a7f",
+  "frameId": "43a47cf1-669c-80f7-8004-18ac38910a7f",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "0.8",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "0.8",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "gfont-work-sans",
+                "fontSize": "72",
+                "fontWeight": "600",
+                "fontVariantId": "600",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#fff4f4",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "Plants"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "right",
+            "fontId": "gfont-work-sans",
+            "key": "ama31",
+            "fontSize": "72",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "600",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#fff4f4",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Work Sans"
+          },
+          {
+            "lineHeight": "0.8",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "0.8",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "gfont-work-sans",
+                "fontSize": "72",
+                "fontWeight": "600",
+                "fontVariantId": "600",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#fff4f4",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Work Sans",
+                "text": "app"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "right",
+            "fontId": "gfont-work-sans",
+            "key": "d1eus",
+            "fontSize": "72",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "600",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#fff4f4",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Work Sans"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "43a47cf1-669c-80f7-8004-18ac2dc5a21a",
+  "positionData": [
+    {
+      "y": -881.0000019073486,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "72px",
+      "fontWeight": "600",
+      "width": 224.58335876464844,
+      "textDecoration": "none solid rgb(255, 244, 244)",
+      "letterSpacing": "normal",
+      "x": -759.6833330154419,
+      "fills": [
+        {
+          "fillColor": "#fff4f4",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 84.44444274902344,
+      "text": "Plants"
+    },
+    {
+      "y": -821.1909637451172,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "72px",
+      "fontWeight": "600",
+      "width": 131.57989501953125,
+      "textDecoration": "none solid rgb(255, 244, 244)",
+      "letterSpacing": "normal",
+      "x": -666.6798568725586,
+      "fills": [
+        {
+          "fillColor": "#fff4f4",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Work Sans\"",
+      "height": 84.44445037841797,
+      "text": "app"
+    }
+  ],
+  "strokes": [],
+  "fills": []
+}

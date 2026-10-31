@@ -1,0 +1,146 @@
+{
+  "id": "df7b6f6e-431b-11ed-ab49-db2543beb80b",
+  "name": "Text-94",
+  "type": "text",
+  "x": 1466,
+  "y": 585,
+  "width": 155,
+  "height": 17.000000000000057,
+  "rotation": 0,
+  "selrect": {
+    "x": 1466,
+    "y": 585,
+    "width": 155,
+    "height": 17.000000000000057,
+    "x1": 1466,
+    "y1": 585,
+    "x2": 1621,
+    "y2": 602.0
+  },
+  "points": [
+    {
+      "x": 1466,
+      "y": 585
+    },
+    {
+      "x": 1621,
+      "y": 585
+    },
+    {
+      "x": 1621,
+      "y": 602
+    },
+    {
+      "x": 1466,
+      "y": 602
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "df7b6f60-431b-11ed-ab49-db2543beb80b",
+  "frameId": "df7b6f60-431b-11ed-ab49-db2543beb80b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "index": null,
+  "content": {
+    "verticalAlign": "top",
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "path": "",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "path": "",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "gfont-inter",
+                "fontSize": "10",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6a6a6a",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Survival \/ 1.4m views"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "gfont-inter",
+            "key": "ahkg4",
+            "fontSize": "10",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6a6a6a",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "0f5f6280-42fa-11ed-ab49-db2543beb80b",
+  "constraintsH": "left",
+  "opacity": 1,
+  "positionData": [
+    {
+      "x": 1466,
+      "y": 598,
+      "width": 99.265625,
+      "height": 12,
+      "x1": 0,
+      "y1": 1,
+      "x2": 99.265625,
+      "y2": 13,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#6a6a6a",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "Survival \/ 1.4m views"
+    }
+  ]
+}
