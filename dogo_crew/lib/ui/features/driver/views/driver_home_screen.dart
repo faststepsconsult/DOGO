@@ -136,6 +136,45 @@ class DriverHomeScreen extends StatelessWidget {
               ),
             ),
 
+            // Informational notification banner (e.g. "Another driver accepted first")
+            if (driverVm.sessionMessage != null)
+              Positioned(
+                top: 72,
+                left: 16,
+                right: 16,
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF1E2230),
+                    borderRadius: BorderRadius.circular(12),
+                    border: Border.all(color: const Color(0xFFF5A623)),
+                    boxShadow: const [
+                      BoxShadow(color: Colors.black54, blurRadius: 8, offset: Offset(0, 3)),
+                    ],
+                  ),
+                  child: Row(
+                    children: [
+                      const Icon(Icons.info_outline_rounded, color: Color(0xFFF5A623), size: 18),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          driverVm.sessionMessage!,
+                          style: GoogleFonts.manrope(
+                            fontSize: 12.5,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                      GestureDetector(
+                        onTap: () => driverVm.clearSessionMessage(),
+                        child: const Icon(Icons.close_rounded, color: Color(0xFF9CA3AF), size: 16),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
             // Dynamic Bottom Sheets
             Positioned(
               left: 0,

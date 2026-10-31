@@ -98,8 +98,10 @@ class DriverViewModel extends ChangeNotifier {
   bool _pinVerified = false;
 
   Timer? _requestCountdownTimer;
+  Timer? _requestCheckTimer;
   Timer? _waitStopwatchTimer;
   Timer? _onlineTriggerTimer;
+  String? _sessionMessage;
   StreamSubscription<List<Map<String, dynamic>>>? _pendingRidesSub;
   Timer? _pendingPollTimer;
   final RidesDispatchService _dispatchService = RidesDispatchService();
@@ -241,11 +243,17 @@ class DriverViewModel extends ChangeNotifier {
   LatLng? get currentDriverGps => _currentDriverGps;
   double get currentDriverHeading => _currentDriverHeading;
   bool get pinVerified => _pinVerified;
+  String? get sessionMessage => _sessionMessage;
+
+  void clearSessionMessage() {
+    _sessionMessage = null;
+    notifyListeners();
+  }
 
   bool verifyPin(String enteredPin) {
     final cleanEntered = enteredPin.trim();
     final expected = currentRequest.pin.trim();
-    if (cleanEntered.isNotEmpty && (cleanEntered == expected || cleanEntered == '1234')) {
+    if (cleanEntered.isNotEmpty && cleanEntered == expected) {
       _pinVerified = true;
       notifyListeners();
       return true;
@@ -362,6 +370,23 @@ class DriverViewModel extends ChangeNotifier {
           setSession(DriverSession.online);
         }
       });
+
+      // Poll every 2s to check if another driver claimed this ride first
+      _requestCheckTimer = Timer.periodic(const Duration(seconds: 2), (t) async {
+        if (_session != DriverSession.request || _activeRequest == null) {
+          t.cancel();
+          return;
+        }
+        final remote = await _dispatchService.fetchRide(_activeRequest!.id);
+        if (remote != null && remote.status != 'pending') {
+          t.cancel();
+          if (_activeRequest != null) {
+            _ignoredRides.add(_activeRequest!.id);
+          }
+          _sessionMessage = 'Ride was accepted by another driver.';
+          setSession(DriverSession.online);
+        }
+      });
     } else if (_session == DriverSession.atPickup) {
       _waitSeconds = 0;
       _waitStopwatchTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
@@ -373,7 +398,7 @@ class DriverViewModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> acceptRide({
+  Future<bool> acceptRide({
     String? driverId,
     String? driverName,
     String? driverPhone,
@@ -381,8 +406,6 @@ class DriverViewModel extends ChangeNotifier {
     String? driverVehicle,
   }) async {
     _cleanTimers();
-    _session = DriverSession.toPickup;
-    notifyListeners();
 
     final req = currentRequest;
     final dName = driverName ?? 'Abdulmutallib Alasah';
@@ -390,7 +413,7 @@ class DriverViewModel extends ChangeNotifier {
     final dVehicle = driverVehicle ?? 'Toyota Corolla (White)';
     final dPhone = driverPhone ?? '+2348024419922';
 
-    await _dispatchService.acceptRide(
+    final success = await _dispatchService.acceptRide(
       rideCode: req.id,
       driverId: driverId,
       driverName: dName,
@@ -398,8 +421,20 @@ class DriverViewModel extends ChangeNotifier {
       driverVehicle: dVehicle,
       driverPhone: dPhone,
     );
+
+    if (!success) {
+      _ignoredRides.add(req.id);
+      _sessionMessage = 'Another driver accepted this ride first!';
+      setSession(DriverSession.online);
+      return false;
+    }
+
+    _session = DriverSession.toPickup;
+    notifyListeners();
+
     await _dispatchService.updateStatus(rideCode: req.id, newStatus: 'to_pickup');
     _startDriverLocationBroadcast(req.id);
+    return true;
   }
 
   void declineRide() {
@@ -560,6 +595,8 @@ class DriverViewModel extends ChangeNotifier {
   void _cleanTimers() {
     _requestCountdownTimer?.cancel();
     _requestCountdownTimer = null;
+    _requestCheckTimer?.cancel();
+    _requestCheckTimer = null;
     _waitStopwatchTimer?.cancel();
     _waitStopwatchTimer = null;
     _onlineTriggerTimer?.cancel();

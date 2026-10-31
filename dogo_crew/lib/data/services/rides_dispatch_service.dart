@@ -85,7 +85,7 @@ class RidesDispatchService {
     return uuidRegExp.hasMatch(str);
   }
 
-  /// Driver claims and accepts the ride
+  /// Driver claims and accepts the ride atomically (first-come, first-served)
   Future<bool> acceptRide({
     required String rideCode,
     String? driverId,
@@ -106,8 +106,15 @@ class RidesDispatchService {
       if (_isValidUuid(driverId)) {
         updateData['driver_id'] = driverId;
       }
-      await _client.from('rides').update(updateData).eq('code', rideCode);
-      return true;
+      // Atomic update: only succeeds if ride is still 'pending'
+      final res = await _client
+          .from('rides')
+          .update(updateData)
+          .eq('code', rideCode)
+          .eq('status', 'pending')
+          .select();
+
+      return res.isNotEmpty;
     } catch (_) {
       return false;
     }

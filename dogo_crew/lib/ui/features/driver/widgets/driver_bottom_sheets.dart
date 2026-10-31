@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../../../../core/utils/currency_formatter.dart';
+import '../../auth/view_models/auth_view_model.dart';
 import '../view_models/driver_view_model.dart';
 
 class DriverBottomSheets extends StatelessWidget {
@@ -573,7 +575,16 @@ class DriverBottomSheets extends StatelessWidget {
                 child: SizedBox(
                   height: 48,
                   child: ElevatedButton(
-                    onPressed: () => vm.acceptRide(driverName: driverName),
+                    onPressed: () {
+                      final authVm = context.read<AuthViewModel>();
+                      vm.acceptRide(
+                        driverId: authVm.currentUser?.id,
+                        driverName: driverName,
+                        driverPhone: authVm.phone,
+                        driverPlate: authVm.plate,
+                        driverVehicle: authVm.vehicle,
+                      );
+                    },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: const Color(0xFF10B981),
                       foregroundColor: Colors.white,
@@ -1003,12 +1014,11 @@ class _AtPickupSheetWidgetState extends State<_AtPickupSheetWidget> {
 
   void _verifyAndStart() {
     final entered = _pinController.text.trim();
-    final req = widget.vm.currentRequest;
-    if (entered.isEmpty || widget.vm.verifyPin(entered)) {
+    if (widget.vm.pinVerified || widget.vm.verifyPin(entered)) {
       widget.vm.startTrip();
     } else {
       setState(() {
-        _pinError = 'Incorrect PIN. Expected: ${req.pin}';
+        _pinError = 'Incorrect PIN. Please ask the passenger for their 4-digit code.';
       });
     }
   }
@@ -1177,21 +1187,12 @@ class _AtPickupSheetWidgetState extends State<_AtPickupSheetWidget> {
                       ],
                     ),
                     if (!isVerified)
-                      InkWell(
-                        onTap: () {
-                          _pinController.text = req.pin;
-                          widget.vm.verifyPin(req.pin);
-                          setState(() {
-                            _pinError = null;
-                          });
-                        },
-                        child: Text(
-                          'Quick fill (${req.pin})',
-                          style: GoogleFonts.manrope(
-                            fontSize: 11,
-                            fontWeight: FontWeight.w700,
-                            color: const Color(0xFFF5A623),
-                          ),
+                      Text(
+                        'Ask passenger for code',
+                        style: GoogleFonts.manrope(
+                          fontSize: 11,
+                          fontWeight: FontWeight.w600,
+                          color: const Color(0xFF9CA3AF),
                         ),
                       ),
                   ],
@@ -1228,7 +1229,7 @@ class _AtPickupSheetWidgetState extends State<_AtPickupSheetWidget> {
                                 if (widget.vm.verifyPin(val)) {
                                   setState(() => _pinError = null);
                                 } else {
-                                  setState(() => _pinError = 'Incorrect PIN');
+                                  setState(() => _pinError = 'Incorrect PIN. Ask passenger for their code.');
                                 }
                               }
                             },
@@ -1241,7 +1242,7 @@ class _AtPickupSheetWidgetState extends State<_AtPickupSheetWidget> {
                           if (widget.vm.verifyPin(_pinController.text)) {
                             setState(() => _pinError = null);
                           } else {
-                            setState(() => _pinError = 'PIN must be ${req.pin}');
+                            setState(() => _pinError = 'Incorrect PIN. Ask passenger for their code.');
                           }
                         },
                         style: ElevatedButton.styleFrom(
