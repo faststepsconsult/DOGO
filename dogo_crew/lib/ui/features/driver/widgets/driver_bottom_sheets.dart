@@ -580,11 +580,11 @@ class DriverBottomSheets extends StatelessWidget {
                     onPressed: () {
                       final authVm = context.read<AuthViewModel>();
                       vm.acceptRide(
-                        driverId: authVm.currentUser?.id,
-                        driverName: driverName,
-                        driverPhone: authVm.phone,
-                        driverPlate: authVm.plate,
-                        driverVehicle: authVm.vehicle,
+                        driverId: authVm.currentUser?.id ?? authVm.profile?.id,
+                        driverName: authVm.displayName.isNotEmpty ? authVm.displayName : driverName,
+                        driverPhone: authVm.phone ?? '+2348024419922',
+                        driverPlate: authVm.plate ?? 'LAG-605-EK',
+                        driverVehicle: authVm.vehicle ?? 'Toyota Corolla (Silver)',
                       );
                     },
                     style: ElevatedButton.styleFrom(

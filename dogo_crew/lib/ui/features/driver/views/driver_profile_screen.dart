@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import '../../../../data/repositories/auth_repository.dart';
 import '../../auth/view_models/auth_view_model.dart';
 import '../view_models/driver_view_model.dart';
 
@@ -12,7 +13,12 @@ class DriverProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final authVm = context.watch<AuthViewModel>();
     final driverVm = context.watch<DriverViewModel>();
-    final driverName = authVm.displayName.isNotEmpty ? authVm.displayName : 'Abdulmutallib Alasah';
+    final driverName = authVm.displayName.isNotEmpty ? authVm.displayName : 'Ibrahim Musa';
+    final vehicle = authVm.vehicle ?? 'Toyota Corolla 2018 (Silver)';
+    final plate = authVm.plate ?? 'LAG-605-EK';
+    final phone = authVm.phone ?? '+234 802 441 9922';
+
+    final initials = driverName.trim().split(' ').map((p) => p.isNotEmpty ? p[0] : '').take(2).join().toUpperCase();
 
     return Scaffold(
       backgroundColor: const Color(0xFF0D0F14),
@@ -20,7 +26,7 @@ class DriverProfileScreen extends StatelessWidget {
         backgroundColor: const Color(0xFF0D0F14),
         elevation: 0,
         title: Text(
-          'Profile',
+          'Captain Profile',
           style: GoogleFonts.sora(fontSize: 22, fontWeight: FontWeight.w800, color: Colors.white),
         ),
       ),
@@ -42,21 +48,20 @@ class DriverProfileScreen extends StatelessWidget {
                   children: [
                     Row(
                       children: [
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(32),
-                          child: Image.asset(
-                            'assets/images/driver-avatar.png',
-                            width: 64,
-                            height: 64,
-                            fit: BoxFit.cover,
-                            errorBuilder: (ctx, err, stack) => Container(
-                              width: 64,
-                              height: 64,
-                              decoration: const BoxDecoration(
-                                color: Color(0xFF1F2433),
-                                shape: BoxShape.circle,
-                              ),
-                              child: const Icon(Icons.person, size: 36, color: Colors.white),
+                        Container(
+                          width: 64,
+                          height: 64,
+                          decoration: const BoxDecoration(
+                            color: Color(0xFF1F2433),
+                            shape: BoxShape.circle,
+                          ),
+                          alignment: Alignment.center,
+                          child: Text(
+                            initials.isNotEmpty ? initials : 'CP',
+                            style: GoogleFonts.sora(
+                              fontSize: 22,
+                              fontWeight: FontWeight.w800,
+                              color: const Color(0xFF10B981),
                             ),
                           ),
                         ),
@@ -75,7 +80,7 @@ class DriverProfileScreen extends StatelessWidget {
                               ),
                               const SizedBox(height: 3),
                               Text(
-                                'New driver · Joined Oct 2026',
+                                phone,
                                 style: GoogleFonts.manrope(
                                   fontSize: 12.5,
                                   color: const Color(0xFF9CA3AF),
@@ -83,6 +88,11 @@ class DriverProfileScreen extends StatelessWidget {
                               ),
                             ],
                           ),
+                        ),
+                        IconButton(
+                          icon: const Icon(Icons.edit_outlined, color: Color(0xFF60A5FA), size: 20),
+                          tooltip: 'Edit Profile',
+                          onPressed: () => _showEditDriverProfileModal(context, authVm),
                         ),
                       ],
                     ),
@@ -105,7 +115,7 @@ class DriverProfileScreen extends StatelessWidget {
                                     const Icon(Icons.star_rounded, size: 16, color: Color(0xFF10B981)),
                                     const SizedBox(width: 3),
                                     Text(
-                                      '5.0',
+                                      '${driverVm.driverRating}',
                                       style: GoogleFonts.sora(
                                         fontSize: 15,
                                         fontWeight: FontWeight.w800,
@@ -152,18 +162,20 @@ class DriverProfileScreen extends StatelessWidget {
                                     const Icon(Icons.verified_rounded, size: 15, color: Color(0xFF10B981)),
                                     const SizedBox(width: 4),
                                     Text(
-                                      'Verified',
+                                      authVm.isClearedDriver ? 'Cleared' : 'Pending',
                                       style: GoogleFonts.sora(
                                         fontSize: 13,
                                         fontWeight: FontWeight.w800,
-                                        color: const Color(0xFF10B981),
+                                        color: authVm.isClearedDriver
+                                            ? const Color(0xFF10B981)
+                                            : const Color(0xFFF59E0B),
                                       ),
                                     ),
                                   ],
                                 ),
                                 const SizedBox(height: 2),
                                 Text(
-                                  'Account',
+                                  'Clearance',
                                   style: GoogleFonts.manrope(fontSize: 11, color: const Color(0xFF9CA3AF)),
                                 ),
                               ],
@@ -219,7 +231,7 @@ class DriverProfileScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Toyota Corolla 2018',
+                                  vehicle,
                                   style: GoogleFonts.manrope(
                                     fontSize: 14,
                                     fontWeight: FontWeight.w700,
@@ -228,10 +240,11 @@ class DriverProfileScreen extends StatelessWidget {
                                 ),
                                 const SizedBox(height: 2),
                                 Text(
-                                  'White · Sedan · 4 seats',
+                                  'Plate: $plate',
                                   style: GoogleFonts.manrope(
                                     fontSize: 12,
                                     color: const Color(0xFF9CA3AF),
+                                    fontWeight: FontWeight.w600,
                                   ),
                                 ),
                               ],
@@ -256,34 +269,35 @@ class DriverProfileScreen extends StatelessWidget {
                 child: Column(
                   children: [
                     _buildRow(
-                      icon: Icons.assignment_outlined,
-                      label: 'Documents',
-                      value: 'Approved',
-                      onTap: () => context.go('/crew-verify'),
+                      icon: Icons.badge_outlined,
+                      label: 'Driver Clearance',
+                      value: authVm.isClearedDriver ? 'Approved' : 'Pending',
+                      onTap: () => context.push('/driver-clearance'),
                     ),
                     const Divider(color: Color(0x14FFFFFF), height: 1, indent: 52),
                     _buildRow(
                       icon: Icons.account_balance_wallet_outlined,
-                      label: 'Payment method',
-                      value: 'Cash & Card',
-                      onTap: () {},
+                      label: 'Earnings & Payout',
+                      value: '₦${driverVm.todayEarnings}',
+                      onTap: () => context.go('/crew-earnings'),
                     ),
                     const Divider(color: Color(0x14FFFFFF), height: 1, indent: 52),
                     _buildRow(
-                      icon: Icons.shield_outlined,
-                      label: 'Safety centre',
-                      onTap: () {},
+                      icon: Icons.people_alt_outlined,
+                      label: 'Switch Persona (Testing)',
+                      value: driverName.split(' ').first,
+                      onTap: () => _showTestingPersonaPicker(context, authVm),
                     ),
                     const Divider(color: Color(0x14FFFFFF), height: 1, indent: 52),
                     _buildRow(
                       icon: Icons.settings_outlined,
-                      label: 'Settings',
-                      onTap: () {},
+                      label: 'Vehicle & Account Settings',
+                      onTap: () => _showEditDriverProfileModal(context, authVm),
                     ),
                     const Divider(color: Color(0x14FFFFFF), height: 1, indent: 52),
                     _buildRow(
                       icon: Icons.help_outline_rounded,
-                      label: 'Support',
+                      label: 'Support & Help',
                       onTap: () => context.go('/rides/help'),
                     ),
                   ],
@@ -291,7 +305,7 @@ class DriverProfileScreen extends StatelessWidget {
               ),
               const SizedBox(height: 18),
 
-              // Switch to Rider App Button
+              // Switch to Passenger App Button
               InkWell(
                 onTap: () => context.go('/rides'),
                 borderRadius: BorderRadius.circular(18),
@@ -308,7 +322,7 @@ class DriverProfileScreen extends StatelessWidget {
                       const SizedBox(width: 14),
                       Expanded(
                         child: Text(
-                          'Switch to Rider app',
+                          'Switch to Passenger App',
                           style: GoogleFonts.manrope(
                             fontSize: 14,
                             fontWeight: FontWeight.w700,
@@ -329,7 +343,7 @@ class DriverProfileScreen extends StatelessWidget {
                   driverVm.resetDemoData();
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(
-                      content: Text('Driver demo state reset.'),
+                      content: Text('Driver state reset.'),
                       backgroundColor: Color(0xFF10B981),
                     ),
                   );
@@ -348,7 +362,7 @@ class DriverProfileScreen extends StatelessWidget {
                       const SizedBox(width: 14),
                       Expanded(
                         child: Text(
-                          'Reset demo data',
+                          'Reset demo trips',
                           style: GoogleFonts.manrope(
                             fontSize: 14,
                             fontWeight: FontWeight.w700,
@@ -407,6 +421,214 @@ class DriverProfileScreen extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+
+  void _showEditDriverProfileModal(BuildContext context, AuthViewModel authVm) {
+    final nameCtrl = TextEditingController(text: authVm.displayName);
+    final phoneCtrl = TextEditingController(text: authVm.phone ?? '+234 802 441 9922');
+    final vehicleCtrl = TextEditingController(text: authVm.vehicle ?? 'Toyota Corolla 2018 (Silver)');
+    final plateCtrl = TextEditingController(text: authVm.plate ?? 'LAG-605-EK');
+
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder: (ctx) {
+        return Container(
+          padding: EdgeInsets.only(
+            left: 20,
+            right: 20,
+            top: 24,
+            bottom: MediaQuery.of(ctx).viewInsets.bottom + 24,
+          ),
+          decoration: const BoxDecoration(
+            color: Color(0xFF141722),
+            borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+            border: Border(top: BorderSide(color: Color(0x33FFFFFF))),
+          ),
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Captain & Vehicle Details',
+                      style: GoogleFonts.sora(fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white),
+                    ),
+                    IconButton(
+                      icon: const Icon(Icons.close_rounded, color: Color(0xFF9CA3AF)),
+                      onPressed: () => Navigator.pop(ctx),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 16),
+                _buildField('Full Name', nameCtrl, Icons.person_rounded),
+                const SizedBox(height: 14),
+                _buildField('Phone Number', phoneCtrl, Icons.phone_rounded, keyboardType: TextInputType.phone),
+                const SizedBox(height: 14),
+                _buildField('Vehicle Model & Color', vehicleCtrl, Icons.directions_car_rounded),
+                const SizedBox(height: 14),
+                _buildField('License Plate', plateCtrl, Icons.pin_rounded),
+                const SizedBox(height: 22),
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () async {
+                      Navigator.pop(ctx);
+                      await authVm.updateProfile(
+                        fullName: nameCtrl.text.trim(),
+                        phone: phoneCtrl.text.trim(),
+                        vehicle: vehicleCtrl.text.trim(),
+                        plate: plateCtrl.text.trim().toUpperCase(),
+                      );
+                      if (context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(
+                            content: Text('Driver details updated!'),
+                            backgroundColor: Color(0xFF10B981),
+                          ),
+                        );
+                      }
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color(0xFF10B981),
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(vertical: 14),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+                    ),
+                    child: const Text('Save Details', style: TextStyle(fontWeight: FontWeight.bold)),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+
+  void _showTestingPersonaPicker(BuildContext context, AuthViewModel authVm) {
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
+      builder: (ctx) {
+        return Container(
+          padding: const EdgeInsets.fromLTRB(20, 20, 20, 28),
+          decoration: const BoxDecoration(
+            color: Color(0xFF141722),
+            borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+            border: Border(top: BorderSide(color: Color(0x33FFFFFF))),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Multi-Device Persona',
+                    style: GoogleFonts.sora(fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white),
+                  ),
+                  IconButton(
+                    icon: const Icon(Icons.close_rounded, color: Color(0xFF9CA3AF)),
+                    onPressed: () => Navigator.pop(ctx),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 6),
+              Text(
+                'Assign this physical phone a driver persona to test multiplayer dispatches.',
+                style: GoogleFonts.manrope(fontSize: 12.5, color: const Color(0xFF9CA3AF)),
+              ),
+              const SizedBox(height: 18),
+              ...AuthRepository.testingPresets.map((preset) {
+                final isSelected = authVm.displayName == preset.fullName;
+                return Container(
+                  margin: const EdgeInsets.only(bottom: 10),
+                  decoration: BoxDecoration(
+                    color: isSelected ? const Color(0x1F10B981) : const Color(0xFF0F121B),
+                    borderRadius: BorderRadius.circular(14),
+                    border: Border.all(
+                      color: isSelected ? const Color(0xFF10B981) : const Color(0x1FFFFFFF),
+                      width: isSelected ? 1.5 : 1,
+                    ),
+                  ),
+                  child: ListTile(
+                    contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+                    leading: Icon(
+                      preset.isDriver ? Icons.local_taxi_rounded : Icons.person_rounded,
+                      color: preset.isDriver ? const Color(0xFF10B981) : const Color(0xFF60A5FA),
+                    ),
+                    title: Text(
+                      preset.fullName,
+                      style: GoogleFonts.sora(fontSize: 14.5, fontWeight: FontWeight.w700, color: Colors.white),
+                    ),
+                    subtitle: Text(
+                      preset.isDriver
+                          ? 'Driver • ${preset.vehicle} • ${preset.plate}'
+                          : 'Passenger • ${preset.phone}',
+                      style: GoogleFonts.manrope(fontSize: 12, color: const Color(0xFF9CA3AF)),
+                    ),
+                    trailing: isSelected
+                        ? const Icon(Icons.check_circle_rounded, color: Color(0xFF10B981), size: 22)
+                        : null,
+                    onTap: () async {
+                      Navigator.pop(ctx);
+                      await authVm.switchProfilePreset(preset);
+                      if (context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text('Switched to ${preset.fullName}!'),
+                            backgroundColor: const Color(0xFF10B981),
+                          ),
+                        );
+                      }
+                    },
+                  ),
+                );
+              }),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildField(String label, TextEditingController controller, IconData icon, {TextInputType? keyboardType}) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          label,
+          style: GoogleFonts.manrope(fontSize: 12.5, fontWeight: FontWeight.w600, color: const Color(0xFF9CA3AF)),
+        ),
+        const SizedBox(height: 6),
+        TextField(
+          controller: controller,
+          keyboardType: keyboardType,
+          style: GoogleFonts.manrope(fontSize: 14, color: Colors.white),
+          decoration: InputDecoration(
+            prefixIcon: Icon(icon, size: 18, color: const Color(0xFF9CA3AF)),
+            filled: true,
+            fillColor: const Color(0xFF0D0F14),
+            contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(12),
+              borderSide: const BorderSide(color: Color(0x1FFFFFFF)),
+            ),
+            focusedBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(12),
+              borderSide: const BorderSide(color: Color(0xFF10B981)),
+            ),
+          ),
+        ),
+      ],
     );
   }
 }

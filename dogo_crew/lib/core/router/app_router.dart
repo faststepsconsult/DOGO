@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import '../../ui/features/auth/view_models/auth_view_model.dart';
 import '../../ui/features/auth/views/auth_screen.dart';
 import '../../ui/features/board/views/board_screen.dart';
+import '../../ui/features/driver/views/driver_clearance_screen.dart';
 import '../../ui/features/driver/views/driver_earnings_screen.dart';
 import '../../ui/features/driver/views/driver_home_screen.dart';
 import '../../ui/features/driver/views/driver_profile_screen.dart';
@@ -65,6 +66,11 @@ class AppRouter {
           path: '/crew-verify',
           parentNavigatorKey: _rootNavigatorKey,
           builder: (context, state) => const VerificationScreen(),
+        ),
+        GoRoute(
+          path: '/driver-clearance',
+          parentNavigatorKey: _rootNavigatorKey,
+          builder: (context, state) => const DriverClearanceScreen(),
         ),
         GoRoute(
           path: '/board-dispatch',

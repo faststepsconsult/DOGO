@@ -334,14 +334,19 @@ class _BookingSheetDialogState extends State<BookingSheetDialog> {
                                     item: _itemController.text.trim(),
                                   );
                                 }
-                                String pName = 'Salim Bello';
+                                String pName = 'Salim Abdulaziz';
+                                String? pPhone;
                                 try {
                                   final authVm = context.read<AuthViewModel>();
                                   if (authVm.displayName.isNotEmpty) {
                                     pName = authVm.displayName;
                                   }
+                                  pPhone = authVm.phone;
                                 } catch (_) {}
-                                final newRide = vm.confirmBooking(passengerName: pName);
+                                final newRide = vm.confirmBooking(
+                                  passengerName: pName,
+                                  passengerPhone: pPhone,
+                                );
                                 Navigator.of(context).pop();
                                 context.push('/rides/track/${newRide.code}');
                               }

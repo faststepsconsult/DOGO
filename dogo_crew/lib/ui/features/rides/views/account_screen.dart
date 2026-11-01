@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
-import '../../../../core/constants/app_constants.dart';
-
+import '../../../../data/repositories/auth_repository.dart';
 import '../../auth/view_models/auth_view_model.dart';
 import '../widgets/rides_bottom_nav_bar.dart';
 import '../widgets/rides_header_widget.dart';
@@ -23,6 +21,8 @@ class _AccountScreenState extends State<AccountScreen> {
     final isAuthenticated = authVm.isAuthenticated;
     final name = authVm.displayName.isNotEmpty ? authVm.displayName : 'Salim Abdulaziz';
     final isWide = MediaQuery.of(context).size.width >= 768;
+
+    final initials = name.trim().split(' ').map((p) => p.isNotEmpty ? p[0] : '').take(2).join().toUpperCase();
 
     return Scaffold(
       backgroundColor: const Color(0xFF0D0F14),
@@ -52,57 +52,93 @@ class _AccountScreenState extends State<AccountScreen> {
                         ),
                         const SizedBox(height: 20),
 
-                        // User Profile Row (Name, Rating, Camera Avatar)
+                        // User Profile Row (Name, Phone, Rating, Avatar)
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  name,
-                                  style: GoogleFonts.sora(
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.w700,
-                                    color: Colors.white,
-                                  ),
-                                ),
-                                const SizedBox(height: 6),
-                                Row(
-                                  mainAxisSize: MainAxisSize.min,
-                                  children: [
-                                    const Icon(Icons.star_rounded, size: 18, color: Color(0xFF10B981)),
-                                    const SizedBox(width: 4),
-                                    Text(
-                                      '5.00',
-                                      style: GoogleFonts.manrope(
-                                        fontSize: 13.5,
-                                        fontWeight: FontWeight.w700,
-                                        color: Colors.white,
-                                      ),
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    name,
+                                    style: GoogleFonts.sora(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.w700,
+                                      color: Colors.white,
                                     ),
-                                    const SizedBox(width: 4),
-                                    const Icon(Icons.info_outline_rounded, size: 14, color: Color(0xFF9CA3AF)),
-                                  ],
-                                ),
-                              ],
+                                    maxLines: 1,
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
+                                  const SizedBox(height: 4),
+                                  Text(
+                                    authVm.phone ?? '+234 803 123 4567',
+                                    style: GoogleFonts.manrope(
+                                      fontSize: 13,
+                                      color: const Color(0xFF9CA3AF),
+                                      fontWeight: FontWeight.w500,
+                                    ),
+                                  ),
+                                  const SizedBox(height: 6),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
+                                      const Icon(Icons.star_rounded, size: 18, color: Color(0xFF10B981)),
+                                      const SizedBox(width: 4),
+                                      Text(
+                                        '5.00',
+                                        style: GoogleFonts.manrope(
+                                          fontSize: 13.5,
+                                          fontWeight: FontWeight.w700,
+                                          color: Colors.white,
+                                        ),
+                                      ),
+                                      const SizedBox(width: 8),
+                                      Container(
+                                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                                        decoration: BoxDecoration(
+                                          color: authVm.isClearedDriver
+                                              ? const Color(0x1F10B981)
+                                              : const Color(0x1F2563EB),
+                                          borderRadius: BorderRadius.circular(6),
+                                        ),
+                                        child: Text(
+                                          authVm.isClearedDriver ? 'Cleared Captain' : 'Passenger',
+                                          style: TextStyle(
+                                            fontSize: 11,
+                                            fontWeight: FontWeight.w700,
+                                            color: authVm.isClearedDriver
+                                                ? const Color(0xFF10B981)
+                                                : const Color(0xFF60A5FA),
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
                             ),
-                            // Camera / Profile Button
+                            const SizedBox(width: 14),
+                            // Profile Avatar
                             GestureDetector(
                               onTap: () => _showEditProfileDialog(context, authVm),
                               child: Container(
-                                width: 54,
-                                height: 54,
+                                width: 56,
+                                height: 56,
                                 decoration: BoxDecoration(
                                   color: const Color(0xFF1E2330),
                                   shape: BoxShape.circle,
                                   border: Border.all(color: const Color(0x33FFFFFF)),
                                 ),
-                                child: const Icon(
-                                  Icons.add_a_photo_outlined,
-                                  size: 22,
-                                  color: Colors.white,
+                                alignment: Alignment.center,
+                                child: Text(
+                                  initials.isNotEmpty ? initials : 'DG',
+                                  style: GoogleFonts.sora(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.w800,
+                                    color: const Color(0xFF60A5FA),
+                                  ),
                                 ),
                               ),
                             ),
@@ -124,16 +160,16 @@ class _AccountScreenState extends State<AccountScreen> {
                             child: Row(
                               children: [
                                 Container(
-                                  width: 44,
-                                  height: 44,
+                                  width: 40,
+                                  height: 40,
                                   decoration: const BoxDecoration(
-                                    color: Color(0xFF059669),
+                                    color: Color(0x3310B981),
                                     shape: BoxShape.circle,
                                   ),
                                   child: const Icon(
-                                    Icons.shield_rounded,
+                                    Icons.verified_user_rounded,
+                                    color: Color(0xFF10B981),
                                     size: 22,
-                                    color: Colors.white,
                                   ),
                                 ),
                                 const SizedBox(width: 14),
@@ -142,24 +178,29 @@ class _AccountScreenState extends State<AccountScreen> {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Enjoy smoother and safer rides',
-                                        style: GoogleFonts.sora(
+                                        'Verified Passenger',
+                                        style: GoogleFonts.manrope(
                                           fontSize: 14.5,
                                           fontWeight: FontWeight.w700,
                                           color: Colors.white,
                                         ),
                                       ),
-                                      const SizedBox(height: 3),
+                                      const SizedBox(height: 2),
                                       Text(
-                                        'Verify identity',
-                                        style: GoogleFonts.sora(
-                                          fontSize: 14,
-                                          fontWeight: FontWeight.w700,
+                                        'Level 1 KYC Complete • SmileID verified',
+                                        style: GoogleFonts.manrope(
+                                          fontSize: 12,
                                           color: const Color(0xFF10B981),
+                                          fontWeight: FontWeight.w500,
                                         ),
                                       ),
                                     ],
                                   ),
+                                ),
+                                const Icon(
+                                  Icons.chevron_right_rounded,
+                                  color: Color(0xFF10B981),
+                                  size: 20,
                                 ),
                               ],
                             ),
@@ -167,168 +208,107 @@ class _AccountScreenState extends State<AccountScreen> {
                         ),
                         const SizedBox(height: 24),
 
-                        // Signed-out banner prompt if not signed in
-                        if (!isAuthenticated) ...[
-                          Container(
-                            padding: const EdgeInsets.all(16),
-                            margin: const EdgeInsets.only(bottom: 16),
-                            decoration: BoxDecoration(
-                              color: const Color(0xFF141722),
-                              borderRadius: BorderRadius.circular(16),
-                              border: Border.all(color: const Color(0x1FFFFFFF)),
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.stretch,
-                              children: [
-                                Text(
-                                  'Sign in to access your saved trips and driver tools',
-                                  style: GoogleFonts.manrope(
-                                    fontSize: 13,
-                                    color: const Color(0xFF9CA3AF),
-                                  ),
-                                ),
-                                const SizedBox(height: 12),
-                                ElevatedButton(
-                                  onPressed: () => context.go('/auth'),
-                                  style: ElevatedButton.styleFrom(
-                                    backgroundColor: const Color(0xFF2563EB),
-                                    foregroundColor: Colors.white,
-                                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                                  ),
-                                  child: const Text('Sign In or Register'),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ],
-
-                        // Driver Mode Switcher Banner (Instant Role Flip)
-                        InkWell(
-                          onTap: () => context.go('/board'),
-                          borderRadius: BorderRadius.circular(18),
-                          child: Container(
-                            margin: const EdgeInsets.only(bottom: 20),
-                            padding: const EdgeInsets.all(16),
-                            decoration: BoxDecoration(
-                              gradient: const LinearGradient(
-                                colors: [Color(0xFF0D251C), Color(0xFF141926)],
+                        // 3 Quick Action Shortcuts (Trips, Wallet, Safety)
+                        Row(
+                          children: [
+                            Expanded(
+                              child: _buildActionShortcut(
+                                icon: Icons.history_rounded,
+                                label: 'Activity',
+                                onTap: () => context.go('/rides/my-trips'),
                               ),
-                              borderRadius: BorderRadius.circular(18),
-                              border: Border.all(color: const Color(0x4D10B981), width: 1.2),
-                              boxShadow: const [
-                                BoxShadow(
-                                  color: Color(0x2610B981),
-                                  blurRadius: 14,
-                                  offset: Offset(0, 4),
-                                ),
-                              ],
                             ),
-                            child: Row(
-                              children: [
-                                Container(
-                                  width: 46,
-                                  height: 46,
-                                  decoration: BoxDecoration(
-                                    color: const Color(0x2E10B981),
-                                    borderRadius: BorderRadius.circular(14),
-                                    border: Border.all(color: const Color(0x6610B981)),
-                                  ),
-                                  child: const Icon(Icons.drive_eta_rounded, color: Color(0xFF10B981), size: 24),
-                                ),
-                                const SizedBox(width: 14),
-                                Expanded(
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      Row(
-                                        children: [
-                                          Text(
-                                            'Driver Mode',
-                                            style: GoogleFonts.sora(fontSize: 15, fontWeight: FontWeight.w700, color: Colors.white),
-                                          ),
-                                          const SizedBox(width: 8),
-                                          Container(
-                                            padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                                            decoration: BoxDecoration(
-                                              color: const Color(0xFF10B981),
-                                              borderRadius: BorderRadius.circular(6),
-                                            ),
-                                            child: Text(
-                                              'ONLINE CONSOLE',
-                                              style: GoogleFonts.manrope(fontSize: 8.5, fontWeight: FontWeight.w800, color: Colors.black),
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                      const SizedBox(height: 3),
-                                      Text(
-                                        'Go online & accept live ride requests',
-                                        style: GoogleFonts.manrope(fontSize: 12, color: const Color(0xFF9CA3AF)),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Container(
-                                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
-                                  decoration: BoxDecoration(
-                                    color: const Color(0xFF10B981),
-                                    borderRadius: BorderRadius.circular(10),
-                                  ),
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.min,
-                                    children: [
-                                      Text(
-                                        'Switch',
-                                        style: GoogleFonts.manrope(fontWeight: FontWeight.w800, fontSize: 12, color: Colors.black),
-                                      ),
-                                      const SizedBox(width: 4),
-                                      const Icon(Icons.swap_horiz_rounded, size: 15, color: Colors.black),
-                                    ],
-                                  ),
-                                ),
-                              ],
+                            const SizedBox(width: 12),
+                            Expanded(
+                              child: _buildActionShortcut(
+                                icon: Icons.account_balance_wallet_outlined,
+                                label: 'Wallet',
+                                onTap: () => context.go('/rides'),
+                              ),
                             ),
+                            const SizedBox(width: 12),
+                            Expanded(
+                              child: _buildActionShortcut(
+                                icon: Icons.security_rounded,
+                                label: 'Safety',
+                                onTap: () => context.go('/rides/help'),
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 28),
+
+                        // Section Title: Preferences & Settings
+                        Text(
+                          'Preferences & Console',
+                          style: GoogleFonts.manrope(
+                            fontSize: 13,
+                            fontWeight: FontWeight.w700,
+                            color: const Color(0xFF9CA3AF),
+                            letterSpacing: 0.5,
                           ),
                         ),
+                        const SizedBox(height: 10),
 
-                        // Menu items:
-                        // 1. Driver Console
+                        // Menu Tiles List
+                        // 1. Captain Console (Driver view)
                         _buildMenuTile(
-                          icon: Icons.drive_eta_rounded,
-                          title: 'Driver Console',
-                          iconColor: const Color(0xFF10B981),
-                          onTap: () => context.go('/board'),
+                          icon: Icons.local_taxi_rounded,
+                          title: 'Captain Console',
+                          trailing: authVm.isClearedDriver
+                              ? _buildStatusPill('Cleared', const Color(0xFF10B981))
+                              : _buildStatusPill('Needs Clearance', const Color(0xFFF59E0B)),
+                          onTap: () {
+                            if (authVm.isClearedDriver) {
+                              context.go('/board');
+                            } else {
+                              context.push('/driver-clearance');
+                            }
+                          },
                         ),
                         const Divider(color: Color(0x14FFFFFF), height: 1, indent: 42),
 
-                        // 2. Verification
+                        // 2. Identity Verification
                         _buildMenuTile(
                           icon: Icons.verified_user_outlined,
-                          title: 'Verification',
+                          title: 'Identity Verification',
                           onTap: () => context.go('/verify'),
                         ),
                         const Divider(color: Color(0x14FFFFFF), height: 1, indent: 42),
 
-                        // 3. Driver Clearance
+                        // 3. Driver Clearance (Earn with DOGO)
                         _buildMenuTile(
                           icon: Icons.badge_outlined,
                           title: 'Earn with DOGO (Driver Clearance)',
-                          onTap: () => _openDriverRegistration(context),
+                          trailing: _buildClearancePill(authVm.driverClearanceStatus),
+                          onTap: () => context.push('/driver-clearance'),
                         ),
                         const Divider(color: Color(0x14FFFFFF), height: 1, indent: 42),
 
-                        // 3. Help
+                        // 4. Switch Testing Persona (Instant Multi-Device Persona Switcher)
+                        _buildMenuTile(
+                          icon: Icons.people_alt_outlined,
+                          title: 'Switch Profile (Multi-Device Testing)',
+                          trailing: _buildStatusPill(
+                            name.split(' ').first,
+                            const Color(0xFF60A5FA),
+                          ),
+                          onTap: () => _showTestingPersonaPicker(context, authVm),
+                        ),
+                        const Divider(color: Color(0x14FFFFFF), height: 1, indent: 42),
+
+                        // 5. Help & Support
                         _buildMenuTile(
                           icon: Icons.help_outline_rounded,
-                          title: 'Help',
+                          title: 'Help & Support',
                           onTap: () => context.go('/rides/help'),
                         ),
                         const Divider(color: Color(0x14FFFFFF), height: 1, indent: 42),
 
-                        // 4. Settings
+                        // 6. Settings & Profile Edit
                         _buildMenuTile(
                           icon: Icons.settings_outlined,
-                          title: 'Settings',
+                          title: 'Settings & Edit Profile',
                           onTap: () => _showEditProfileDialog(context, authVm),
                         ),
 
@@ -357,10 +337,73 @@ class _AccountScreenState extends State<AccountScreen> {
     );
   }
 
+  Widget _buildStatusPill(String text, Color color) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+      decoration: BoxDecoration(
+        color: color.withAlpha(30),
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(color: color.withAlpha(80)),
+      ),
+      child: Text(
+        text,
+        style: GoogleFonts.manrope(
+          fontSize: 11.5,
+          fontWeight: FontWeight.w700,
+          color: color,
+        ),
+      ),
+    );
+  }
+
+  Widget _buildClearancePill(String status) {
+    if (status == 'active') {
+      return _buildStatusPill('Active Captain', const Color(0xFF10B981));
+    } else if (status == 'pending') {
+      return _buildStatusPill('Under Review', const Color(0xFFF59E0B));
+    } else {
+      return _buildStatusPill('Apply to Earn', const Color(0xFF60A5FA));
+    }
+  }
+
+  Widget _buildActionShortcut({
+    required IconData icon,
+    required String label,
+    required VoidCallback onTap,
+  }) {
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(18),
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 14),
+        decoration: BoxDecoration(
+          color: const Color(0xFF141722),
+          borderRadius: BorderRadius.circular(18),
+          border: Border.all(color: const Color(0x1FFFFFFF)),
+        ),
+        child: Column(
+          children: [
+            Icon(icon, size: 24, color: Colors.white),
+            const SizedBox(height: 8),
+            Text(
+              label,
+              style: GoogleFonts.manrope(
+                fontSize: 12.5,
+                fontWeight: FontWeight.w600,
+                color: Colors.white,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
   Widget _buildMenuTile({
     required IconData icon,
     required String title,
     required VoidCallback onTap,
+    Widget? trailing,
     Color? iconColor,
     Color? titleColor,
   }) {
@@ -371,21 +414,25 @@ class _AccountScreenState extends State<AccountScreen> {
         padding: const EdgeInsets.symmetric(vertical: 16),
         child: Row(
           children: [
-            Icon(icon, size: 24, color: iconColor ?? const Color(0xFFD1D5DB)),
-            const SizedBox(width: 18),
+            Icon(icon, size: 22, color: iconColor ?? const Color(0xFFD1D5DB)),
+            const SizedBox(width: 16),
             Expanded(
               child: Text(
                 title,
                 style: GoogleFonts.manrope(
-                  fontSize: 16,
+                  fontSize: 15,
                   fontWeight: FontWeight.w600,
                   color: titleColor ?? Colors.white,
                 ),
               ),
             ),
+            if (trailing != null) ...[
+              trailing,
+              const SizedBox(width: 8),
+            ],
             const Icon(
               Icons.chevron_right_rounded,
-              size: 22,
+              size: 20,
               color: Color(0xFF6B7280),
             ),
           ],
@@ -394,11 +441,112 @@ class _AccountScreenState extends State<AccountScreen> {
     );
   }
 
+  /// Multi-device Persona Switcher Modal
+  void _showTestingPersonaPicker(BuildContext context, AuthViewModel authVm) {
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
+      builder: (ctx) {
+        return Container(
+          padding: const EdgeInsets.fromLTRB(20, 20, 20, 28),
+          decoration: const BoxDecoration(
+            color: Color(0xFF141722),
+            borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+            border: Border(top: BorderSide(color: Color(0x33FFFFFF))),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Multi-Device Persona',
+                    style: GoogleFonts.sora(fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white),
+                  ),
+                  IconButton(
+                    icon: const Icon(Icons.close_rounded, color: Color(0xFF9CA3AF)),
+                    onPressed: () => Navigator.pop(ctx),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 6),
+              Text(
+                'Assign this physical phone a unique identity so multiple test devices operate independently without collision.',
+                style: GoogleFonts.manrope(fontSize: 12.5, color: const Color(0xFF9CA3AF), height: 1.4),
+              ),
+              const SizedBox(height: 18),
+
+              ...AuthRepository.testingPresets.map((preset) {
+                final isSelected = authVm.displayName == preset.fullName;
+                return Container(
+                  margin: const EdgeInsets.only(bottom: 10),
+                  decoration: BoxDecoration(
+                    color: isSelected ? const Color(0x1F2563EB) : const Color(0xFF0F121B),
+                    borderRadius: BorderRadius.circular(14),
+                    border: Border.all(
+                      color: isSelected ? const Color(0xFF2563EB) : const Color(0x1FFFFFFF),
+                      width: isSelected ? 1.5 : 1,
+                    ),
+                  ),
+                  child: ListTile(
+                    contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+                    leading: Container(
+                      width: 42,
+                      height: 42,
+                      decoration: BoxDecoration(
+                        color: preset.isDriver ? const Color(0x1F10B981) : const Color(0x1F2563EB),
+                        shape: BoxShape.circle,
+                      ),
+                      child: Icon(
+                        preset.isDriver ? Icons.local_taxi_rounded : Icons.person_rounded,
+                        color: preset.isDriver ? const Color(0xFF10B981) : const Color(0xFF60A5FA),
+                        size: 20,
+                      ),
+                    ),
+                    title: Text(
+                      preset.fullName,
+                      style: GoogleFonts.sora(fontSize: 14.5, fontWeight: FontWeight.w700, color: Colors.white),
+                    ),
+                    subtitle: Text(
+                      preset.isDriver
+                          ? 'Driver • ${preset.vehicle ?? "Car"} • ${preset.phone}'
+                          : 'Passenger • ${preset.phone}',
+                      style: GoogleFonts.manrope(fontSize: 12, color: const Color(0xFF9CA3AF)),
+                    ),
+                    trailing: isSelected
+                        ? const Icon(Icons.check_circle_rounded, color: Color(0xFF10B981), size: 22)
+                        : null,
+                    onTap: () async {
+                      Navigator.pop(ctx);
+                      await authVm.switchProfilePreset(preset);
+                      if (context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text('Switched to ${preset.fullName}!'),
+                            backgroundColor: const Color(0xFF10B981),
+                          ),
+                        );
+                      }
+                    },
+                  ),
+                );
+              }),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
   void _showEditProfileDialog(BuildContext context, AuthViewModel authVm) {
     final nameCtrl = TextEditingController(text: authVm.displayName.isNotEmpty ? authVm.displayName : 'Salim Abdulaziz');
     final phoneCtrl = TextEditingController(text: authVm.phone ?? '+234 803 123 4567');
-    final vehicleCtrl = TextEditingController(text: authVm.vehicle ?? 'Toyota Corolla (Taxi)');
-    final plateCtrl = TextEditingController(text: authVm.plate ?? 'LAG-482-XA');
+    final emailCtrl = TextEditingController(text: authVm.email ?? 'salim@dogo.app');
+    final vehicleCtrl = TextEditingController(text: authVm.vehicle ?? 'Toyota Corolla 2018 (Silver)');
+    final plateCtrl = TextEditingController(text: authVm.plate ?? 'LAG-605-EK');
 
     showModalBottomSheet(
       context: context,
@@ -444,11 +592,13 @@ class _AccountScreenState extends State<AccountScreen> {
                 const SizedBox(height: 16),
                 _buildFormField('Full Name', nameCtrl, Icons.person_outline_rounded),
                 const SizedBox(height: 14),
+                _buildFormField('Email Address', emailCtrl, Icons.email_outlined, keyboardType: TextInputType.emailAddress),
+                const SizedBox(height: 14),
                 _buildFormField('Phone Number', phoneCtrl, Icons.phone_outlined, keyboardType: TextInputType.phone),
                 const SizedBox(height: 14),
-                _buildFormField('Vehicle Model (Drivers)', vehicleCtrl, Icons.directions_car_outlined),
+                _buildFormField('Vehicle Model (Captains)', vehicleCtrl, Icons.directions_car_outlined),
                 const SizedBox(height: 14),
-                _buildFormField('License Plate (Drivers)', plateCtrl, Icons.pin_outlined),
+                _buildFormField('License Plate (Captains)', plateCtrl, Icons.pin_outlined),
                 const SizedBox(height: 22),
                 SizedBox(
                   width: double.infinity,
@@ -457,6 +607,7 @@ class _AccountScreenState extends State<AccountScreen> {
                       Navigator.pop(ctx);
                       await authVm.updateProfile(
                         fullName: nameCtrl.text.trim(),
+                        email: emailCtrl.text.trim(),
                         phone: phoneCtrl.text.trim(),
                         vehicle: vehicleCtrl.text.trim(),
                         plate: plateCtrl.text.trim(),
@@ -523,30 +674,6 @@ class _AccountScreenState extends State<AccountScreen> {
         ),
       ],
     );
-  }
-
-  Future<void> _openDriverRegistration(BuildContext context) async {
-    final uri = Uri.parse(AppConstants.driverOnboardingUrl);
-    try {
-      final launched = await launchUrl(uri, mode: LaunchMode.externalApplication);
-      if (!launched && context.mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Opening driver clearing website: ${AppConstants.driverOnboardingUrl}'),
-            backgroundColor: Color(0xFF10B981),
-          ),
-        );
-      }
-    } catch (_) {
-      if (context.mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Redirecting to driver clearing portal...'),
-            backgroundColor: Color(0xFF10B981),
-          ),
-        );
-      }
-    }
   }
 
   void _confirmSignOut(BuildContext context, AuthViewModel authVm) {
