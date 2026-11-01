@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import '../../../../data/models/profile_model.dart';
 import '../../../../data/repositories/auth_repository.dart';
+import '../../../../data/services/backend_api_service.dart';
 
 class AuthViewModel extends ChangeNotifier {
   final AuthRepository authRepo;
@@ -175,6 +176,16 @@ class AuthViewModel extends ChangeNotifier {
           driverGuarantorPhone: guarantorPhone,
         );
       }
+
+      // Submit to Danny's FastAPI backend delivery module
+      try {
+        await BackendApiService.submitDeliveryAgentApplication(
+          agentType: vehicleType == 'bike' ? 'rider' : 'driver',
+          fullName: updated.fullName,
+          phone: updated.phone ?? '+2348000000000',
+          email: updated.email ?? '${updated.fullName.toLowerCase().replaceAll(' ', '.')}@dogo.app',
+        );
+      } catch (_) {}
     } finally {
       _isLoading = false;
       notifyListeners();
@@ -195,6 +206,29 @@ class AuthViewModel extends ChangeNotifier {
     _profile = updated;
     await authRepo.saveLocalProfile(updated);
     notifyListeners();
+  }
+
+  /// Syncs clearance approval status from Danny's backend
+  Future<void> refreshClearanceStatus() async {
+    if (_profile == null) return;
+    try {
+      final status = await BackendApiService.checkClearanceStatus(
+        email: _profile!.email ?? '${_profile!.fullName.toLowerCase().replaceAll(' ', '.')}@dogo.app',
+      );
+      if (status != null && status != _profile!.driverClearanceStatus) {
+        final updatedRoles = List<String>.from(_profile!.roles);
+        if (status == 'active' && !updatedRoles.contains('driver')) {
+          updatedRoles.add('driver');
+        }
+        final updated = _profile!.copyWith(
+          driverClearanceStatus: status,
+          roles: updatedRoles,
+        );
+        _profile = updated;
+        await authRepo.saveLocalProfile(updated);
+        notifyListeners();
+      }
+    } catch (_) {}
   }
 
   Future<void> loadProfile(String userId) async {

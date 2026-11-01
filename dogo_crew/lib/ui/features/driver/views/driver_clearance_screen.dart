@@ -263,7 +263,38 @@ class _DriverClearanceScreenState extends State<DriverClearanceScreen> {
             ],
           ),
         ),
-        const SizedBox(height: 20),
+        const SizedBox(height: 16),
+
+        OutlinedButton.icon(
+          onPressed: () async {
+            await authVm.refreshClearanceStatus();
+            if (context.mounted) {
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(
+                  content: Text(
+                    authVm.isClearedDriver
+                        ? 'Clearance approved on backend!'
+                        : 'Status checked: still under review.',
+                  ),
+                  backgroundColor: authVm.isClearedDriver
+                      ? const Color(0xFF10B981)
+                      : const Color(0xFFF59E0B),
+                ),
+              );
+            }
+          },
+          icon: const Icon(Icons.sync_rounded, size: 18, color: Colors.white),
+          label: Text(
+            'Check Backend Approval Status',
+            style: GoogleFonts.manrope(fontWeight: FontWeight.w700, color: Colors.white),
+          ),
+          style: OutlinedButton.styleFrom(
+            side: const BorderSide(color: Color(0x33FFFFFF)),
+            padding: const EdgeInsets.symmetric(vertical: 14),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+          ),
+        ),
+        const SizedBox(height: 16),
 
         // Testing fast-track bypass button
         Container(
@@ -571,3 +602,4 @@ class _DriverClearanceScreenState extends State<DriverClearanceScreen> {
     );
   }
 }
+
