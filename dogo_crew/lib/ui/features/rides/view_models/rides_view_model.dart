@@ -16,6 +16,8 @@ class RidesViewModel extends ChangeNotifier {
   Timer? _livePollTimer;
   Timer? _fallbackDemoTimer;
   StreamSubscription<RideModel?>? _liveRideSub;
+  StreamSubscription<Map<String, dynamic>>? _settlementSub;
+  Map<String, dynamic>? _lastSettlementInfo;
 
   // Booking Flow State
   int _bookingStep = 0;
@@ -34,12 +36,14 @@ class RidesViewModel extends ChangeNotifier {
   String _itemLabel = '';
 
   RidesViewModel({required this.ridesRepo}) {
+    ridesRepo.initWallet().then((_) => notifyListeners());
     _refreshRides();
   }
 
   List<RideModel> get allRides => _rides;
   List<RideModel> get recentRides => _rides.take(3).toList();
   RideModel? get selectedRide => _selectedRide;
+  Map<String, dynamic>? get lastSettlementInfo => _lastSettlementInfo;
 
   // Booking Getters
   int get bookingStep => _bookingStep;
@@ -217,6 +221,8 @@ class RidesViewModel extends ChangeNotifier {
   void _subscribeToLiveRide(String code) {
     _liveRideSub?.cancel();
     _liveRideSub = null;
+    _settlementSub?.cancel();
+    _settlementSub = null;
     _livePollTimer?.cancel();
     _livePollTimer = null;
     _fallbackDemoTimer?.cancel();
@@ -227,6 +233,15 @@ class RidesViewModel extends ChangeNotifier {
       ridesRepo.updateRideModel(liveRide);
       _refreshRides();
       notifyListeners();
+
+      if (liveRide.status == 'completed' || liveRide.status == 'delivered') {
+        ridesRepo.settleTripFare(
+          tripCode: liveRide.code,
+          fare: liveRide.price,
+          paymentMethod: liveRide.payment,
+          routeTitle: '${liveRide.pickup} → ${liveRide.dropoff}',
+        );
+      }
 
       if (liveRide.status == 'completed' || liveRide.status == 'cancelled') {
         _liveRideSub?.cancel();
@@ -249,7 +264,23 @@ class RidesViewModel extends ChangeNotifier {
       }, onError: (_) {});
     } catch (_) {}
 
-    // 2. Fail-safe Periodic Poll
+    // 2. Realtime Settlement Broadcast Stream
+    try {
+      _settlementSub = ridesRepo.dispatchService.streamSettlement(code).listen((payload) {
+        _lastSettlementInfo = payload;
+        final fare = (payload['total_fare'] as num?)?.toInt() ?? _selectedRide?.price ?? 0;
+        final method = payload['payment_method']?.toString() ?? _selectedRide?.payment ?? 'DOGO Wallet';
+        ridesRepo.settleTripFare(
+          tripCode: code,
+          fare: fare,
+          paymentMethod: method,
+          routeTitle: '${_selectedRide?.pickup ?? "Pickup"} → ${_selectedRide?.dropoff ?? "Dropoff"}',
+        );
+        notifyListeners();
+      }, onError: (_) {});
+    } catch (_) {}
+
+    // 3. Fail-safe Periodic Poll
     _livePollTimer = Timer.periodic(const Duration(seconds: 3), (_) async {
       final remote = await ridesRepo.dispatchService.fetchRide(code);
       if (remote != null) {
@@ -257,7 +288,7 @@ class RidesViewModel extends ChangeNotifier {
       }
     });
 
-    // 3. Extended fallback demo simulation (120s) so 2 real devices have plenty of time
+    // 4. Extended fallback demo simulation (120s) so 2 real devices have plenty of time
     _fallbackDemoTimer = Timer(const Duration(seconds: 120), () {
       if (_selectedRide != null && _selectedRide!.status == 'pending') {
         _startLiveTrackingSimulation();
@@ -274,6 +305,22 @@ class RidesViewModel extends ChangeNotifier {
 
   Future<bool> fundWallet(int amount, String method) async {
     final success = ridesRepo.fundWallet(amount, method);
+    if (success) {
+      notifyListeners();
+    }
+    return success;
+  }
+
+  /// Tips the driver in real-time, deducts from wallet, and broadcasts to driver's phone
+  Future<bool> tipDriver({required int amount, String passengerName = 'Salim Bello'}) async {
+    if (_selectedRide == null) return false;
+    final driverName = _selectedRide!.driverName.isNotEmpty ? _selectedRide!.driverName : 'Captain';
+    final success = await ridesRepo.tipDriver(
+      tripCode: _selectedRide!.code,
+      amount: amount,
+      driverName: driverName,
+      passengerName: passengerName,
+    );
     if (success) {
       notifyListeners();
     }
@@ -338,6 +385,7 @@ class RidesViewModel extends ChangeNotifier {
   @override
   void dispose() {
     _liveRideSub?.cancel();
+    _settlementSub?.cancel();
     _livePollTimer?.cancel();
     _fallbackDemoTimer?.cancel();
     _liveTrackTimer?.cancel();

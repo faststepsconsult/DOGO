@@ -33,6 +33,8 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
   double _liveDriverHeading = 0.0;
   int _riderRating = 5;
   bool _hasRated = false;
+  int? _tippedAmount;
+  bool _isTipping = false;
   bool _isLoadingTimedOut = false;
   Timer? _loadingTimeoutTimer;
   String? _previousStatus;
@@ -402,7 +404,7 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
                         const SizedBox(height: 14),
                       ],
 
-                      // Trip Completed Celebratory Banner & Rating Sheet
+                      // Trip Completed Celebratory Banner, Real-time Settlement & Tip Sheet
                       if (ride.status == 'completed' || ride.status == 'delivered') ...[
                         Container(
                           padding: const EdgeInsets.all(20),
@@ -454,6 +456,237 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
                                 ],
                               ),
                               const SizedBox(height: 16),
+
+                              // Real-Time Fare Settlement & Wallet Deduction Card
+                              Container(
+                                padding: const EdgeInsets.all(14),
+                                decoration: BoxDecoration(
+                                  color: const Color(0xFF0F121B),
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(color: const Color(0x3310B981)),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Row(
+                                          children: [
+                                            const Icon(Icons.account_balance_wallet_rounded, size: 16, color: Color(0xFF10B981)),
+                                            const SizedBox(width: 6),
+                                            Text(
+                                              'Fare Settlement',
+                                              style: GoogleFonts.manrope(
+                                                fontSize: 12.5,
+                                                fontWeight: FontWeight.w700,
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                        Container(
+                                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                                          decoration: BoxDecoration(
+                                            color: const Color(0x3310B981),
+                                            borderRadius: BorderRadius.circular(8),
+                                          ),
+                                          child: Text(
+                                            'Settled ✓',
+                                            style: GoogleFonts.manrope(
+                                              fontSize: 11,
+                                              fontWeight: FontWeight.w800,
+                                              color: const Color(0xFF10B981),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    const SizedBox(height: 10),
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text(
+                                          'Total Paid',
+                                          style: GoogleFonts.manrope(fontSize: 13, color: const Color(0xFF9CA3AF)),
+                                        ),
+                                        Text(
+                                          formattedPrice,
+                                          style: GoogleFonts.sora(fontSize: 16, fontWeight: FontWeight.w800, color: Colors.white),
+                                        ),
+                                      ],
+                                    ),
+                                    const SizedBox(height: 6),
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text(
+                                          'Payment Method',
+                                          style: GoogleFonts.manrope(fontSize: 12, color: const Color(0xFF9CA3AF)),
+                                        ),
+                                        Text(
+                                          ride.payment.toLowerCase().contains('wallet')
+                                              ? 'DOGO Wallet (₦${NumberFormat('#,###').format(ride.price)} deducted)'
+                                              : ride.payment,
+                                          style: GoogleFonts.manrope(fontSize: 12, fontWeight: FontWeight.w600, color: const Color(0xFF60A5FA)),
+                                        ),
+                                      ],
+                                    ),
+                                    if (ride.payment.toLowerCase().contains('wallet')) ...[
+                                      const SizedBox(height: 6),
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text(
+                                            'Remaining Balance',
+                                            style: GoogleFonts.manrope(fontSize: 12, color: const Color(0xFF9CA3AF)),
+                                          ),
+                                          Text(
+                                            vm.formattedWalletBalance,
+                                            style: GoogleFonts.manrope(fontSize: 12, fontWeight: FontWeight.w700, color: const Color(0xFF10B981)),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ],
+                                ),
+                              ),
+                              const SizedBox(height: 14),
+
+                              // Quick Tip Driver Chips (Real-time Broadcast)
+                              Container(
+                                padding: const EdgeInsets.all(14),
+                                decoration: BoxDecoration(
+                                  color: const Color(0xFF0F121B),
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(color: const Color(0x1FFFFFFF)),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text(
+                                          'Tip Captain ${ride.driverName.isNotEmpty ? ride.driverName.split(" ").first : "Driver"}',
+                                          style: GoogleFonts.manrope(
+                                            fontSize: 12.5,
+                                            fontWeight: FontWeight.w700,
+                                            color: Colors.white,
+                                          ),
+                                        ),
+                                        if (_tippedAmount != null)
+                                          Text(
+                                            'Tipped ₦${NumberFormat('#,###').format(_tippedAmount!)} 🎉',
+                                            style: GoogleFonts.manrope(
+                                              fontSize: 11.5,
+                                              fontWeight: FontWeight.w800,
+                                              color: const Color(0xFF10B981),
+                                            ),
+                                          ),
+                                      ],
+                                    ),
+                                    const SizedBox(height: 8),
+                                    if (_tippedAmount == null) ...[
+                                      Text(
+                                        'Instant wallet deduction · Sent straight to driver in real-time',
+                                        style: GoogleFonts.manrope(
+                                          fontSize: 11,
+                                          color: const Color(0xFF9CA3AF),
+                                        ),
+                                      ),
+                                      const SizedBox(height: 10),
+                                      Row(
+                                        children: [200, 500, 1000, 2000].map((tipAmt) {
+                                          return Expanded(
+                                            child: Padding(
+                                              padding: const EdgeInsets.symmetric(horizontal: 3),
+                                              child: ElevatedButton(
+                                                onPressed: _isTipping
+                                                    ? null
+                                                    : () async {
+                                                        final messenger = ScaffoldMessenger.of(context);
+                                                        setState(() => _isTipping = true);
+                                                        final success = await vm.tipDriver(amount: tipAmt);
+                                                        if (!mounted) return;
+                                                        setState(() {
+                                                          _isTipping = false;
+                                                          if (success) _tippedAmount = tipAmt;
+                                                        });
+                                                        if (success) {
+                                                          try {
+                                                            HapticFeedback.heavyImpact();
+                                                          } catch (_) {}
+                                                          messenger.showSnackBar(
+                                                            SnackBar(
+                                                              content: Text(
+                                                                '₦${NumberFormat('#,###').format(tipAmt)} tip sent to ${ride.driverName.isNotEmpty ? ride.driverName : "Captain"}!',
+                                                              ),
+                                                              backgroundColor: const Color(0xFF10B981),
+                                                              behavior: SnackBarBehavior.floating,
+                                                            ),
+                                                          );
+                                                        } else {
+                                                          messenger.showSnackBar(
+                                                            const SnackBar(
+                                                              content: Text('Insufficient wallet balance to tip.'),
+                                                              backgroundColor: Color(0xFFEF4444),
+                                                              behavior: SnackBarBehavior.floating,
+                                                            ),
+                                                          );
+                                                        }
+                                                      },
+                                                style: ElevatedButton.styleFrom(
+                                                  backgroundColor: const Color(0xFF1F2433),
+                                                  foregroundColor: Colors.white,
+                                                  padding: const EdgeInsets.symmetric(vertical: 8),
+                                                  shape: RoundedRectangleBorder(
+                                                    borderRadius: BorderRadius.circular(10),
+                                                    side: const BorderSide(color: Color(0x33FFFFFF)),
+                                                  ),
+                                                  elevation: 0,
+                                                ),
+                                                child: Text(
+                                                  '+₦$tipAmt',
+                                                  style: GoogleFonts.manrope(
+                                                    fontSize: 11.5,
+                                                    fontWeight: FontWeight.w700,
+                                                  ),
+                                                ),
+                                              ),
+                                            ),
+                                          );
+                                        }).toList(),
+                                      ),
+                                    ] else
+                                      Container(
+                                        padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12),
+                                        decoration: BoxDecoration(
+                                          color: const Color(0x1A10B981),
+                                          borderRadius: BorderRadius.circular(10),
+                                        ),
+                                        child: Row(
+                                          children: [
+                                            const Icon(Icons.check_circle_rounded, color: Color(0xFF10B981), size: 16),
+                                            const SizedBox(width: 8),
+                                            Expanded(
+                                              child: Text(
+                                                'Thank you! Your ₦${NumberFormat('#,###').format(_tippedAmount!)} tip was credited to ${ride.driverName.isNotEmpty ? ride.driverName : "Captain"}.',
+                                                style: GoogleFonts.manrope(
+                                                  fontSize: 11.5,
+                                                  fontWeight: FontWeight.w600,
+                                                  color: const Color(0xFF10B981),
+                                                ),
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                  ],
+                                ),
+                              ),
+                              const SizedBox(height: 14),
+
                               // 5-Star Rating Row
                               Container(
                                 padding: const EdgeInsets.all(14),

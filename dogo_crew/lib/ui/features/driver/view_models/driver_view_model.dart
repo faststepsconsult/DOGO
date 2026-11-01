@@ -1,8 +1,11 @@
 import 'dart:async';
+import 'dart:convert';
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:intl/intl.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../../../../data/models/ride_model.dart';
 import '../../../../data/services/driver_tracking_service.dart';
 import '../../../../data/services/location_service.dart';
@@ -67,7 +70,10 @@ class CompletedDriverTrip {
   final String passenger;
   final String pickupName;
   final String dropoffName;
-  final int fare; // Payout after commission
+  final int totalFare; // Gross fare paid by passenger
+  final int fare; // Net payout after commission (85%)
+  final int commission; // 15% platform commission
+  int tip; // Real-time tip if received
   final double distanceKm;
   final int minutes;
   final String payment;
@@ -78,18 +84,60 @@ class CompletedDriverTrip {
     required this.passenger,
     required this.pickupName,
     required this.dropoffName,
+    int? totalFare,
     required this.fare,
+    int? commission,
+    this.tip = 0,
     required this.distanceKm,
     required this.minutes,
     required this.payment,
     required this.completedAt,
-  });
+  })  : totalFare = totalFare ?? ((fare / 0.85).round()),
+        commission = commission ?? (((totalFare ?? ((fare / 0.85).round())) - fare));
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'passenger': passenger,
+      'pickupName': pickupName,
+      'dropoffName': dropoffName,
+      'totalFare': totalFare,
+      'fare': fare,
+      'commission': commission,
+      'tip': tip,
+      'distanceKm': distanceKm,
+      'minutes': minutes,
+      'payment': payment,
+      'completedAt': completedAt.toIso8601String(),
+    };
+  }
+
+  factory CompletedDriverTrip.fromJson(Map<String, dynamic> json) {
+    return CompletedDriverTrip(
+      id: json['id'] as String? ?? 'trip-${DateTime.now().millisecondsSinceEpoch}',
+      passenger: json['passenger'] as String? ?? 'Passenger',
+      pickupName: json['pickupName'] as String? ?? 'Pickup',
+      dropoffName: json['dropoffName'] as String? ?? 'Dropoff',
+      totalFare: (json['totalFare'] as num?)?.toInt(),
+      fare: (json['fare'] as num?)?.toInt() ?? 0,
+      commission: (json['commission'] as num?)?.toInt(),
+      tip: (json['tip'] as num?)?.toInt() ?? 0,
+      distanceKm: (json['distanceKm'] as num?)?.toDouble() ?? 5.0,
+      minutes: (json['minutes'] as num?)?.toInt() ?? 15,
+      payment: json['payment'] as String? ?? 'Cash',
+      completedAt: DateTime.tryParse(json['completedAt'] as String? ?? '') ?? DateTime.now(),
+    );
+  }
 }
 
 class DriverViewModel extends ChangeNotifier {
   static const int requestDurationSeconds = 30;
   static const double commissionRate = 0.15;
   static const int driverSharePercent = 85;
+
+  static const String _keyDriverEarnings = 'dogo_driver_today_earnings_v1';
+  static const String _keyDriverWallet = 'dogo_driver_wallet_balance_v1';
+  static const String _keyDriverTrips = 'dogo_driver_completed_trips_v1';
 
   DriverSession _session = DriverSession.offline;
   int _secondsLeft = requestDurationSeconds;
@@ -107,14 +155,52 @@ class DriverViewModel extends ChangeNotifier {
   final RidesDispatchService _dispatchService = RidesDispatchService();
   final DriverTrackingService _trackingService = DriverTrackingService();
   StreamSubscription<LatLng>? _gpsStreamSub;
+  StreamSubscription<Map<String, dynamic>>? _tipSub;
   Timer? _driverSimulatedNavTimer;
   LatLng? _currentDriverGps;
   final double _currentDriverHeading = 0.0;
   final Set<String> _ignoredRides = {};
   bool _autoSimulateDemo = false;
+  String _currentDriverName = 'Captain';
+
+  int _todayEarnings = 28500;
+  int _driverWalletBalance = 28500;
 
   DriverViewModel() {
     initLocation();
+    _loadDriverFinancials();
+  }
+
+  Future<void> _loadDriverFinancials() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      if (prefs.containsKey(_keyDriverEarnings)) {
+        _todayEarnings = prefs.getInt(_keyDriverEarnings) ?? 28500;
+      }
+      if (prefs.containsKey(_keyDriverWallet)) {
+        _driverWalletBalance = prefs.getInt(_keyDriverWallet) ?? 28500;
+      }
+      final rawTrips = prefs.getStringList(_keyDriverTrips);
+      if (rawTrips != null && rawTrips.isNotEmpty) {
+        _completedTrips.clear();
+        for (final raw in rawTrips) {
+          try {
+            _completedTrips.add(CompletedDriverTrip.fromJson(jsonDecode(raw)));
+          } catch (_) {}
+        }
+      }
+      notifyListeners();
+    } catch (_) {}
+  }
+
+  Future<void> _saveDriverFinancials() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setInt(_keyDriverEarnings, _todayEarnings);
+      await prefs.setInt(_keyDriverWallet, _driverWalletBalance);
+      final rawList = _completedTrips.map((t) => jsonEncode(t.toJson())).toList();
+      await prefs.setStringList(_keyDriverTrips, rawList);
+    } catch (_) {}
   }
 
   Future<void> initLocation() async {
@@ -146,7 +232,6 @@ class DriverViewModel extends ChangeNotifier {
     }
   }
 
-  int _todayEarnings = 28500;
   final List<CompletedDriverTrip> _completedTrips = [
     CompletedDriverTrip(
       id: 'trip-seed-1',
@@ -236,6 +321,8 @@ class DriverViewModel extends ChangeNotifier {
   int get waitSeconds => _waitSeconds;
   int get ratingStars => _ratingStars;
   int get todayEarnings => _todayEarnings;
+  int get driverWalletBalance => _driverWalletBalance;
+  String get formattedDriverWalletBalance => '₦${NumberFormat('#,###').format(_driverWalletBalance)}';
   List<CompletedDriverTrip> get completedTrips => List.unmodifiable(_completedTrips);
   int get completedTripsCount => _completedTrips.length;
   double get driverRating => 4.98;
@@ -248,6 +335,21 @@ class DriverViewModel extends ChangeNotifier {
   void clearSessionMessage() {
     _sessionMessage = null;
     notifyListeners();
+  }
+
+  /// Withdraws driver earnings directly to Nigerian bank account
+  Future<bool> withdrawToBank({
+    required String bankName,
+    required String accountNumber,
+    required String accountName,
+    required int amount,
+  }) async {
+    if (amount <= 0 || _driverWalletBalance < amount) return false;
+    _driverWalletBalance -= amount;
+    await _saveDriverFinancials();
+    _sessionMessage = '₦${NumberFormat('#,###').format(amount)} withdrawn successfully to $bankName ($accountNumber)';
+    notifyListeners();
+    return true;
   }
 
   bool verifyPin(String enteredPin) {
@@ -429,8 +531,29 @@ class DriverViewModel extends ChangeNotifier {
       return false;
     }
 
+    _currentDriverName = dName;
     _session = DriverSession.toPickup;
     notifyListeners();
+
+    // Listen for incoming real-time tips from passenger
+    _tipSub?.cancel();
+    _tipSub = _dispatchService.streamTip(req.id).listen((payload) {
+      final tipAmount = (payload['tip_amount'] as num?)?.toInt() ?? 0;
+      final passengerName = payload['passenger_name']?.toString() ?? 'Passenger';
+      if (tipAmount > 0) {
+        _todayEarnings += tipAmount;
+        _driverWalletBalance += tipAmount;
+        if (_completedTrips.isNotEmpty) {
+          _completedTrips.first.tip += tipAmount;
+        }
+        _saveDriverFinancials();
+        try {
+          HapticFeedback.heavyImpact();
+        } catch (_) {}
+        _sessionMessage = '🎉 Received ₦${NumberFormat('#,###').format(tipAmount)} tip from $passengerName!';
+        notifyListeners();
+      }
+    }, onError: (_) {});
 
     await _dispatchService.updateStatus(rideCode: req.id, newStatus: 'to_pickup');
     _startDriverLocationBroadcast(req.id);
@@ -548,13 +671,16 @@ class DriverViewModel extends ChangeNotifier {
     final req = currentRequest;
     final payout = req.driverPayout;
     _todayEarnings += payout;
+    _driverWalletBalance += payout;
 
     final trip = CompletedDriverTrip(
       id: 'trip-${DateTime.now().millisecondsSinceEpoch}',
       passenger: req.passenger,
       pickupName: req.pickupName,
       dropoffName: req.dropoffName,
+      totalFare: req.fare,
       fare: payout,
+      commission: req.commission,
       distanceKm: req.distanceKm,
       minutes: req.minutes,
       payment: req.payment,
@@ -562,13 +688,25 @@ class DriverViewModel extends ChangeNotifier {
     );
 
     _completedTrips.insert(0, trip);
+    await _saveDriverFinancials();
     _ratingStars = 5;
     _session = DriverSession.complete;
     notifyListeners();
 
+    // 1. Update status on Supabase
     await _dispatchService.updateStatus(
       rideCode: req.id,
       newStatus: 'completed',
+    );
+
+    // 2. Broadcast financial settlement to passenger phone in real-time
+    await _dispatchService.broadcastSettlement(
+      rideCode: req.id,
+      totalFare: req.fare,
+      driverEarnings: payout,
+      platformCommission: req.commission,
+      paymentMethod: req.payment,
+      driverName: _currentDriverName,
     );
   }
 
@@ -583,12 +721,16 @@ class DriverViewModel extends ChangeNotifier {
 
   void resetDemoData() {
     _cleanTimers();
+    _tipSub?.cancel();
+    _tipSub = null;
     _ignoredRides.clear();
     _session = DriverSession.offline;
     _todayEarnings = 0;
+    _driverWalletBalance = 0;
     _completedTrips.clear();
     _requestIndex = 0;
     _activeRequest = null;
+    _saveDriverFinancials();
     notifyListeners();
   }
 
@@ -615,6 +757,7 @@ class DriverViewModel extends ChangeNotifier {
   @override
   void dispose() {
     _cleanTimers();
+    _tipSub?.cancel();
     _trackingService.dispose();
     super.dispose();
   }

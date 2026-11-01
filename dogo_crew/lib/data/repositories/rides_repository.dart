@@ -1,5 +1,7 @@
+import 'dart:convert';
 import 'dart:math';
 import 'package:latlong2/latlong.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../models/ride_model.dart';
 import '../models/wallet_transaction_model.dart';
 import '../services/location_service.dart';
@@ -154,8 +156,14 @@ class RidesRepository {
     ),
   ];
 
+  static const String _keyWalletBalance = 'dogo_wallet_balance_v1';
+  static const String _keyTransactions = 'dogo_wallet_txs_v1';
+  static const String _keySettledTrips = 'dogo_settled_trips_v1';
+
   int _walletBalance = 184500;
   int get walletBalance => _walletBalance;
+  bool _walletInitialized = false;
+  final Set<String> _settledTripCodes = {};
 
   final List<WalletTransactionModel> _transactions = [
     WalletTransactionModel(
@@ -200,6 +208,53 @@ class RidesRepository {
 
   List<WalletTransactionModel> get walletTransactions => List.unmodifiable(_transactions);
 
+  /// Initializes passenger wallet from local persistent storage (SharedPreferences)
+  Future<void> initWallet() async {
+    if (_walletInitialized) return;
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      if (prefs.containsKey(_keyWalletBalance)) {
+        _walletBalance = prefs.getInt(_keyWalletBalance) ?? 184500;
+      } else {
+        await prefs.setInt(_keyWalletBalance, _walletBalance);
+      }
+
+      final savedTxs = prefs.getStringList(_keyTransactions);
+      if (savedTxs != null && savedTxs.isNotEmpty) {
+        _transactions.clear();
+        for (final raw in savedTxs) {
+          try {
+            final map = jsonDecode(raw) as Map<String, dynamic>;
+            _transactions.add(WalletTransactionModel.fromJson(map));
+          } catch (_) {}
+        }
+      } else {
+        await _saveTransactionsToStorage(prefs);
+      }
+
+      final settledList = prefs.getStringList(_keySettledTrips);
+      if (settledList != null) {
+        _settledTripCodes.addAll(settledList);
+      }
+    } catch (_) {}
+    _walletInitialized = true;
+  }
+
+  Future<void> _saveWalletToStorage() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setInt(_keyWalletBalance, _walletBalance);
+      await _saveTransactionsToStorage(prefs);
+    } catch (_) {}
+  }
+
+  Future<void> _saveTransactionsToStorage(SharedPreferences prefs) async {
+    try {
+      final list = _transactions.map((tx) => jsonEncode(tx.toJson())).toList();
+      await prefs.setStringList(_keyTransactions, list);
+    } catch (_) {}
+  }
+
   bool fundWallet(int amount, String method) {
     if (amount <= 0) return false;
     _walletBalance += amount;
@@ -217,6 +272,7 @@ class RidesRepository {
         type: WalletTransactionType.topup,
       ),
     );
+    _saveWalletToStorage();
     return true;
   }
 
@@ -242,6 +298,85 @@ class RidesRepository {
         tripCode: tripCode,
         type: type,
       ),
+    );
+    _saveWalletToStorage();
+    return true;
+  }
+
+  /// Automatically executes trip fare settlement when a trip completes.
+  /// If paid via DOGO Wallet, deducts the fare if not already deducted and logs the transaction.
+  Future<bool> settleTripFare({
+    required String tripCode,
+    required int fare,
+    required String paymentMethod,
+    required String routeTitle,
+  }) async {
+    if (_settledTripCodes.contains(tripCode)) {
+      return true; // Idempotent: already settled
+    }
+
+    _settledTripCodes.add(tripCode);
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setStringList(_keySettledTrips, _settledTripCodes.toList());
+    } catch (_) {}
+
+    final isWallet = paymentMethod.toLowerCase().contains('wallet');
+    final alreadyDeducted = _transactions.any((tx) => tx.tripCode == tripCode && !tx.isCredit);
+
+    if (isWallet && !alreadyDeducted) {
+      _walletBalance = max(0, _walletBalance - fare);
+      final random = Random();
+      final txId = 'TX-${1000 + random.nextInt(9000)}';
+      _transactions.insert(
+        0,
+        WalletTransactionModel(
+          id: txId,
+          title: 'Trip Settlement: $routeTitle',
+          amount: fare,
+          isCredit: false,
+          timestamp: DateTime.now(),
+          method: 'DOGO Wallet',
+          tripCode: tripCode,
+          type: WalletTransactionType.ride,
+        ),
+      );
+      await _saveWalletToStorage();
+    }
+    return true;
+  }
+
+  /// Passenger tips driver in real-time. Debits passenger wallet and broadcasts to driver over Supabase.
+  Future<bool> tipDriver({
+    required String tripCode,
+    required int amount,
+    required String driverName,
+    String passengerName = 'Salim Bello',
+  }) async {
+    if (amount <= 0 || _walletBalance < amount) return false;
+    _walletBalance -= amount;
+    final random = Random();
+    final txId = 'TX-${1000 + random.nextInt(9000)}';
+    _transactions.insert(
+      0,
+      WalletTransactionModel(
+        id: txId,
+        title: 'Tip to Captain $driverName ($tripCode)',
+        amount: amount,
+        isCredit: false,
+        timestamp: DateTime.now(),
+        method: 'DOGO Wallet',
+        tripCode: tripCode,
+        type: WalletTransactionType.tip,
+      ),
+    );
+    await _saveWalletToStorage();
+
+    // Broadcast tip in real-time to driver's device
+    await dispatchService.broadcastTip(
+      rideCode: tripCode,
+      tipAmount: amount,
+      passengerName: passengerName,
     );
     return true;
   }

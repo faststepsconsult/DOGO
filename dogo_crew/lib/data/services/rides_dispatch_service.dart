@@ -148,5 +148,97 @@ class RidesDispatchService {
       return false;
     }
   }
+
+  /// Broadcasts real-time financial settlement event when driver completes a trip
+  Future<void> broadcastSettlement({
+    required String rideCode,
+    required int totalFare,
+    required int driverEarnings,
+    required int platformCommission,
+    required String paymentMethod,
+    required String driverName,
+  }) async {
+    try {
+      final channel = _client.channel('settlement_$rideCode');
+      await channel.sendBroadcastMessage(
+        event: 'trip_settled',
+        payload: {
+          'trip_code': rideCode,
+          'total_fare': totalFare,
+          'driver_earnings': driverEarnings,
+          'platform_commission': platformCommission,
+          'payment_method': paymentMethod,
+          'driver_name': driverName,
+          'settled_at': DateTime.now().toIso8601String(),
+        },
+      );
+    } catch (_) {}
+  }
+
+  /// Streams real-time financial settlement events for a specific trip
+  Stream<Map<String, dynamic>> streamSettlement(String rideCode) {
+    late StreamController<Map<String, dynamic>> controller;
+    RealtimeChannel? channel;
+
+    controller = StreamController<Map<String, dynamic>>.broadcast(
+      onListen: () {
+        channel = _client.channel('settlement_$rideCode');
+        channel?.onBroadcast(
+          event: 'trip_settled',
+          callback: (payload) {
+            controller.add(payload);
+          },
+        ).subscribe();
+      },
+      onCancel: () {
+        channel?.unsubscribe();
+      },
+    );
+
+    return controller.stream;
+  }
+
+  /// Broadcasts a passenger tip to the driver in real-time
+  Future<void> broadcastTip({
+    required String rideCode,
+    required int tipAmount,
+    required String passengerName,
+  }) async {
+    try {
+      final channel = _client.channel('settlement_$rideCode');
+      await channel.sendBroadcastMessage(
+        event: 'tip_received',
+        payload: {
+          'trip_code': rideCode,
+          'tip_amount': tipAmount,
+          'passenger_name': passengerName,
+          'timestamp': DateTime.now().toIso8601String(),
+        },
+      );
+    } catch (_) {}
+  }
+
+  /// Driver listens for incoming real-time tips during or after trip
+  Stream<Map<String, dynamic>> streamTip(String rideCode) {
+    late StreamController<Map<String, dynamic>> controller;
+    RealtimeChannel? channel;
+
+    controller = StreamController<Map<String, dynamic>>.broadcast(
+      onListen: () {
+        channel = _client.channel('settlement_$rideCode');
+        channel?.onBroadcast(
+          event: 'tip_received',
+          callback: (payload) {
+            controller.add(payload);
+          },
+        ).subscribe();
+      },
+      onCancel: () {
+        channel?.unsubscribe();
+      },
+    );
+
+    return controller.stream;
+  }
 }
 
