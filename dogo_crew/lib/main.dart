@@ -8,6 +8,7 @@ import 'data/repositories/chat_repository.dart';
 import 'data/repositories/crew_repository.dart';
 import 'data/repositories/trip_repository.dart';
 import 'data/repositories/verification_repository.dart';
+import 'data/services/audio_cues_service.dart';
 import 'data/services/supabase_service.dart';
 import 'data/repositories/rides_repository.dart';
 import 'ui/features/rides/view_models/rides_view_model.dart';
@@ -23,6 +24,13 @@ void main() async {
     await SupabaseService.initialize();
   } catch (e) {
     debugPrint('Supabase initialization error: $e');
+  }
+
+  // Initialize Audio & Sound Cues Service
+  try {
+    await AudioCuesService.instance.init();
+  } catch (e) {
+    debugPrint('Audio service initialization error: $e');
   }
 
   runApp(const DogoCrewApp());

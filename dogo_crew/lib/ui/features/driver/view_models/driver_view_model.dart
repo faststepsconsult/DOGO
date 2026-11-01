@@ -7,6 +7,7 @@ import 'package:intl/intl.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../../../data/models/ride_model.dart';
+import '../../../../data/services/audio_cues_service.dart';
 import '../../../../data/services/driver_tracking_service.dart';
 import '../../../../data/services/location_service.dart';
 import '../../../../data/services/rides_dispatch_service.dart';
@@ -332,6 +333,13 @@ class DriverViewModel extends ChangeNotifier {
   bool get pinVerified => _pinVerified;
   String? get sessionMessage => _sessionMessage;
 
+  bool get soundEnabled => AudioCuesService.instance.soundEnabled;
+
+  Future<void> toggleSound() async {
+    await AudioCuesService.instance.toggleSound();
+    notifyListeners();
+  }
+
   void clearSessionMessage() {
     _sessionMessage = null;
     notifyListeners();
@@ -455,9 +463,7 @@ class DriverViewModel extends ChangeNotifier {
         });
       }
     } else if (_session == DriverSession.request) {
-      try {
-        HapticFeedback.vibrate();
-      } catch (_) {}
+      AudioCuesService.instance.startIncomingRideAlert();
       _secondsLeft = requestDurationSeconds;
       _requestCountdownTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
         if (_secondsLeft > 1) {
@@ -547,9 +553,7 @@ class DriverViewModel extends ChangeNotifier {
           _completedTrips.first.tip += tipAmount;
         }
         _saveDriverFinancials();
-        try {
-          HapticFeedback.heavyImpact();
-        } catch (_) {}
+        AudioCuesService.instance.playTipReceived();
         _sessionMessage = '🎉 Received ₦${NumberFormat('#,###').format(tipAmount)} tip from $passengerName!';
         notifyListeners();
       }
@@ -585,9 +589,7 @@ class DriverViewModel extends ChangeNotifier {
   }
 
   Future<void> startTrip() async {
-    try {
-      HapticFeedback.lightImpact();
-    } catch (_) {}
+    AudioCuesService.instance.playTripStarted();
     _cleanTimers();
     _session = DriverSession.onTrip;
     notifyListeners();
@@ -664,9 +666,7 @@ class DriverViewModel extends ChangeNotifier {
   }
 
   Future<void> completeTrip() async {
-    try {
-      HapticFeedback.heavyImpact();
-    } catch (_) {}
+    AudioCuesService.instance.playTripCompleted();
     _cleanTimers();
     final req = currentRequest;
     final payout = req.driverPayout;
@@ -735,6 +735,7 @@ class DriverViewModel extends ChangeNotifier {
   }
 
   void _cleanTimers() {
+    AudioCuesService.instance.stopIncomingRideAlert();
     _requestCountdownTimer?.cancel();
     _requestCountdownTimer = null;
     _requestCheckTimer?.cancel();

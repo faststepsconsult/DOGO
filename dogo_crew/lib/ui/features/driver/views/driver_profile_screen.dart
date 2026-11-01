@@ -283,6 +283,13 @@ class DriverProfileScreen extends StatelessWidget {
                     ),
                     const Divider(color: Color(0x14FFFFFF), height: 1, indent: 52),
                     _buildRow(
+                      icon: driverVm.soundEnabled ? Icons.volume_up_outlined : Icons.volume_off_outlined,
+                      label: 'Audible Ride Alerts & Cues',
+                      value: driverVm.soundEnabled ? 'Enabled' : 'Muted',
+                      onTap: () => driverVm.toggleSound(),
+                    ),
+                    const Divider(color: Color(0x14FFFFFF), height: 1, indent: 52),
+                    _buildRow(
                       icon: Icons.people_alt_outlined,
                       label: 'Switch Persona (Testing)',
                       value: driverName.split(' ').first,

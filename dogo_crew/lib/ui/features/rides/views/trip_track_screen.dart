@@ -8,6 +8,7 @@ import 'package:latlong2/latlong.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../../../../data/services/audio_cues_service.dart';
 import '../../../../data/services/driver_tracking_service.dart';
 import '../../../../data/services/trip_chat_service.dart';
 import '../../../core/widgets/osm_map_widget.dart';
@@ -220,17 +221,11 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
     final isCancelled = ride.status == 'cancelled';
     if (_previousStatus != null && _previousStatus != ride.status) {
       if (ride.status == 'at_pickup') {
-        try {
-          HapticFeedback.vibrate();
-        } catch (_) {}
-      } else if (ride.status == 'completed') {
-        try {
-          HapticFeedback.heavyImpact();
-        } catch (_) {}
+        AudioCuesService.instance.playDriverArrived();
+      } else if (ride.status == 'completed' || ride.status == 'delivered') {
+        AudioCuesService.instance.playTripCompleted();
       } else if (ride.status == 'accepted' || ride.status == 'confirmed' || ride.status == 'to_pickup') {
-        try {
-          HapticFeedback.mediumImpact();
-        } catch (_) {}
+        AudioCuesService.instance.playDriverMatched();
       }
     }
     _previousStatus = ride.status;

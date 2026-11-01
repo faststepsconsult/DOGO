@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import '../../../../data/repositories/auth_repository.dart';
+import '../../../../data/services/audio_cues_service.dart';
 import '../../auth/view_models/auth_view_model.dart';
 import '../widgets/rides_bottom_nav_bar.dart';
 import '../widgets/rides_header_widget.dart';
@@ -294,6 +295,25 @@ class _AccountScreenState extends State<AccountScreen> {
                             const Color(0xFF60A5FA),
                           ),
                           onTap: () => _showTestingPersonaPicker(context, authVm),
+                        ),
+                        const Divider(color: Color(0x14FFFFFF), height: 1, indent: 42),
+
+                        // Ride Audio Cues & Sound Alerts
+                        _buildMenuTile(
+                          icon: AudioCuesService.instance.soundEnabled
+                              ? Icons.volume_up_outlined
+                              : Icons.volume_off_outlined,
+                          title: 'Audio Alerts & Sound Cues',
+                          trailing: _buildStatusPill(
+                            AudioCuesService.instance.soundEnabled ? 'Enabled' : 'Muted',
+                            AudioCuesService.instance.soundEnabled
+                                ? const Color(0xFF10B981)
+                                : const Color(0xFFEF4444),
+                          ),
+                          onTap: () async {
+                            await AudioCuesService.instance.toggleSound();
+                            setState(() {});
+                          },
                         ),
                         const Divider(color: Color(0x14FFFFFF), height: 1, indent: 42),
 

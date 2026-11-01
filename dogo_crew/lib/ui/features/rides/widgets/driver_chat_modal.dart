@@ -6,6 +6,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../data/models/ride_model.dart';
 import '../../../../data/models/trip_message_model.dart';
+import '../../../../data/services/audio_cues_service.dart';
 import '../../../../data/services/trip_chat_service.dart';
 
 class DriverChatModal extends StatefulWidget {
@@ -109,9 +110,17 @@ class _DriverChatModalState extends State<DriverChatModal> {
     super.initState();
     _chatService.setModalOpen(widget.tripCode, true, _currentRole);
     _messages = _chatService.getMessages(widget.tripCode);
+    int previousCount = _messages.length;
 
     _messagesSub = _chatService.streamMessages(widget.tripCode).listen((list) {
       if (mounted) {
+        if (list.length > previousCount) {
+          final last = list.last;
+          if (last.senderKind != _currentRole) {
+            AudioCuesService.instance.playChatMessage();
+          }
+        }
+        previousCount = list.length;
         setState(() {
           _messages = list;
         });

@@ -114,6 +114,31 @@ class DriverHomeScreen extends StatelessWidget {
                     ),
                   ),
 
+                  // Sound / Audio Alerts Toggle
+                  InkWell(
+                    onTap: () => driverVm.toggleSound(),
+                    borderRadius: BorderRadius.circular(24),
+                    child: Container(
+                      width: 42,
+                      height: 42,
+                      decoration: BoxDecoration(
+                        color: driverVm.soundEnabled ? const Color(0xFF141722) : const Color(0x33EF4444),
+                        shape: BoxShape.circle,
+                        border: Border.all(
+                          color: driverVm.soundEnabled ? const Color(0x33FFFFFF) : const Color(0x88EF4444),
+                        ),
+                        boxShadow: const [
+                          BoxShadow(color: Colors.black45, blurRadius: 10, offset: Offset(0, 4)),
+                        ],
+                      ),
+                      child: Icon(
+                        driverVm.soundEnabled ? Icons.volume_up_rounded : Icons.volume_off_rounded,
+                        size: 20,
+                        color: driverVm.soundEnabled ? const Color(0xFF10B981) : const Color(0xFFEF4444),
+                      ),
+                    ),
+                  ),
+
                   // Profile Icon Shortcut
                   InkWell(
                     onTap: () => context.go('/crew-profile'),
