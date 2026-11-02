@@ -30,3 +30,4 @@ class GoogleMapsConfig {
   /// so the screen is NEVER blank beige.
   static bool get shouldUseGoogleMaps => hasValidKey || forceGoogleMaps;
 }
+

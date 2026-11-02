@@ -3,7 +3,7 @@ import 'package:latlong2/latlong.dart';
 import 'package:provider/provider.dart';
 
 import '../../../../data/services/location_service.dart';
-import '../../../core/widgets/dogo_google_map_widget.dart';
+import '../../../core/widgets/osm_map_widget.dart';
 import '../view_models/driver_view_model.dart';
 
 class DriverMapWidget extends StatelessWidget {
@@ -36,15 +36,13 @@ class DriverMapWidget extends StatelessWidget {
             ? const LatLng(6.5898, 3.3556)
             : (session == DriverSession.onTrip ? pickup : centerPos));
 
-    return DogoGoogleMapWidget(
+    return OsmMapWidget(
       height: double.infinity,
       pickup: isTripActive ? pickup : centerPos,
       dropoff: isTripActive ? dropoff : centerPos,
       driverPosition: driverPos,
       driverHeading: driverVm.currentDriverHeading,
       vehicleType: 'taxi',
-      pickupTitle: isTripActive ? 'Pickup: ${request.pickupName}' : 'Current Station',
-      dropoffTitle: isTripActive ? 'Dropoff: ${request.dropoffName}' : 'Waiting Area',
       showControls: true,
       isInteractive: true,
     );
