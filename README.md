@@ -71,7 +71,7 @@ DOGO/
 - **Mobile Framework**: [Flutter](https://flutter.dev/) 3.x (Dart 3.x)
 - **State Management**: `provider` (MVVM architecture)
 - **Navigation & Routing**: `go_router`
-- **Mapping & Geolocation**: `flutter_map` (OSM tiles with custom night filter), `latlong2`, `geolocator`, `geocoding`
+- **Mapping & Geolocation**: `google_maps_flutter` (Native 60fps Google Maps SDK with custom DOGO obsidian dark styling), `latlong2`, `geolocator`, `geocoding`
 - **Web Portals**: React, Vite, Tailwind CSS, Supabase
 - **UI & Typography**: Google Fonts (`Sora` for headings, `Manrope` for body)
 
@@ -111,25 +111,32 @@ DOGO/
 
 ---
 
-## 🗺️ Switching to Google Maps Directions API
+## 🗺️ Google Maps SDK & Cost-Optimized Live Tracking Architecture
 
-When ready to switch the polyline routing from OSRM to Google Maps:
+DOGO employs an enterprise-grade hybrid mapping architecture designed to maximize map fluidity while eliminating costly, repetitive Google Maps API charges during active transit:
 
-1. Open `dogo_crew/lib/data/services/road_routing_service.dart`.
-2. Provide your Google Maps API key:
-   ```dart
-   static const String googleMapsApiKey = 'YOUR_GOOGLE_MAPS_API_KEY';
+### 1. Zero-Cost Continuous Driver Tracking
+- **Native Device GPS**: The captain's mobile device reads GPS coordinates via the high-accuracy `geolocator` plugin.
+- **Supabase Realtime Stream**: Location updates are distributed in milliseconds over Supabase Realtime broadcast channels (`tracking_<rideCode>`).
+- **Zero API Invocations on Location Ticks**: Location ticks (e.g., every 5 seconds) update the native Google Maps `Marker` position and compass heading rotation in memory. **No Directions or Routes API calls are made on continuous location updates.**
+
+### 2. High-Performance Native Google Maps SDK
+- **Native 60fps Vector Rendering**: Powered by `google_maps_flutter` with an obsidian dark theme (`#0D0F14` / `#12151D`) tailored to DOGO branding.
+- **Custom Hardware-Accelerated Badges**: Directional vehicle markers with live heading rotation for Taxis, Kekes, and Bikes.
+- **One-Shot Route Calculation**: Route polylines are calculated **once** upon trip acceptance via `RoadRoutingService.getDrivingRoute()` and cached in memory.
+
+### 3. Configuring Your Google Maps Platform Keys
+1. **Android**: In `dogo_crew/android/app/src/main/AndroidManifest.xml`, update the meta-data value:
+   ```xml
+   <meta-data
+       android:name="com.google.android.geo.API_KEY"
+       android:value="YOUR_GOOGLE_MAPS_API_KEY" />
    ```
-3. Update the request URL in `getDrivingRoute()`:
+2. **Google Routes / Directions**: In `dogo_crew/lib/data/services/road_routing_service.dart`:
    ```dart
-   final url = Uri.parse(
-     'https://maps.googleapis.com/maps/api/directions/json?'
-     'origin=${start.latitude},${start.longitude}'
-     '&destination=${end.latitude},${end.longitude}'
-     '&key=$googleMapsApiKey'
-   );
+   RoadRoutingService.googleMapsApiKey = 'YOUR_GOOGLE_MAPS_API_KEY';
    ```
-4. All map rendering (`OsmMapWidget`) and driver movements (`DriverViewModel`) automatically adapt with no UI refactoring needed.
+   *(If left unconfigured, DOGO automatically utilizes the built-in free OSRM engine with zero disruption).*
 
 ---
 

@@ -22,12 +22,17 @@ class RoadRouteResult {
 /// Service that retrieves real road routing polylines following actual streets,
 /// bridges, and highways.
 ///
-/// Currently powered by OSRM (Open Source Routing Machine) which is 100% free
-/// and requires no API key or billing setup.
+/// Service that retrieves real road routing polylines following actual streets,
+/// bridges, and highways.
 ///
-/// Designed to easily swap to Google Maps Directions API in the future:
-/// simply change [_fetchFromGoogleMapsDirections] with your Google Maps API key.
+/// Supports Google Maps Directions / Routes API when [googleMapsApiKey] is configured,
+/// with automatic high-speed OSRM fallback and offline organic smoothing.
 class RoadRoutingService {
+  /// Optional Google Maps Directions / Routes API Key.
+  /// When populated, requests route polylines via Google Maps Platform.
+  /// If null or empty, defaults to OSRM (100% free, zero cost).
+  static String? googleMapsApiKey;
+
   static final Map<String, RoadRouteResult> _cache = {};
 
   static String _cacheKey(LatLng start, LatLng end) {
@@ -36,6 +41,10 @@ class RoadRoutingService {
   }
 
   /// Calculates real road driving route between [start] and [end].
+  ///
+  /// CRITICAL EFFICIENCY RULE:
+  /// Routes are cached in memory. Continuous driver tracking NEVER calls this
+  /// function on live GPS ticks.
   static Future<RoadRouteResult> getDrivingRoute(LatLng start, LatLng end) async {
     // If start and end are identical or very close (< 20 meters), return single point
     final directDist = LocationService.calculateDistanceKm(start, end);
@@ -53,6 +62,20 @@ class RoadRoutingService {
       return _cache[key]!;
     }
 
+    // 1. If Google Maps API Key is provided, try Google Directions API
+    if (googleMapsApiKey != null && googleMapsApiKey!.trim().isNotEmpty) {
+      try {
+        final googleRoute = await _fetchFromGoogleDirections(start, end, googleMapsApiKey!.trim());
+        if (googleRoute != null) {
+          _cache[key] = googleRoute;
+          return googleRoute;
+        }
+      } catch (_) {
+        // Fall through to OSRM on failure
+      }
+    }
+
+    // 2. High-speed OSRM engine
     try {
       final client = HttpClient();
       client.connectionTimeout = const Duration(seconds: 4);
@@ -108,10 +131,97 @@ class RoadRoutingService {
       // In case of timeout or offline, fall back gracefully
     }
 
-    // Fallback: smooth interpolated curved path
+    // 3. Fallback: smooth interpolated curved path
     final fallback = _generateFallbackRoute(start, end);
     _cache[key] = fallback;
     return fallback;
+  }
+
+  /// Fetches real road polylines from Google Maps Directions API
+  static Future<RoadRouteResult?> _fetchFromGoogleDirections(
+    LatLng start,
+    LatLng end,
+    String apiKey,
+  ) async {
+    final client = HttpClient();
+    client.connectionTimeout = const Duration(seconds: 5);
+
+    final url = Uri.parse(
+      'https://maps.googleapis.com/maps/api/directions/json?'
+      'origin=${start.latitude},${start.longitude}'
+      '&destination=${end.latitude},${end.longitude}'
+      '&mode=driving'
+      '&key=$apiKey',
+    );
+
+    final req = await client.getUrl(url);
+    final resp = await req.close().timeout(const Duration(seconds: 5));
+
+    if (resp.statusCode == 200) {
+      final body = await resp.transform(utf8.decoder).join();
+      final json = jsonDecode(body) as Map<String, dynamic>;
+
+      if (json['status'] == 'OK' &&
+          json['routes'] != null &&
+          (json['routes'] as List).isNotEmpty) {
+        final route = json['routes'][0] as Map<String, dynamic>;
+        final overview = route['overview_polyline']?['points'] as String?;
+
+        if (overview != null && overview.isNotEmpty) {
+          final polylinePoints = _decodeGooglePolyline(overview);
+          final legs = route['legs'] as List<dynamic>?;
+          double distMeters = 0;
+          int durationSecs = 0;
+
+          if (legs != null && legs.isNotEmpty) {
+            final leg = legs[0] as Map<String, dynamic>;
+            distMeters = (leg['distance']?['value'] as num?)?.toDouble() ?? 0.0;
+            durationSecs = (leg['duration']?['value'] as num?)?.toInt() ?? 0;
+          }
+
+          client.close();
+          return RoadRouteResult(
+            coordinates: polylinePoints,
+            distanceKm: (distMeters / 1000 * 10).round() / 10,
+            durationMinutes: math.max(1, (durationSecs / 60).round()),
+            isRealRoad: true,
+          );
+        }
+      }
+    }
+    client.close();
+    return null;
+  }
+
+  /// Decodes a Google Maps encoded polyline string into coordinates
+  static List<LatLng> _decodeGooglePolyline(String encoded) {
+    final poly = <LatLng>[];
+    int index = 0, len = encoded.length;
+    int lat = 0, lng = 0;
+
+    while (index < len) {
+      int b, shift = 0, result = 0;
+      do {
+        b = encoded.codeUnitAt(index++) - 63;
+        result |= (b & 0x1f) << shift;
+        shift += 5;
+      } while (b >= 0x20);
+      int dlat = ((result & 1) != 0 ? ~(result >> 1) : (result >> 1));
+      lat += dlat;
+
+      shift = 0;
+      result = 0;
+      do {
+        b = encoded.codeUnitAt(index++) - 63;
+        result |= (b & 0x1f) << shift;
+        shift += 5;
+      } while (b >= 0x20);
+      int dlng = ((result & 1) != 0 ? ~(result >> 1) : (result >> 1));
+      lng += dlng;
+
+      poly.add(LatLng(lat / 1E5, lng / 1E5));
+    }
+    return poly;
   }
 
   /// Calculates driving route through multiple waypoints (e.g. Driver -> Pickup -> Dropoff)

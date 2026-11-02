@@ -11,7 +11,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../../../data/services/audio_cues_service.dart';
 import '../../../../data/services/driver_tracking_service.dart';
 import '../../../../data/services/trip_chat_service.dart';
-import '../../../core/widgets/osm_map_widget.dart';
+import '../../../core/widgets/dogo_google_map_widget.dart';
 import '../view_models/rides_view_model.dart';
 import '../widgets/cancel_ride_modal.dart';
 import '../widgets/driver_chat_modal.dart';
@@ -277,16 +277,18 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
 
                       const SizedBox(height: 8),
 
-                      // 1. Top Map Card with Trip Code & Status Pill
+                      // 1. Top Map Card with Trip Code & Status Pill (Google Maps SDK Engine)
                       Stack(
                         children: [
-                          OsmMapWidget(
+                          DogoGoogleMapWidget(
                             height: 270,
                             pickup: pickupCoord,
                             dropoff: dropoffCoord,
                             driverPosition: currentDriverPos,
                             driverHeading: _liveDriverHeading,
                             vehicleType: ride.vehicleId,
+                            pickupTitle: 'Pickup: ${ride.pickup}',
+                            dropoffTitle: 'Destination: ${ride.dropoff}',
                           ),
                           Positioned(
                             top: 16,
