@@ -269,15 +269,7 @@ class _AccountScreenState extends State<AccountScreen> {
                         ),
                         const Divider(color: Color(0x14FFFFFF), height: 1, indent: 42),
 
-                        // 2. Identity Verification
-                        _buildMenuTile(
-                          icon: Icons.verified_user_outlined,
-                          title: 'Identity Verification',
-                          onTap: () => context.go('/verify'),
-                        ),
-                        const Divider(color: Color(0x14FFFFFF), height: 1, indent: 42),
-
-                        // 3. Driver Clearance (Earn with DOGO)
+                        // 2. Driver Clearance (Earn with DOGO)
                         _buildMenuTile(
                           icon: Icons.badge_outlined,
                           title: 'Earn with DOGO (Driver Clearance)',
