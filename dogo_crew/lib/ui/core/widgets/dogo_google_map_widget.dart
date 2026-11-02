@@ -1,14 +1,17 @@
 import 'dart:async';
 import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart' as gmaps;
 import 'package:latlong2/latlong.dart' as latlong;
 
+import '../../../../data/services/google_maps_config.dart';
 import '../../../../data/services/road_routing_service.dart';
+import 'osm_map_widget.dart';
 
-/// DOGO Dark Mode map style JSON conforming to Google Maps Platform styling standards.
-/// Uses deep obsidian background (#0D0F14 / #12151D) with subdued road networks
-/// and high-contrast electric blue water/transit accents.
+// / DOGO Dark Mode map style JSON conforming to Google Maps Platform styling standards.
+// / Uses deep obsidian background (#0D0F14 / #12151D) with subdued road networks
+// / and high-contrast electric blue water/transit accents.
 const String dogoDarkMapStyle = '''
 [
   {
@@ -528,6 +531,53 @@ class _DogoGoogleMapWidgetState extends State<DogoGoogleMapWidget> {
 
   @override
   Widget build(BuildContext context) {
+    if (!GoogleMapsConfig.shouldUseGoogleMaps) {
+      return Stack(
+        children: [
+          OsmMapWidget(
+            pickup: widget.pickup,
+            dropoff: widget.dropoff,
+            driverPosition: widget.driverPosition,
+            driverHeading: widget.driverHeading,
+            vehicleType: widget.vehicleType,
+            height: widget.height,
+            showControls: widget.showControls,
+            isInteractive: widget.isInteractive,
+          ),
+          Positioned(
+            top: 12,
+            left: 12,
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4.5),
+              decoration: BoxDecoration(
+                color: const Color(0xE6141722),
+                borderRadius: BorderRadius.circular(16),
+                border: Border.all(color: const Color(0x4460A5FA)),
+                boxShadow: const [
+                  BoxShadow(color: Colors.black45, blurRadius: 4, offset: Offset(0, 2)),
+                ],
+              ),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const Icon(Icons.shield_outlined, size: 12, color: Color(0xFF60A5FA)),
+                  const SizedBox(width: 5),
+                  Text(
+                    'OSM Engine Active • Set Google Key in AndroidManifest.xml',
+                    style: GoogleFonts.manrope(
+                      fontSize: 10,
+                      fontWeight: FontWeight.w600,
+                      color: const Color(0xFF93C5FD),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      );
+    }
+
     final initialPos = widget.driverPosition ?? widget.pickup;
 
     return ClipRRect(

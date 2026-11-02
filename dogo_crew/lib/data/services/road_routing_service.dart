@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math' as math;
 import 'package:latlong2/latlong.dart';
+import 'google_maps_config.dart';
 import 'location_service.dart';
 
 class RoadRouteResult {
@@ -63,9 +64,13 @@ class RoadRoutingService {
     }
 
     // 1. If Google Maps API Key is provided, try Google Directions API
-    if (googleMapsApiKey != null && googleMapsApiKey!.trim().isNotEmpty) {
+    final activeKey = (googleMapsApiKey != null && googleMapsApiKey!.trim().isNotEmpty)
+        ? googleMapsApiKey!.trim()
+        : (GoogleMapsConfig.hasValidKey ? GoogleMapsConfig.apiKey.trim() : null);
+
+    if (activeKey != null && activeKey.isNotEmpty) {
       try {
-        final googleRoute = await _fetchFromGoogleDirections(start, end, googleMapsApiKey!.trim());
+        final googleRoute = await _fetchFromGoogleDirections(start, end, activeKey);
         if (googleRoute != null) {
           _cache[key] = googleRoute;
           return googleRoute;

@@ -3,18 +3,23 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:geolocator/geolocator.dart';
 import 'package:latlong2/latlong.dart';
+import 'google_maps_config.dart';
 
 class LocationPlace {
   final String title;
   final String subtitle;
   final LatLng coordinates;
   final bool isGps;
+  final String? placeId;
+  final bool isGooglePlace;
 
   const LocationPlace({
     required this.title,
     required this.subtitle,
     required this.coordinates,
     this.isGps = false,
+    this.placeId,
+    this.isGooglePlace = false,
   });
 
   String get displayName => subtitle.isNotEmpty ? '$title, $subtitle' : title;
@@ -246,9 +251,69 @@ class LocationService {
     return defaultLocation;
   }
 
+  static final Map<String, LatLng> _placeDetailsCache = {};
+
   /// Reverse geocode GPS coordinates to a human-readable Nigerian place name
   static Future<LocationPlace> reverseGeocode(LatLng pos) async {
-    // 1. Try Nominatim reverse API with 3.5s timeout
+    // 1. Try Google Geocoding API if key configured
+    if (GoogleMapsConfig.hasValidKey) {
+      try {
+        final client = HttpClient();
+        client.connectionTimeout = const Duration(seconds: 4);
+        final url = Uri.parse(
+          'https://maps.googleapis.com/maps/api/geocode/json?'
+          'latlng=${pos.latitude},${pos.longitude}&key=${GoogleMapsConfig.apiKey}',
+        );
+        final req = await client.getUrl(url);
+        final resp = await req.close().timeout(const Duration(seconds: 4));
+
+        if (resp.statusCode == 200) {
+          final body = await resp.transform(utf8.decoder).join();
+          final json = jsonDecode(body) as Map<String, dynamic>;
+
+          if (json['status'] == 'OK' &&
+              json['results'] != null &&
+              (json['results'] as List).isNotEmpty) {
+            final first = json['results'][0] as Map<String, dynamic>;
+            final formatted = first['formatted_address'] as String? ?? 'Current Location';
+            final components = first['address_components'] as List<dynamic>? ?? [];
+
+            String title = '';
+            String subtitle = 'Nigeria';
+
+            for (final comp in components) {
+              final types = (comp['types'] as List<dynamic>?) ?? [];
+              if (types.contains('point_of_interest') ||
+                  types.contains('establishment') ||
+                  types.contains('route') ||
+                  types.contains('neighborhood') ||
+                  types.contains('sublocality')) {
+                if (title.isEmpty) title = comp['long_name']?.toString() ?? '';
+              }
+              if (types.contains('administrative_area_level_1') || types.contains('locality')) {
+                subtitle = comp['long_name']?.toString() ?? subtitle;
+              }
+            }
+
+            if (title.isEmpty) {
+              title = formatted.split(',').first.trim();
+            }
+
+            client.close();
+            return LocationPlace(
+              title: title,
+              subtitle: subtitle,
+              coordinates: pos,
+              isGps: true,
+              isGooglePlace: true,
+            );
+          }
+        }
+        client.close();
+      } catch (_) {}
+    }
+
+    // 2. Try Nominatim reverse API with 3.5s timeout
     try {
       final client = HttpClient();
       client.connectionTimeout = const Duration(seconds: 3);
@@ -293,7 +358,7 @@ class LocationService {
       // Network or timeout: fallback
     }
 
-    // 2. Offline fallback: find closest predefined place
+    // 3. Offline fallback: find closest predefined place
     LocationPlace? closest;
     double minDistance = double.infinity;
     for (final p in predefinedPlaces) {
@@ -321,7 +386,73 @@ class LocationService {
     );
   }
 
-  /// Search locations with instant local filtering + OpenStreetMap Nominatim
+  /// Resolves the exact LatLng coordinates for a Google Places prediction
+  static Future<LocationPlace> resolvePlaceCoordinates(LocationPlace place) async {
+    if (!place.isGooglePlace || place.placeId == null) {
+      return place;
+    }
+
+    final placeId = place.placeId!;
+    if (_placeDetailsCache.containsKey(placeId)) {
+      return LocationPlace(
+        title: place.title,
+        subtitle: place.subtitle,
+        coordinates: _placeDetailsCache[placeId]!,
+        placeId: placeId,
+        isGooglePlace: true,
+      );
+    }
+
+    if (GoogleMapsConfig.hasValidKey) {
+      try {
+        final client = HttpClient();
+        client.connectionTimeout = const Duration(seconds: 4);
+        final url = Uri.parse(
+          'https://maps.googleapis.com/maps/api/place/details/json?'
+          'place_id=$placeId&fields=geometry,name,formatted_address&key=${GoogleMapsConfig.apiKey}',
+        );
+        final req = await client.getUrl(url);
+        final resp = await req.close().timeout(const Duration(seconds: 4));
+
+        if (resp.statusCode == 200) {
+          final body = await resp.transform(utf8.decoder).join();
+          final json = jsonDecode(body) as Map<String, dynamic>;
+
+          if (json['status'] == 'OK' && json['result'] != null) {
+            final loc = json['result']['geometry']?['location'] as Map<String, dynamic>?;
+            final lat = (loc?['lat'] as num?)?.toDouble();
+            final lng = (loc?['lng'] as num?)?.toDouble();
+
+            if (lat != null && lng != null) {
+              final coord = LatLng(lat, lng);
+              _placeDetailsCache[placeId] = coord;
+              client.close();
+              return LocationPlace(
+                title: place.title,
+                subtitle: place.subtitle,
+                coordinates: coord,
+                placeId: placeId,
+                isGooglePlace: true,
+              );
+            }
+          }
+        }
+        client.close();
+      } catch (_) {}
+    }
+
+    // Fallback: estimate from address text
+    final fallbackCoord = getCoordinates('${place.title} ${place.subtitle}');
+    return LocationPlace(
+      title: place.title,
+      subtitle: place.subtitle,
+      coordinates: fallbackCoord,
+      placeId: placeId,
+      isGooglePlace: true,
+    );
+  }
+
+  /// Search locations with instant local filtering + Google Places Autocomplete + OpenStreetMap Nominatim
   static Future<List<LocationPlace>> searchLocations(String query) async {
     final cleanQuery = query.trim().toLowerCase();
 
@@ -340,7 +471,62 @@ class LocationService {
       }
     }
 
-    // 2. Query OpenStreetMap Nominatim for Nigeria
+    // 2. Query Google Places Autocomplete API (Restricted to Nigeria: components=country:ng)
+    if (GoogleMapsConfig.hasValidKey) {
+      try {
+        final client = HttpClient();
+        client.connectionTimeout = const Duration(seconds: 4);
+        final url = Uri.parse(
+          'https://maps.googleapis.com/maps/api/place/autocomplete/json?'
+          'input=${Uri.encodeComponent(query)}'
+          '&components=country:ng'
+          '&language=en'
+          '&key=${GoogleMapsConfig.apiKey}',
+        );
+        final req = await client.getUrl(url);
+        final resp = await req.close().timeout(const Duration(seconds: 4));
+
+        if (resp.statusCode == 200) {
+          final body = await resp.transform(utf8.decoder).join();
+          final json = jsonDecode(body) as Map<String, dynamic>;
+
+          if (json['status'] == 'OK' && json['predictions'] != null) {
+            final predictions = json['predictions'] as List<dynamic>;
+
+            for (final item in predictions) {
+              final placeId = item['place_id'] as String?;
+              final formatting = item['structured_formatting'] as Map<String, dynamic>?;
+              final mainText = formatting?['main_text'] as String? ?? item['description'] as String? ?? '';
+              final secondaryText = formatting?['secondary_text'] as String? ?? 'Nigeria';
+
+              if (mainText.isEmpty) continue;
+
+              final googlePlace = LocationPlace(
+                title: mainText,
+                subtitle: secondaryText,
+                coordinates: getCoordinates(mainText),
+                placeId: placeId,
+                isGooglePlace: true,
+              );
+
+              if (!results.any((r) => r.title.toLowerCase() == googlePlace.title.toLowerCase())) {
+                results.add(googlePlace);
+              }
+            }
+
+            if (results.isNotEmpty) {
+              client.close();
+              return results;
+            }
+          }
+        }
+        client.close();
+      } catch (_) {
+        // Fall through to Nominatim
+      }
+    }
+
+    // 3. Query OpenStreetMap Nominatim for Nigeria (Fallback)
     try {
       final client = HttpClient();
       client.connectionTimeout = const Duration(seconds: 3);

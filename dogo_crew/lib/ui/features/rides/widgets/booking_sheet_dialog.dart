@@ -117,14 +117,19 @@ class _BookingSheetDialogState extends State<BookingSheetDialog> {
     });
   }
 
-  void _selectPlace(LocationPlace place, RidesViewModel vm, bool isPickup) {
+  void _selectPlace(LocationPlace place, RidesViewModel vm, bool isPickup) async {
+    LocationPlace targetPlace = place;
+    if (place.isGooglePlace && place.placeId != null) {
+      targetPlace = await LocationService.resolvePlaceCoordinates(place);
+    }
+
     if (isPickup) {
-      vm.setPickup(place.displayName, coord: place.coordinates);
-      _pickupController.text = place.displayName;
+      vm.setPickup(targetPlace.displayName, coord: targetPlace.coordinates);
+      _pickupController.text = targetPlace.displayName;
       _pickupFocusNode.unfocus();
     } else {
-      vm.setDropoff(place.displayName, coord: place.coordinates);
-      _dropoffController.text = place.displayName;
+      vm.setDropoff(targetPlace.displayName, coord: targetPlace.coordinates);
+      _dropoffController.text = targetPlace.displayName;
       _dropoffFocusNode.unfocus();
     }
     setState(() {
@@ -590,21 +595,65 @@ class _BookingSheetDialogState extends State<BookingSheetDialog> {
                           padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                           child: Row(
                             children: [
-                              const Icon(Icons.place_outlined, size: 16, color: Color(0xFF9CA3AF)),
+                              Container(
+                                width: 26,
+                                height: 26,
+                                decoration: BoxDecoration(
+                                  color: place.isGooglePlace
+                                      ? const Color(0x223B82F6)
+                                      : (place.isGps ? const Color(0x2210B981) : const Color(0x12FFFFFF)),
+                                  shape: BoxShape.circle,
+                                ),
+                                alignment: Alignment.center,
+                                child: Icon(
+                                  place.isGps
+                                      ? Icons.my_location_rounded
+                                      : (place.isGooglePlace ? Icons.search_rounded : Icons.place_outlined),
+                                  size: 14,
+                                  color: place.isGooglePlace
+                                      ? const Color(0xFF60A5FA)
+                                      : (place.isGps ? const Color(0xFF10B981) : const Color(0xFF9CA3AF)),
+                                ),
+                              ),
                               const SizedBox(width: 10),
                               Expanded(
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Text(
-                                      place.title,
-                                      style: GoogleFonts.manrope(
-                                        fontSize: 13,
-                                        fontWeight: FontWeight.w600,
-                                        color: Colors.white,
-                                      ),
-                                      maxLines: 1,
-                                      overflow: TextOverflow.ellipsis,
+                                    Row(
+                                      children: [
+                                        Expanded(
+                                          child: Text(
+                                            place.title,
+                                            style: GoogleFonts.manrope(
+                                              fontSize: 13,
+                                              fontWeight: FontWeight.w600,
+                                              color: Colors.white,
+                                            ),
+                                            maxLines: 1,
+                                            overflow: TextOverflow.ellipsis,
+                                          ),
+                                        ),
+                                        if (place.isGooglePlace) ...[
+                                          const SizedBox(width: 6),
+                                          Container(
+                                            padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1.5),
+                                            decoration: BoxDecoration(
+                                              color: const Color(0x223B82F6),
+                                              borderRadius: BorderRadius.circular(4),
+                                              border: Border.all(color: const Color(0x4460A5FA)),
+                                            ),
+                                            child: Text(
+                                              'Google',
+                                              style: GoogleFonts.manrope(
+                                                fontSize: 9,
+                                                fontWeight: FontWeight.w700,
+                                                color: const Color(0xFF93C5FD),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ],
                                     ),
                                     if (place.subtitle.isNotEmpty)
                                       Text(
