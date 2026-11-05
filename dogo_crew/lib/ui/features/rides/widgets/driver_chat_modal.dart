@@ -2,12 +2,13 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../data/models/ride_model.dart';
 import '../../../../data/models/trip_message_model.dart';
 import '../../../../data/services/audio_cues_service.dart';
+import '../../../../data/services/in_app_call_service.dart';
 import '../../../../data/services/trip_chat_service.dart';
+import '../../../core/widgets/in_app_call_modal.dart';
 
 class DriverChatModal extends StatefulWidget {
   final String tripCode;
@@ -200,23 +201,28 @@ class _DriverChatModalState extends State<DriverChatModal> {
       body: clean,
       senderRole: _currentRole,
     );
+    // Mark in-app contact attempted for anti-fraud proof
+    InAppCallService.instance.recordContactAttempt(widget.tripCode);
     _scrollToBottom();
   }
 
   Future<void> _callContact() async {
     final cleanPhone = widget.contactPhone.replaceAll(' ', '');
-    final uri = Uri.parse('tel:$cleanPhone');
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri);
-    } else {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Dialing $cleanPhone...'),
-            behavior: SnackBarBehavior.floating,
-          ),
-        );
-      }
+    final myRole = widget.isDriverMode ? 'driver' : 'passenger';
+    final peerRole = widget.isDriverMode ? 'Passenger' : 'Captain';
+
+    // 1. In-App Data Call (VoIP over Mobile Data - 0 airtime)
+    await InAppCallService.instance.startOutgoingCall(
+      rideCode: widget.tripCode,
+      peerName: widget.contactName,
+      peerRole: peerRole,
+      peerPhone: cleanPhone,
+      myRole: myRole,
+      simulateAnswerForDemo: true,
+    );
+
+    if (mounted) {
+      InAppCallModal.show(context, InAppCallService.instance);
     }
   }
 

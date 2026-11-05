@@ -32,6 +32,12 @@ class AudioCuesService {
   Uint8List? _tripCompletedWav;
   Uint8List? _tipReceivedWav;
   Uint8List? _chatMessageWav;
+  Uint8List? _phoneRingWav;
+  Uint8List? _callConnectedWav;
+  Uint8List? _callEndedWav;
+
+  Timer? _phoneRingLoopTimer;
+  bool _isPhoneRingLooping = false;
 
   Future<void> init() async {
     if (_initialized) return;
@@ -169,6 +175,72 @@ class AudioCuesService {
     try {
       final wav = _chatMessageWav ?? _buildChatMessageWav();
       await _sfxPlayer.play(BytesSource(wav), volume: 0.85);
+    } catch (_) {}
+  }
+
+  /// VoIP Internet Calling: Repeating phone ringtone
+  Future<void> startPhoneRing({bool isIncoming = false}) async {
+    if (_isPhoneRingLooping) return;
+    _isPhoneRingLooping = true;
+
+    void ringPulse() async {
+      if (!_isPhoneRingLooping) return;
+      try {
+        if (isIncoming) {
+          HapticFeedback.vibrate();
+        } else {
+          HapticFeedback.selectionClick();
+        }
+      } catch (_) {}
+
+      if (_soundEnabled) {
+        try {
+          final wav = _phoneRingWav ?? _buildPhoneRingWav(isIncoming: isIncoming);
+          await _sfxPlayer.play(BytesSource(wav), volume: 0.85);
+        } catch (_) {}
+      }
+    }
+
+    ringPulse();
+    _phoneRingLoopTimer?.cancel();
+    _phoneRingLoopTimer = Timer.periodic(const Duration(milliseconds: 2600), (_) {
+      ringPulse();
+    });
+  }
+
+  /// Stops phone ringtone
+  void stopPhoneRing() {
+    _isPhoneRingLooping = false;
+    _phoneRingLoopTimer?.cancel();
+    _phoneRingLoopTimer = null;
+    try {
+      _sfxPlayer.stop();
+    } catch (_) {}
+  }
+
+  /// Pleasant ascending chime when in-app data call connects
+  Future<void> playCallConnected() async {
+    stopPhoneRing();
+    try {
+      HapticFeedback.mediumImpact();
+    } catch (_) {}
+    if (!_soundEnabled) return;
+    try {
+      final wav = _callConnectedWav ?? _buildCallConnectedWav();
+      await _sfxPlayer.play(BytesSource(wav), volume: 0.9);
+    } catch (_) {}
+  }
+
+  /// Descending soft beep when in-app data call ends
+  Future<void> playCallEnded() async {
+    stopPhoneRing();
+    try {
+      HapticFeedback.lightImpact();
+    } catch (_) {}
+    if (!_soundEnabled) return;
+    try {
+      final wav = _callEndedWav ?? _buildCallEndedWav();
+      await _sfxPlayer.play(BytesSource(wav), volume: 0.8);
     } catch (_) {}
   }
 
@@ -350,6 +422,74 @@ class AudioCuesService {
       final env = math.sin(math.pi * progress) * math.exp(-6.0 * progress);
       final wave = math.sin(2 * math.pi * freq * t);
       samples.add(wave * env * 0.85);
+    }
+
+    return _encodeWav(samples, sampleRate: sampleRate);
+  }
+
+  /// VoIP telephone ringing cadence: Dual-tone 440Hz + 480Hz pulses
+  Uint8List _buildPhoneRingWav({bool isIncoming = false}) {
+    const sampleRate = 22050;
+    final samples = <double>[];
+    // Ring tone pulse of 1.2s duration (followed by silence in loop)
+    final durationSec = isIncoming ? 1.4 : 1.2;
+    final totalSamples = (sampleRate * durationSec).round();
+
+    for (var i = 0; i < totalSamples; i++) {
+      final t = i / sampleRate;
+      // Fade in and out gently to avoid clipping clicks
+      double env = 1.0;
+      if (t < 0.05) env = t / 0.05;
+      if (t > (durationSec - 0.05)) env = (durationSec - t) / 0.05;
+
+      // Standard North American / European ringing dual-frequency (440Hz + 480Hz)
+      final wave = 0.5 * math.sin(2 * math.pi * 440.0 * t) +
+          0.5 * math.sin(2 * math.pi * 480.0 * t);
+      samples.add(wave * env * 0.75);
+    }
+
+    return _encodeWav(samples, sampleRate: sampleRate);
+  }
+
+  /// Pleasant ascending two-tone connect chime (523Hz C5 -> 659Hz E5)
+  Uint8List _buildCallConnectedWav() {
+    const sampleRate = 22050;
+    final samples = <double>[];
+
+    // Note 1: C5 (523Hz) for 120ms
+    final n1 = (sampleRate * 0.12).round();
+    for (var i = 0; i < n1; i++) {
+      final t = i / sampleRate;
+      final env = math.exp(-4.0 * t);
+      final wave = math.sin(2 * math.pi * 523.25 * t);
+      samples.add(wave * env * 0.8);
+    }
+
+    // Note 2: E5 (659Hz) for 200ms
+    final n2 = (sampleRate * 0.20).round();
+    for (var i = 0; i < n2; i++) {
+      final t = i / sampleRate;
+      final env = math.exp(-3.5 * t);
+      final wave = math.sin(2 * math.pi * 659.25 * t);
+      samples.add(wave * env * 0.85);
+    }
+
+    return _encodeWav(samples, sampleRate: sampleRate);
+  }
+
+  /// Descending soft disconnect beep (440Hz -> 220Hz)
+  Uint8List _buildCallEndedWav() {
+    const sampleRate = 22050;
+    final samples = <double>[];
+    final n = (sampleRate * 0.22).round();
+
+    for (var i = 0; i < n; i++) {
+      final t = i / sampleRate;
+      final progress = i / n;
+      final freq = 440.0 - (200.0 * progress);
+      final env = math.exp(-5.0 * progress);
+      final wave = math.sin(2 * math.pi * freq * t);
+      samples.add(wave * env * 0.75);
     }
 
     return _encodeWav(samples, sampleRate: sampleRate);

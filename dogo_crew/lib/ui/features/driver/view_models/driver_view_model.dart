@@ -9,6 +9,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../../../data/models/ride_model.dart';
 import '../../../../data/services/audio_cues_service.dart';
 import '../../../../data/services/driver_tracking_service.dart';
+import '../../../../data/services/in_app_call_service.dart';
 import '../../../../data/services/location_service.dart';
 import '../../../../data/services/notification_service.dart';
 import '../../../../data/services/rides_dispatch_service.dart';
@@ -334,6 +335,22 @@ class DriverViewModel extends ChangeNotifier {
   bool get pinVerified => _pinVerified;
   String? get sessionMessage => _sessionMessage;
 
+  // Anti-Poaching & Driver Respite Constants
+  static const int respiteRequiredDwellSeconds = 180; // 3 mins wait required at pickup
+  static const int arrivalCompensationFee = 1000; // ₦1,000 arrival fee
+
+  bool get hasContactedPassenger {
+    final reqId = _activeRequest?.id ?? '';
+    return InAppCallService.instance.hasAttemptedContact(reqId);
+  }
+
+  int get remainingRespiteWaitSeconds => math.max(0, respiteRequiredDwellSeconds - _waitSeconds);
+
+  bool get canClaimRespiteFee =>
+      _session == DriverSession.atPickup &&
+      _waitSeconds >= respiteRequiredDwellSeconds &&
+      hasContactedPassenger;
+
   bool get soundEnabled => AudioCuesService.instance.soundEnabled;
 
   Future<void> toggleSound() async {
@@ -586,6 +603,34 @@ class DriverViewModel extends ChangeNotifier {
   void cancelRide() {
     _cleanTimers();
     setSession(DriverSession.online);
+  }
+
+  /// Claims ₦1,000 arrival compensation and cancels penalty-free when passenger refuses PIN or fails to show up
+  Future<bool> claimRiderUncooperativeRespite() async {
+    if (!canClaimRespiteFee) return false;
+
+    final req = _activeRequest ?? currentRequest;
+    _cleanTimers();
+
+    // 1. Credit ₦1,000 arrival fee to captain financials
+    _todayEarnings += arrivalCompensationFee;
+    _driverWalletBalance += arrivalCompensationFee;
+    _saveDriverFinancials();
+
+    // 2. Play reward audio cue & haptic
+    AudioCuesService.instance.playTipReceived();
+
+    // 3. Mark in Supabase dispatch
+    await _dispatchService.updateStatus(
+      rideCode: req.id,
+      newStatus: 'cancelled_by_driver_uncooperative',
+    );
+
+    // 4. Set feedback banner and return to online dispatch
+    _sessionMessage = '🛡️ ₦1,000 Arrival Fee credited! (Penalty-free cancellation for uncooperative passenger).';
+    setSession(DriverSession.online);
+    notifyListeners();
+    return true;
   }
 
   Future<void> arrivedAtPickup() async {

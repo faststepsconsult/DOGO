@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../../../../core/utils/currency_formatter.dart';
+import '../../../../data/services/in_app_call_service.dart';
 import '../../../../data/services/trip_chat_service.dart';
+import '../../../core/widgets/in_app_call_modal.dart';
 import '../../auth/view_models/auth_view_model.dart';
 import '../../rides/widgets/driver_chat_modal.dart';
 import '../view_models/driver_view_model.dart';
@@ -18,20 +19,28 @@ class DriverBottomSheets extends StatelessWidget {
     required this.driverName,
   });
 
-  static Future<void> _callPassenger(BuildContext context, String phone) async {
+  static Future<void> _callPassenger(
+    BuildContext context, {
+    required String phone,
+    String? name,
+    String? rideId,
+  }) async {
     final cleanPhone = phone.replaceAll(' ', '');
-    final uri = Uri.parse('tel:$cleanPhone');
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri);
-    } else {
-      if (context.mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Dialing passenger at $cleanPhone...'),
-            behavior: SnackBarBehavior.floating,
-          ),
-        );
-      }
+    final code = rideId ?? 'DOGO-TRIP';
+    final passengerName = name ?? 'Passenger';
+
+    // 1. Initiate In-App Data Call (VoIP over Mobile Data - 0 airtime)
+    await InAppCallService.instance.startOutgoingCall(
+      rideCode: code,
+      peerName: passengerName,
+      peerRole: 'Passenger',
+      peerPhone: cleanPhone,
+      myRole: 'driver',
+      simulateAnswerForDemo: true,
+    );
+
+    if (context.mounted) {
+      InAppCallModal.show(context, InAppCallService.instance);
     }
   }
 
@@ -49,7 +58,12 @@ class DriverBottomSheets extends StatelessWidget {
       case DriverSession.atPickup:
         return _AtPickupSheetWidget(
           vm: vm,
-          onCallPassenger: (phone) => _callPassenger(context, phone),
+          onCallPassenger: (phone) => _callPassenger(
+            context,
+            phone: phone,
+            name: vm.currentRequest.passenger,
+            rideId: vm.currentRequest.id,
+          ),
         );
       case DriverSession.onTrip:
         return _buildOnTripSheet(context);
@@ -740,9 +754,14 @@ class DriverBottomSheets extends StatelessWidget {
                   ),
                   const SizedBox(width: 6),
                   OutlinedButton.icon(
-                    onPressed: () => _callPassenger(context, req.passengerPhone),
-                    icon: const Icon(Icons.call_rounded, size: 14),
-                    label: Text('Call', style: GoogleFonts.manrope(fontSize: 12, fontWeight: FontWeight.w700)),
+                    onPressed: () => _callPassenger(
+                      context,
+                      phone: req.passengerPhone,
+                      name: req.passenger,
+                      rideId: req.id,
+                    ),
+                    icon: const Icon(Icons.wifi_calling_3_rounded, size: 14),
+                    label: Text('Data Call', style: GoogleFonts.manrope(fontSize: 12, fontWeight: FontWeight.w700)),
                     style: OutlinedButton.styleFrom(
                       foregroundColor: const Color(0xFF10B981),
                       side: const BorderSide(color: Color(0x3310B981)),
@@ -915,9 +934,14 @@ class DriverBottomSheets extends StatelessWidget {
               ),
               const SizedBox(width: 8),
               OutlinedButton.icon(
-                onPressed: () => _callPassenger(context, req.passengerPhone),
-                icon: const Icon(Icons.call_rounded, size: 15),
-                label: Text('Call', style: GoogleFonts.manrope(fontSize: 12.5, fontWeight: FontWeight.w700)),
+                onPressed: () => _callPassenger(
+                  context,
+                  phone: req.passengerPhone,
+                  name: req.passenger,
+                  rideId: req.id,
+                ),
+                icon: const Icon(Icons.wifi_calling_3_rounded, size: 15),
+                label: Text('Data Call', style: GoogleFonts.manrope(fontSize: 12.5, fontWeight: FontWeight.w700)),
                 style: OutlinedButton.styleFrom(
                   foregroundColor: const Color(0xFF10B981),
                   side: const BorderSide(color: Color(0x3310B981)),
@@ -1423,15 +1447,137 @@ class _AtPickupSheetWidgetState extends State<_AtPickupSheetWidget> {
               ),
             ),
           ),
+
+          // Respite Claim or Eligibility Progress
+          if (!isVerified) ...[
+            if (widget.vm.canClaimRespiteFee) ...[
+              const SizedBox(height: 10),
+              SizedBox(
+                width: double.infinity,
+                height: 44,
+                child: OutlinedButton.icon(
+                  onPressed: () => _showRespiteClaimDialog(context),
+                  icon: const Icon(Icons.shield_rounded, size: 16, color: Color(0xFFF59E0B)),
+                  label: Text(
+                    'Rider Refused PIN / No-Show (Claim ₦1,000)',
+                    style: GoogleFonts.manrope(fontSize: 12, fontWeight: FontWeight.w700),
+                  ),
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: const Color(0xFFF59E0B),
+                    side: const BorderSide(color: Color(0xFFF59E0B), width: 1.5),
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                    backgroundColor: const Color(0x1AF59E0B),
+                  ),
+                ),
+              ),
+            ] else ...[
+              const SizedBox(height: 10),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(
+                    widget.vm.hasContactedPassenger ? Icons.timer_outlined : Icons.wifi_calling_3_outlined,
+                    size: 13,
+                    color: const Color(0xFF9CA3AF),
+                  ),
+                  const SizedBox(width: 5),
+                  Text(
+                    widget.vm.hasContactedPassenger
+                        ? 'Arrival ₦1,000 respite unlocks in ${widget.vm.remainingRespiteWaitSeconds}s'
+                        : 'Call or chat passenger to qualify for arrival fee',
+                    style: GoogleFonts.manrope(
+                      fontSize: 11,
+                      fontWeight: FontWeight.w600,
+                      color: const Color(0xFF9CA3AF),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ],
+
           const SizedBox(height: 10),
           Center(
             child: TextButton(
-              onPressed: () => widget.vm.cancelRide(),
+              onPressed: () => _showCancelFrictionDialog(context),
               child: Text(
                 'Cancel ride',
                 style: GoogleFonts.manrope(fontSize: 13, fontWeight: FontWeight.w600, color: const Color(0xFFEF4444)),
               ),
             ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showRespiteClaimDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: const Color(0xFF141722),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20), side: const BorderSide(color: Color(0x33FFFFFF))),
+        title: Row(
+          children: [
+            const Icon(Icons.shield_rounded, color: Color(0xFFF59E0B), size: 24),
+            const SizedBox(width: 8),
+            Text('Claim Arrival Respite', style: GoogleFonts.sora(fontSize: 16, fontWeight: FontWeight.w800, color: Colors.white)),
+          ],
+        ),
+        content: Text(
+          'Confirm that you arrived at the pickup location, waited over 3 minutes, contacted the passenger, and they refused to board or provide their 4-digit PIN.\n\n₦1,000 will be credited directly to your wallet with zero completion score penalty.',
+          style: GoogleFonts.manrope(fontSize: 13, color: const Color(0xFFD1D5DB), height: 1.5),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(ctx).pop(),
+            child: Text('Go Back', style: GoogleFonts.manrope(color: const Color(0xFF9CA3AF), fontWeight: FontWeight.w600)),
+          ),
+          ElevatedButton(
+            onPressed: () async {
+              Navigator.of(ctx).pop();
+              await widget.vm.claimRiderUncooperativeRespite();
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: const Color(0xFFF59E0B),
+              foregroundColor: Colors.black,
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            ),
+            child: Text('Confirm & Claim ₦1,000', style: GoogleFonts.manrope(fontWeight: FontWeight.w800)),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showCancelFrictionDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: const Color(0xFF141722),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20), side: const BorderSide(color: Color(0x33FFFFFF))),
+        title: Row(
+          children: [
+            const Icon(Icons.warning_amber_rounded, color: Color(0xFFEF4444), size: 24),
+            const SizedBox(width: 8),
+            Text('Cancel Trip?', style: GoogleFonts.sora(fontSize: 16, fontWeight: FontWeight.w800, color: Colors.white)),
+          ],
+        ),
+        content: Text(
+          '⚠️ Notice:\n• To qualify for ₦1,000 arrival compensation, you must wait 3 minutes and attempt an in-app data call.\n• Cancelling now will not award any fee.\n• Taking passengers off-app voids DOGO emergency SOS, live tracking, and accident insurance.',
+          style: GoogleFonts.manrope(fontSize: 13, color: const Color(0xFFD1D5DB), height: 1.5),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(ctx).pop(),
+            child: Text('Keep Waiting', style: GoogleFonts.manrope(color: const Color(0xFF10B981), fontWeight: FontWeight.w700)),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.of(ctx).pop();
+              widget.vm.cancelRide();
+            },
+            child: Text('Cancel Anyway', style: GoogleFonts.manrope(color: const Color(0xFFEF4444), fontWeight: FontWeight.w600)),
           ),
         ],
       ),

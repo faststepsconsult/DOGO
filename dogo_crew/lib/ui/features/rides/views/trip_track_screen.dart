@@ -6,11 +6,13 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
 
+import '../../../../data/models/ride_model.dart';
 import '../../../../data/services/audio_cues_service.dart';
 import '../../../../data/services/driver_tracking_service.dart';
+import '../../../../data/services/in_app_call_service.dart';
 import '../../../../data/services/trip_chat_service.dart';
+import '../../../core/widgets/in_app_call_modal.dart';
 import '../../../core/widgets/osm_map_widget.dart';
 import '../view_models/rides_view_model.dart';
 import '../widgets/cancel_ride_modal.dart';
@@ -64,10 +66,25 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
         });
       }
     });
+
+    InAppCallService.instance.listenToRideCalls(
+      widget.tripCode,
+      myRole: 'passenger',
+      context: context,
+    );
+    InAppCallService.instance.addListener(_handleCallStateChange);
+  }
+
+  void _handleCallStateChange() {
+    final session = InAppCallService.instance.currentSession;
+    if (session != null && session.status == CallStatus.incomingRinging && mounted) {
+      InAppCallModal.show(context, InAppCallService.instance);
+    }
   }
 
   @override
   void dispose() {
+    InAppCallService.instance.removeListener(_handleCallStateChange);
     _loadingTimeoutTimer?.cancel();
     _driverLocationSub?.cancel();
     _trackingService.dispose();
@@ -1098,9 +1115,9 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
                                 children: [
                                   Expanded(
                                     child: ElevatedButton.icon(
-                                      onPressed: () => _callDriver(ride.driverPhone),
-                                      icon: const Icon(Icons.call_rounded, size: 15),
-                                      label: Text('Call', style: GoogleFonts.manrope(fontWeight: FontWeight.w700, fontSize: 13)),
+                                      onPressed: () => _callDriver(ride),
+                                      icon: const Icon(Icons.wifi_calling_3_rounded, size: 15),
+                                      label: Text('Data Call', style: GoogleFonts.manrope(fontWeight: FontWeight.w700, fontSize: 13)),
                                       style: ElevatedButton.styleFrom(
                                         backgroundColor: const Color(0xFF2563EB),
                                         foregroundColor: Colors.white,
@@ -1365,19 +1382,22 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
     );
   }
 
-  Future<void> _callDriver(String phone) async {
-    final uri = Uri.parse('tel:$phone');
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri);
-    } else {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Dialing $phone...'),
-            behavior: SnackBarBehavior.floating,
-          ),
-        );
-      }
+  Future<void> _callDriver(RideModel ride) async {
+    final name = ride.driverName.isNotEmpty ? ride.driverName : 'Captain';
+    final phone = ride.driverPhone;
+
+    // 1. In-App Data Call (VoIP over Mobile Data - 0 airtime)
+    await InAppCallService.instance.startOutgoingCall(
+      rideCode: ride.code,
+      peerName: name,
+      peerRole: 'Captain',
+      peerPhone: phone,
+      myRole: 'passenger',
+      simulateAnswerForDemo: true,
+    );
+
+    if (mounted) {
+      InAppCallModal.show(context, InAppCallService.instance);
     }
   }
 }
