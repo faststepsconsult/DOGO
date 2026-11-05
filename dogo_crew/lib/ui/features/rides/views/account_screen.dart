@@ -5,6 +5,8 @@ import 'package:provider/provider.dart';
 import '../../../../data/repositories/auth_repository.dart';
 import '../../../../data/services/audio_cues_service.dart';
 import '../../auth/view_models/auth_view_model.dart';
+import '../view_models/rides_view_model.dart';
+import '../widgets/dogo_wallet_modal.dart';
 import '../widgets/rides_bottom_nav_bar.dart';
 import '../widgets/rides_header_widget.dart';
 
@@ -224,7 +226,7 @@ class _AccountScreenState extends State<AccountScreen> {
                               child: _buildActionShortcut(
                                 icon: Icons.account_balance_wallet_outlined,
                                 label: 'Wallet',
-                                onTap: () => context.go('/rides'),
+                                onTap: () => DogoWalletModal.show(context),
                               ),
                             ),
                             const SizedBox(width: 12),
@@ -266,6 +268,18 @@ class _AccountScreenState extends State<AccountScreen> {
                               context.push('/driver-clearance');
                             }
                           },
+                        ),
+                        const Divider(color: Color(0x14FFFFFF), height: 1, indent: 42),
+
+                        // DOGO Wallet & Paystack Top-up
+                        _buildMenuTile(
+                          icon: Icons.account_balance_wallet_outlined,
+                          title: 'DOGO Wallet (Paystack Top-up)',
+                          trailing: _buildStatusPill(
+                            context.watch<RidesViewModel>().formattedWalletBalance,
+                            const Color(0xFF10B981),
+                          ),
+                          onTap: () => DogoWalletModal.show(context),
                         ),
                         const Divider(color: Color(0x14FFFFFF), height: 1, indent: 42),
 
