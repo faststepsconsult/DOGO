@@ -17,6 +17,7 @@ import '../widgets/cancel_ride_modal.dart';
 import '../widgets/driver_chat_modal.dart';
 import '../widgets/receipt_dialog_widget.dart';
 import '../widgets/rides_header_widget.dart';
+import '../widgets/share_trip_modal.dart';
 
 class TripTrackScreen extends StatefulWidget {
   final String tripCode;
@@ -257,22 +258,51 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      // Back to all shipments/trips
-                      Align(
-                        alignment: Alignment.centerLeft,
-                        child: TextButton.icon(
-                          onPressed: () => context.go(ride.isCourier ? '/rides/my-trips' : '/rides'),
-                          icon: const Icon(Icons.arrow_back_rounded, size: 16, color: Color(0xFF9CA3AF)),
-                          label: Text(
-                            ride.isCourier ? 'All shipments' : 'Back to rides',
-                            style: GoogleFonts.manrope(
-                              fontSize: 13,
-                              fontWeight: FontWeight.w600,
-                              color: const Color(0xFF9CA3AF),
+                      // Top Row: Back to rides + 1-Tap Share Live Trip Pill
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          TextButton.icon(
+                            onPressed: () => context.go(ride.isCourier ? '/rides/my-trips' : '/rides'),
+                            icon: const Icon(Icons.arrow_back_rounded, size: 16, color: Color(0xFF9CA3AF)),
+                            label: Text(
+                              ride.isCourier ? 'All shipments' : 'Back to rides',
+                              style: GoogleFonts.manrope(
+                                fontSize: 13,
+                                fontWeight: FontWeight.w600,
+                                color: const Color(0xFF9CA3AF),
+                              ),
+                            ),
+                            style: TextButton.styleFrom(padding: EdgeInsets.zero),
+                          ),
+                          InkWell(
+                            onTap: () => ShareTripModal.show(context, ride),
+                            borderRadius: BorderRadius.circular(20),
+                            child: Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                              decoration: BoxDecoration(
+                                color: const Color(0x1F10B981),
+                                borderRadius: BorderRadius.circular(20),
+                                border: Border.all(color: const Color(0x4D10B981)),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  const Icon(Icons.share_location_rounded, size: 14, color: Color(0xFF10B981)),
+                                  const SizedBox(width: 6),
+                                  Text(
+                                    'Share Live Trip',
+                                    style: GoogleFonts.manrope(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w700,
+                                      color: const Color(0xFF10B981),
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
-                          style: TextButton.styleFrom(padding: EdgeInsets.zero),
-                        ),
+                        ],
                       ),
 
                       const SizedBox(height: 8),
@@ -1143,6 +1173,33 @@ class _TripTrackScreenState extends State<TripTrackScreen> {
                                     ),
                                   ),
                                 ],
+                              ),
+
+                              const SizedBox(height: 10),
+
+                              // Share Live Trip Primary Action Button (1-Tap WhatsApp & SMS)
+                              SizedBox(
+                                width: double.infinity,
+                                child: ElevatedButton.icon(
+                                  onPressed: () => ShareTripModal.show(context, ride),
+                                  icon: const Icon(Icons.share_location_rounded, size: 16, color: Color(0xFF10B981)),
+                                  label: Text(
+                                    'Share Live Trip (WhatsApp / SMS)',
+                                    style: GoogleFonts.manrope(
+                                      fontWeight: FontWeight.w700,
+                                      fontSize: 13,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor: const Color(0x2610B981),
+                                    foregroundColor: Colors.white,
+                                    side: const BorderSide(color: Color(0x6610B981)),
+                                    padding: const EdgeInsets.symmetric(vertical: 12),
+                                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                                    elevation: 0,
+                                  ),
+                                ),
                               ),
 
                               // Cancel Ride Action (Only available if not delivered and not cancelled)

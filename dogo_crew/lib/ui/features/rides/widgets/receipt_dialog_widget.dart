@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import '../../../../data/models/ride_model.dart';
+import 'share_trip_modal.dart';
 
 class ReceiptDialogWidget extends StatelessWidget {
   final RideModel ride;
@@ -191,6 +192,29 @@ class ReceiptDialogWidget extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(vertical: 12),
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                   elevation: 0,
+                ),
+              ),
+              const SizedBox(height: 10),
+              OutlinedButton.icon(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                  ShareTripModal.show(context, ride);
+                },
+                icon: const Icon(Icons.share_location_rounded, size: 16, color: Color(0xFF10B981)),
+                label: Text(
+                  'Share trip details (WhatsApp / SMS)',
+                  style: GoogleFonts.manrope(
+                    fontWeight: FontWeight.w700,
+                    color: Colors.white,
+                    fontSize: 13,
+                  ),
+                ),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: Colors.white,
+                  side: const BorderSide(color: Color(0x3310B981)),
+                  backgroundColor: const Color(0x1A10B981),
+                  padding: const EdgeInsets.symmetric(vertical: 12),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                 ),
               ),
             ],
