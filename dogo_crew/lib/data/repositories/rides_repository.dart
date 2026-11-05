@@ -101,10 +101,8 @@ class RidesRepository {
   ];
 
   static const List<PaymentMethodOption> paymentMethods = [
-    PaymentMethodOption(id: 'wallet', label: 'DOGO Wallet', hint: 'Balance ₦184,500'),
-    PaymentMethodOption(id: 'card', label: 'Fiat Card', hint: 'Visa • Verve • Mastercard'),
-    PaymentMethodOption(id: 'usdc', label: 'Crypto USDC', hint: 'Polygon network'),
-    PaymentMethodOption(id: 'usdt', label: 'Crypto USDT', hint: 'TRON network'),
+    PaymentMethodOption(id: 'wallet', label: 'DOGO Wallet', hint: 'Instant 1-tap Paystack balance'),
+    PaymentMethodOption(id: 'card', label: 'Paystack Direct', hint: 'Debit Card • Bank Transfer • USSD'),
   ];
 
   final List<RideModel> _rides = [

@@ -1223,7 +1223,7 @@ class _BookingSheetDialogState extends State<BookingSheetDialog> {
                   Icon(
                     method.id == 'wallet'
                         ? Icons.account_balance_wallet_outlined
-                        : (method.id == 'card' ? Icons.credit_card_outlined : Icons.currency_bitcoin_rounded),
+                        : Icons.credit_card_outlined,
                     size: 18,
                     color: isSelected ? const Color(0xFF2563EB) : const Color(0xFF9CA3AF),
                   ),
