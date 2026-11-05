@@ -9,6 +9,7 @@ import 'data/repositories/crew_repository.dart';
 import 'data/repositories/trip_repository.dart';
 import 'data/repositories/verification_repository.dart';
 import 'data/services/audio_cues_service.dart';
+import 'data/services/notification_service.dart';
 import 'data/services/supabase_service.dart';
 import 'data/repositories/rides_repository.dart';
 import 'ui/features/rides/view_models/rides_view_model.dart';
@@ -31,6 +32,13 @@ void main() async {
     await AudioCuesService.instance.init();
   } catch (e) {
     debugPrint('Audio service initialization error: $e');
+  }
+
+  // Initialize Background Heads-Up Notification Service
+  try {
+    await DogoNotificationService.instance.init();
+  } catch (e) {
+    debugPrint('Notification service initialization error: $e');
   }
 
   runApp(const DogoCrewApp());

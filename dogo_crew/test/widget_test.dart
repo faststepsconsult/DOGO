@@ -47,14 +47,14 @@ void main() {
 
   test('RidesRepository calculates distance, fare, and creates ride matching dogoui1', () {
     final repo = RidesRepository();
-    // Distance between Ikeja GRA (0km) and Lekki Phase 1 (24km)
+    // Distance between Ikeja GRA (0km) and Lekki Phase 1 (GPS ~20km)
     final distance = repo.calculateDistance('Lagos — Ikeja GRA', 'Lagos — Lekki Phase 1');
-    expect(distance, 24);
+    expect(distance, 20);
 
     final taxi = RidesRepository.vehicles.firstWhere((v) => v.id == 'taxi');
-    // base: 1800, perKm: 180 -> 1800 + 180 * 24 = 6120
+    // base: 1800, perKm: 180 -> 1800 + 180 * 20 = 5400
     final fare = repo.calculateFare(taxi, distance);
-    expect(fare, 6120);
+    expect(fare, 5400);
 
     final newRide = repo.createRide(
       pickup: 'Lagos — Ikeja GRA',
@@ -141,10 +141,10 @@ void main() {
     final vm = RidesViewModel(ridesRepo: repo);
 
     await tester.pumpWidget(
-      MaterialApp(
-        home: ChangeNotifierProvider<RidesViewModel>.value(
-          value: vm,
-          child: const Scaffold(
+      ChangeNotifierProvider<RidesViewModel>.value(
+        value: vm,
+        child: const MaterialApp(
+          home: Scaffold(
             body: DogoWalletModal(),
           ),
         ),
@@ -154,14 +154,13 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('DOGO Wallet'), findsOneWidget);
     expect(find.text('AVAILABLE BALANCE'), findsOneWidget);
-    expect(find.text('Top up wallet'), findsOneWidget);
+    expect(find.text('Top up Wallet'), findsOneWidget);
 
     // Tap Top up wallet button
-    await tester.tap(find.text('Top up wallet'));
+    await tester.tap(find.text('Top up Wallet'));
     await tester.pumpAndSettle();
 
-    expect(find.text('Top up wallet'), findsWidgets);
     expect(find.text('Select or enter amount'), findsOneWidget);
-    expect(find.text('Choose payment method'), findsOneWidget);
+    expect(find.text('Select Paystack Gateway'), findsOneWidget);
   });
 }

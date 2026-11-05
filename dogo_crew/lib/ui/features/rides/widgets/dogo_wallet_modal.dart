@@ -101,7 +101,7 @@ class _DogoWalletModalState extends State<DogoWalletModal> {
   // Paystack Action Dispatchers
   // ==========================================
 
-  Future<void> _handleProceedToPaystack(RidesViewModel vm, AuthViewModel authVm) async {
+  Future<void> _handleProceedToPaystack(RidesViewModel vm, AuthViewModel? authVm) async {
     final amount = int.tryParse(_amountController.text.replaceAll(RegExp(r'[^0-9]'), '')) ?? 0;
     if (amount < 200) {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -114,8 +114,8 @@ class _DogoWalletModalState extends State<DogoWalletModal> {
       return;
     }
 
-    final passengerName = authVm.displayName.isNotEmpty ? authVm.displayName : 'Salim Bello';
-    final passengerEmail = authVm.currentUser?.email ?? 'salim@dogo.ng';
+    final passengerName = (authVm != null && authVm.displayName.isNotEmpty) ? authVm.displayName : 'Salim Bello';
+    final passengerEmail = authVm?.currentUser?.email ?? 'salim@dogo.ng';
 
     if (_selectedFundingMethod == 'card') {
       // 1. Debit Card Gateway
@@ -197,7 +197,7 @@ class _DogoWalletModalState extends State<DogoWalletModal> {
   @override
   Widget build(BuildContext context) {
     final vm = context.watch<RidesViewModel>();
-    final authVm = context.watch<AuthViewModel>();
+    final authVm = Provider.of<AuthViewModel?>(context);
     final bottomInset = MediaQuery.of(context).viewInsets.bottom;
 
     return Container(
@@ -315,7 +315,7 @@ class _DogoWalletModalState extends State<DogoWalletModal> {
     }
   }
 
-  Widget _buildBody(BuildContext context, RidesViewModel vm, AuthViewModel authVm) {
+  Widget _buildBody(BuildContext context, RidesViewModel vm, AuthViewModel? authVm) {
     switch (_viewMode) {
       case _WalletViewMode.overview:
         return _buildOverview(context, vm);
@@ -581,7 +581,7 @@ class _DogoWalletModalState extends State<DogoWalletModal> {
   // 2. FUND VIEW (PAYSTACK GATEWAY SELECTOR)
   // ==========================================
 
-  Widget _buildFundView(BuildContext context, RidesViewModel vm, AuthViewModel authVm) {
+  Widget _buildFundView(BuildContext context, RidesViewModel vm, AuthViewModel? authVm) {
     final amount = int.tryParse(_amountController.text.replaceAll(RegExp(r'[^0-9]'), '')) ?? 0;
 
     return Column(

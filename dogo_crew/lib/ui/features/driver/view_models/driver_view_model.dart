@@ -10,6 +10,7 @@ import '../../../../data/models/ride_model.dart';
 import '../../../../data/services/audio_cues_service.dart';
 import '../../../../data/services/driver_tracking_service.dart';
 import '../../../../data/services/location_service.dart';
+import '../../../../data/services/notification_service.dart';
 import '../../../../data/services/rides_dispatch_service.dart';
 import '../../../../data/services/road_routing_service.dart';
 
@@ -464,6 +465,16 @@ class DriverViewModel extends ChangeNotifier {
       }
     } else if (_session == DriverSession.request) {
       AudioCuesService.instance.startIncomingRideAlert();
+      if (_activeRequest != null) {
+        DogoNotificationService.instance.showIncomingRideNotification(
+          rideCode: _activeRequest!.id,
+          pickup: _activeRequest!.pickupName,
+          dropoff: _activeRequest!.dropoffName,
+          fare: _activeRequest!.driverPayout,
+          vehicleType: 'DOGO Ride',
+          durationSecs: requestDurationSeconds,
+        );
+      }
       _secondsLeft = requestDurationSeconds;
       _requestCountdownTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
         if (_secondsLeft > 1) {
@@ -585,6 +596,10 @@ class DriverViewModel extends ChangeNotifier {
     await _dispatchService.updateStatus(
       rideCode: currentRequest.id,
       newStatus: 'at_pickup',
+    );
+    DogoNotificationService.instance.showPassengerArrivalNotification(
+      captainName: 'Captain',
+      vehicleInfo: 'DOGO Taxi',
     );
   }
 
@@ -736,6 +751,7 @@ class DriverViewModel extends ChangeNotifier {
 
   void _cleanTimers() {
     AudioCuesService.instance.stopIncomingRideAlert();
+    DogoNotificationService.instance.cancelRideNotification();
     _requestCountdownTimer?.cancel();
     _requestCountdownTimer = null;
     _requestCheckTimer?.cancel();

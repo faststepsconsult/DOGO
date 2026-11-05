@@ -516,3 +516,4 @@ class ShareTripModal extends StatelessWidget {
     );
   }
 }
+
