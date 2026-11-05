@@ -75,9 +75,8 @@ class PaystackService {
   static PaystackService get instance => _instance;
   PaystackService._internal();
 
-  /// Default Paystack Public Key for client-side operations (Test mode)
-  /// Replace with your live Paystack public key in production
-  static String publicKey = 'pk_test_47180df111867c4273aa128e4e9411985392e624';
+  /// Active Paystack Public Key for client-side operations
+  static String publicKey = 'pk_test_e9791e466677e7f0265c8c0857baaa3d465ba965';
 
   /// Standard Paystack API Base URL
   static const String baseUrl = 'https://api.paystack.co';
